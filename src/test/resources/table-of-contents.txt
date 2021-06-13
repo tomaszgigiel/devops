@@ -1,0 +1,51 @@
+https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/
+
+Table of contents
+
+    Preface
+    Foreword
+    Imagine a World Where Dev and Ops Become DevOps: An Introduction to The DevOps Handbook
+    PART I—THE THREE WAYS
+    Part I Introduction
+        1- Agile, Continuous Delivery, and the Three Ways
+        2- The First Way: The Principles of Flow
+        3- The Second Way: The Principles of Feedback
+        4- The Third Way: The Principles of Continual Learning and Experimentation
+    PART II—WHERE TO START
+    Part II Introduction
+        5- Selecting Which Value Stream to Start With
+        6- Understanding the Work in Our Value Stream, Making it Visible, and Expanding it Across the Organization
+        7- How to Design Our Organization and Architecture with Conway’s Law in Mind
+        8- How to Get Great Outcomes by Integrating Operations into the Daily Work of Development
+    PART III—THE FIRST WAY: THE TECHNICAL PRACTICES OF FLOW
+    Part III Introduction
+        9- Create the Foundations of Our Deployment Pipeline
+        10- Enable Fast and Reliable Automated Testing
+        11- Enable and Practice Continuous Integration
+        12- Automate and Enable Low-Risk Releases
+        13- Architect for Low-Risk Releases
+    PART IV—THE SECOND WAY: THE TECHNICAL PRACTICES OF FEEDBACK
+    Part IV Introduction
+        14- Create Telemetry to Enable Seeing and Solving Problems
+        15- Analyze Telemetry to Better Anticipate Problems and Achieve Goals
+        16- Enable Feedback So Development and Operations Can Safely Deploy Code
+        17- Integrate Hypothesis-Driven Development and A/B Testing into Our Daily Work
+        18- Create Review and Coordination Processes to Increase Quality of Our Current Work
+    PART V—THE THIRD WAY: THE TECHNICAL PRACTICES OF CONTINUAL LEARNING AND EXPERIMENTATION
+    Part V Introduction
+        19- Enable and Inject Learning into Daily Work
+        20- Convert Local Discoveries into Global Improvements
+        21- Reserve Time to Create Organizational Learning and Improvement
+    PART VI—THE TECHNOLOGICAL PRACTICES OF INTEGRATING INFORMATION SECURITY, CHANGE MANAGEMENT, AND COMPLIANCE
+    Part VI Introduction
+        22- Information Security as Everyone’s Job, Every Day
+        23- Protecting the Deployment Pipeline and Integrating into Change Management and Other Security and Compliance Controls
+        Conclusion to the DevOps Handbook:
+        A Call to Action
+    Additional Material
+        Appendices
+        Additional Resources
+        Endnotes
+        Index
+        Acknowledgments
+        Author Biographies

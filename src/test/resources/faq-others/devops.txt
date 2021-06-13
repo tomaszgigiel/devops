@@ -1,0 +1,150 @@
+.
+q:
+Jak powstał termin DevOps?
+
+a:
+Patrick Debois zorganizował pierwszą konferencję DevOpsDays.
+
+s:
+DevOps, 9
+
+.
+Jakie są mity związane z DevOps?
+
+1. DevOps jest tylko dla startupów: patrz Google, Amazon, Netflix.
+2. DevOps zastępuje Agile: DevOps jest kontynuacją Agile.
+3. DevOps jest niezgodny z ITIL: praktyki DevOps mogą być zgodne z ITIL, szczególnie gdy procesy ITIL zostaną zautomatyzowane.
+4. DevOps jest niezgodny z zasadami bezpieczeństwa informacji i zgodności z przepisami: elementy kontroli są zintegrowane z każdym z etapów codziennej pracy w cyklu tworzenia oprogramowania.
+5. DevOps eliminuje funkcje operacji IT: działy operacji IT współpracują z działami rozwoju znacznie wcześniej w cyklu życia oprogramowania, praca personelu operacji IT przypomina działania programistów.
+6. DevOps to po prostu "infrastruktura jako kod" lub automatyzacja: plus normy kulturowe i architektury.
+7. DevOps dotyczy tylko oprogramowania open source: patrz SAP, firmware HP LaserJet. 
+
+s:
+DevOps, 11
+
+.
+q:
+Jakie efekty przynosi wprowadzenie DevOps?
+
+bezpieczne systemy pracy,
+szybkie, niezależne rozwijanie i walidowanie kodu przez małe zespoły,
+bezpieczne wdrożenia,
+wzmacnianie normy kulturowe wysokiego poziomu zaufania.
+
+s:
+13
+
+.
+q:
+Co to jest DevOps?
+
+a:
+DevOps (od ang. development and operations) to zestaw praktyk, który łączy:
+rozwój (ang. development),
+eksploatację (ang. operations),
+zapewnienie jakości (ang. quality assurance).
+
+s:
+https://pl.wikipedia.org/wiki/DevOps
+https://en.wikipedia.org/wiki/DevOps
+
+add:
+parz diagram: https://zh.wikipedia.org/wiki/DevOps
+
+q:
+Na czym polega DevOps?
+
+a:
+Na współpracy:
+właścicieli produktu,
+deweloperów,
+inżynierów walidacji (QA),
+inżynierów operacji IT,
+inżynierów bezpieczeństwa informacji.
+
+s:
+17
+
+.
+Opisz sytuację bez DevOps.
+
+konflikt pomiędzy działem rozwoju a działem operacji IT [s20]
+testowanie i weryfikacja zabezpieczeń są wykonywane wyłącznie pod koniec projektu,
+kluczowe aktywności wymagają wielu "ręcznych" działań.
+
+s:
+18
+
+.
+Na czym polega spirala degradacji w IT?
+
+Ak1 1. dług techniczny i obejścia, naprawa odkładana na nieokreśloną przyszłość,
+Akt 2. droga na skróty w celu dotrzymania dat wydania,
+Akt 3. rozwój coraz trudniejszy, dłuższy, kosztowniejszy.
+Wiecej czasu na obsługę awarii, mniej czasu na rozwój.
+
+21
+
+.
+Jak złamać spiralę degradacji?
+
+niewielkie, niezależne zespoły obsługujące cały cykl życia oprogramowania, 
+szybkie pętle zwrotne na każdym etapie,
+architektura wspierająca pracę w niewielkich, niezależnych zespołach,
+wprowadzanie/wycofywanie nowych funkcji dla segmentów klientów
+automatyzacja (m.in. wdrożeń, testów kodu w systemie kontroli wersji),
+telemetria,
+każdy problem okazją do nauki i usprawnień,
+kultura inspiracji hipotezą: prace to hipotezy, rozwój produktu i usprawnianie to eksperymenty,
+kultura zaufania i współpracy: nagradzanie za podejmowanie ryzyka,
+dbanie o jakość: wstrzykiwanie usterek, żeby nauczyć się działania podczas awarii.
+
+25
+
+.
+Jaka jest wartość biznesowa DevOps?
+
+wyższa wydajność, zwinność, niezawodność, bezpieczeństwo,
+wyższe zadowolenie z pracy pracowników.
+
+s28
+
+
+.
+Jak DevOps pomaga skalować wydajność pracy deweloperów?
+
+wspiera pracę w małych, niezależnych zespołach,
+co zmniejsza narzut związany z komunikacją, integracją i testowaniem,
+co pozwala zachować wydajność nawet w dużych organizacjach. 
+
+s29
+
+.
+Jaka jest najważniejsza lekcja z "The Mythical Man-Month"?
+
+nie dodowawaj do spóźnionego projektu dodatkowych programistów.
+
+s29
+.
+q:
+Wymień podstawowe zasady DevOps.
+
+a:
+Pierwsza droga: Przepływ (ang. flow)
+Druga droga: Sprzężenie zwrotne (ang. feedback)
+Trzecia droga: Ciągłe uczenie się i eksperymentowanie.
+
+s:
+DevOps, 32
+
+.
+Co to jest strumień wartości?
+
+
+
+TODO:
+opracuj:
+https://pl.wikipedia.org/wiki/DevOps
+https://en.wikipedia.org/wiki/DevOps
+przeczytaj jeszcze raz p32
+

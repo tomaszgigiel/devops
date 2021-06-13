@@ -1,2 +1,2 @@
 # devops
-DevOps: notes
+devops: DevOps Notes

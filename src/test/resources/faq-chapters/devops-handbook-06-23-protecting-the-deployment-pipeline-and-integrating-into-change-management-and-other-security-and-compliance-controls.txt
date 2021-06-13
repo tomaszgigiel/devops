@@ -1,0 +1,5 @@
+.
+Jak chronić potok wdrożeń?
+
+s:
+DevOps, 363

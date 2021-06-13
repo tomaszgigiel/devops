@@ -1,0 +1,45 @@
+.
+Co to jest "improvement blitz"?
+
+"Improvement blitz" (czasami "kaizen blitz") to:
+jedna z praktyk Toyota Production System,
+dedykowany i skoncentrowany okres do rozwiązania określonego problemu,
+zwykle kilka dni.
+
+s:
+DevOps, 329
+
+.
+Jak wyegzekwować praktyki rezerwowania czasu na prace związane z usprawnieniami?
+
+W celu znalezienia czasu na usprawnienia przeprowadzaj:
+najlepiej "improvement blitz",
+również "spring", "fall cleanings", "ticket queue inversion weeks", "hack days", "hackathon", "20% innovation time".
+
+s:
+DevOps, 331
+
+.
+Czym są "spring/fall cleanings", "ticket queue inversion weeks", "hack days", "hackathon", "20% innovation time"?
+
+"spring/fall cleanings" ("wiosenne lub jesienne sprzątanie"),
+"ticket queue inversion weeks" ("tygodnie odwróconej kolejki zleceń"),
+"hack days",
+"hackathon",
+"20% innovation time"
+to wydarzenia wprowadzajace innowacje, rzadziej usprawnienia.
+
+s:
+DevOps, 331
+
+.
+Jak organizacja może wspierać uczenie się?
+
+Organizacja może wspierać nauczanie i uczenie się dzięki:
+poświęcaniu na to czasu organizacji,
+zachęcaniu do udziału w konferencjach, wygłaszania na nich wykładów,
+zachęcaniu do tworzenia i organizowania wewnętrznych lub zewnętrznych konferencji,
+tworzeniu wewnętrznego systemu szkoleń,
+
+s:
+DevOps, 333

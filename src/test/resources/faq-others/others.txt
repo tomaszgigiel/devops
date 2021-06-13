@@ -1,0 +1,78 @@
+.
+q:
+Co to jest SLA?
+
+a:
+SLA (ang. service level agreement): umowa zapewnienia poziomu usług.
+
+s:
+DevOps, 8
+
+.
+q:
+Co to jest CM?
+
+a:
+CM (ang. configuration management): zarządzanie konfiguracją.
+
+s:
+DevOps, 10
+
+.
+Na czym polega koncepcja "infrastruktura jako kod"?
+
+
+działy operacji powinny zacząć zacho-
+wywać się tak jak programiści. Powinni utrzymywać konfiguracje w systemach
+zarządzania kodem źródłowym oraz zaadaptować wzorce dostaw CI/CD w swo-
+ich przepływach pracy.
+
+s:
+DevOps, 10
+
+.
+Co to jest ITIL?
+
+ITIL (ang. Information Technology Infrastructure Library)
+
+Jest to ciągle zmieniająca się biblioteka praktyk, mająca na celu kodyfikację
+procesów i technik stanowiących podstawę światowej klasy operacji IT, obejmujących
+strategię usług, ich projektowanie i pomoc techniczną.
+
+DevOps, 11
+
+.
+Co to jest ITSM?
+
+ITSM (ang. IT Service Management — dosł. „zarządzanie usługami IT”)
+
+DevOps, 11
+
+.
+Co to jest CI/CD?
+
+
+.
+Co to jest Lean?
+
+
+
+.
+Co to jest (tzw. długiem technicznym — ang. technical debt)
+
+s20
+
+
+.
+Co to jest "dark launch"?
+
+Dzięki zastosowaniu technik dark launch nawet wydania złożonych produktów
+i funkcji stają się rutyną. Na długo przed datą wydania całość wymaganego kodu nowej
+cechy funkcjonalnej jest przekazywana do produkcji w sposób niewidoczny dla nikogo,
+z wyjątkiem wewnętrznych pracowników i małych grup rzeczywistych użytkowników.
+Pozwala to na testowanie produktu i jego ewolucyjne rozwijanie do momentu, w któ-
+rym zostanie osiągnięty pożądany cel biznesowy.
+
+26
+
+
