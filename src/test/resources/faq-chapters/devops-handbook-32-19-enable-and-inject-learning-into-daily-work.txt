@@ -1,7 +1,7 @@
 .
 Na czym polega "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania"?
 
-???
+TODO:
 
 .
 Co to jest "elastyczna organizacja"?

@@ -12,7 +12,8 @@
 
 (defn create-files [props]
   (let [dir (:faq-chapters-path props)
-        lines (remove str/blank? (str/split-lines (slurp (:chapters-path props))))]
+        table-of-contents (str/replace (str/lower-case (slurp (:table-of-contents-path props))) #"—|:|’|/| |," "-")
+        lines (map-indexed (fn [idx itm] (str/replace (format "devops-handbook-%02d-%s" idx itm)  #"-{1,}" "-")) (remove str/blank? (str/split-lines table-of-contents)))]
     (run! #(create-file dir %) lines)))
 
 ; ok: watch out, run only once

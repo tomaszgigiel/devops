@@ -1,5 +1,5 @@
 {
  :info ""
- :chapters-path "src/test/resources/chapters.txt"
+ :table-of-contents-path "src/test/resources/table-of-contents.txt"
  :faq-chapters-path "src/test/resources/faq-chapters/"
 }
