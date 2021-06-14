@@ -1,0 +1,23 @@
+.
+Jaką korzyść dla audytorów przynosi automatyzacja akceptacji i zatwierdzania?
+
+Dzięki automatyzacji akceptacji i zatwierdzania audytor może:
+- otrzymywać dowody wygenerowane na żądanie.
+
+s:
+DevOps, 341
+
+.
+Jak poprawić bezpieczeństwo?
+
+Bezpieczeństwo można poprawić poprzez:
+- bezpieczeństwo obowiązkiem wszystkich,
+- integracja mechanizmów prewencyjnych ze współnym repozytowrium kodu,
+- integracja zabezpieczeń z potokiem wdrożeń,
+- integracja zabezpieczeń z mechanizmami telemetrycznymi (wykrywanie luk),
+- ochrona potoku wdrożeń,
+- integracja wdrażania z zatwierdzaniem,
+- zmniejszenie wagi podziału obowiązków.
+
+s:
+DevOps, 341

@@ -2,8 +2,8 @@
 Co to jest "InfoSec"?
 
 "InfoSec" (ang. Information security) to:
-zagadnienia, praktyki, procesy, narzędzia, działy
-dotyczące lub zajmujące się ochroną informacji.
+- zagadnienia, praktyki, procesy, narzędzia, działy
+- dotyczące lub zajmujące się ochroną informacji.
  
 s:
 https://en.wikipedia.org/wiki/Information_security
@@ -13,8 +13,8 @@ https://www.cisco.com/c/en/us/products/security/what-is-information-security-inf
 Kiedy realizować zadania InfoSec?
 
 Zadania InfoSec najlepiej realizować:
-jak najwcześniej,
-na koniec iteracji (nie na koniec projektu).
+- jak najwcześniej,
+- na koniec iteracji (nie na koniec projektu).
 
 s:
 DevOps, 344
@@ -23,9 +23,9 @@ DevOps, 344
 Wymień kluczowe miary biznesowe.
 
 Kluczowe miary biznesowe:
-szybkość tworzenia oprogramowania (szybkość dostarczania funkcjonalności na rynek),
-niepowodzenia interakcji z klientami (awarie i błędy),
-czas reakcji na zgodność z przepisami (czas od żądania audytu do dostarczenia żądanych informacji).
+- szybkość tworzenia oprogramowania (szybkość dostarczania funkcjonalności na rynek),
+- niepowodzenia interakcji z klientami (awarie i błędy),
+- czas reakcji na zgodność z przepisami (czas od żądania audytu do dostarczenia żądanych informacji).
 
 s:
 DevOps, 345
@@ -33,10 +33,10 @@ DevOps, 345
 .
 Co to jest "GRC"?
 
-"GRC" (ang. governance, risk, and compliance- "nadzór, ryzyko i zgodność") to:
-tradycyjnego sposobu działania InfoSec,
-system do rejestrowania luk,
-dostępny tylko dla InfoSec.
+"GRC" (ang. governance, risk, and compliance - "nadzór, ryzyko i zgodność") to:
+- tradycyjnego sposobu działania InfoSec,
+- system do rejestrowania luk,
+- dostępny tylko dla InfoSec.
 
 s:
 DevOps, 345
@@ -45,12 +45,12 @@ DevOps, 345
 Jak DevOps adresuje kwestie InfoSec?
 
 DevOps wprowadza:
-bezpieczeństwo informacji jako codzienne zadanie każdego DevOps,
-integracja InfoSec w całym technologicznym strumieniu wartości, włączenie w prace DevOps (również jako część zespołu DevOps),
-użycie tych samych systemów (zamiast "GRC" dla InfoSec),
-uwzględnianie InfoSec w śledzeniu defektów,
-udział InfoSec w analizie post-mortem,
-wzajemna nauka.
+- bezpieczeństwo informacji jako codzienne zadanie każdego DevOps,
+- integracja InfoSec w całym technologicznym strumieniu wartości, włączenie w prace DevOps (również jako część zespołu DevOps),
+- użycie tych samych systemów (zamiast "GRC" dla InfoSec),
+- uwzględnianie InfoSec w śledzeniu defektów,
+- udział InfoSec w analizie post-mortem,
+- wzajemna nauka.
 
 s:
 DevOps, 343 - 347
@@ -59,10 +59,10 @@ DevOps, 343 - 347
 Jak zintegrować zabezpieczenia z potokiem wdrożeń?
 
 W celu integracji zabezpieczeń z potokiem wdrożeń:
-wdróż automatyczne testy bezpieczeństwa,
-uruchamianych razem z innymi testami potoku wdrożeń,
-najlepiej przy wprowadzaniu zmian do repozytorium kodu,
-w kontraście do tradycyjnego raportu na koniec prac rozwojowych.
+- wdróż automatyczne testy bezpieczeństwa,
+- uruchamianych razem z innymi testami potoku wdrożeń,
+- najlepiej przy wprowadzaniu zmian do repozytorium kodu,
+- w kontraście do tradycyjnego raportu na koniec prac rozwojowych.
 
 s:
 DevOps, 347
@@ -71,8 +71,8 @@ DevOps, 347
 Co to jest "ścieżka szczęśliwa"?
 
 "Ścieżka szczęśliwa" to:
-typ testowania, gdy wszystko idzie zgodnie z oczekiwaniami, bez błędów,
-typowy dla Dev.
+- typ testowania, gdy wszystko idzie zgodnie z oczekiwaniami, bez błędów,
+- typowy dla Dev.
 
 s:
 DevOps, 349
@@ -81,8 +81,8 @@ DevOps, 349
 Co to jest "ścieżka smutna"?
 
 "Ścieżka smutna" to:
-typ testowania, gdy coś idzie nie tak,
-typowe dla QA, InfoSec i Fraud.
+- typ testowania, gdy coś idzie nie tak,
+- typowe dla QA, InfoSec i Fraud.
 
 s:
 DevOps, 349
@@ -91,8 +91,8 @@ DevOps, 349
 Czym zastąpić testy ręcznie?
 
 Testy ręczne zastąp:
-automatycznymi testami jednostkowymi,
-automatycznymi testami funkcjonalnymi,
+- automatycznymi testami jednostkowymi,
+- automatycznymi testami funkcjonalnymi,
 aby mogły być stale uruchamiane w potoku wdrożeń.
 
 s:
@@ -102,10 +102,10 @@ DevOps, 349
 Jakie przedsięwzięcia uwzględnić w ramach testowania?
 
 W ramach testowania uwzględnij:
-analizę statyczną: sprawdza kod programu,
-analizę dynamiczną: w czasie pracy programu, testowanie z zewnątrz do wewnątrz,
-skanowanie zależności: inny typ testów statycznych,
-integralność kodu źródłowego i podpisywanie kodu: własny kod PGP dla użytkowników repozytorium, podpisywanie operacji.
+- analizę statyczną: sprawdza kod programu,
+- analizę dynamiczną: w czasie pracy programu, testowanie z zewnątrz do wewnątrz,
+- skanowanie zależności: inny typ testów statycznych,
+- integralność kodu źródłowego i podpisywanie kodu: własny kod PGP dla użytkowników repozytorium, podpisywanie operacji.
 
 s:
 DevOps, 349
@@ -114,7 +114,7 @@ DevOps, 349
 Co to jest "PGP"?
 
 "PGP" (ang. Pretty Good Privacy) to:
-narzędzie do szyfrowania, odszyfrowywania i uwierzytelniania m.in. poczty elektronicznej, plików, katalogów oraz partycji dyskowych.
+- narzędzie do szyfrowania, odszyfrowywania i uwierzytelniania m.in. poczty elektronicznej, plików, katalogów oraz partycji dyskowych.
 
 s:
 https://pl.wikipedia.org/wiki/Pretty_Good_Privacy
@@ -123,10 +123,10 @@ https://pl.wikipedia.org/wiki/Pretty_Good_Privacy
 Jak pomóc pisać kod, który przeciwdziała nadużyciom?
 
 W celu przeciwdziałniu nadużyciom zdefiniuj wzorce projektowe, m.in.:
-jak przechowywać hasła,
-jak postępować w przypadku zapomnianych haseł,
-jak obsługiwać logowanie,
-jak zapobiec wrażliwości na ataki za pomocą skryptów krzyżowych (XSS).
+- jak przechowywać hasła,
+- jak postępować w przypadku zapomnianych haseł,
+- jak obsługiwać logowanie,
+- jak zapobiec wrażliwości na ataki za pomocą skryptów krzyżowych (XSS).
 
 s:
 DevOps, 350
@@ -144,12 +144,12 @@ DevOps, 353
 Jak zapewnić bezpieczeństwo środowiska?
 
 W celu zapenienia bezpieczeństwa środowiska:
-wdróż testy automatyczne: poprawność ustawień, długość kluczy,
-wdróż testy do skanowania: luki w zabezpieczeniach,
-sprawdzaj, czy otwarte są tylko wymagane porty,
-sprawdzaj pod kątem znanych zagrożeń: np. SQL injection,
-parametry testów pobieraj z repozytorium,
-umieszczaj w repozytorium wyniki testów.
+- wdróż testy automatyczne: poprawność ustawień, długość kluczy,
+- wdróż testy do skanowania: luki w zabezpieczeniach,
+- sprawdzaj, czy otwarte są tylko wymagane porty,
+- sprawdzaj pod kątem znanych zagrożeń: np. SQL injection,
+- parametry testów pobieraj z repozytorium,
+- umieszczaj w repozytorium wyniki testów.
 
 s:
 DevOps, 355
@@ -157,10 +157,10 @@ DevOps, 355
 Jak przyspieszyć wykrywanie naruszeń?
 
 W celu przyspieszenia wykrywania naruszeń:
-zintegruj bezpieczeństwo informacji z telemetrią produkcji,
-zastosuj w aplikacji i środowiskach mechanizmy monitorowania, rejestrowania i alarmowania,
-stwórz odpowiednie mechanizmy telemetryczne w aplikacji,
-stwórz odpowiednie mechanizmy telemetryczne w środowisku.
+- zintegruj bezpieczeństwo informacji z telemetrią produkcji,
+- zastosuj w aplikacji i środowiskach mechanizmy monitorowania, rejestrowania i alarmowania,
+- stwórz odpowiednie mechanizmy telemetryczne w aplikacji,
+- stwórz odpowiednie mechanizmy telemetryczne w środowisku.
 
 s:
 DevOps, 357
@@ -169,10 +169,10 @@ DevOps, 357
 Podaj przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji. 
 
 Przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji:
-udane i nieudane logowania,
-resetowanie hasła,
-resetowanie adresu e-mail,
-zmiany danych karty kredytowej.
+- udane i nieudane logowania,
+- resetowanie hasła,
+- resetowanie adresu e-mail,
+- zmiany danych karty kredytowej.
 
 s:
 DevOps, 358
@@ -181,12 +181,12 @@ DevOps, 358
 Podaj przykłady sytuacji dla telemetrii zabezpieczeń w środowisku. 
 
 Przykłady sytuacji dla telemetrii zabezpieczeń w środowisku:
-zmiany w systemie operacyjnym (np. produkcja, środowisko kompilacji),
-zmiany w grupach zabezpieczeń,
-modyfikacje konfiguracji,
-zmiany w infrastrukturze chmury,
-próby ataków (XSS, SQL injection)
-błędy serwera WWW (np. 4XX, 5XX).
+- zmiany w systemie operacyjnym (np. produkcja, środowisko kompilacji),
+- zmiany w grupach zabezpieczeń,
+- modyfikacje konfiguracji,
+- zmiany w infrastrukturze chmury,
+- próby ataków (XSS, SQL injection),
+- błędy serwera WWW (np. 4XX, 5XX).
 
 s:
 DevOps, 358
@@ -195,15 +195,15 @@ DevOps, 358
 Jak chronić potok wdrożeń?
 
 W celu ochrony potoku wdrożeń, czyli:
-kompilacji,
-integracji,
-wdrożeń
+- kompilacji,
+- integracji,
+- wdrożeń
 należy:
-hartować serwery CI/CD (podobnie jak produkcja, automatyzacja odtworzenia),
-ewidencjonować zmiany przy użyciu systemu kontroli wersji,
-wykrywać sytuacje podejrzane,
-uniezależnić procesy CI,
-system kontroli wersji tylko do odczytu dla CI/CD.
+- hartować serwery CI/CD (podobnie jak produkcja, automatyzacja odtworzenia),
+- ewidencjonować zmiany przy użyciu systemu kontroli wersji,
+- wykrywać sytuacje podejrzane,
+- uniezależnić procesy CI,
+- system kontroli wersji tylko do odczytu dla CI/CD.
 
 s:
 DevOps, 360

@@ -1,0 +1,58 @@
+.
+Co to jest "konwergencja DevOps"?
+
+"Konwergencja DevOps" to:
+- zbieżność z innymi ruchami w zarządzaniu,
+- wzajemne uzupełnianie i współdziałanie.
+
+s:
+DevOps, 383
+
+.
+Z jakimi ruchami zachodzi "konwergencja DevOps"?
+
+"Konwergencja DevOps" zachodzi z:
+- Lean (szczupłe zarządzanie, unikanie marnotrastwa),
+- Agile (model przyrostowy),
+- Toyota Kata (stałe doskonalenie).
+
+s:
+DevOps, 383
+
+.
+Co to jest "chmura konfliktów"?
+
+"Chmura konfliktów" to:
+- konflikt między dwoma potrzebnymi działaniami,
+- np. szybko wprowadzaj zmiany vs. zapewniaj stabliność. 
+
+s:
+DevOps, 386
+
+.
+Jak przełamać "chmurę konfliktów" dla IT?
+
+"Chmurę konfliktów" dla IT można przełamać dzięki DevOps:
+- integracja Dev i Ops,
+- patrz "trzy drogi".
+
+s:
+DevOps, 387
+
+.
+Na czym polega "spirala degradacji"?
+
+"Spirala degradacji":
+- kruche aplikacje, projekty pilne, usprawnienia mało pilne,
+- coraz bardziej kruche aplikacje,
+- coraz więcej czasu na awarie, coraz mniej czasu na projekty,
+- aż do braku możliwości realizacji projektów.
+
+s:
+DevOps, 387
+
+388
+TODO:
+DODATEK 4.
+NIEBEZPIECZEŃSTWA ZWIĄZANE
+Z PRZEŁĄCZANIEM PRACY I KOLEJKAM

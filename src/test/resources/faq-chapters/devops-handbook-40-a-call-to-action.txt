@@ -1,0 +1,23 @@
+.
+Jakie jest prawdopodobieństwo porażki transformacji DevOps?
+
+Prawdopodobieństwo porażki transformacji DevOps jest:
+- duże,
+- zmiany organizacyjne mogą zostać cofnięte.
+
+s:
+DevOps, 378
+
+.
+Komu przynosi korzyści DevOps?
+
+DevOps przynosi korzyści:
+- Dev,
+- Ops,
+- QA,
+- InfoSec,
+- właścicielom produktu,
+- klientom.
+
+s:
+DevOps, 379

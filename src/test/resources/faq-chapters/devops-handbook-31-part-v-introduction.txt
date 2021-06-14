@@ -1,0 +1,31 @@
+.
+Co to jest "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania"?
+
+"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania" to:
+- praktyki umożliwiające uczenie się,
+- tak szybko, wcześnie, często i tanio, jak to możliwe.
+
+s:
+DevOps, 301
+
+.
+Jakie praktyki składają się na "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania"?
+
+Praktyki "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania":
+- praktyki uczenia się na podstawie wypadków i awarii,
+- praktyki organizowania i projektowania systemów pracy aby stale eksperymentować i uczyć się.
+
+s:
+DevOps, 301
+
+.
+Jakie mechanizmy składają się na "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania"?
+
+Mechanizmy "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania":
+- "kultura uczciwości": warunki dla bezpiecznej pracy,
+- wstrzykiwanie awarii produkcyjnych: odporność,
+- konwersja lokalnych odkryć na globalne usprawnienia,
+- rezerwacja czasu na stworzenie organizacyjnych mechanizmów usprawnień i uczenia się.
+
+s:
+DevOps, 301

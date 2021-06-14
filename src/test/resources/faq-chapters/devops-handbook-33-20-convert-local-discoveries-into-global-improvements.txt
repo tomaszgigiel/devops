@@ -2,10 +2,10 @@
 Jak usprawnić komunikację między zespołami?
 
 Sposoby usprawnienia komunikacji między zespołami:
-wykonywanie prac za pomocą poleceń w chat roomie,
-emitowanie komunikatów w chat roomie podczas prac,
-rejestrowanie i upublicznianie całej komunikacji,
-komunikacja jako dokumentacja prac i praktyk.
+- wykonywanie prac za pomocą poleceń w chat roomie,
+- emitowanie komunikatów w chat roomie podczas prac,
+- rejestrowanie i upublicznianie całej komunikacji,
+- komunikacja jako dokumentacja prac i praktyk.
 
 s:
 DevOps, 318
@@ -23,8 +23,8 @@ DevOps, 319
 Ile repozytorów kodu powinna posiadać organizacja?
 
 Organizacja powinna posiadać jedno repozytorium kodu:
-możliwość wykorzystywania doświadczeń wszystkich osób w organizacji,
-kodowanie i współdzielenie wiedzy.
+- możliwość wykorzystywania doświadczeń wszystkich osób w organizacji,
+- kodowanie i współdzielenie wiedzy.
 
 s:
 DevOps, 320, 321
@@ -33,14 +33,14 @@ DevOps, 320, 321
 Co powinno być umieszczane w repozytorium kodu?
 
 W repozytorium kodu powinny być umieszczane:
-kod źródłowy,
-architektura jako kod,
-standardy konfiguracji,
-narzędzia do instalacji,
-standardy i narzędzia testowania, w tym zabezpieczenia,
-narzędzia obsługi potoku wdrożeń,
-narzędzia monitorowania i analizy,
-samouczki i standardy.
+- kod źródłowy,
+- architektura jako kod,
+- standardy konfiguracji,
+- narzędzia do instalacji,
+- standardy i narzędzia testowania, w tym zabezpieczenia,
+- narzędzia obsługi potoku wdrożeń,
+- narzędzia monitorowania i analizy,
+- samouczki i standardy.
 
 s:
 DevOps, 321, 327
@@ -49,8 +49,8 @@ DevOps, 321, 327
 Jaką rolę pełnią testy automatyczne w rozpowszecnianiu wiedzy?
 
 Testy automatyczne, szczególnie TDD:
-stanowią specyfikację systemu,
-pokazują dobre praktyki użycia.
+- stanowią specyfikację systemu,
+- pokazują dobre praktyki użycia.
 
 s:
 DevOps, 322
@@ -59,14 +59,14 @@ DevOps, 322
 Podaj przykłady wymagań niefunkcjonalnych ułatwiających wdrożenia.
 
 Przykłady wymagań niefunkcjonalnych ułatwiających wdrożenia:
-odpowiednia liczba wskaźników telemetrycznych w aplikacji i środowiskach,
-możliwość dokładnego śledzenia zależności,
-odpowiednia elastyczność usług oraz degradacji,
-zgodność pomiędzy wersjami,
-możliwość archiwizacji danych,
-możliwość łatwej analizy logów,
-możliwość śledzenia żądań od użytkowników,
-proste, scentralizowane środowisko działania z wykorzystaniem flag funkcji i podobnych mechanizmów.
+- odpowiednia liczba wskaźników telemetrycznych w aplikacji i środowiskach,
+- możliwość dokładnego śledzenia zależności,
+- odpowiednia elastyczność usług oraz degradacji,
+- zgodność pomiędzy wersjami,
+- możliwość archiwizacji danych,
+- możliwość łatwej analizy logów,
+- możliwość śledzenia żądań od użytkowników,
+- proste, scentralizowane środowisko działania z wykorzystaniem flag funkcji i podobnych mechanizmów.
 
 s:
 DevOps, 322
@@ -75,9 +75,9 @@ DevOps, 322
 Jak zapewnić powtarzalność zadań operacyjnych?
 
 W celu zapewnienia powtarzalności zadań operacyjnych:
-automatyzuj całość lub część,
-standaryzuj i dokumentuj,
-twórz historyjki użytkownika Ops.
+- automatyzuj całość lub część,
+- standaryzuj i dokumentuj,
+- twórz historyjki użytkownika Ops.
 
 s:
 DevOps, 324
@@ -86,10 +86,10 @@ DevOps, 324
 Na czym polega standaryzacja stosu technologii?
 
 Standaryzacja stosu technologii polega na:
-wybraniu technologii pomagających osiągnąć cele organizacji,
-maksymalizcja wydajności zespołu vs. cele całej organizacji,
-wspólne uzgodnienie Dev i Ops,
-zwykle miękkie granice obejmujące niewielką liczbę technologii.
+- wybraniu technologii pomagających osiągnąć cele organizacji,
+- maksymalizcja wydajności zespołu vs. cele całej organizacji,
+- wspólne uzgodnienie Dev i Ops.
+Zwykle miękkie granice obejmujące niewielką liczbę technologii.
 
 s:
 DevOps, 325
