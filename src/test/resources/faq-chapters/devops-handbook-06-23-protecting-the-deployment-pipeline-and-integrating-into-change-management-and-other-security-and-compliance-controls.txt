@@ -1,5 +1,73 @@
 .
-Jak chronić potok wdrożeń?
+Co jest podstawowym mechanizmem ograniczania zagrożeń?
+
+Podstawowym mechanizmem ograniczania zagrożeń dla:
+- operacji,
+- bezpieczeństwa
+są:
+- procesy zarządzania zmianami.
 
 s:
 DevOps, 363
+
+.
+Jak obniżyć ryzyko wdrożeń (w kontekście procesów zarządzania zmianami)?
+
+W celu obniżenia ryzyka wdrożeń (w kontekście procesów zarządzania zmianami):
+- minimalizuj udział ręczny w procesie zatwierdzania zmian (testy automatyczne, proaktywne monitorowanie produkcji),
+- zintegruj mechanizmy bezpieczeństwa i zgodności z przepisami z istniejącym procesem zarządzania zmianami.
+
+s:
+DevOps, 363
+
+.
+Wymień kategorie zmian.
+
+Kategorie zmian:
+- zmiany standardowe: niskie ryzyko, zgodne z ustalonym i zatwierdzonym procesem, uproszczone zatwierdzanie, 
+- zmiany normalne: wyższe ryzyko, wymagany przegląd lub zatwierdzenie,
+- zmiany pilne: wysokie ryzyko, awarie.
+
+s:
+DevOps, 364
+
+.
+Co to jest "badanie niszczące"?
+
+"Badanie niszczące" to:
+- długotrwałe badanie wytrzymałościowe na produkcji, aż do zniszczenia komponentu,
+- pozwala zrozumieć awarię,
+- pozwala wprowadzić korekty.
+
+s:
+DevOps, 368
+
+.
+Kim jest "bibliotekarz kodu"?
+
+"Bibliotekarz kodu" to:
+osoba która przegląda i zatwierdza zmianę przed wypromowaniem jej do produkcji.
+
+s:
+DevOps, 369
+
+.
+Jak zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania?
+
+Żeby zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania:
+- zmniejsz rolę podziału obowiązków,
+- zrezygnuj z "bibliotekarza kodu",
+- wprowadź programowanie w parach, ciągłą kontrolę operacji ewidencjonowania kodu, przeglądy kodu. 
+
+s:
+DevOps, 369
+
+.
+Na czym polegają trudności we współpracy DevOps i InfoSec?
+
+Trudności we współpracy DevOps i InfoSec:
+- audytor nie potrafi czytać kodu,
+- programista nie zna przepisów, norm, ustaw związanych z bezpieczeństwem.
+
+s:
+DevOps, 371
