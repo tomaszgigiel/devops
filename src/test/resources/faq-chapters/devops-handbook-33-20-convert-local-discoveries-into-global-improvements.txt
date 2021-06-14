@@ -1,4 +1,14 @@
 .
+Jak poprawić odporność systemu pracy?
+
+Odporność systemu pracy poprawiają:
+- proaktywne planowanie,
+- testowanie scenariuszy awarii.
+
+s:
+DevOps, 317
+
+.
 Jak usprawnić komunikację między zespołami?
 
 Sposoby usprawnienia komunikacji między zespołami:

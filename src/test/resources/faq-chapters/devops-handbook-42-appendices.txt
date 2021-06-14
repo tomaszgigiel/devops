@@ -51,8 +51,82 @@ Na czym polega "spirala degradacji"?
 s:
 DevOps, 387
 
-388
-TODO:
-DODATEK 4.
-NIEBEZPIECZEŃSTWA ZWIĄZANE
-Z PRZEŁĄCZANIEM PRACY I KOLEJKAM
+.
+Jakie są niebezpieczeństwa związane z przełączaniem pracy i kolejkami?
+
+Przykład problemu związanego z przełączaniem pracy i kolejkami:
+- 30-minutowe zadanie,
+- wymaga 7-krotnego przełączania (zespół serwerów, sieci, db...),
+- każdy zajęty w 90%,
+- więc na każdego czekamy 9h,
+- łaczny czas oczekiwania 7x9h = 63h
+
+s:
+DevOps, 389
+
+.
+Wymień mity na temat bezpieczeństwa.
+
+Mity na temat bezpieczeństwa:
+1. Najważniejszą przyczyną wypadków i incydentów jest błąd ludzki: Nie, to słabość systemowa.
+2. Systemy będą bezpieczne, jeśli ludzie będą przestrzegali obowiązujących procedur.
+3. Bezpieczeństwo można poprawić przez bariery i zabezpieczenia; im więcej warstw ochrony tym większe bezpieczeństwo.
+4. Analiza wypadku pozwala zidentyfikować jego główną przyczynę (prawdę).
+5. Badania wypadków polegają na logicznej i racjonalnej identyfikacji ich przyczyn na podstawie faktów. 
+6. Bezpieczeństwo zawsze ma najwyższy priorytet. Ta zasada nigdy nie będzie zagrożona. 
+
+s:
+DevOps, 390
+.
+Dlaczego 5tys. posiągnięć linki Andon nie paraliżuje produkcji Toyoty?
+
+5tys. posiągnięć linki Andon nie paraliżuje produkcji Toyoty, bo:
+- nie każde pociągnięcie powoduje zatrzymanie linii produkcyjnej,
+- lider zespołu ma 50s na rozwiązanie problemu.
+
+s:
+DevOps, 391
+
+.
+Jak zamienić operacje instalcji oprogramowania w operacje kontroli wersji?
+
+Żeby zamienić operacje instalcji oprogramowania w operacje kontroli wersji:
+- wyeliminuj instalatory z GUI,
+- porównaj czysty obraz serwera z obrazem po instalacji,
+- umieść zmiany w repozytorium kodu,
+- przekształć ewentualne konfiguracje w bazie danych na pliki. 
+
+s:
+DevOps, 391
+
+.
+Co to jest "infinite hows"?
+
+"Infinite hows" ("nieskończone pytania jak") to:
+- forma dyskusji.
+
+s:
+DevOps, 393
+
+.
+Co to jest "Małpia Armia"?
+
+"Małpia Armia" (ang. Simian Army) to:
+- rozwinięcie "Chaos Monkey" w rodzinę narzędzi,
+- symulują coraz bardziej katastrofalne błędy.
+
+s:
+DevOps, 394
+
+.
+Co to jest "przezroczysty czas sprawności"?
+
+"Przezroczysty czas sprawności" to podejście charakteryzujące się:
+- możliwością samodzielnej identyfikacji problemu przez uzytkowników,
+- komunikacją przez internet (ogólna, zamiast e-mail),
+- jednym miejscem komunikacji,
+- udostępnienie informacji o problemach,
+- panel kondycji usługi.
+
+s:
+DevOps, 395

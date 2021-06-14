@@ -1,12 +1,7 @@
 Bank to po prostu firma IT z licencją bankową. [DevOps, 23]
+
 cenniejsze są usprawnienia codziennej pracy niż codzienna praca sama w sobie [DevOps, 338]
 
-My, programiści, już nie piszemy spersonalizowanego opro-
-gramowania — zamiast tego montujemy to, czego potrzebujemy, z opensource’owych
-części, które stały się łańcuchem dostaw oprogramowania, na który jesteśmy zdani [DevOps, 353]
+My, programiści, już nie piszemy spersonalizowanego oprogramowania - zamiast tego montujemy to, czego potrzebujemy, z opensource'owych części, które stały się łańcuchem dostaw oprogramowania, na który jesteśmy zdani [DevOps, 353]
 
-
-Jednym z wyników pokazywania tego wykresu było uświa-
-domienie programistom, że byli atakowani przez cały czas!
-
-360
+Jednym z wyników pokazywania tego wykresu było uświadomienie programistom, że byli atakowani przez cały czas! [DevOps, 360]

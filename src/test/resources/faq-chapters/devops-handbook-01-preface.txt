@@ -1,0 +1,99 @@
+.
+Co to jest SLA?
+
+SLA (ang. service level agreement) to:
+- umowa zapewnienia poziomu usług.
+
+s:
+DevOps, 8
+
+.
+Jak powstał termin "DevOps"?
+
+Termin "DevOps":
+- pojawił się pierwszy raz na konferencji DevOpsDays,
+- zorganizowanej przez Patrick Debois.
+
+s:
+DevOps, 9
+
+.
+Co to jest CM?
+
+CM (ang. configuration management) to:
+- zarządzanie konfiguracją.
+
+s:
+DevOps, 10
+
+.
+Na czym polega koncepcja "infrastruktura jako kod"?
+
+Koncepcja "infrastruktura jako kod" polega na:
+- działy operacji zachowują się jak programiści,
+- utrzymują konfiguracje w systemach zarządzania kodem źródłowym,
+- adoptują wzorce dostaw CI/CD w swoich przepływach pracy.
+
+s:
+DevOps, 10
+
+.
+Co to jest ITIL?
+
+ITIL (ang. Information Technology Infrastructure Library) to:
+- ciągle zmieniająca się biblioteka praktyk,
+- kodyfikuje procesy i techniki stanowiących podstawę operacji IT,
+- obejmuje strategię usług, projektowanie i pomoc techniczną.
+
+s:
+DevOps, 11
+
+.
+Co to jest ITSM?
+
+ITSM (ang. IT Service Management - dosł. zarządzanie usługami IT) to:
+- czynności wykonywane przez organizację,
+- w celu projektowania, budowy, dostarczania, obsługi i kontroli usług informatycznych oferowanych klientom.
+
+s:
+DevOps, 11
+https://en.wikipedia.org/wiki/IT_service_management
+
+.
+Jakie są mity związane z DevOps?
+
+Mity związane z DevOps:
+1. DevOps jest tylko dla startupów: patrz Google, Amazon, Netflix.
+2. DevOps zastępuje Agile: DevOps jest kontynuacją Agile.
+3. DevOps jest niezgodny z ITIL: praktyki DevOps mogą być zgodne z ITIL, szczególnie gdy procesy ITIL zostaną zautomatyzowane.
+4. DevOps jest niezgodny z zasadami bezpieczeństwa informacji i zgodności z przepisami: elementy kontroli są zintegrowane z każdym z etapów codziennej pracy w cyklu tworzenia oprogramowania.
+5. DevOps eliminuje funkcje operacji IT: działy operacji IT współpracują z działami rozwoju znacznie wcześniej w cyklu życia oprogramowania, praca personelu operacji IT przypomina działania programistów.
+6. DevOps to po prostu "infrastruktura jako kod" lub automatyzacja: plus normy kulturowe i architektury.
+7. DevOps dotyczy tylko oprogramowania open source: patrz SAP, firmware HP LaserJet. 
+
+s:
+DevOps, 11
+
+.
+Jakie efekty przynosi wprowadzenie DevOps?
+
+Efekty DevOps:
+- bezpieczne systemy pracy,
+- szybkie, niezależne rozwijanie i walidowanie kodu przez małe zespoły,
+- bezpieczne wdrożenia,
+- wzmacnianie normy kulturowe wysokiego poziomu zaufania.
+
+s:
+DevOps, 13
+
+.
+Co to jest DevOps?
+
+DevOps (od ang. development and operations) to zestaw praktyk, który łączy:
+- rozwój (ang. development),
+- eksploatację (ang. operations),
+- zapewnienie jakości (ang. quality assurance).
+
+s:
+https://pl.wikipedia.org/wiki/DevOps
+https://en.wikipedia.org/wiki/DevOps

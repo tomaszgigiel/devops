@@ -1,0 +1,15 @@
+Opracuj /devops/src/test/resources/faq-chapters
+Dodaj tagi, na przykład reprezentujące części książki.
+Opracuj /devops/src/test/resources/faq-others/quotes.txt
+Przygotuj wsad do Confluence.
+Przygotuj wsad do https://quizlet.com/pl.
+Przygotuj wsad do anki.
+Opracuj /devops/src/test/resources/mind-map
+Przygotuj https://tiddlywiki.com/
+Przygotuj cloudbite.
+
+Użyj diagramu:
+https://zh.wikipedia.org/wiki/DevOps
+na przykład jako startowa strona wiki.
+
+Sprawdź ortografię.
