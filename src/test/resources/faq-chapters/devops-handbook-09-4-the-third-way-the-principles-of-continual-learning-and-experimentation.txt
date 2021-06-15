@@ -1,0 +1,96 @@
+.
+Na czym koncentruje się "trzecia droga"?
+
+"Trzecia droga" koncentruje się na:
+- kultura ciągłego uczenia się i eksperymentowania,
+- tworzenie indywidualnej wiedzy,
+- i przekształcanie w wiedzę organizacji,
+- kultura wysokiego zaufania,
+- coraz większe obciążenie systemu, by wymusić udoskonalenia.
+
+s:
+DevOps, 69
+
+.
+Co to jest "just culture"?
+
+"Just culture" ("kultura właściwego postępowania") to:
+- nie szukamy winnego,
+- szukamy jak usprawnić, żeby problem się nie powtórzył.
+
+s:
+DevOps, 71
+
+.
+Co jest ważniejsze od codziennej pracy?
+
+Od codziennej pracy ważniejsze są usprawnianie codziennej pracy.
+
+s:
+DevOps, 71
+
+.
+Jak zadbać o wprowadzanie usprawnień w codziennej pracy?
+
+Aby wprowadzać usprawnienia w codziennej pracy:
+- jawnie rezerwuj czas na spłacanie długu technicznego,
+- usuwanie wad,
+- refaktoryzację.
+- poprawianie problematycznych obszarów kodu i środowisk.
+
+s:
+DevOps, 73
+
+.
+Dlaczego warto przekształcać lokalne odkrycia w globalne usprawnienia?
+
+Warto przekształcać lokalne odkrycia w globalne usprawnienia, bo:
+- gdy ktoś będzie wykonywał podobną pracę,
+- to skorzysta ze zbiorowego doświadczenia organizacji.
+
+s:
+DevOps, 74
+
+.
+Jak DevOps proponuje zwiekszać odporność?
+
+DevOps proponuje zwiekszać odporność poprzez:
+- usprawnienia,
+- zwiększanie wydajności,
+- zwiększanie elastyczności.
+W opozycji do tradycyjnego:
+- zwiększaj nadmiar.
+
+s:
+DevOps, 75
+
+.
+Co to jest "antykruchość"?
+
+"Antykruchość" (ang. antifragility) to:
+- proces zastosowania napięcia w celu zwiększenia elastyczności.
+
+s:
+DevOps, 75
+
+.
+Jak wstrzykiwać napięcie w codziennej pracy?
+
+Wstrzykuj napięcie w codziennej pracy poprzez:
+- skrócaj czas realizacji,
+- zwiększaj zakres pokrycia testami,
+- zmniejszaj czas wykonywania testów,
+- symuluj awarie.
+
+s:
+DevOps, 75
+
+.
+Jaka jest rola lidera w DevOps?
+
+Rola lidera w DevOps to:
+- stworzanie warunków, dzięki którym zespół może odkryć świetność w swojej codziennej pracy,
+- podkreślanie wartości uczenia się,
+- i rozwiązywania problemów.
+W opozycji do tradycyjnego:
+- podejmuj właściwe decyzje.

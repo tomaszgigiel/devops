@@ -1,6 +1,8 @@
 Bank to po prostu firma IT z licencją bankową. [DevOps, 23]
 
-cenniejsze są usprawnienia codziennej pracy niż codzienna praca sama w sobie [DevOps, 338]
+w przypadku braku poprawy procesy nie pozostają takie same - z powodu chaosu i entropii procesy w rzeczywistości z czasem stają się coraz gorsze [DevOps, 71]
+
+ważniejsze od codziennej pracy jest usprawnianie codziennej pracy [DevOps, 71]
 
 My, programiści, już nie piszemy spersonalizowanego oprogramowania - zamiast tego montujemy to, czego potrzebujemy, z opensource'owych części, które stały się łańcuchem dostaw oprogramowania, na który jesteśmy zdani [DevOps, 353]
 
