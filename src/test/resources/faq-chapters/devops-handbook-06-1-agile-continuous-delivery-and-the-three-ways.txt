@@ -1,0 +1,100 @@
+.
+Co to jest "strumień wartości"?
+
+"Strumień wartości" to:
+- podstawowa koncepcja Lean,
+- sekwencja działań podejmowanych przez organizację w celu realizacji zlecenia klienta.
+
+s:
+DevOps, 39
+
+.
+Jak umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości?
+
+Żeby umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości:
+- niewielkie partie,
+- zmniejszenie produkcji niezakończonej (ang. Work In Process — WIP),
+- przeciwdziałanie przeróbkom,
+- ciągła optymalizacja.
+
+s:
+DevOps, 40
+
+.
+Co to jest "czas realizacji"?
+
+Czas realizacji (ang. lead time) to:
+- od złożenia zamówienia,
+- do zrealizowania zamówienia.
+
+s:
+DevOps, 41
+
+.
+Co to jest "czas przetwarzania"?
+
+Czas przetwarzania (ang. processing time) to:
+- inaczej czas zadania (ang. task time),
+- od rozpoczęcia pracy nad zamówieniem,
+- do zrealizowania zamówienia.
+
+s:
+DevOps, 41
+
+.
+Ile trwa czas realizacji wdrażania w DevOps?
+
+Czas realizacji wdrażania w DevOps trwa:
+- w idealnym środowisku, kilka minut,
+- automtyzacja testów, wdrażania,
+- modułowa architektura, luźne powiązania,
+- niewielkie, autonomiczne zespoły.
+
+s:
+DevOps, 43
+
+.
+Co to jest wskaźnik procentu C/A?
+
+Wskaźnik procentu C/A (ang. complete and accurate - "gotowe i dokładne") to:
+- parametr w strumieniu wartości technologii,
+- odzwierciedla jakość wyników etapu,
+- procent przypadków, gdy dalszy etap otrzymuje pracę w postaci gotowej do wykorzystania.
+
+s:
+DevOps, 43
+
+.
+Opisz "pierwszą drogę".
+
+"Pierwsza droga":
+- szybki przepływ, skrócony czas realizacji,
+- Biznes -> Dev -> Ops -> Klient,
+- praca widoczna,
+- małe partie,
+- przeciwdziałanie defektom,
+- optymalizacja,
+- automatyzacja, CI/CD.
+
+s:
+DevOps, 44
+
+.
+Opisz "drugą drogę".
+
+"Druga droga":
+- natychmiastowa informacja zwrotna.
+
+s:
+DevOps, 44
+
+.
+Opisz "trzecią drogę".
+
+"Trzecia droga":
+- kultura wysokiego zaufania,
+- eksperymentowanie,
+- okalne odkrycia na globalne usprawnienia.
+
+s:
+DevOps, 45

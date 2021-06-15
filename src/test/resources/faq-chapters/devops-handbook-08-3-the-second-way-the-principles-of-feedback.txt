@@ -1,0 +1,87 @@
+.
+Czego dotyczą zasady opisane w "druga droga"?
+
+Zasady "druga droga":
+- szybkie uzyskiwanie stałego strumienia informacji zwrotnych,
+- jak najwcześniej,
+- szybki, częsty przepływ informacji.
+
+s:
+DevOps, 59
+
+.
+Na czym polegają problemy z bezpieczną pracą w złożonych systemach?
+
+Problemy z bezpieczną pracą w złożonych systemach:
+- brak możliwości objęcia całości przez jedną osobę,
+- te same czynności mogą powodować różne wyniki,
+- awarie są nieuniknione.
+
+s:
+DevOps, 60
+
+.
+Jak "druga droga" może zwiększyć bezpieczeństwo?
+
+"Druga droga" może zwiększyć bezpieczeństwo dzięki:
+- zarządzaj pracami tak, żeby ujawniać problemy,
+- wykrywaj problemy i natychmiast rozwiązuj.
+
+s:
+DevOps, 60
+
+.
+Jak zauważać problemy natychmiast po ich wystąpieniu?
+
+Żeby zauważać problemy natychmiast po ich wystąpieniu:
+- stosuj pętle sprzężenia zwrotnego i sprzężenia w przód,
+- szybki, częsty przepływ informacji przez cały strumień wartości.
+
+s:
+DevOps, 61
+
+.
+Co to jest "swarming"?
+
+"Swarming" (ang. swarm - "rój") to:
+- mobilizowanie wszystkich osób, które są potrzebne do zażegnania kryzysu,
+- opanowanie problemów, zanim zdążą się rozprzestrzenić,
+- naprawienie złej sytuacji, by nie mogła się powtórzyć,
+- nie twórz obejść, twórz rozwiązania.
+
+s:
+DevOps, 62
+
+.
+Co to jest "linka Andon"?
+
+"Linka Andon" to:
+- stosowana w fabryce Toyota (nie w samochodzie),
+- linka, którą każdy może pociagnąć jeśli zauważy problem,
+- lider rozwiązuje problem < 1 min,
+- jeśli dłużej to zatrzymuje linię produkcyjną.
+
+s:
+DevOps, 63
+
+.
+Jakie są zalety zapewniania jakości bliżej źródła?
+
+Zalety zapewniania jakości bliżej źródła:
+- niższe koszty,
+- błąd bardziej zrozumiały jeśli zgłoszony szybko po jego popełnieniu,
+- nie przenosisz błędu w dół strumienia.
+
+s:
+DevOps, 65, 66
+
+.
+Jak zapewniać jakość bliżej źródła?
+
+Aby zapewniać jakość bliżej źródła:
+- automatyzuj,
+- od razu testuj,
+- optymalizuj pracę w dole strumienia (np. przekazuj półprodukt, którego nie można źle podłączyć).
+
+s:
+DevOps, 65, 66

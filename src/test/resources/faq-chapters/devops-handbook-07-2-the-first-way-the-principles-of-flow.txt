@@ -1,0 +1,120 @@
+.
+Dlaczego praca powinna być widoczna?
+
+Czyń pracę widoczną, bo:
+- stanie się widoczna jako awaria,
+- można monitorować i zarządzać.
+
+s:
+DevOps, 48
+
+.
+Jak uczynić pracę widoczną?
+
+Aby uczynić pracę widoczną:
+- użyj wizualnych pulpitów.
+
+s:
+DevOps, 48
+
+.
+Dlaczego ograniczać pracę w toku?
+
+Ograniczaj pracę w toku, bo:
+- zmiana kontekstu pracownika jest kosztowna.
+
+s:
+DevOps, 59
+
+.
+Co to jest WIP?
+
+WIP (ang. Work In Progress) to:
+- praca w toku.
+
+s:
+DevOps, 50
+
+.
+Jak ograniczać pracę w toku?
+
+Aby ograniczać pracę w toku:
+- wymuszaj limity pracy w toku.
+
+s:
+DevOps, 50
+
+.
+Dlaczego zmniejszać wielkość partii?
+
+Zmniejszaj wielkość partii, bo:
+- warunek szybkiego przepływu.
+
+s:
+DevOps, 50
+
+.
+Dlaczego zmniejszać liczbę przełączeń (programiści, adminstratorzy, testerzy)?
+
+Zmniejszaj liczbę przełączeń, bo:
+- kolejka zadań,
+- koordynacja,
+- w konsekwencji wydłużony czas realizacji.
+
+s:
+DevOps, 53
+
+.
+Jak zmniejszyć konsekwencje przełączeń (programiści, adminstratorzy, testerzy)?
+
+Zmniejszaj konsekwencje przełączeń:
+- zmniejszy liczbę,
+- automatyzuj.
+
+s:
+DevOps, 53
+
+.
+Jak identyfikować i eliminować ograniczenia?
+
+Aby identyfikować i eliminować ograniczenia:
+- zawsze jest jedno i tylko jedno ograniczenie,
+- znajdź, napraw, ponów.
+
+s:
+DevOps, 54
+
+.
+Co jest największym zagrożenie dla rentowności przedsiębiorstwa?
+
+Największym zagrożenie dla rentowności przedsiębiorstwa są:
+- odpady.
+
+s:
+DevOps, 55
+
+.
+Co jest "odpad"?
+
+"Odpad" to:
+- wykorzystanie zasobów poza tym, czego wymaga klient i za co jest gotów zapłacić.
+
+s:
+DevOps, 55
+
+.
+Wymień rodzaje odpadów.
+
+Rodzaje odpadów:
+- prace wykonane częściowo,
+- dodatkowe procesy,
+- dodatkowe funkcje,
+- przełączanie pomiędzy zadaniami,
+- oczekiwanie,
+- ruch,
+- defekty,
+- prace niestandardowe lub ręczne,
+- heroizm.
+
+s:
+DevOps, 56

@@ -1,0 +1,41 @@
+.
+Jaka jest relacja między DevOps i Lean?
+
+DevOps to wynik zastosowania zasad metodyki Lean do strumienia wartości technologii.
+
+s:
+DevOps, 35
+
+.
+Opisz trzy drogi DevOps.
+
+Trzy drogi DevOps:
+- przepływ: przyspieszają dostarczanie wyników pracy rozwoju i operacji,
+- sprzężenia zwrotnye, pozwalają tworzyć coraz bezpieczniejsze systemy pracy,
+- ciągłe uczenie się i eksperymentowanie: promuje kulturę wysokiego zaufania, naukowe podejście do podejmowania ryzyka.
+
+s:
+DevOps, 35
+
+.
+Scharakteryzuj Lean.
+
+Lean:
+- czas przekształcenia surowców na produkty jest najlepszym wskaźnikiem jakości,
+- niewielkie partie jednym z najlepszych predyktorów krótkich terminów realizacji,
+- zasada pull,
+- jakość u źródła (ang. quality at the source),
+- zarządzanie z poszanowaniem człowieka (ang. leading with humility).
+
+s:
+DevOps, 36
+
+Scharakteryzuj Agile.
+
+Agile:
+- częste dostarczanie działającego oprogramowania,
+- niewielkie zespoły,
+- zarządzanie wysokiego zaufania.
+
+s:
+DevOps, 36
