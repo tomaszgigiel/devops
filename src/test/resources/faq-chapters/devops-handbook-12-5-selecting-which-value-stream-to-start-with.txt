@@ -1,0 +1,65 @@
+.
+Co jest "projekt greenfield"?
+
+"Projekt greenfield" to:
+- nowy projekt.
+
+s:
+DevOps, 86
+
+.
+Co jest "projekt brownfield"?
+
+"Projekt brownfield" to:
+- już obsługują klientów,
+- potencjalnie są w użyciu od wielu lat,
+- często z dużym długiem technicznym.
+
+s:
+DevOps, 87
+
+.
+Jak wybrać strumienie wartości, od których należy zacząć transformację DevOps?
+
+Transformację DevOps zacznij od:
+- kilku obszarów,
+- zespółów innowatorów,
+- projektów umożliwiających automatyczne testowanie i wdrażanie.
+
+s:
+DevOps, 87
+
+.
+Co to jest "system SoR"?
+
+"System SoR" (ang. systems of record) to:
+- systemy podobne do ERP,
+- poprawność jest kluczowa,
+- zarządzanie firmą, np. HR,
+- "robić to dobrze". 
+
+s:
+DevOps, 88
+
+.
+Co to jest "system SoE"?
+
+"System SoE" (ang. systems of engagement) to:
+- dla klientów lub pracowników,
+- np. systemy e-commerce,
+- zgodnością z przepisami,
+- "robić to szybko".
+
+s:
+DevOps, 88
+
+.
+Wymień fazy rozwoju metodyki DevOps w organizacji?
+
+Fazy rozwoju metodyki DevOps w organizacji:
+- znajdź innowatorów i pionierów,
+- zbuduj masę krytyczną i milczącą większość,
+- zidentyfikuj "hamulcowych".
+
+s:
+DevOps, 91
