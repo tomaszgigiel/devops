@@ -1,0 +1,35 @@
+.
+Jak utworzyć szybki i niezawodny przepływ?
+
+Aby utworzyć szybki i niezawodny przepływ:
+- pracuj na środowiskach zbliżonych do produkcyjnych,
+- twórz dowolne środowisko: automatyzacja, samoobsługa, na żądanie,
+- twórz jednego repozytorium prawdy dla całego systemu: kod, dokumentacja, konfiguracje, środowiska,
+- twórz infrastrukturę, którą łatwiej odbudować, niż naprawić,
+- akceptuj zadanie programistyczne, gdy zbudowane, wdrożone, przetestowane na środowisku zbliżonym do produkcyjnego.
+
+s:
+DevOps, 141
+
+Co to jest "rewizja"?
+
+"Rewizja" (ang. commit) to:
+- grupa zmian wprowadzana do systemu kontroli wersji.
+
+s:
+DevOps, 145
+
+.
+Co umieszczać we współdzielonym repozytorium kontroli wersji?
+
+We współdzielonym repozytorium kontroli wersji:
+- kod i zależności,
+- skrypty,
+- narzędzia,
+- pliki kontenerów,
+- artefakty projektu,
+- pliki konfiguracyjne,
+- inne.
+
+s:
+DevOps, 146

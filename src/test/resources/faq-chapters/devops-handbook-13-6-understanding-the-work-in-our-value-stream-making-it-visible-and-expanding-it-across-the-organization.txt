@@ -1,0 +1,54 @@
+.
+Jakie są działania po wybraniu strumienia wartości do transformacji DevOps?
+
+Po wybraniu strumienia wartości do transformacji DevOps:
+- zrozum,
+- zidentyfikuj uczestników,
+- opisz (mapa strumienia wartości),
+- stwórz dedykowany zespół transformacji,
+- uzgodnij cel.
+
+s:
+DevOps, 93
+
+.
+Kto uczestniczy w strumieniu wartości?
+
+Uczestnicy strumienia wartości:
+- właściciel produktu,
+- zespół deweloperów,
+- zespół walidacji (zapewnienia jakości - QA),
+- zespół operacyjny,
+- zespół zabezpieczeń,
+- menedżerowie wydania,
+- menedżerowie techniczni lub menedżer strumienia wartości.
+
+s:
+DevOps, 95
+
+.
+Jak długi powinien być horyzont planowania poprawy?
+
+Horyzont planowania poprawy powinien być:
+- krótki, klkutygodniowy.
+
+s:
+DevOps, 100
+
+.
+Ile czasu poświęcić na dług techniczny?
+
+Na dług techniczny poświęć 20% czasu.
+
+s:
+DevOps, 101
+
+.
+Jak wzmacniać zachowania DevOps?
+
+Wzmacniaj zachowania DevOps dzięki narzędziom:
+- uzywaj wspólnych dla Dev i Ops,
+- np. wspólne kolejki zadań w JIRA.
+
+s:
+DevOps, 105

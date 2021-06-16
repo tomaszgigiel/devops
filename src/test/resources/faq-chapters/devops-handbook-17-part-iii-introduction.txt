@@ -1,1 +1,10 @@
-139
+.
+Co to jest "ciągłe dostarczanie"?
+
+"Ciągłe dostarczanie" (ang. continuous delivery) to:
+- podejście inżynierii oprogramowania,
+- wytwarzanie w krótkich cyklach,
+- wdrażanie w dowolnym momencie.
+
+s:
+https://en.wikipedia.org/wiki/Continuous_delivery

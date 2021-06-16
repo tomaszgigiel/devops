@@ -1,0 +1,102 @@
+.
+Jak brzmi "prawo Conwaya"?
+
+"Prawo Conwaya":
+- organizacja oprogramowania jest zgodna z organizacją zespołu programistów,
+- pięciu programistów napisze system składający się z pięciu modułów.
+
+s:
+DevOps, 107
+
+.
+Wymień typy struktur organizacyjnych.
+
+Typy struktur organizacyjnych:
+- funkcjonalne: optymalizacja wzgl. kosztów, wiedzy, podziału pracy,
+- macierzowe: łączą oba typy,
+- rynkowe: optymalizacja wzgl. szybkości reagowania na potrzeby klientów.
+
+s:
+DevOps, 110
+
+.
+Wymień problemy organizacji funkcjonalnych.
+
+Problemy organizacji funkcjonalnych:
+- podział pracy, koordynacja, kolejki,
+- brak zrozumienia jak praca przekłada się na cele w strumieniu,
+- centralizacja walidacji, opóźnienia.
+
+s:
+DevOps, 111
+
+.
+Wymień zalety organizacji rynkowych.
+
+Zalety organizacji rynkowych:
+- odpowiedź na słabości organizacji funkcjonalnych,
+- patrz "trzy drogi",
+- wspólny cel: jakość, dostępność i bezpieczeństwo.
+
+s:
+DevOps, 112, 114
+
+.
+Co to jest "drugi paradoks Toyoty"?
+
+"Drugi paradoks Toyoty":
+- wysoka skuteczność w organizacji funkcjonalnej,
+- rozwój i nawyki pracowników. 
+
+s:
+DevOps, 114
+
+.
+Co to jest "silos"?
+
+"Silos" to:
+- obraz struktury spowodowanej nadmierną specjalizacją zespołów.
+
+s:
+DevOps, 115
+
+.
+Jak promować dostrzeganie długoterminowych konsekwencji decyzji podejmowanych przez deweloperów?
+
+Dostrzeganie długoterminowych konsekwencji decyzji podejmowanych przez deweloperów promuj przez:
+- przypisywanie do produktu,
+- nie do projektu.
+
+s:
+DevOps, 117
+
+.
+Jak wykorzystać "prawo Conwaya"?
+
+Uwzględniaj "prawo Conwaya":
+- zadbaj o lokalizację, komunikację zespołów.
+
+s:
+DevOps, 117
+
+.
+Jak zatrudniając dziesiątki tysięcy programistów zachować wydajność małych zespołów?
+
+Przy bardzo dużej liczbie programistów w organizacji wysoką wydajność małych zespołów pomaga zachować:
+- usługi luźno powiązane w ramach ograniczonych kontekstów,
+- SOA, mikrousługi,
+- Amazon, Goole.
+
+s:
+DevOps, 118
+
+.
+Jak brzmi zasada "zespół na dwie pizze"?
+
+Zasada "zespół na dwie pizze":
+- niewielki rozmiar zespołu,
+- 5 - 10 osób,
+- szybkie, autonomiczne, dobrze zorientowane.
+
+s:
+DevOps, 120

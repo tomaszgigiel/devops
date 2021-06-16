@@ -1,0 +1,35 @@
+.
+Jak poprawić wydajność zespołół Dev?
+
+Aby poprawić wydajność zespołów Dev:
+- twórz funkcje samoobsługowe dla Dev,
+- wprowadź do zespołu Ops,
+- przydziel do zespołu łączników Ops.
+
+s:
+DevOps, 126
+
+.
+Kim jest "łącznik Ops"?
+
+"Łącznik Ops" to:
+- reprezentant Dev w Ops,
+- rozumie Dev,
+- potrafi się poruszać w Ops.
+
+s:
+DevOps, 126, 130
+
+.
+Jak Ops realizuje prace dla Dev (Netflix)?
+
+Ops:
+- nie buduje,
+- nie tworzy,
+- nie wdraża
+- nie zarządza konfiguracjami
+dla Dev.
+Zamiast tego buduje narzędzia umożliwiające samoobsługę.
+
+s:
+DevOps, 128
