@@ -7,12 +7,12 @@
   (:require [pl.tomaszgigiel.devops.common :as common])
   (:gen-class))
 
-(defn create-dirs [props]
+(defn foo [props]
   (log/info props))
 
 (defn- work [path]
   (let [props (with-open [r (io/reader path)] (edn/read (java.io.PushbackReader. r)))]
-    (create-dirs props)))
+    (foo props)))
 
 (defn -main [& args]
   "devops: DevOps Notes"

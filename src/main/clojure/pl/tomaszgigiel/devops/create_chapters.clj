@@ -1,4 +1,4 @@
-(ns pl.tomaszgigiel.devops.pre
+(ns pl.tomaszgigiel.devops.create-chapters
   (:require [clojure.edn :as edn])
   (:require [clojure.java.io :as io])
   (:require [clojure.string :as str])
@@ -8,7 +8,7 @@
   (:gen-class))
 
 (defn create-file [dir name]
-  (spit (str dir name ".txt") ""))
+  (spit (str dir name ".txt") "" :append true))
 
 (defn create-files [props]
   (let [dir (:faq-chapters-path props)
@@ -16,13 +16,9 @@
         lines (map-indexed (fn [idx itm] (str/replace (format "devops-handbook-%02d-%s" idx itm)  #"-{1,}" "-")) (remove str/blank? (str/split-lines table-of-contents)))]
     (run! #(create-file dir %) lines)))
 
-; ok: watch out, run only once
 (defn- work [path]
   (let [props (with-open [r (io/reader path)] (edn/read (java.io.PushbackReader. r)))]
     (create-files props)))
-
-; ok: watch out, for safety
-(defn- work [path])
 
 (defn -main [& args]
   "devops: DevOps Notes"
@@ -30,5 +26,5 @@
       (if exit-message
         (cmd/exit (if ok? 0 1) exit-message)
         (work (first args)))
-      (log/info "pl.tomaszgigiel.devops.pre: ok")
+      (log/info "pl.tomaszgigiel.devops.create-chapters: ok")
       (shutdown-agents)))
