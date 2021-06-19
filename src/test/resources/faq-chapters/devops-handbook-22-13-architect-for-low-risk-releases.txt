@@ -1,0 +1,78 @@
+.
+Co to jest "doświadczenie bliskie śmierci"?
+
+"Doświadczenie bliskie śmierci" to:
+- skrajne utrudnenie rozwoju i utrzymania systemu,
+- wskutek długu technicznego,
+- wsutek problemów archutektonicznych.
+
+s:
+DevOps, 209
+
+.
+Co to jest "strangler application pattern"?
+
+"Strangler application pattern" (wzorzec dusiciela) to:
+- stopniowe zastępowanie całego systemu,
+- zamiast "wycofywać i wymieniać",
+- ukrywanie wywołań do starego systemu za API, zaniechanie zmian,
+- nowe funkcjonalności za pomocą nowych usług.
+
+s:
+DevOps, 210
+
+.
+Jak brzmi "drugie prawo architektonicznej termodynamiki"?
+
+"Drugie prawo architektonicznej termodynamiki":
+- zmniejszenie ogólnej złożoności,
+- i zwiększanie wydajności pracy wszystkich zespołów programistycznych,
+- rzadko jest celem indywidualnego projektu.
+
+s:
+DevOps, 211
+
+.
+Jaka architektura, ułatwia wydajność, testowalność i bezpieczeństwo?
+
+Architektura, która ułatwia wydajność, testowalność i bezpieczeństwo to:
+- o luźnych sprzężeniach,
+- z dobrze zdefiniowanymi interfejsami, które wymuszają sposób połączenia modułów ze sobą,
+- zorientowana na usługi.
+
+s:
+DevOps, 211
+
+.
+Jakie są archetypy architektoniczne?
+
+Archetypy architektoniczne:
+- monolityczna v1: cała funkcjonalność w jednej aplikacji,
+- monolityczna v2: zbiór monolitycznych warstw: "fronton prezentacyjny", "serwer aplikacji", "warstwa bazy danych",
+- mikrousługi: modularne, niezależne relacje grafowe zamiast warstw, utrwalanie w izolacji.
+
+s:
+DevOps, 213
+
+.
+Czym są "wersjonowane interfejsy API" (application strangler)?
+
+Wersjonowane interfejsy API:
+- inaczej usługi wersjonowane (versioned services),
+- inaczej usługi niezmienialne (immutable services),
+- API przykrywające wywołnia do starego systemu,
+- używane we wzorcu application strangler.
+
+s:
+DevOps, 215
+
+.
+Co to jest "technika rozgałęziania przez abstrakcję"?
+
+"Technika rozgałęziania przez abstrakcję" (branching by abstraction) to:
+- stworzeniu warstwy abstrakcji pomiędzy zmienianymi obszarami,
+- pozwala na ewolucyjne projektowanie architektury,
+- pozwala na praccę na gałęzi master i stosowanie ciągłej integracji.
+
+s:
+DevOps, 216

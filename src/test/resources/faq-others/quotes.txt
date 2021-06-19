@@ -6,6 +6,12 @@ ważniejsze od codziennej pracy jest usprawnianie codziennej pracy [DevOps, 71]
 
 Każda nowa aplikacja jest jak młody szczeniak. Nie ma znaczenia cena, którą za niego zapłacimy. Prawdziwe koszty to codzienna pielęgnacja i opieka. [DevOps, 117]
 
+zespoły używające TDD wytwarzały kod o 60-90% lepszy pod względem występowania defektów w porównaniu z zespołami niestosującymi tej techniki, poświęcając na pisanie kodu tylko 15-35% więcej czasu [DevOps, 165]
+
+Cały kod planowany do uruchomienia w ciągu kolejnych sześciu miesięcy już został wdrożony na serwerach produkcyjnych. Pozostało jedynie go uaktywnić. [DevOps, 204]
+
+Nie istnieje jedna doskonała architektura dla wszystkich produktów i we wszystkich skalach. [DevOps, 212]
+
 My, programiści, już nie piszemy spersonalizowanego oprogramowania - zamiast tego montujemy to, czego potrzebujemy, z opensource'owych części, które stały się łańcuchem dostaw oprogramowania, na który jesteśmy zdani [DevOps, 353]
 
 Jednym z wyników pokazywania tego wykresu było uświadomienie programistom, że byli atakowani przez cały czas! [DevOps, 360]

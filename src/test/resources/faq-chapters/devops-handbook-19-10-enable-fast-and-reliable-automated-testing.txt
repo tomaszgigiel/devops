@@ -1,0 +1,164 @@
+.
+Jakie problemy rozwiązuje testowanie automatyczne?
+
+Testowanie automatyczne pomaga:
+- testować często,
+- testować w bliskim sąsiedztwie zmiany: uniknięcie "archeologii", nauka,
+- ograniczać koszty testowania rosnące z ilością kodu,
+- utrzymać produktywność programistów.
+
+s:
+DevOps, 153
+
+.
+Co to jest "push on green"?
+
+"Push on green" (ang. pchaj, jeśli zielono) to:
+- filozofia dostarczania,
+- ewidencjonowanie kodu w repozytorium tylko wtedy, gdy przejdzie testy.
+
+s:
+DevOps, 155
+
+.
+Co to jest "potok wdrożeń"?
+
+"Potok wdrożeń" (ang. deployment pipeline) to potok, który:
+- integruje kod i środowiska,
+- inicjuje testy natychmiast przy ewidencji kodu w repozytowium.
+
+s:
+DevOps, 156
+
+.
+Dlaczego tworzyć procedury automatycznej kompilacji i testowania działające w dedykowanych środowiskach?
+
+Należy tworzyć procedury automatycznej kompilacji i testowania działające w dedykowanych środowiskach, bo:
+- procesy budowania i testowania mogą działać przez cały czas, niezależnie od nawyków inżynierów,
+- zrozumienie wszystkich zależności wymaganych do budowania,
+- pomagają zapewnić powtarzalność instalacji (pakiet instalacyjny, kontener),
+- środowiska można upodabniać do produkcji.
+
+s:
+DevOps, 157
+
+.
+Czego wymagają praktyki ciągłej integracji?
+
+Praktyki ciągłej integracji wymagają:
+- zbioru automatycznych testów,
+- "zatrzymania całej linii produkcyjnej", gdy testy nie przejdą,
+- małe partie pracy.
+
+
+s:
+DevOps, 159
+
+.
+Co to jest "zielona kompilacja"?
+
+"Zielona kompilacja" to:
+- wszystko, co zostało zaewidencjonowane w repozytorium,
+- buduje się i nadaje się do wdrożenia.
+
+s:
+DevOps, 160
+
+.
+Jakie są kategorie testów automatycznych?
+
+Kategorie testów automatycznych:
+- testy jednostkowe: najszybsze, testują klasę, funkcję,
+- testy akceptacyjne: wolniejsze, testują aplikację,
+- testy integracji: najwolniejsze, testują współdziałanie z innymi aplikacjami.
+
+s:
+DevOps, 161
+
+.
+Co to jest "test dymny"?
+
+"Test dymny" (ang. smoke test) to:
+- zbiór przypadków testowych pokrywających główne funkcjonalności produktu.
+
+s:
+DevOps, 161
+
+.
+Co zrobić jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego?
+
+Jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego:
+- napisz test jednostkowy, za pomocą którego błąd zmajdziesz szybciej, wcześniej i taniej.
+
+s:
+DevOps, 163
+
+.
+Kiedy testy jednostkowe lub akceptacyjne są trudne i kosztowne do pisania i utrzymywania?
+
+Testy jednostkowe lub akceptacyjne są trudne i kosztowne do pisania i utrzymywania:
+- architektura jest zbyt ściśle sprzężona,
+- brak separacja pomiędzy modułami.
+
+s:
+DevOps, 163
+
+.
+Jak przyspieszyć działanie testów?
+
+Aby przyspieszyć działanie testów:
+- wykorzystaj współbieżność,
+- różnych testów w ramach tej samej kategorii,
+- różnych kategorii.
+
+s:
+DevOps, 164
+
+.
+Jak zagwarantować, że dysponujemy wiarygodnymi testami automatycznymi?
+
+Gwarancją wiarygodnych testów automatycznych są:
+- wytwarzanie oprogramowania sterowane testami: TDD (ang. test-driven development),
+- wytwarzanie oprogramowania sterowane testami akceptacyjnymi: ATDD (ang. acceptance test-driven development).
+
+s:
+DevOps, 165
+
+.
+Jak wykrywać problemy z wydajnością?
+
+Aby wykrywać problemy z wydajnością:
+- dodaj automatyczne testy wydajności.
+
+s:
+DevOps, 167
+
+.
+Jak zagwaranotwać spełnienie wymagań niefunkcjonalnych?
+
+Aby zagwaranotwać spełnienie wymagań niefunkcjonalnych:
+- dodaj automatyczne testy wymagań niefunkcjonalnych.
+
+s:
+DevOps, 168
+
+.
+Jak zastosować "linkę andon" w potoku wdrożeń?
+
+"Linka andon" w potoku wdrożeń:
+- w przypadku awarii potoku wdrożeń,
+- przede wszystkim napraw problem.
+
+s:
+DevOps, 169
+
+.
+Dlaczego trzeba pociągać za "linkę andon"?
+
+Trzeba pociągać za "linkę andon", bo:
+- tracimy możliwość wdrażania,
+- problemy narastają wraz z kolejnymi rewizjami,
+- konieczne zatrzymanie prac rozwojowych i "stabilizacja".
+
+s:
+DevOps, 170

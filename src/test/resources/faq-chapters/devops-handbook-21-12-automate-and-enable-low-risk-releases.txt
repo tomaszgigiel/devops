@@ -1,0 +1,303 @@
+.
+Co to jest "test kanarkowy"?
+
+"Test kanarkowy" to:
+- wdrożenie oprogramowania na małej grupie serwerów produkcyjnych
+- w celu sprawdzenia, czy oprogramowanie nie ulegnie awarii pod realnym obciążeniem.
+
+s:
+DevOps, 183
+
+.
+Jaka relacja jest między liczbą zmian i liczbą wydań?
+
+Relacja między liczbą zmian i liczbą wydań:
+- jesli chcesz więcej zmian,
+- to potrzebujesz więcej wdrożeń,
+- wdrożenie obsługuje stałą liczbę zmian.
+
+s:
+DevOps, 184
+
+.
+Jakie są wymagania potoku wdrożeń?
+
+Wymagania potoku wdrożeń:
+- wdrażanie w każdym środowisku w taki sam sposób,
+- testy dymne wdrożeń,
+- utrzymywanie spójnych środowisk.
+
+s:
+DevOps, 186
+
+.
+Kto powinien wdrażać? Dev? Ops?
+
+Wdrożenia mogą być realizowane przez Dev lub Ops.
+Nie ma to wpływu na procent pomyślnych wdrożeń.
+
+s:
+DevOps, 190
+
+.
+Kiedy proces wdrażania kodu może być częścią potoku wdrożeń?
+
+Proces wdrażania kodu może być częścią potoku wdrożeń, gdy:
+- jest zautomatyzowany.
+
+s:
+DevOps, 190
+
+.
+Co powinna zapewniać automatyzacja wdrażania kodu?
+
+Automatyzacja wdrażania kodu powinna zapewniać:
+- możliwość wdrażania pakietów stworzonych w procesie ciągłej integracji,
+- błyskawiczną ocenę gotowości środowisk produkcyjnych,
+- samoobsługowe wdrażanie,
+- automatyczny zapis,
+- testy dymne,
+- szybka pętla sprzężenia zwrotnego.
+
+s:
+DevOps, 190
+
+.
+Czy wdrożenie i wydanie to to samo?
+
+Nie:
+- wdrożenie (deployment) to wdrożenia produkcyjne,
+- wydanie (release) to publikacja funkcjonalności.
+
+s:
+DevOps, 194
+
+.
+Co to jest wdrożenie?
+
+Wdrożenie (deployment) to:
+- instalacja określonej wersji oprogramowania,
+- wdrożenia produkcyjne,
+- może być związane z nowymi funkcjami.
+
+s:
+DevOps, 194
+
+.
+Co to jest wydanie?
+
+Wydanie (release) to:
+- proces udostępnienia nowych funkcji,
+- publikacja funkcjonalności.
+
+s:
+DevOps, 194
+
+.
+Jakie są kategorie wzorców wydań?
+
+Kategorie wzorców wydań:
+- wzorce wydań bazujące na środowisku,
+- wzorce wydań bazujące na aplikacjach.
+
+s:
+DevOps, 194
+
+.
+Czym są "wzorce wydań bazujące na środowisku"?
+
+"Wzorce wydań bazujące na środowisku" to:
+- "żywy" ruch klientów na jedno środowisko,
+- wdrożenie na inne środowisko,
+- wydanie poprzez przełączenie ruchu,
+- wdrożenia niebieski-zielony, wydania kanarkowe, systemy CIS (cluster immune systems).
+
+s:
+DevOps, 195
+
+.
+Czym są "wzorce wydań bazujące na aplikacjach"?
+
+"Wzorce wydań bazujące na aplikacjach" to:
+- modyfikowanie aplikacji,
+- publikacja funkcjonalności, nawet pojedynczej funkcji za pomocą zmian w konfiguracji,
+- stopniowe rozszerzanie grupy odbiorców nowych funkcjonalności,
+- ślepe uruchamianie (dark launching),
+- staging.
+
+s:
+DevOps, 195
+
+Co to jest "staging"?
+
+"Staging" to:
+- inaczej środowisko etapowe, pomostowe, przedprodukcyjne, preprodukcyjne,
+- środowisko do testowania, które dokładnie przypomina środowisko produkcyjne.
+
+s:
+https://en.wikipedia.org/wiki/Deployment_environment#Staging
+
+.
+Co to jest "wzorzec wdrażania niebieskie-zielone"?
+
+"Wzorzec wdrażania niebieskie-zielone" to:
+- wzorzec wydań bazujący na środowisku,
+- dwa środowiska produkcyjne: niebieskie i zielone,
+- jedno obsługuje "żywy ruch", drugie wdrożenia,
+- wydanie polega na przełączeniu.
+
+s:
+DevOps, 197
+
+.
+Jak obsługiwać zmiany w bazie danych we "wzorce wydań bazujące na środowisku"?
+
+Obsługa zmian w bazie danych we "wzorce wydań bazujące na środowisku":
+- dwie bazy danych (niebieska i zielona): ryzyka utraty transakcji,
+- oddzielenie zmiany bazy danych od zmian w aplikacji: nie mutujemy istniejących obiektów bazy danych.
+
+s:
+DevOps, 198
+
+.
+Na czym polega "oddzielenie zmiany bazy danych od zmian w aplikacji" w ramach "wzorce wydań bazujące na środowisku"?
+
+"Oddzielenie zmiany bazy danych od zmian w aplikacji" w ramach "wzorce wydań bazujące na środowisku":
+- inaczej "rozwiń-zwiń",
+- rozwijamy poprzez dodawanie nowych obiektów,
+- następnie zwijamy poprzez usunięcie starych,
+- nie mutujemy istniejących obiektów bazy danych,
+- możliwe dublowanie danych.
+
+s:
+DevOps, 198
+
+.
+Co to jest "wzorzec wydań kanarkowych"?
+
+"Wzorzec wydań kanarkowych" to:
+- rodzaj "wzorzec wdrażania niebieskie-zielone",
+- automatyzacja procesu wydań,
+- promowania do coraz ważniejszych środowisk,
+- kanarki umierają wcześniej niż górnicy.
+
+s:
+DevOps, 200
+
+.
+Jakie są grupy środowisk wspierajace "wzorzec wydań kanarkowych"?
+
+Grupy środowisk wspierajace "wzorzec wydań kanarkowych":
+- Grupa A1: serwery produkcyjne dla wewnętrznych pracowników,
+- Grupa A2: serwery produkcyjne dla niewielkiej grupy klientów,
+- Grupa A3: pozostałe serwery produkcyjne.
+
+s:
+DevOps, 200
+
+.
+Co to jest "wzorzec CIS"?
+
+Wzorzec CIS (cluster immune system, "układ odpornościowy w formie klastra") to:
+- rozszerzenie "wzorzec wydań kanarkowych",
+- wydawanie powiązane z monitorowaniem,
+- zautomatyzowane wycofywanie,
+- jeśli nie są spełniane warunki, np. wydajność.
+
+s:
+DevOps, 201
+
+.
+Jak zastosować "wzorce wydań bazujące na aplikacjach"?
+
+Aby zastosować "wzorce wydań bazujące na aplikacjach":
+- zaimplementuj przełączniki cech funkcjonalnych.
+
+s:
+DevOps, 202
+
+.
+Czym są "przełączniki cech funkcjonalnych"?
+
+"Przełączniki cech funkcjonalnych" (feature toggles) to:
+- podstawowy sposób zastosowania wzorców wdrożeń na bazie aplikacji.
+- mechanizmu selektywnego włączania lub wyłączania cech funkcjonalnych,
+- np. poprzez plik konfiguracyjny aplikacji, usługę sieciową.
+
+s:
+DevOps, 202
+
+.
+Jakie operacje umożliwiają przełączniki cech funkcjonalnych?
+
+Przełączniki cech funkcjonalnych umożliwiają: 
+- łatwe wycofywanie,
+- obniżanie wydajności "z wdziękiem",
+- zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi.
+
+s:
+DevOps, 202
+
+.
+Co to jest obniżanie wydajności "z wdziękiem"?
+
+Obniżanie wydajności "z wdziękiem" to:
+- jedna z operacji umożliwianych przez przełączniki cech funkcjonalnych,
+- stosowane, gdy obciążenie usługi jest zbyt wysokie,
+- obniżenie jakości usługi,
+- obniżenie poziomu dostarczanych funkcjonalności,
+- np. wyłączenie funkcji.
+
+s:
+DevOps, 202
+
+.
+Co to jest "zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi"?
+
+"Zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi" to:
+- jedna z operacji umożliwianych przez przełączniki cech funkcjonalnych,
+- ukrycie za przełącznikiem funkcji,
+- która korzysta z innej, jeszcze niegotowej funkcji.
+
+s:
+DevOps, 202
+
+.
+Co to jest "HDD (hypothesis-driven development)"?
+
+"HDD (hypothesis-driven development)" (wytwarzanie oprogramowania sterowane hipotezami) to:
+- wytwarzanie oprogramowania
+- jako serii eksperymentów w celu ustalenia, czy oczekiwany wynik zostanie osiągnięty.
+
+s:
+DevOps, 203
+
+.
+Co to jest "testowanie A/B"?
+
+"Testowanie A/B" to:
+- metoda badawcza polegająca na porównaniu dwóch wersji celem wybrania lepszej.
+
+s:
+https://pl.wikipedia.org/wiki/Test_A/B
+
+.
+Co to jest "ślepe uruchamianie"?
+
+"Ślepe uruchamianie" (dark launching) to:
+- wdrożenie na produkcji, testy, gdy funkcjonalność niewidoczna dla klientów,
+- stopniowa aktywacja dla niewielkich segmentów klientów,
+- możliwe za pomocą "przełączników cech funkcjonalnych".
+
+s:
+DevOps, 196, 203
+
+.
+Wyjaśnij "ciągła integracja" vs. "ciągłe dostarczanie" vs. "ciągłe wdrażanie"?
+
+- "ciągła integracja" (continuous integration): ciągłe scalane z rewizją master,
+- "ciągłe dostarczanie" (continuous delivery): ciagła gotowość do wydania na żądanie, rozwinięcie "ciągła integracja",
+- "ciągłe wdrażanie" (continuous deployment): ciągłe wdrażanie, rozwinięcie "ciągłe dostarczanie".
+
+s:
+DevOps, 206

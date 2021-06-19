@@ -1,0 +1,73 @@
+.
+Co to jest TBD?
+
+TBD (trunk-based development) to:
+- praktyka ciągłej integracji i rozwoju oprogramowania bazującego na rewizji master,
+- większa wydajność, stabilność, satysfakcja, wg. "Puppet Labs State of DevOps Report 2015".
+
+s:
+DevOps, 175, 181
+
+.
+Jakie są strategie tworzenia gałęzi w repozytorium?
+
+Strategie tworzenia gałęzi w repozytorium:
+- optymalizowane pod kątem indywidualnej wydajności: prywatne gałęzie, trudne scalanie,
+- optymalizowane pod kątem wydajności zespołu: wspólny obszar, każda rewizja niesie ryzyko awarii całego projektu.
+
+s:
+DevOps, 177
+
+.
+Jakie są wady stosowania wielu gałęzi?
+
+Wady stosowania wielu gałęzi:
+- rzadkie scalanie,
+- koszt scalania rośnie wykładniczo z liczbą gałęzi,
+- opóźnione testy,
+- rezygnacja z refaktoringu w gałęzi.
+
+
+s:
+DevOps, 178
+
+.
+Jakie są praktyki pracy na rewizji master?
+
+Praktyki pracy na rewizji master:
+- często ewidencjonuj kod w rewizji master, np. raz dziennie,
+- "gated commits" (rewizje ogrodzone).
+
+s:
+DevOps, 178
+
+.
+Co to jest "gated commits"?
+
+"Gated commits" (rewizje ogrodzone) to:
+- odrzucanie rewizji, które powodują naruszenie stanu gotowości do wdrożenia. 
+
+s:
+DevOps, 178
+
+.
+Co to jest "kod gotowy"?
+
+"Kod gotowy" to:
+- na koniec każdego interwału rozwoju,
+- kod zintegrowany, przetestowany, działający i potencjalnie gotowy do wdrożenia,
+- zademonstrowany w środowisku zbliżonym do produkcyjnego,
+- zbudowany na podstawie rewizji master w procesie inicjowanym jednym kliknięciem,
+- zweryfikowany za pomocą testów automatycznych.
+
+s:
+DevOps, 179
+
+.
+Co to jest "staging environment (stage)"?
+
+"Staging environment (stage)" to:
+- środowisko preprodukcyjne/przedprodukcyjne.
+
+s:
+DevOps, 181
