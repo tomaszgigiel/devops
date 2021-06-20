@@ -1,0 +1,101 @@
+.
+Kto się boi wdrażać kod?
+
+Wdrażać kod boją się wszyscy, i Dev, i Ops.
+
+s:
+DevOps, 260
+
+.
+Jak zwiększyć bezpieczeństwo wdrożeń?
+
+Aby zwiększyć bezpieczeństwo wdrożeń:
+- wdróż sprzężenia zwrotne w całym strumieniu wartości,
+- użyj telemetrii,
+- optymalizuj pod kątem MTTR (zamiast MTBF).
+
+s:
+DevOps, 260
+
+.
+Co to jest MTBF?
+
+MTBF (mean time between failures) to:
+- średni czas bezawaryjnej pracy.
+
+s:
+https://pl.wikipedia.org/wiki/MTBF
+
+.
+Co to jest "poprawka w przód"?
+
+"Poprawka w przód" (fix forward) to:
+ - wprowadzanie w kodzie zmian, które eliminują wady,
+ - a następnie przenieść je do produkcji za pośrednictwem potoku wdrożeń.
+ 
+s:
+DevOps, 262
+ 
+.
+Jak naprawiać defekty szybciej?
+
+Aby naprawiać defekty szybciej:
+- wprowadź wspólne dyżury Dev i Ops,
+- budź programistów o 2 w nocy,
+- uświadom Dev, że "gotowe" oznacza również bezproblemowe w Ops.
+
+s:
+DevOps, 263
+
+.
+Czym są "zapytania kontekstowe"?
+
+"Zapytania kontekstowe" to:
+- technik w projektowaniu UX,
+- obserwacja użytkowania aplikacji na produkcji,
+- przez programistów,
+- np. przy biurku klienta,
+- w konsekwencji programiści tworzą lepiej.
+
+s:
+DevOps, 264
+
+.
+Co to jest "UX"?
+
+"UX" (user experience, doświadczenie użytkownika) to:
+- wrażenia użytkownika podczas korzystania z produktu.
+
+s:
+https://pl.wikipedia.org/wiki/User_experience
+
+.
+Co to jest "mechanizm odsyłania usługi"?
+
+"Mechanizm odsyłania usługi" (service handback mechanism) to:
+- gdy usługa produkcyjna staje się krucha,
+- to Ops może przekazać utrzymanie usługi do Dev,
+- zapobiega powiększaniu długu technicznego.
+
+s:
+DevOps, 268
+
+.
+Co to jest "SRE"?
+
+"SRE" (Site Reliability Engineers, inżynierowie niezawodności ośrodka) to:
+- inaczej inżynier Ops.
+
+s:
+DevOps, 269
+
+.
+Na czym polegają procesy LRR i HRR?
+
+Procesy LRR i HRR polegają na:
+- LRR (Launch Readiness Review), pierwszy etap publikowania nowej usługi, publikuje i utrzymuje Dev,
+- HRR (Hand-Off Readiness Review), drugi etap, utrzymanie przechodzi do Ops,
+- listy kontrolne podobne, ale HRR bardziej restrykcyjna.
+
+s:
+DevOps, 270

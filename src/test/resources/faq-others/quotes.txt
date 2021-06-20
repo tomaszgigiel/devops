@@ -12,6 +12,10 @@ Cały kod planowany do uruchomienia w ciągu kolejnych sześciu miesięcy już z
 
 Nie istnieje jedna doskonała architektura dla wszystkich produktów i we wszystkich skalach. [DevOps, 212]
 
+Monitorowanie jest tak ważne, że systemy monitorowania powinny być bardziej dostępne i skalowalne niż monitorowane systemy. [DevOps, 230]
+
+wysłanie wszystkich pracowników firmy na wakacje przyniosłyby firmie i jej klientom więcej korzyści niż budowanie jednej z tych nic niewartych cech funkcjonalnych [DevOps, 278] 
+
 My, programiści, już nie piszemy spersonalizowanego oprogramowania - zamiast tego montujemy to, czego potrzebujemy, z opensource'owych części, które stały się łańcuchem dostaw oprogramowania, na który jesteśmy zdani [DevOps, 353]
 
 Jednym z wyników pokazywania tego wykresu było uświadomienie programistom, że byli atakowani przez cały czas! [DevOps, 360]

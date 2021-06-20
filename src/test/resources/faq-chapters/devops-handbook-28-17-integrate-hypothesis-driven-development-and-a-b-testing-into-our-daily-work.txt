@@ -1,0 +1,42 @@
+.
+Jakie pytanie należy zadać przed rozpoczęciem budowy funkcjonalności?
+
+Przed rozpoczęciem budowy funkcjonalności należy zapytać:
+- czy powinniśmy budować tę funkcjonalność i dlaczego?
+
+s:
+DevOps, 273
+
+.
+Jakie techniki pomagają określić, czy przewidywana funkcjonalność rzeczywiście pozwoli osiągnąć pożądane rezultaty?
+
+Techniki, które pomagają określić, czy przewidywana funkcjonalność rzeczywiście pozwoli osiągnąć pożądane rezultaty:
+- wytwarzanie oprogramowania sterowane hipotezami (hypothesis-driven development),
+- lejki popytu (customer acquisition funnels),
+- testowanie A/B,
+- ankiety, prototypy, testy użyteczności.
+
+s:
+DevOps, 273
+
+.
+Jak zintegrować testy A/B z procesem testowania/publikowania/planowania cechy funkcjonalnej?
+
+Aby zintegrować testy A/B z procesem testowania cechy funkcjonalnej:
+- na przykład losowo wyświetlaj witrynę w wersji A albo B,
+- przeanalizuj różnicę wyników,
+- zdolność eksperymwntowania rośnie z liczbą wdrożeń.
+
+s:
+DevOps, 276, 277, 278
+
+.
+Jakie są inne nazwy testów A/B?
+
+Testy A/B to inaczej:
+- kontrolowane eksperymenty online,
+- testy podziału (split tests),
+- testowanie wielu zmiennych.
+
+s:
+DevOps, 276

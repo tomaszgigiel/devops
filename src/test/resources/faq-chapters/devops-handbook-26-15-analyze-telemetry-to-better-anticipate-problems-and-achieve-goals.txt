@@ -1,0 +1,71 @@
+.
+Co to jest "wykrywanie odstających"?
+
+"Wykrywanie odstających" (outlier detection) to:
+- technika statystyczna,
+- wykrywanie nieprawidłowych warunków działania,
+- które mogą spowodować znaczące obniżenie wydajności,
+- identyfikacja węzłów spoza wzorca,
+- usunięcie z produkcji.
+
+s:
+DevOps, 246
+
+.
+Które techniki statystyczne pomagają w wykrywaniu problemów?
+
+Techniki statystyczne, które pomagają w wykrywaniu problemów:
+- średnia,
+- odchylenie standardowe,
+- analiza parametrów produkcyjnych,
+
+s:
+DevOps, 246
+
+.
+Jak techniki statystyczne pomagają w wykrywaniu problemów?
+
+Techniki statystyczne pomagają w wykrywaniu problemów:
+- np. alert, gdy liczba prób nieuprawnionego logowania przekroczy wartość trzech odchyleń standardowych powyżej średniej.
+
+s:
+DevOps, 247
+
+.
+Co monitorować?
+
+Monitoruj (dąż do):
+- wskaźniki przewidujące awarię,
+- nie awarie.
+
+s:
+DevOps, 248
+
+.
+Na czym polega problem z technikami statystycznymi w wykrywaniu problemów?
+
+Problem z technikami statystycznymi w wykrywaniu problemów:
+- nie wszystkie zestawy danych mają rozkład Gaussa.
+
+s:
+DevOps, 249
+
+.
+Jak wykrywać problemy, gdy zestawy danych nie mają rozkładu Gaussa?
+
+Żeby wykrywać problemy, gdy zestawy danych nie mają rozkładu Gaussa to:
+- użyj technik wykrywania anomalii,
+- wyszukuj elementy niezgodne ze wzorcem.
+
+s:
+DevOps, 253
+
+.
+Co to jest "wygładzanie"?
+
+"Wygładzanie" (smoothing) to:
+- technika statystyczna,
+- uzycie średnich ruchomych (kroczących).
+
+s:
+DevOps, 253

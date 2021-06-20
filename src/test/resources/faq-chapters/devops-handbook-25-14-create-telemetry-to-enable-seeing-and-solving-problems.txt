@@ -1,0 +1,154 @@
+.
+Jakie są cele telemetrii?
+
+Cele telemetrii:
+- dostrzeganie problemów,
+- dostarczanie informacji pomocnej w rozwiązywaniu problemów.
+
+s:
+DevOps, 225
+
+.
+Co to jest "kultura przyczynowości"?
+
+"Kultura przyczynowości" (culture of causality) to:
+- zrozumienie awarii,
+- koncentracja na rozwiązywaniu problemów,
+- zamiast ślepego restartowania serwerów.
+
+s:
+DevOps, 226
+
+.
+Co to jest "telemetria"?
+
+"Telemetria" to:
+- zautomatyzowany proces komunikacji,
+- w wyniku którego pomiary oraz inne dane są gromadzone w zdalnych punktach,
+- a następnie są przesyłane do urządzeń odbiorczych w celu monitorowania.
+
+s:
+DevOps, 226
+
+.
+Co to jest MTTR?
+
+MTTR (Mean Time To Repair) to:
+- średni czas od momentu wystąpienia awarii do naprawy.
+
+s:
+DevOps, 227
+
+.
+Jak zapewnić niski MTTR?
+
+Aby zapewnić niski MTTR:
+- repozytorium kontroli wersji dla Ops,
+- telemetria i proaktywne monitorowanie.
+
+s:
+DevOps, 227
+
+.
+Jakie są składniki architektury monitorowania?
+
+Składniki architektury monitorowania:
+- zbieranie danych w warstwach logiki biznesowej, aplikacji i środowiska: pliki logów, dzienniki zdarzeń,
+- router zdarzeń odpowiedzialny za przechowywanie zdarzeń i parametrów: wykresy, alarmy.
+
+s:
+DevOps, 229
+
+.
+Dla jakich funkcjonalności tworzyć mechanizmy telemetrii?
+
+Jeśli:
+- funkcjonalność została zaimplementowana,
+to:
+- zasługuje na stworzenie mechanizmów telemetrii.
+
+s:
+DevOps, 231
+
+.
+Jakie są poziomy rejestrowania informacji?
+
+Poziomy rejestrowania informacji:
+DEBUG, INFO, WARN, ERROR, FATAl.
+
+s:
+DevOps, 232
+
+.
+Jakie są negatywne efekty braku dostępnej publicznie telemetrii?
+
+Negatywne efekty braku dostępnej publicznie telemetrii:
+- budowanie kultury obwiniania,
+- niezdolność do budowania wiedzy.
+
+s:
+DevOps, 233
+
+.
+Jak ułatwić dostęp do telemetrii?
+
+Aby ułatwić dostęp do telemetrii:
+- samoobsługa,
+- każdy zainteresowany ma łatwy dostęp.
+
+s:
+DevOps, 236
+
+.
+Co to jest "promiennik informacji"? (ang. information radiator)
+
+"Promiennik informacji" (information radiator) to:
+- mechanizm udostępniania danych,
+- tablica informacyjna, publicznie dostępna, przezroczystość,
+- zespół nie ma nic do ukrycia przed gośćmi,
+- zespół nie ma nic do ukrycia przed samym sobą.
+
+s:
+DevOps, 236
+
+.
+Jakie są poziomy telemetrii?
+
+Poziomy telemetrii:
+- poziom biznesowy,
+- poziom aplikacji,
+- poziom infrastruktury,
+- poziom oprogramowania klienckiego,
+- poziom potoku wdrożeń.
+
+s:
+DevOps, 239
+
+.
+Co to jest "lejek nabywania klienta"?
+
+"Lejek nabywania klienta" (customer acquisition funnel) to:
+- zawiera wskaźniki biznesowe,
+- określa teoretyczne kroki potencjalnego klienta.
+
+s:
+DevOps, 240
+
+.
+Jaką rolę pełnią wskaźniki biznesowe w kontekście parametrów infrastruktury?
+
+Wskaźniki biznesowe tworzą kontekst dla parametrów infrastruktury.
+
+s:
+DevOps, 243
+
+.
+Co to jest "okres rozstrzygania"?
+
+"Okres rozstrzygania" to:
+- przejściowy okres niższej jakości usługi,
+- ze względu na przejściowe problemy wynikające z wdrożenia nowej funkcjonalności,
+- np. chybione wyszukiwania w pamięci podręcznej.
+
+s:
+DevOps, 243

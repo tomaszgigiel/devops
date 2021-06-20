@@ -1,0 +1,11 @@
+.
+Na czym polega druga droga?
+
+Druga droga polega na:
+- szybkie i ciągłe sprzężenie zwrotne od Ops do Dev,
+- skracanie i wzmacnianie pętli sprzężenia zwrotnego,
+- integracja wiedzy dołu strumienia z Ops, Dev, kierownictwem.
+- telemetria.
+
+s:
+DevOps, 223
