@@ -1,4 +1,4 @@
-(defproject devops "1001"
+(defproject devops "1002"
   :description "devops: DevOps Notes"
   :url "http://tomaszgigiel.pl"
   :license {:name "Apache License"
@@ -18,8 +18,10 @@
 
   :profiles {:test {:resource-paths ["src/test/resources"]}
              :main-core {:main pl.tomaszgigiel.devops.core}
-             :main-create-chapters {:main pl.tomaszgigiel.devops.create-chapters}}
+             :main-chapters-create {:main pl.tomaszgigiel.devops.chapters.create}
+             :main-chapters-merge {:main pl.tomaszgigiel.devops.chapters.merge}}
   
   :aliases {"run-main-core" ["with-profile" "main-core" "run"]
-            "run-main-create-chapters" ["with-profile" "main-create-chapters" "run"]}
+            "run-main-chapters-create" ["with-profile" "main-chapters-create" "run"]
+            "run-main-chapters-merge" ["with-profile" "main-chapters-merge" "run"]}
 )
