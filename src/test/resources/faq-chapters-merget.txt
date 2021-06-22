@@ -1,0 +1,2942 @@
+.
+Co to jest SLA?
+
+SLA (ang. service level agreement) to:
+- umowa zapewnienia poziomu usług.
+
+s:
+DevOps, 8
+
+.
+Jak powstał termin "DevOps"?
+
+Termin "DevOps":
+- pojawił się pierwszy raz na konferencji DevOpsDays,
+- zorganizowanej przez Patrick Debois.
+
+s:
+DevOps, 9
+
+.
+Co to jest CM?
+
+CM (ang. configuration management) to:
+- zarządzanie konfiguracją.
+
+s:
+DevOps, 10
+
+.
+Na czym polega koncepcja "infrastruktura jako kod"?
+
+Koncepcja "infrastruktura jako kod" polega na:
+- działy operacji zachowują się jak programiści,
+- utrzymują konfiguracje w systemach zarządzania kodem źródłowym,
+- adoptują wzorce dostaw CI/CD w swoich przepływach pracy.
+
+s:
+DevOps, 10
+
+.
+Co to jest ITIL?
+
+ITIL (ang. Information Technology Infrastructure Library) to:
+- ciągle zmieniająca się biblioteka praktyk,
+- kodyfikuje procesy i techniki stanowiących podstawę operacji IT,
+- obejmuje strategię usług, projektowanie i pomoc techniczną.
+
+s:
+DevOps, 11
+
+.
+Co to jest ITSM?
+
+ITSM (ang. IT Service Management - dosł. zarządzanie usługami IT) to:
+- czynności wykonywane przez organizację,
+- w celu projektowania, budowy, dostarczania, obsługi i kontroli usług informatycznych oferowanych klientom.
+
+s:
+DevOps, 11
+https://en.wikipedia.org/wiki/IT_service_management
+
+.
+Jakie są mity związane z DevOps?
+
+Mity związane z DevOps:
+1. DevOps jest tylko dla startupów: patrz Google, Amazon, Netflix.
+2. DevOps zastępuje Agile: DevOps jest kontynuacją Agile.
+3. DevOps jest niezgodny z ITIL: praktyki DevOps mogą być zgodne z ITIL, szczególnie gdy procesy ITIL zostaną zautomatyzowane.
+4. DevOps jest niezgodny z zasadami bezpieczeństwa informacji i zgodności z przepisami: elementy kontroli są zintegrowane z każdym z etapów codziennej pracy w cyklu tworzenia oprogramowania.
+5. DevOps eliminuje funkcje operacji IT: działy operacji IT współpracują z działami rozwoju znacznie wcześniej w cyklu życia oprogramowania, praca personelu operacji IT przypomina działania programistów.
+6. DevOps to po prostu "infrastruktura jako kod" lub automatyzacja: plus normy kulturowe i architektury.
+7. DevOps dotyczy tylko oprogramowania open source: patrz SAP, firmware HP LaserJet. 
+
+s:
+DevOps, 11
+
+.
+Jakie efekty przynosi wprowadzenie DevOps?
+
+Efekty DevOps:
+- bezpieczne systemy pracy,
+- szybkie, niezależne rozwijanie i walidowanie kodu przez małe zespoły,
+- bezpieczne wdrożenia,
+- wzmacnianie normy kulturowe wysokiego poziomu zaufania.
+
+s:
+DevOps, 13
+
+.
+Co to jest DevOps?
+
+DevOps (od ang. development and operations) to zestaw praktyk, który łączy:
+- rozwój (ang. development),
+- eksploatację (ang. operations),
+- zapewnienie jakości (ang. quality assurance).
+
+s:
+https://pl.wikipedia.org/wiki/DevOps
+https://en.wikipedia.org/wiki/DevOps
+.
+Na czym polega DevOps?
+
+DevOps polega na współpracy:
+- właścicieli produktu,
+- deweloperów,
+- inżynierów walidacji (QA),
+- inżynierów operacji IT,
+- inżynierów bezpieczeństwa informacji.
+
+s:
+DevOps, 17
+
+.
+Opisz sytuację bez DevOps.
+
+Sytuacja bez DevOps:
+- konflikt pomiędzy działem rozwoju a działem operacji IT,
+- testowanie i weryfikacja zabezpieczeń są wykonywane wyłącznie pod koniec projektu,
+- kluczowe aktywności wymagają wielu "ręcznych" działań.
+
+s:
+DevOps, 18
+
+.
+Co to jest "dług techniczny"?
+
+"Dług techniczny" (ang. technical debt) to:
+- koncepcja w rozwoju oprogramowania,
+- odzwierciedla domniemany koszt dodatkowej pracy,
+- związanej z wyborem łatwego rozwiązania teraz,
+- zamiast stosowania lepszego podejścia, które zajęłoby więcej czasu.
+
+s:
+DevOps, 20
+https://en.wikipedia.org/wiki/Technical_debt
+
+.
+Na czym polega spirala degradacji w IT?
+
+Spirala degradacji w IT:
+Ak1 1. dług techniczny i obejścia, naprawa odkładana na nieokreśloną przyszłość,
+Akt 2. droga na skróty w celu dotrzymania dat wydania,
+Akt 3. rozwój coraz trudniejszy, dłuższy, kosztowniejszy.
+Więcej czasu na obsługę awarii, mniej czasu na rozwój.
+
+s:
+DevOps, 21
+
+.
+Jak złamać spiralę degradacji?
+
+Spiralę degradacji może złamać:
+- niewielkie, niezależne zespoły obsługujące cały cykl życia oprogramowania, 
+- szybkie pętle zwrotne na każdym etapie,
+- architektura wspierająca pracę w niewielkich, niezależnych zespołach,
+- wprowadzanie/wycofywanie nowych funkcji dla segmentów klientów
+- automatyzacja (m.in. wdrożeń, testów kodu w systemie kontroli wersji),
+- telemetria,
+- każdy problem okazją do nauki i usprawnień,
+- kultura inspiracji hipotezą: prace to hipotezy, rozwój produktu i usprawnianie to eksperymenty,
+- kultura zaufania i współpracy: nagradzanie za podejmowanie ryzyka,
+- dbanie o jakość: wstrzykiwanie usterek, żeby nauczyć się działania podczas awarii.
+
+s:
+DevOps, 25
+
+.
+Co to jest "dark launch"?
+
+"Dark launch" to:
+- częściowe wdrożenie,
+- dla wewnętrznych pracowników i małych grup rzeczywistych użytkowników,
+- pozwala to na testowanie i ewolucyjny rozwój,
+- aż do pożądanego celu biznesowego.
+
+s:
+DevOps, 26
+
+.
+Jaka jest wartość biznesowa DevOps?
+
+Wartość biznesowa DevOps:
+- wyższa wydajność, zwinność, niezawodność, bezpieczeństwo,
+- wyższe zadowolenie z pracy pracowników.
+
+s:
+DevOps, 28
+
+.
+Jak DevOps pomaga skalować wydajność pracy deweloperów?
+
+DevOps pomaga skalować wydajność pracy deweloperów poprzez:
+- wspiera pracę w małych, niezależnych zespołach,
+- co zmniejsza narzut związany z komunikacją, integracją i testowaniem,
+- co pozwala zachować wydajność nawet w dużych organizacjach. 
+
+s:
+DevOps, 29
+
+.
+Jaka jest najważniejsza lekcja z "The Mythical Man-Month"?
+
+Najważniejsza lekcja z "The Mythical Man-Month":
+- do opóźnionego projektu nie dodowawaj dodatkowych programistów.
+
+s:
+DevOps, 29
+
+.
+Wymień podstawowe zasady DevOps.
+
+Podstawowe zasady DevOps:
+- Pierwsza droga: Przepływ (ang. flow)
+- Druga droga: Sprzężenie zwrotne (ang. feedback)
+- Trzecia droga: Ciągłe uczenie się i eksperymentowanie.
+
+s:
+DevOps, 32
+.
+Jaka jest relacja między DevOps i Lean?
+
+DevOps to wynik zastosowania zasad metodyki Lean do strumienia wartości technologii.
+
+s:
+DevOps, 35
+
+.
+Opisz trzy drogi DevOps.
+
+Trzy drogi DevOps:
+- przepływ: przyspieszają dostarczanie wyników pracy rozwoju i operacji,
+- sprzężenia zwrotnye, pozwalają tworzyć coraz bezpieczniejsze systemy pracy,
+- ciągłe uczenie się i eksperymentowanie: promuje kulturę wysokiego zaufania, naukowe podejście do podejmowania ryzyka.
+
+s:
+DevOps, 35
+
+.
+Scharakteryzuj Lean.
+
+Lean:
+- czas przekształcenia surowców na produkty jest najlepszym wskaźnikiem jakości,
+- niewielkie partie jednym z najlepszych predyktorów krótkich terminów realizacji,
+- zasada pull,
+- jakość u źródła (ang. quality at the source),
+- zarządzanie z poszanowaniem człowieka (ang. leading with humility).
+
+s:
+DevOps, 36
+
+Scharakteryzuj Agile.
+
+Agile:
+- częste dostarczanie działającego oprogramowania,
+- niewielkie zespoły,
+- zarządzanie wysokiego zaufania.
+
+s:
+DevOps, 36
+.
+Co to jest "strumień wartości"?
+
+"Strumień wartości" to:
+- podstawowa koncepcja Lean,
+- sekwencja działań podejmowanych przez organizację w celu realizacji zlecenia klienta.
+
+s:
+DevOps, 39
+
+.
+Jak umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości?
+
+Żeby umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości:
+- niewielkie partie,
+- zmniejszenie produkcji niezakończonej (ang. Work In Process — WIP),
+- przeciwdziałanie przeróbkom,
+- ciągła optymalizacja.
+
+s:
+DevOps, 40
+
+.
+Co to jest "czas realizacji"?
+
+Czas realizacji (ang. lead time) to:
+- od złożenia zamówienia,
+- do zrealizowania zamówienia.
+
+s:
+DevOps, 41
+
+.
+Co to jest "czas przetwarzania"?
+
+Czas przetwarzania (ang. processing time) to:
+- inaczej czas zadania (ang. task time),
+- od rozpoczęcia pracy nad zamówieniem,
+- do zrealizowania zamówienia.
+
+s:
+DevOps, 41
+
+.
+Ile trwa czas realizacji wdrażania w DevOps?
+
+Czas realizacji wdrażania w DevOps trwa:
+- w idealnym środowisku, kilka minut,
+- automtyzacja testów, wdrażania,
+- modułowa architektura, luźne powiązania,
+- niewielkie, autonomiczne zespoły.
+
+s:
+DevOps, 43
+
+.
+Co to jest wskaźnik procentu C/A?
+
+Wskaźnik procentu C/A (ang. complete and accurate - "gotowe i dokładne") to:
+- parametr w strumieniu wartości technologii,
+- odzwierciedla jakość wyników etapu,
+- procent przypadków, gdy dalszy etap otrzymuje pracę w postaci gotowej do wykorzystania.
+
+s:
+DevOps, 43
+
+.
+Opisz "pierwszą drogę".
+
+"Pierwsza droga":
+- szybki przepływ, skrócony czas realizacji,
+- Biznes -> Dev -> Ops -> Klient,
+- praca widoczna,
+- małe partie,
+- przeciwdziałanie defektom,
+- optymalizacja,
+- automatyzacja, CI/CD.
+
+s:
+DevOps, 44
+
+.
+Opisz "drugą drogę".
+
+"Druga droga":
+- natychmiastowa informacja zwrotna.
+
+s:
+DevOps, 44
+
+.
+Opisz "trzecią drogę".
+
+"Trzecia droga":
+- kultura wysokiego zaufania,
+- eksperymentowanie,
+- okalne odkrycia na globalne usprawnienia.
+
+s:
+DevOps, 45
+.
+Dlaczego praca powinna być widoczna?
+
+Czyń pracę widoczną, bo:
+- stanie się widoczna jako awaria,
+- można monitorować i zarządzać.
+
+s:
+DevOps, 48
+
+.
+Jak uczynić pracę widoczną?
+
+Aby uczynić pracę widoczną:
+- użyj wizualnych pulpitów.
+
+s:
+DevOps, 48
+
+.
+Dlaczego ograniczać pracę w toku?
+
+Ograniczaj pracę w toku, bo:
+- zmiana kontekstu pracownika jest kosztowna.
+
+s:
+DevOps, 59
+
+.
+Co to jest WIP?
+
+WIP (ang. Work In Progress) to:
+- praca w toku.
+
+s:
+DevOps, 50
+
+.
+Jak ograniczać pracę w toku?
+
+Aby ograniczać pracę w toku:
+- wymuszaj limity pracy w toku.
+
+s:
+DevOps, 50
+
+.
+Dlaczego zmniejszać wielkość partii?
+
+Zmniejszaj wielkość partii, bo:
+- warunek szybkiego przepływu.
+
+s:
+DevOps, 50
+
+.
+Dlaczego zmniejszać liczbę przełączeń (programiści, adminstratorzy, testerzy)?
+
+Zmniejszaj liczbę przełączeń, bo:
+- kolejka zadań,
+- koordynacja,
+- w konsekwencji wydłużony czas realizacji.
+
+s:
+DevOps, 53
+
+.
+Jak zmniejszyć konsekwencje przełączeń (programiści, adminstratorzy, testerzy)?
+
+Zmniejszaj konsekwencje przełączeń:
+- zmniejszy liczbę,
+- automatyzuj.
+
+s:
+DevOps, 53
+
+.
+Jak identyfikować i eliminować ograniczenia?
+
+Aby identyfikować i eliminować ograniczenia:
+- zawsze jest jedno i tylko jedno ograniczenie,
+- znajdź, napraw, ponów.
+
+s:
+DevOps, 54
+
+.
+Co jest największym zagrożenie dla rentowności przedsiębiorstwa?
+
+Największym zagrożenie dla rentowności przedsiębiorstwa są:
+- odpady.
+
+s:
+DevOps, 55
+
+.
+Co jest "odpad"?
+
+"Odpad" to:
+- wykorzystanie zasobów poza tym, czego wymaga klient i za co jest gotów zapłacić.
+
+s:
+DevOps, 55
+
+.
+Wymień rodzaje odpadów.
+
+Rodzaje odpadów:
+- prace wykonane częściowo,
+- dodatkowe procesy,
+- dodatkowe funkcje,
+- przełączanie pomiędzy zadaniami,
+- oczekiwanie,
+- ruch,
+- defekty,
+- prace niestandardowe lub ręczne,
+- heroizm.
+
+s:
+DevOps, 56
+.
+Czego dotyczą zasady opisane w "druga droga"?
+
+Zasady "druga droga":
+- szybkie uzyskiwanie stałego strumienia informacji zwrotnych,
+- jak najwcześniej,
+- szybki, częsty przepływ informacji.
+
+s:
+DevOps, 59
+
+.
+Na czym polegają problemy z bezpieczną pracą w złożonych systemach?
+
+Problemy z bezpieczną pracą w złożonych systemach:
+- brak możliwości objęcia całości przez jedną osobę,
+- te same czynności mogą powodować różne wyniki,
+- awarie są nieuniknione.
+
+s:
+DevOps, 60
+
+.
+Jak "druga droga" może zwiększyć bezpieczeństwo?
+
+"Druga droga" może zwiększyć bezpieczeństwo dzięki:
+- zarządzaj pracami tak, żeby ujawniać problemy,
+- wykrywaj problemy i natychmiast rozwiązuj.
+
+s:
+DevOps, 60
+
+.
+Jak zauważać problemy natychmiast po ich wystąpieniu?
+
+Żeby zauważać problemy natychmiast po ich wystąpieniu:
+- stosuj pętle sprzężenia zwrotnego i sprzężenia w przód,
+- szybki, częsty przepływ informacji przez cały strumień wartości.
+
+s:
+DevOps, 61
+
+.
+Co to jest "swarming"?
+
+"Swarming" (ang. swarm - "rój") to:
+- mobilizowanie wszystkich osób, które są potrzebne do zażegnania kryzysu,
+- opanowanie problemów, zanim zdążą się rozprzestrzenić,
+- naprawienie złej sytuacji, by nie mogła się powtórzyć,
+- nie twórz obejść, twórz rozwiązania.
+
+s:
+DevOps, 62
+
+.
+Co to jest "linka Andon"?
+
+"Linka Andon" to:
+- stosowana w fabryce Toyota (nie w samochodzie),
+- linka, którą każdy może pociagnąć jeśli zauważy problem,
+- lider rozwiązuje problem < 1 min,
+- jeśli dłużej to zatrzymuje linię produkcyjną.
+
+s:
+DevOps, 63
+
+.
+Jakie są zalety zapewniania jakości bliżej źródła?
+
+Zalety zapewniania jakości bliżej źródła:
+- niższe koszty,
+- błąd bardziej zrozumiały jeśli zgłoszony szybko po jego popełnieniu,
+- nie przenosisz błędu w dół strumienia.
+
+s:
+DevOps, 65, 66
+
+.
+Jak zapewniać jakość bliżej źródła?
+
+Aby zapewniać jakość bliżej źródła:
+- automatyzuj,
+- od razu testuj,
+- optymalizuj pracę w dole strumienia (np. przekazuj półprodukt, którego nie można źle podłączyć).
+
+s:
+DevOps, 65, 66
+.
+Na czym koncentruje się "trzecia droga"?
+
+"Trzecia droga" koncentruje się na:
+- kultura ciągłego uczenia się i eksperymentowania,
+- tworzenie indywidualnej wiedzy,
+- i przekształcanie w wiedzę organizacji,
+- kultura wysokiego zaufania,
+- coraz większe obciążenie systemu, by wymusić udoskonalenia.
+
+s:
+DevOps, 69
+
+.
+Co to jest "just culture"?
+
+"Just culture" ("kultura właściwego postępowania") to:
+- nie szukamy winnego,
+- szukamy jak usprawnić, żeby problem się nie powtórzył.
+
+s:
+DevOps, 71
+
+.
+Co jest ważniejsze od codziennej pracy?
+
+Od codziennej pracy ważniejsze są usprawnianie codziennej pracy.
+
+s:
+DevOps, 71
+
+.
+Jak zadbać o wprowadzanie usprawnień w codziennej pracy?
+
+Aby wprowadzać usprawnienia w codziennej pracy:
+- jawnie rezerwuj czas na spłacanie długu technicznego,
+- usuwanie wad,
+- refaktoryzację.
+- poprawianie problematycznych obszarów kodu i środowisk.
+
+s:
+DevOps, 73
+
+.
+Dlaczego warto przekształcać lokalne odkrycia w globalne usprawnienia?
+
+Warto przekształcać lokalne odkrycia w globalne usprawnienia, bo:
+- gdy ktoś będzie wykonywał podobną pracę,
+- to skorzysta ze zbiorowego doświadczenia organizacji.
+
+s:
+DevOps, 74
+
+.
+Jak DevOps proponuje zwiekszać odporność?
+
+DevOps proponuje zwiekszać odporność poprzez:
+- usprawnienia,
+- zwiększanie wydajności,
+- zwiększanie elastyczności.
+W opozycji do tradycyjnego:
+- zwiększaj nadmiar.
+
+s:
+DevOps, 75
+
+.
+Co to jest "antykruchość"?
+
+"Antykruchość" (ang. antifragility) to:
+- proces zastosowania napięcia w celu zwiększenia elastyczności.
+
+s:
+DevOps, 75
+
+.
+Jak wstrzykiwać napięcie w codziennej pracy?
+
+Wstrzykuj napięcie w codziennej pracy poprzez:
+- skrócaj czas realizacji,
+- zwiększaj zakres pokrycia testami,
+- zmniejszaj czas wykonywania testów,
+- symuluj awarie.
+
+s:
+DevOps, 75
+
+.
+Jaka jest rola lidera w DevOps?
+
+Rola lidera w DevOps to:
+- stworzanie warunków, dzięki którym zespół może odkryć świetność w swojej codziennej pracy,
+- podkreślanie wartości uczenia się,
+- i rozwiązywania problemów.
+W opozycji do tradycyjnego:
+- podejmuj właściwe decyzje.
+.
+Co jest "projekt greenfield"?
+
+"Projekt greenfield" to:
+- nowy projekt.
+
+s:
+DevOps, 86
+
+.
+Co jest "projekt brownfield"?
+
+"Projekt brownfield" to:
+- już obsługują klientów,
+- potencjalnie są w użyciu od wielu lat,
+- często z dużym długiem technicznym.
+
+s:
+DevOps, 87
+
+.
+Jak wybrać strumienie wartości, od których należy zacząć transformację DevOps?
+
+Transformację DevOps zacznij od:
+- kilku obszarów,
+- zespółów innowatorów,
+- projektów umożliwiających automatyczne testowanie i wdrażanie.
+
+s:
+DevOps, 87
+
+.
+Co to jest "system SoR"?
+
+"System SoR" (ang. systems of record) to:
+- systemy podobne do ERP,
+- poprawność jest kluczowa,
+- zarządzanie firmą, np. HR,
+- "robić to dobrze". 
+
+s:
+DevOps, 88
+
+.
+Co to jest "system SoE"?
+
+"System SoE" (ang. systems of engagement) to:
+- dla klientów lub pracowników,
+- np. systemy e-commerce,
+- zgodnością z przepisami,
+- "robić to szybko".
+
+s:
+DevOps, 88
+
+.
+Wymień fazy rozwoju metodyki DevOps w organizacji?
+
+Fazy rozwoju metodyki DevOps w organizacji:
+- znajdź innowatorów i pionierów,
+- zbuduj masę krytyczną i milczącą większość,
+- zidentyfikuj "hamulcowych".
+
+s:
+DevOps, 91
+.
+Jakie są działania po wybraniu strumienia wartości do transformacji DevOps?
+
+Po wybraniu strumienia wartości do transformacji DevOps:
+- zrozum,
+- zidentyfikuj uczestników,
+- opisz (mapa strumienia wartości),
+- stwórz dedykowany zespół transformacji,
+- uzgodnij cel.
+
+s:
+DevOps, 93
+
+.
+Kto uczestniczy w strumieniu wartości?
+
+Uczestnicy strumienia wartości:
+- właściciel produktu,
+- zespół deweloperów,
+- zespół walidacji (zapewnienia jakości - QA),
+- zespół operacyjny,
+- zespół zabezpieczeń,
+- menedżerowie wydania,
+- menedżerowie techniczni lub menedżer strumienia wartości.
+
+s:
+DevOps, 95
+
+.
+Jak długi powinien być horyzont planowania poprawy?
+
+Horyzont planowania poprawy powinien być:
+- krótki, klkutygodniowy.
+
+s:
+DevOps, 100
+
+.
+Ile czasu poświęcić na dług techniczny?
+
+Na dług techniczny poświęć 20% czasu.
+
+s:
+DevOps, 101
+
+.
+Jak wzmacniać zachowania DevOps?
+
+Wzmacniaj zachowania DevOps dzięki narzędziom:
+- uzywaj wspólnych dla Dev i Ops,
+- np. wspólne kolejki zadań w JIRA.
+
+s:
+DevOps, 105
+.
+Jak brzmi "prawo Conwaya"?
+
+"Prawo Conwaya":
+- organizacja oprogramowania jest zgodna z organizacją zespołu programistów,
+- pięciu programistów napisze system składający się z pięciu modułów.
+
+s:
+DevOps, 107
+
+.
+Wymień typy struktur organizacyjnych.
+
+Typy struktur organizacyjnych:
+- funkcjonalne: optymalizacja wzgl. kosztów, wiedzy, podziału pracy,
+- macierzowe: łączą oba typy,
+- rynkowe: optymalizacja wzgl. szybkości reagowania na potrzeby klientów.
+
+s:
+DevOps, 110
+
+.
+Wymień problemy organizacji funkcjonalnych.
+
+Problemy organizacji funkcjonalnych:
+- podział pracy, koordynacja, kolejki,
+- brak zrozumienia jak praca przekłada się na cele w strumieniu,
+- centralizacja walidacji, opóźnienia.
+
+s:
+DevOps, 111
+
+.
+Wymień zalety organizacji rynkowych.
+
+Zalety organizacji rynkowych:
+- odpowiedź na słabości organizacji funkcjonalnych,
+- patrz "trzy drogi",
+- wspólny cel: jakość, dostępność i bezpieczeństwo.
+
+s:
+DevOps, 112, 114
+
+.
+Co to jest "drugi paradoks Toyoty"?
+
+"Drugi paradoks Toyoty":
+- wysoka skuteczność w organizacji funkcjonalnej,
+- rozwój i nawyki pracowników. 
+
+s:
+DevOps, 114
+
+.
+Co to jest "silos"?
+
+"Silos" to:
+- obraz struktury spowodowanej nadmierną specjalizacją zespołów.
+
+s:
+DevOps, 115
+
+.
+Jak promować dostrzeganie długoterminowych konsekwencji decyzji podejmowanych przez deweloperów?
+
+Dostrzeganie długoterminowych konsekwencji decyzji podejmowanych przez deweloperów promuj przez:
+- przypisywanie do produktu,
+- nie do projektu.
+
+s:
+DevOps, 117
+
+.
+Jak wykorzystać "prawo Conwaya"?
+
+Uwzględniaj "prawo Conwaya":
+- zadbaj o lokalizację, komunikację zespołów.
+
+s:
+DevOps, 117
+
+.
+Jak zatrudniając dziesiątki tysięcy programistów zachować wydajność małych zespołów?
+
+Przy bardzo dużej liczbie programistów w organizacji wysoką wydajność małych zespołów pomaga zachować:
+- usługi luźno powiązane w ramach ograniczonych kontekstów,
+- SOA, mikrousługi,
+- Amazon, Goole.
+
+s:
+DevOps, 118
+
+.
+Jak brzmi zasada "zespół na dwie pizze"?
+
+Zasada "zespół na dwie pizze":
+- niewielki rozmiar zespołu,
+- 5 - 10 osób,
+- szybkie, autonomiczne, dobrze zorientowane.
+
+s:
+DevOps, 120
+.
+Jak poprawić wydajność zespołół Dev?
+
+Aby poprawić wydajność zespołów Dev:
+- twórz funkcje samoobsługowe dla Dev,
+- wprowadź do zespołu Ops,
+- przydziel do zespołu łączników Ops.
+
+s:
+DevOps, 126
+
+.
+Kim jest "łącznik Ops"?
+
+"Łącznik Ops" to:
+- reprezentant Dev w Ops,
+- rozumie Dev,
+- potrafi się poruszać w Ops.
+
+s:
+DevOps, 126, 130
+
+.
+Jak Ops realizuje prace dla Dev (Netflix)?
+
+Ops:
+- nie buduje,
+- nie tworzy,
+- nie wdraża
+- nie zarządza konfiguracjami
+dla Dev.
+Zamiast tego buduje narzędzia umożliwiające samoobsługę.
+
+s:
+DevOps, 128
+.
+Co to jest "ciągłe dostarczanie"?
+
+"Ciągłe dostarczanie" (ang. continuous delivery) to:
+- podejście inżynierii oprogramowania,
+- wytwarzanie w krótkich cyklach,
+- wdrażanie w dowolnym momencie.
+
+s:
+https://en.wikipedia.org/wiki/Continuous_delivery
+.
+Jak utworzyć szybki i niezawodny przepływ?
+
+Aby utworzyć szybki i niezawodny przepływ:
+- pracuj na środowiskach zbliżonych do produkcyjnych,
+- twórz dowolne środowisko: automatyzacja, samoobsługa, na żądanie,
+- twórz jednego repozytorium prawdy dla całego systemu: kod, dokumentacja, konfiguracje, środowiska,
+- twórz infrastrukturę, którą łatwiej odbudować, niż naprawić,
+- akceptuj zadanie programistyczne, gdy zbudowane, wdrożone, przetestowane na środowisku zbliżonym do produkcyjnego.
+
+s:
+DevOps, 141
+
+Co to jest "rewizja"?
+
+"Rewizja" (ang. commit) to:
+- grupa zmian wprowadzana do systemu kontroli wersji.
+
+s:
+DevOps, 145
+
+.
+Co umieszczać we współdzielonym repozytorium kontroli wersji?
+
+We współdzielonym repozytorium kontroli wersji:
+- kod i zależności,
+- skrypty,
+- narzędzia,
+- pliki kontenerów,
+- artefakty projektu,
+- pliki konfiguracyjne,
+- inne.
+
+s:
+DevOps, 146
+.
+Jakie problemy rozwiązuje testowanie automatyczne?
+
+Testowanie automatyczne pomaga:
+- testować często,
+- testować w bliskim sąsiedztwie zmiany: uniknięcie "archeologii", nauka,
+- ograniczać koszty testowania rosnące z ilością kodu,
+- utrzymać produktywność programistów.
+
+s:
+DevOps, 153
+
+.
+Co to jest "push on green"?
+
+"Push on green" (ang. pchaj, jeśli zielono) to:
+- filozofia dostarczania,
+- ewidencjonowanie kodu w repozytorium tylko wtedy, gdy przejdzie testy.
+
+s:
+DevOps, 155
+
+.
+Co to jest "potok wdrożeń"?
+
+"Potok wdrożeń" (ang. deployment pipeline) to potok, który:
+- integruje kod i środowiska,
+- inicjuje testy natychmiast przy ewidencji kodu w repozytowium.
+
+s:
+DevOps, 156
+
+.
+Dlaczego tworzyć procedury automatycznej kompilacji i testowania działające w dedykowanych środowiskach?
+
+Należy tworzyć procedury automatycznej kompilacji i testowania działające w dedykowanych środowiskach, bo:
+- procesy budowania i testowania mogą działać przez cały czas, niezależnie od nawyków inżynierów,
+- zrozumienie wszystkich zależności wymaganych do budowania,
+- pomagają zapewnić powtarzalność instalacji (pakiet instalacyjny, kontener),
+- środowiska można upodabniać do produkcji.
+
+s:
+DevOps, 157
+
+.
+Czego wymagają praktyki ciągłej integracji?
+
+Praktyki ciągłej integracji wymagają:
+- zbioru automatycznych testów,
+- "zatrzymania całej linii produkcyjnej", gdy testy nie przejdą,
+- małe partie pracy.
+
+
+s:
+DevOps, 159
+
+.
+Co to jest "zielona kompilacja"?
+
+"Zielona kompilacja" to:
+- wszystko, co zostało zaewidencjonowane w repozytorium,
+- buduje się i nadaje się do wdrożenia.
+
+s:
+DevOps, 160
+
+.
+Jakie są kategorie testów automatycznych?
+
+Kategorie testów automatycznych:
+- testy jednostkowe: najszybsze, testują klasę, funkcję,
+- testy akceptacyjne: wolniejsze, testują aplikację,
+- testy integracji: najwolniejsze, testują współdziałanie z innymi aplikacjami.
+
+s:
+DevOps, 161
+
+.
+Co to jest "test dymny"?
+
+"Test dymny" (ang. smoke test) to:
+- zbiór przypadków testowych pokrywających główne funkcjonalności produktu.
+
+s:
+DevOps, 161
+
+.
+Co zrobić jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego?
+
+Jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego:
+- napisz test jednostkowy, za pomocą którego błąd zmajdziesz szybciej, wcześniej i taniej.
+
+s:
+DevOps, 163
+
+.
+Kiedy testy jednostkowe lub akceptacyjne są trudne i kosztowne do pisania i utrzymywania?
+
+Testy jednostkowe lub akceptacyjne są trudne i kosztowne do pisania i utrzymywania:
+- architektura jest zbyt ściśle sprzężona,
+- brak separacja pomiędzy modułami.
+
+s:
+DevOps, 163
+
+.
+Jak przyspieszyć działanie testów?
+
+Aby przyspieszyć działanie testów:
+- wykorzystaj współbieżność,
+- różnych testów w ramach tej samej kategorii,
+- różnych kategorii.
+
+s:
+DevOps, 164
+
+.
+Jak zagwarantować, że dysponujemy wiarygodnymi testami automatycznymi?
+
+Gwarancją wiarygodnych testów automatycznych są:
+- wytwarzanie oprogramowania sterowane testami: TDD (ang. test-driven development),
+- wytwarzanie oprogramowania sterowane testami akceptacyjnymi: ATDD (ang. acceptance test-driven development).
+
+s:
+DevOps, 165
+
+.
+Jak wykrywać problemy z wydajnością?
+
+Aby wykrywać problemy z wydajnością:
+- dodaj automatyczne testy wydajności.
+
+s:
+DevOps, 167
+
+.
+Jak zagwaranotwać spełnienie wymagań niefunkcjonalnych?
+
+Aby zagwaranotwać spełnienie wymagań niefunkcjonalnych:
+- dodaj automatyczne testy wymagań niefunkcjonalnych.
+
+s:
+DevOps, 168
+
+.
+Jak zastosować "linkę andon" w potoku wdrożeń?
+
+"Linka andon" w potoku wdrożeń:
+- w przypadku awarii potoku wdrożeń,
+- przede wszystkim napraw problem.
+
+s:
+DevOps, 169
+
+.
+Dlaczego trzeba pociągać za "linkę andon"?
+
+Trzeba pociągać za "linkę andon", bo:
+- tracimy możliwość wdrażania,
+- problemy narastają wraz z kolejnymi rewizjami,
+- konieczne zatrzymanie prac rozwojowych i "stabilizacja".
+
+s:
+DevOps, 170
+.
+Co to jest TBD?
+
+TBD (trunk-based development) to:
+- praktyka ciągłej integracji i rozwoju oprogramowania bazującego na rewizji master,
+- większa wydajność, stabilność, satysfakcja, wg. "Puppet Labs State of DevOps Report 2015".
+
+s:
+DevOps, 175, 181
+
+.
+Jakie są strategie tworzenia gałęzi w repozytorium?
+
+Strategie tworzenia gałęzi w repozytorium:
+- optymalizowane pod kątem indywidualnej wydajności: prywatne gałęzie, trudne scalanie,
+- optymalizowane pod kątem wydajności zespołu: wspólny obszar, każda rewizja niesie ryzyko awarii całego projektu.
+
+s:
+DevOps, 177
+
+.
+Jakie są wady stosowania wielu gałęzi?
+
+Wady stosowania wielu gałęzi:
+- rzadkie scalanie,
+- koszt scalania rośnie wykładniczo z liczbą gałęzi,
+- opóźnione testy,
+- rezygnacja z refaktoringu w gałęzi.
+
+
+s:
+DevOps, 178
+
+.
+Jakie są praktyki pracy na rewizji master?
+
+Praktyki pracy na rewizji master:
+- często ewidencjonuj kod w rewizji master, np. raz dziennie,
+- "gated commits" (rewizje ogrodzone).
+
+s:
+DevOps, 178
+
+.
+Co to jest "gated commits"?
+
+"Gated commits" (rewizje ogrodzone) to:
+- odrzucanie rewizji, które powodują naruszenie stanu gotowości do wdrożenia. 
+
+s:
+DevOps, 178
+
+.
+Co to jest "kod gotowy"?
+
+"Kod gotowy" to:
+- na koniec każdego interwału rozwoju,
+- kod zintegrowany, przetestowany, działający i potencjalnie gotowy do wdrożenia,
+- zademonstrowany w środowisku zbliżonym do produkcyjnego,
+- zbudowany na podstawie rewizji master w procesie inicjowanym jednym kliknięciem,
+- zweryfikowany za pomocą testów automatycznych.
+
+s:
+DevOps, 179
+
+.
+Co to jest "staging environment (stage)"?
+
+"Staging environment (stage)" to:
+- środowisko preprodukcyjne/przedprodukcyjne.
+
+s:
+DevOps, 181
+.
+Co to jest "test kanarkowy"?
+
+"Test kanarkowy" to:
+- wdrożenie oprogramowania na małej grupie serwerów produkcyjnych
+- w celu sprawdzenia, czy oprogramowanie nie ulegnie awarii pod realnym obciążeniem.
+
+s:
+DevOps, 183
+
+.
+Jaka relacja jest między liczbą zmian i liczbą wydań?
+
+Relacja między liczbą zmian i liczbą wydań:
+- jesli chcesz więcej zmian,
+- to potrzebujesz więcej wdrożeń,
+- wdrożenie obsługuje stałą liczbę zmian.
+
+s:
+DevOps, 184
+
+.
+Jakie są wymagania potoku wdrożeń?
+
+Wymagania potoku wdrożeń:
+- wdrażanie w każdym środowisku w taki sam sposób,
+- testy dymne wdrożeń,
+- utrzymywanie spójnych środowisk.
+
+s:
+DevOps, 186
+
+.
+Kto powinien wdrażać? Dev? Ops?
+
+Wdrożenia mogą być realizowane przez Dev lub Ops.
+Nie ma to wpływu na procent pomyślnych wdrożeń.
+
+s:
+DevOps, 190
+
+.
+Kiedy proces wdrażania kodu może być częścią potoku wdrożeń?
+
+Proces wdrażania kodu może być częścią potoku wdrożeń, gdy:
+- jest zautomatyzowany.
+
+s:
+DevOps, 190
+
+.
+Co powinna zapewniać automatyzacja wdrażania kodu?
+
+Automatyzacja wdrażania kodu powinna zapewniać:
+- możliwość wdrażania pakietów stworzonych w procesie ciągłej integracji,
+- błyskawiczną ocenę gotowości środowisk produkcyjnych,
+- samoobsługowe wdrażanie,
+- automatyczny zapis,
+- testy dymne,
+- szybka pętla sprzężenia zwrotnego.
+
+s:
+DevOps, 190
+
+.
+Czy wdrożenie i wydanie to to samo?
+
+Nie:
+- wdrożenie (deployment) to wdrożenia produkcyjne,
+- wydanie (release) to publikacja funkcjonalności.
+
+s:
+DevOps, 194
+
+.
+Co to jest wdrożenie?
+
+Wdrożenie (deployment) to:
+- instalacja określonej wersji oprogramowania,
+- wdrożenia produkcyjne,
+- może być związane z nowymi funkcjami.
+
+s:
+DevOps, 194
+
+.
+Co to jest wydanie?
+
+Wydanie (release) to:
+- proces udostępnienia nowych funkcji,
+- publikacja funkcjonalności.
+
+s:
+DevOps, 194
+
+.
+Jakie są kategorie wzorców wydań?
+
+Kategorie wzorców wydań:
+- wzorce wydań bazujące na środowisku,
+- wzorce wydań bazujące na aplikacjach.
+
+s:
+DevOps, 194
+
+.
+Czym są "wzorce wydań bazujące na środowisku"?
+
+"Wzorce wydań bazujące na środowisku" to:
+- "żywy" ruch klientów na jedno środowisko,
+- wdrożenie na inne środowisko,
+- wydanie poprzez przełączenie ruchu,
+- wdrożenia niebieski-zielony, wydania kanarkowe, systemy CIS (cluster immune systems).
+
+s:
+DevOps, 195
+
+.
+Czym są "wzorce wydań bazujące na aplikacjach"?
+
+"Wzorce wydań bazujące na aplikacjach" to:
+- modyfikowanie aplikacji,
+- publikacja funkcjonalności, nawet pojedynczej funkcji za pomocą zmian w konfiguracji,
+- stopniowe rozszerzanie grupy odbiorców nowych funkcjonalności,
+- ślepe uruchamianie (dark launching),
+- staging.
+
+s:
+DevOps, 195
+
+Co to jest "staging"?
+
+"Staging" to:
+- inaczej środowisko etapowe, pomostowe, przedprodukcyjne, preprodukcyjne,
+- środowisko do testowania, które dokładnie przypomina środowisko produkcyjne.
+
+s:
+https://en.wikipedia.org/wiki/Deployment_environment#Staging
+
+.
+Co to jest "wzorzec wdrażania niebieskie-zielone"?
+
+"Wzorzec wdrażania niebieskie-zielone" to:
+- wzorzec wydań bazujący na środowisku,
+- dwa środowiska produkcyjne: niebieskie i zielone,
+- jedno obsługuje "żywy ruch", drugie wdrożenia,
+- wydanie polega na przełączeniu.
+
+s:
+DevOps, 197
+
+.
+Jak obsługiwać zmiany w bazie danych we "wzorce wydań bazujące na środowisku"?
+
+Obsługa zmian w bazie danych we "wzorce wydań bazujące na środowisku":
+- dwie bazy danych (niebieska i zielona): ryzyka utraty transakcji,
+- oddzielenie zmiany bazy danych od zmian w aplikacji: nie mutujemy istniejących obiektów bazy danych.
+
+s:
+DevOps, 198
+
+.
+Na czym polega "oddzielenie zmiany bazy danych od zmian w aplikacji" w ramach "wzorce wydań bazujące na środowisku"?
+
+"Oddzielenie zmiany bazy danych od zmian w aplikacji" w ramach "wzorce wydań bazujące na środowisku":
+- inaczej "rozwiń-zwiń",
+- rozwijamy poprzez dodawanie nowych obiektów,
+- następnie zwijamy poprzez usunięcie starych,
+- nie mutujemy istniejących obiektów bazy danych,
+- możliwe dublowanie danych.
+
+s:
+DevOps, 198
+
+.
+Co to jest "wzorzec wydań kanarkowych"?
+
+"Wzorzec wydań kanarkowych" to:
+- rodzaj "wzorzec wdrażania niebieskie-zielone",
+- automatyzacja procesu wydań,
+- promowania do coraz ważniejszych środowisk,
+- kanarki umierają wcześniej niż górnicy.
+
+s:
+DevOps, 200
+
+.
+Jakie są grupy środowisk wspierajace "wzorzec wydań kanarkowych"?
+
+Grupy środowisk wspierajace "wzorzec wydań kanarkowych":
+- Grupa A1: serwery produkcyjne dla wewnętrznych pracowników,
+- Grupa A2: serwery produkcyjne dla niewielkiej grupy klientów,
+- Grupa A3: pozostałe serwery produkcyjne.
+
+s:
+DevOps, 200
+
+.
+Co to jest "wzorzec CIS"?
+
+Wzorzec CIS (cluster immune system, "układ odpornościowy w formie klastra") to:
+- rozszerzenie "wzorzec wydań kanarkowych",
+- wydawanie powiązane z monitorowaniem,
+- zautomatyzowane wycofywanie,
+- jeśli nie są spełniane warunki, np. wydajność.
+
+s:
+DevOps, 201
+
+.
+Jak zastosować "wzorce wydań bazujące na aplikacjach"?
+
+Aby zastosować "wzorce wydań bazujące na aplikacjach":
+- zaimplementuj przełączniki cech funkcjonalnych.
+
+s:
+DevOps, 202
+
+.
+Czym są "przełączniki cech funkcjonalnych"?
+
+"Przełączniki cech funkcjonalnych" (feature toggles) to:
+- podstawowy sposób zastosowania wzorców wdrożeń na bazie aplikacji.
+- mechanizmu selektywnego włączania lub wyłączania cech funkcjonalnych,
+- np. poprzez plik konfiguracyjny aplikacji, usługę sieciową.
+
+s:
+DevOps, 202
+
+.
+Jakie operacje umożliwiają przełączniki cech funkcjonalnych?
+
+Przełączniki cech funkcjonalnych umożliwiają: 
+- łatwe wycofywanie,
+- obniżanie wydajności "z wdziękiem",
+- zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi.
+
+s:
+DevOps, 202
+
+.
+Co to jest obniżanie wydajności "z wdziękiem"?
+
+Obniżanie wydajności "z wdziękiem" to:
+- jedna z operacji umożliwianych przez przełączniki cech funkcjonalnych,
+- stosowane, gdy obciążenie usługi jest zbyt wysokie,
+- obniżenie jakości usługi,
+- obniżenie poziomu dostarczanych funkcjonalności,
+- np. wyłączenie funkcji.
+
+s:
+DevOps, 202
+
+.
+Co to jest "zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi"?
+
+"Zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi" to:
+- jedna z operacji umożliwianych przez przełączniki cech funkcjonalnych,
+- ukrycie za przełącznikiem funkcji,
+- która korzysta z innej, jeszcze niegotowej funkcji.
+
+s:
+DevOps, 202
+
+.
+Co to jest "HDD (hypothesis-driven development)"?
+
+"HDD (hypothesis-driven development)" (wytwarzanie oprogramowania sterowane hipotezami) to:
+- wytwarzanie oprogramowania
+- jako serii eksperymentów w celu ustalenia, czy oczekiwany wynik zostanie osiągnięty.
+
+s:
+DevOps, 203
+
+.
+Co to jest "testowanie A/B"?
+
+"Testowanie A/B" to:
+- metoda badawcza polegająca na porównaniu dwóch wersji celem wybrania lepszej.
+
+s:
+https://pl.wikipedia.org/wiki/Test_A/B
+
+.
+Co to jest "ślepe uruchamianie"?
+
+"Ślepe uruchamianie" (dark launching) to:
+- wdrożenie na produkcji, testy, gdy funkcjonalność niewidoczna dla klientów,
+- stopniowa aktywacja dla niewielkich segmentów klientów,
+- możliwe za pomocą "przełączników cech funkcjonalnych".
+
+s:
+DevOps, 196, 203
+
+.
+Wyjaśnij "ciągła integracja" vs. "ciągłe dostarczanie" vs. "ciągłe wdrażanie"?
+
+- "ciągła integracja" (continuous integration): ciągłe scalane z rewizją master,
+- "ciągłe dostarczanie" (continuous delivery): ciagła gotowość do wydania na żądanie, rozwinięcie "ciągła integracja",
+- "ciągłe wdrażanie" (continuous deployment): ciągłe wdrażanie, rozwinięcie "ciągłe dostarczanie".
+
+s:
+DevOps, 206
+.
+Co to jest "doświadczenie bliskie śmierci"?
+
+"Doświadczenie bliskie śmierci" to:
+- skrajne utrudnenie rozwoju i utrzymania systemu,
+- wskutek długu technicznego,
+- wsutek problemów archutektonicznych.
+
+s:
+DevOps, 209
+
+.
+Co to jest "strangler application pattern"?
+
+"Strangler application pattern" (wzorzec dusiciela) to:
+- stopniowe zastępowanie całego systemu,
+- zamiast "wycofywać i wymieniać",
+- ukrywanie wywołań do starego systemu za API, zaniechanie zmian,
+- nowe funkcjonalności za pomocą nowych usług.
+
+s:
+DevOps, 210
+
+.
+Jak brzmi "drugie prawo architektonicznej termodynamiki"?
+
+"Drugie prawo architektonicznej termodynamiki":
+- zmniejszenie ogólnej złożoności,
+- i zwiększanie wydajności pracy wszystkich zespołów programistycznych,
+- rzadko jest celem indywidualnego projektu.
+
+s:
+DevOps, 211
+
+.
+Jaka architektura, ułatwia wydajność, testowalność i bezpieczeństwo?
+
+Architektura, która ułatwia wydajność, testowalność i bezpieczeństwo to:
+- o luźnych sprzężeniach,
+- z dobrze zdefiniowanymi interfejsami, które wymuszają sposób połączenia modułów ze sobą,
+- zorientowana na usługi.
+
+s:
+DevOps, 211
+
+.
+Jakie są archetypy architektoniczne?
+
+Archetypy architektoniczne:
+- monolityczna v1: cała funkcjonalność w jednej aplikacji,
+- monolityczna v2: zbiór monolitycznych warstw: "fronton prezentacyjny", "serwer aplikacji", "warstwa bazy danych",
+- mikrousługi: modularne, niezależne relacje grafowe zamiast warstw, utrwalanie w izolacji.
+
+s:
+DevOps, 213
+
+.
+Czym są "wersjonowane interfejsy API" (application strangler)?
+
+Wersjonowane interfejsy API:
+- inaczej usługi wersjonowane (versioned services),
+- inaczej usługi niezmienialne (immutable services),
+- API przykrywające wywołnia do starego systemu,
+- używane we wzorcu application strangler.
+
+s:
+DevOps, 215
+
+.
+Co to jest "technika rozgałęziania przez abstrakcję"?
+
+"Technika rozgałęziania przez abstrakcję" (branching by abstraction) to:
+- stworzeniu warstwy abstrakcji pomiędzy zmienianymi obszarami,
+- pozwala na ewolucyjne projektowanie architektury,
+- pozwala na praccę na gałęzi master i stosowanie ciągłej integracji.
+
+s:
+DevOps, 216
+.
+Na czym polega druga droga?
+
+Druga droga polega na:
+- szybkie i ciągłe sprzężenie zwrotne od Ops do Dev,
+- skracanie i wzmacnianie pętli sprzężenia zwrotnego,
+- integracja wiedzy dołu strumienia z Ops, Dev, kierownictwem.
+- telemetria.
+
+s:
+DevOps, 223
+.
+Jakie są cele telemetrii?
+
+Cele telemetrii:
+- dostrzeganie problemów,
+- dostarczanie informacji pomocnej w rozwiązywaniu problemów.
+
+s:
+DevOps, 225
+
+.
+Co to jest "kultura przyczynowości"?
+
+"Kultura przyczynowości" (culture of causality) to:
+- zrozumienie awarii,
+- koncentracja na rozwiązywaniu problemów,
+- zamiast ślepego restartowania serwerów.
+
+s:
+DevOps, 226
+
+.
+Co to jest "telemetria"?
+
+"Telemetria" to:
+- zautomatyzowany proces komunikacji,
+- w wyniku którego pomiary oraz inne dane są gromadzone w zdalnych punktach,
+- a następnie są przesyłane do urządzeń odbiorczych w celu monitorowania.
+
+s:
+DevOps, 226
+
+.
+Co to jest MTTR?
+
+MTTR (Mean Time To Repair) to:
+- średni czas od momentu wystąpienia awarii do naprawy.
+
+s:
+DevOps, 227
+
+.
+Jak zapewnić niski MTTR?
+
+Aby zapewnić niski MTTR:
+- repozytorium kontroli wersji dla Ops,
+- telemetria i proaktywne monitorowanie.
+
+s:
+DevOps, 227
+
+.
+Jakie są składniki architektury monitorowania?
+
+Składniki architektury monitorowania:
+- zbieranie danych w warstwach logiki biznesowej, aplikacji i środowiska: pliki logów, dzienniki zdarzeń,
+- router zdarzeń odpowiedzialny za przechowywanie zdarzeń i parametrów: wykresy, alarmy.
+
+s:
+DevOps, 229
+
+.
+Dla jakich funkcjonalności tworzyć mechanizmy telemetrii?
+
+Jeśli:
+- funkcjonalność została zaimplementowana,
+to:
+- zasługuje na stworzenie mechanizmów telemetrii.
+
+s:
+DevOps, 231
+
+.
+Jakie są poziomy rejestrowania informacji?
+
+Poziomy rejestrowania informacji:
+DEBUG, INFO, WARN, ERROR, FATAl.
+
+s:
+DevOps, 232
+
+.
+Jakie są negatywne efekty braku dostępnej publicznie telemetrii?
+
+Negatywne efekty braku dostępnej publicznie telemetrii:
+- budowanie kultury obwiniania,
+- niezdolność do budowania wiedzy.
+
+s:
+DevOps, 233
+
+.
+Jak ułatwić dostęp do telemetrii?
+
+Aby ułatwić dostęp do telemetrii:
+- samoobsługa,
+- każdy zainteresowany ma łatwy dostęp.
+
+s:
+DevOps, 236
+
+.
+Co to jest "promiennik informacji"? (ang. information radiator)
+
+"Promiennik informacji" (information radiator) to:
+- mechanizm udostępniania danych,
+- tablica informacyjna, publicznie dostępna, przezroczystość,
+- zespół nie ma nic do ukrycia przed gośćmi,
+- zespół nie ma nic do ukrycia przed samym sobą.
+
+s:
+DevOps, 236
+
+.
+Jakie są poziomy telemetrii?
+
+Poziomy telemetrii:
+- poziom biznesowy,
+- poziom aplikacji,
+- poziom infrastruktury,
+- poziom oprogramowania klienckiego,
+- poziom potoku wdrożeń.
+
+s:
+DevOps, 239
+
+.
+Co to jest "lejek nabywania klienta"?
+
+"Lejek nabywania klienta" (customer acquisition funnel) to:
+- zawiera wskaźniki biznesowe,
+- określa teoretyczne kroki potencjalnego klienta.
+
+s:
+DevOps, 240
+
+.
+Jaką rolę pełnią wskaźniki biznesowe w kontekście parametrów infrastruktury?
+
+Wskaźniki biznesowe tworzą kontekst dla parametrów infrastruktury.
+
+s:
+DevOps, 243
+
+.
+Co to jest "okres rozstrzygania"?
+
+"Okres rozstrzygania" to:
+- przejściowy okres niższej jakości usługi,
+- ze względu na przejściowe problemy wynikające z wdrożenia nowej funkcjonalności,
+- np. chybione wyszukiwania w pamięci podręcznej.
+
+s:
+DevOps, 243
+.
+Co to jest "wykrywanie odstających"?
+
+"Wykrywanie odstających" (outlier detection) to:
+- technika statystyczna,
+- wykrywanie nieprawidłowych warunków działania,
+- które mogą spowodować znaczące obniżenie wydajności,
+- identyfikacja węzłów spoza wzorca,
+- usunięcie z produkcji.
+
+s:
+DevOps, 246
+
+.
+Które techniki statystyczne pomagają w wykrywaniu problemów?
+
+Techniki statystyczne, które pomagają w wykrywaniu problemów:
+- średnia,
+- odchylenie standardowe,
+- analiza parametrów produkcyjnych,
+
+s:
+DevOps, 246
+
+.
+Jak techniki statystyczne pomagają w wykrywaniu problemów?
+
+Techniki statystyczne pomagają w wykrywaniu problemów:
+- np. alert, gdy liczba prób nieuprawnionego logowania przekroczy wartość trzech odchyleń standardowych powyżej średniej.
+
+s:
+DevOps, 247
+
+.
+Co monitorować?
+
+Monitoruj (dąż do):
+- wskaźniki przewidujące awarię,
+- nie awarie.
+
+s:
+DevOps, 248
+
+.
+Na czym polega problem z technikami statystycznymi w wykrywaniu problemów?
+
+Problem z technikami statystycznymi w wykrywaniu problemów:
+- nie wszystkie zestawy danych mają rozkład Gaussa.
+
+s:
+DevOps, 249
+
+.
+Jak wykrywać problemy, gdy zestawy danych nie mają rozkładu Gaussa?
+
+Żeby wykrywać problemy, gdy zestawy danych nie mają rozkładu Gaussa to:
+- użyj technik wykrywania anomalii,
+- wyszukuj elementy niezgodne ze wzorcem.
+
+s:
+DevOps, 253
+
+.
+Co to jest "wygładzanie"?
+
+"Wygładzanie" (smoothing) to:
+- technika statystyczna,
+- uzycie średnich ruchomych (kroczących).
+
+s:
+DevOps, 253
+.
+Kto się boi wdrażać kod?
+
+Wdrażać kod boją się wszyscy, i Dev, i Ops.
+
+s:
+DevOps, 260
+
+.
+Jak zwiększyć bezpieczeństwo wdrożeń?
+
+Aby zwiększyć bezpieczeństwo wdrożeń:
+- wdróż sprzężenia zwrotne w całym strumieniu wartości,
+- użyj telemetrii,
+- optymalizuj pod kątem MTTR (zamiast MTBF).
+
+s:
+DevOps, 260
+
+.
+Co to jest MTBF?
+
+MTBF (mean time between failures) to:
+- średni czas bezawaryjnej pracy.
+
+s:
+https://pl.wikipedia.org/wiki/MTBF
+
+.
+Co to jest "poprawka w przód"?
+
+"Poprawka w przód" (fix forward) to:
+ - wprowadzanie w kodzie zmian, które eliminują wady,
+ - a następnie przenieść je do produkcji za pośrednictwem potoku wdrożeń.
+ 
+s:
+DevOps, 262
+ 
+.
+Jak naprawiać defekty szybciej?
+
+Aby naprawiać defekty szybciej:
+- wprowadź wspólne dyżury Dev i Ops,
+- budź programistów o 2 w nocy,
+- uświadom Dev, że "gotowe" oznacza również bezproblemowe w Ops.
+
+s:
+DevOps, 263
+
+.
+Czym są "zapytania kontekstowe"?
+
+"Zapytania kontekstowe" to:
+- technik w projektowaniu UX,
+- obserwacja użytkowania aplikacji na produkcji,
+- przez programistów,
+- np. przy biurku klienta,
+- w konsekwencji programiści tworzą lepiej.
+
+s:
+DevOps, 264
+
+.
+Co to jest "UX"?
+
+"UX" (user experience, doświadczenie użytkownika) to:
+- wrażenia użytkownika podczas korzystania z produktu.
+
+s:
+https://pl.wikipedia.org/wiki/User_experience
+
+.
+Co to jest "mechanizm odsyłania usługi"?
+
+"Mechanizm odsyłania usługi" (service handback mechanism) to:
+- gdy usługa produkcyjna staje się krucha,
+- to Ops może przekazać utrzymanie usługi do Dev,
+- zapobiega powiększaniu długu technicznego.
+
+s:
+DevOps, 268
+
+.
+Co to jest "SRE"?
+
+"SRE" (Site Reliability Engineers, inżynierowie niezawodności ośrodka) to:
+- inaczej inżynier Ops.
+
+s:
+DevOps, 269
+
+.
+Na czym polegają procesy LRR i HRR?
+
+Procesy LRR i HRR polegają na:
+- LRR (Launch Readiness Review), pierwszy etap publikowania nowej usługi, publikuje i utrzymuje Dev,
+- HRR (Hand-Off Readiness Review), drugi etap, utrzymanie przechodzi do Ops,
+- listy kontrolne podobne, ale HRR bardziej restrykcyjna.
+
+s:
+DevOps, 270
+.
+Jakie pytanie należy zadać przed rozpoczęciem budowy funkcjonalności?
+
+Przed rozpoczęciem budowy funkcjonalności należy zapytać:
+- czy powinniśmy budować tę funkcjonalność i dlaczego?
+
+s:
+DevOps, 273
+
+.
+Jakie techniki pomagają określić, czy przewidywana funkcjonalność rzeczywiście pozwoli osiągnąć pożądane rezultaty?
+
+Techniki, które pomagają określić, czy przewidywana funkcjonalność rzeczywiście pozwoli osiągnąć pożądane rezultaty:
+- wytwarzanie oprogramowania sterowane hipotezami (hypothesis-driven development),
+- lejki popytu (customer acquisition funnels),
+- testowanie A/B,
+- ankiety, prototypy, testy użyteczności.
+
+s:
+DevOps, 273
+
+.
+Jak zintegrować testy A/B z procesem testowania/publikowania/planowania cechy funkcjonalnej?
+
+Aby zintegrować testy A/B z procesem testowania cechy funkcjonalnej:
+- na przykład losowo wyświetlaj witrynę w wersji A albo B,
+- przeanalizuj różnicę wyników,
+- zdolność eksperymwntowania rośnie z liczbą wdrożeń.
+
+s:
+DevOps, 276, 277, 278
+
+.
+Jakie są inne nazwy testów A/B?
+
+Testy A/B to inaczej:
+- kontrolowane eksperymenty online,
+- testy podziału (split tests),
+- testowanie wielu zmiennych.
+
+s:
+DevOps, 276
+.
+Jak zmniejszyć ryzyko wprowadzania zmian zanim zostaną wprowadzone?
+
+Aby zmniejszyć ryzyko wprowadzania zmian zanim zostaną wprowadzone:
+- stosuj "pull request".
+
+s:
+DevOps, 281
+
+.
+Co to jest "pull request"?
+
+"Pull request" (żądanie ściągnięcia) to:
+- forma wzajemnego przeglądania kodu,
+- uwzględnia Dev i Ops,
+- zainteresowani mogą przejrzeć, omówić, zmodyfikować.
+
+s:
+DevOps, 281
+
+.
+Co to jest "GitHub Flow"?
+
+"GitHub Flow" to:
+- tworzenie nowej gałęzi,
+- praca na nowej gałęzi,
+- "pull request",
+- scalenie do master,
+- wdrożenie na produkcję.
+
+s:
+DevOps, 282
+https://guides.github.com/introduction/flow/
+
+.
+Co to jest "myślenie alternatywne"?
+
+"Myślenie alternatywne" (counterfactual thinking) to:
+- ludzka skłonność do tworzenia alternatyw zdarzeń, które już się wydarzyły,
+- opis "systemu zgodnego z wyobrażeniami" w przeciwieństwie do "systemu w rzeczywistości".
+
+s:
+DevOps, 283
+
+.
+Jakie są niebezpieczeństwa związane z procesami zatwierdzania zmian?
+
+Niebezpieczeństwa związane z procesami zatwierdzania zmian:
+- jeśli panuje kultura niskiego zaufania, dowodzenia, kontroli,
+- to praktyki DevOps (zarządzanie zmianami, testowanie),
+- mogą prowadzić do większych problemów.
+
+s:
+DevOps, 284
+
+.
+Jakie są potencjalne zagrożenia związane ze "zbytnim kontrolowaniem zmian"?
+
+Potencjalne zagrożenia związane ze "zbytnim kontrolowaniem zmian" to:
+- długie czasy realizacji,
+- zmniejszenie siły i szybkości sprzężenia zwrotnego,
+- dodatkowe pytania, zatwierdzania, oceniania,
+- zamiast kontroli zewnętrznej, przeglądy współpracowników.
+
+s:
+DevOps, 284
+
+.
+Jakie są techniczne środki zaradcze na zagrożenia? 
+
+Techniczne środki zaradcze na zagrożenia:
+- redundancja,
+- mechanizmy pracy awaryjnej (failover): awaryjne przełączanie na rezerwowy system,
+- kompleksowe testy,
+- symulacje.
+
+s:
+DevOps, 287
+
+.
+Czym są "przeglądy kodu"?
+
+Przeglądy kodu (code review) to:
+- wzajemne przeglądy dokonywanych zmian,
+- kodu, środowisk, baz danych,
+- poprawa jakości, wzajemna nauka,
+- jedna lub więcej opinii,
+- w przeciwieństwie do zatwierdzeń przez zewnętrzne organy przed wdrażaniem.
+
+s:
+DevOps, 287
+
+.
+Jakie są wskazówki dotyczące przeglądów kodu?
+
+Wskazówki dotyczące przeglądów kodu:
+- każda zmiana przed wprowadzeniem do master podlega przeglądowi kodu,
+- każdy monitoruje zmiany w master,
+- zmiany wysokiego ryzyka są identyfikowane,
+- zbyt duża zmiana jest dzielona.
+
+s:
+DevOps, 288
+
+.
+Jakie są formy przeglądu kodu?
+
+Formy przeglądu kodu:
+- programowanie w parach,
+- "zapuszczanie żurawia",
+- wiadomości e-mail z powiadomieniami o zmianach,
+- przegląd kodu z wykorzystaniem narzędzi.
+
+s:
+DevOps, 288
+
+.
+Jakie są potencjalne zagrożenia wynikające z większego udziału testów ręcznych?
+
+Potencjalne zagrożenia wynikające z większego udziału testów ręcznych:
+- awaria,
+- więcej testów, również ręcznych,
+- testy ręczne są wolniejsze i bardziej uciążliwe niż testy automatyczne,
+- dłuższy okres testowania,
+- rzadsze wdrażanie,
+- większa paczka,
+- zwiększenie paczki powoduje pogorszenie wdrożenia (trudne, więcej błędów, dłuższe naprawy).
+
+s:
+DevOps, 290
+
+.
+Co to jest "programowanie w parach"?
+
+"Programowanie w parach":
+- inaczej praca parami (pairing),
+- inaczej programowanie parami (pair programming),
+- dwóch inżynierów współpracuje na tej samej stacji roboczej,
+- kierowca i nawigator lub  obserwator, 
+- stosowane nie tylko przez programistów.
+
+s:
+DevOps, 291
+
+.
+Na czym polega programowanie w parach w kontekście TDD?
+
+Programowanie w parach w kontekście TDD polega na:
+- jeden inżynier pisze zautomatyzowane testy,
+- drugi inżynier implementuje kod.
+
+s:
+DevOps, 291
+
+.
+Jakie są zalety "programowanie w parach"?
+
+Zalety "programowanie w parach":
+- mniej błędów,
+- rozważone więcej możliwości projektowych,
+- wzajemna nauka,
+- chociaż programiści wolniejsi.
+
+s:
+DevOps, 292
+
+.
+Jak weryfikować skuteczność przeglądu kodu przez współpracowników?
+
+Aby weryfikować skuteczność przeglądu kodu przez współpracowników:
+- obserwuj przestoje produkcyjne i analizuj proces przeglądu dla wszelkich istotnych zmian.
+
+s:
+DevOps, 293
+
+.
+Czym charakteryzuje się dobre żądanie ściągnięcia (pull request)?
+
+Dobre żądanie ściągnięcia (pull request) posiada:
+- kontekst dla czytelnika,
+- dokumentację lub opis,
+- uzasadnienie,
+- wskazanie zagrożeń,
+- opis środków zaradczych,
+- pomysły na ulepszenia,
+- dyskusja rozwiązania,
+- czasem kilka stron dokumentacji.
+
+s:
+DevOps, 293
+
+.
+Jak eliminować przeszkody organizacyjne?
+
+Aby eliminować przeszkody organizacyjne:
+- stosuj programowanie w parach (zamiast przeglądów zewnętrznych),
+- zaproponuj utrzymanie przez Dev (dla nowych technologii),
+- uczyń programistę odpowiedzialnym za zmianę (i zapewnienie weryfikacji).
+
+s:
+DevOps, 296
+.
+Co to jest "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania"?
+
+"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania" to:
+- praktyki umożliwiające uczenie się,
+- tak szybko, wcześnie, często i tanio, jak to możliwe.
+
+s:
+DevOps, 301
+
+.
+Jakie praktyki składają się na "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania"?
+
+Praktyki "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania":
+- praktyki uczenia się na podstawie wypadków i awarii,
+- praktyki organizowania i projektowania systemów pracy aby stale eksperymentować i uczyć się.
+
+s:
+DevOps, 301
+
+.
+Jakie mechanizmy składają się na "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania"?
+
+Mechanizmy "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania":
+- "kultura uczciwości": warunki dla bezpiecznej pracy,
+- wstrzykiwanie awarii produkcyjnych: odporność,
+- konwersja lokalnych odkryć na globalne usprawnienia,
+- rezerwacja czasu na stworzenie organizacyjnych mechanizmów usprawnień i uczenia się.
+
+s:
+DevOps, 301
+.
+Co to jest "elastyczna organizacja"?
+
+"Elastyczna organizacja" to organizacja, która:
+wykrywa problemy,
+rozwiązuje problemy,
+udostępnia rozwiązania w całej organizacji.
+
+s:
+DevOps, 303
+
+.
+Jak zbudować "elastyczną organizację"?
+
+Zbuduj dynamiczny system uczenia się.
+
+s:
+DevOps, 303
+
+.
+Co to jest "dynamiczny system uczenia się"?
+
+"Dynamiczny system uczenia się" to system, który:
+pozwala zrozumieć popełniane błędy,
+przekształca zrozumienie na działania, które zapobiegają powtórzeniu podobnych błędów w przyszłości.
+
+s:
+DevOps, 303
+
+.
+Co to jest "Chaos Monkey"?
+
+"Chaos Monkey" to:
+narzędzie zbudowane przez Netflix,
+wstrzykuje błędy do infrastruktury,
+doprowadziło do stworzenia usługi odpornej na rzeczywistą awarię Amazona,
+przykład ciągłego uczenia się i eksperymentowania.
+
+s:
+DevOps, 304
+
+.
+Co to jest "kultura sprawiedliwości"?
+
+"Kultura sprawiedliwości" (ang. just culture) to kultura, która:
+traktuje błąd jako okazję do nauki,
+nie karze za błedy,
+uznaje, że błąd człowieka jest konsekwencją narzędzi.
+
+s:
+DevOps, 306
+
+.
+Co pomaga tworzyć kulturę sprawiedliwości i uczenia się?
+
+Kulturę sprawiedliwości pomagają tworzyć praktyki:
+"analiza post-mortem bez poszukiwania winnych": analiza wydarzeń i decyzji w czasie bliskim awarii,
+kontrolowane wprowadzanie awarii do produkcji: stworzenie możliwości do ćwiczenia zachowań w sytuacjach awaryjnych.
+
+s:
+DevOps, 306
+
+.
+Jaki są warunki skutecznej "analizy post-mortem"?
+
+Warunki skutecznej "analizy post-mortem":
+natychmiast po wystąpieniu awarii,
+opracowanie chronologii istotnych wydarzeń,
+zebranie interesariuszy,
+współdzielenie informacji bez obaw o karę lub odwet,
+burza mózgów,
+zaprojektowanie środków zaradczych,
+opracowanie planu wdrożenia środków zaradczych,
+opublikowanie wniosków dla jak najszerszego grona odbiorców.
+ 
+s:
+DevOps, 308
+
+.
+Czym powinien się charakteryzować "środek zaradczy"?
+
+"Środek zaradczy" powinien:
+uniemożliwić popełnienie podobnego błedu w przyszłości,
+bez założenia, że pracownicy będą "lepsi" (np. bardziej uważni).
+
+s:
+DevOps, 308
+
+.
+Podaj przykład środka zaradczego "analizy post-mortem".
+
+Przykład środka zaradczego "analizy post-mortem":
+nowe automatyczne testy podczas wdrożenia.
+
+s:
+DevOps, 308
+
+.
+Jak poprawiać zarządzanie i rozumienie systemu w którym działamy (w kontekście awarii)?
+
+W celu poprawy zarządzania i rozumennia systemu w którym działamy:
+wyszukuj coraz słabsze sygnały awarii (zmniejszaj próg tolerancji awarii),
+analizuj sytuacje, w których o mało nie doszło do awarii,
+wszelkie prace w strumieniu wartości technologii traktować jako eksperymentalne.
+
+s:
+DevOps, 310
+
+.
+Dlaczego organizacje stosujące praktyki DevOps częściej mają awarię?
+
+Organizacje stosujące praktyki DevOps częściej mają awarię, bo:
+wysokowydajne organizacje publikują kilkadziesiąt razy częściej,
+są bardziej otwarte na eksperymenty.
+Uwagi:
+na podstawie raportu "Raport 2014 State of DevOps Report",
+dużo więcej wdrożeń nawet przy niższym współczynniku, to wieksza liczba awarii. 
+
+s:
+DevOps, 312
+
+.
+Czym są "dni gier" (w kontekście awarii)?
+
+"Dni gier" (ang. game days) to zaplanowane symulowacje awarii:
+określenie awarii,
+przygotowanie środków zaradczych,
+przeprowadzenie awarii.
+
+s:
+DevOps, 314
+
+.
+Co to jest "inżynieria odporności"?
+
+"Inżynieria odporności" (ang. resilience engineering) to:
+ćwiczenia mające na celu zwiększenie odporności poprzez iniekcję awarii na dużą skalę w kluczowych systemach.
+
+s:
+DevOps, 314
+.
+Jak poprawić odporność systemu pracy?
+
+Odporność systemu pracy poprawiają:
+- proaktywne planowanie,
+- testowanie scenariuszy awarii.
+
+s:
+DevOps, 317
+
+.
+Jak usprawnić komunikację między zespołami?
+
+Sposoby usprawnienia komunikacji między zespołami:
+- wykonywanie prac za pomocą poleceń w chat roomie,
+- emitowanie komunikatów w chat roomie podczas prac,
+- rejestrowanie i upublicznianie całej komunikacji,
+- komunikacja jako dokumentacja prac i praktyk.
+
+s:
+DevOps, 318
+
+.
+Jak zwiększyć zgodność organizacji z przepisami?
+
+Zgodność organizacji z przepisami jest proporcjonalna do stopnia, w jakim przepisy są wyrażone w kodzie.
+Czyli automatyzacja.
+
+s:
+DevOps, 319
+
+.
+Ile repozytorów kodu powinna posiadać organizacja?
+
+Organizacja powinna posiadać jedno repozytorium kodu:
+- możliwość wykorzystywania doświadczeń wszystkich osób w organizacji,
+- kodowanie i współdzielenie wiedzy.
+
+s:
+DevOps, 320, 321
+
+.
+Co powinno być umieszczane w repozytorium kodu?
+
+W repozytorium kodu powinny być umieszczane:
+- kod źródłowy,
+- architektura jako kod,
+- standardy konfiguracji,
+- narzędzia do instalacji,
+- standardy i narzędzia testowania, w tym zabezpieczenia,
+- narzędzia obsługi potoku wdrożeń,
+- narzędzia monitorowania i analizy,
+- samouczki i standardy.
+
+s:
+DevOps, 321, 327
+
+.
+Jaką rolę pełnią testy automatyczne w rozpowszecnianiu wiedzy?
+
+Testy automatyczne, szczególnie TDD:
+- stanowią specyfikację systemu,
+- pokazują dobre praktyki użycia.
+
+s:
+DevOps, 322
+
+.
+Podaj przykłady wymagań niefunkcjonalnych ułatwiających wdrożenia.
+
+Przykłady wymagań niefunkcjonalnych ułatwiających wdrożenia:
+- odpowiednia liczba wskaźników telemetrycznych w aplikacji i środowiskach,
+- możliwość dokładnego śledzenia zależności,
+- odpowiednia elastyczność usług oraz degradacji,
+- zgodność pomiędzy wersjami,
+- możliwość archiwizacji danych,
+- możliwość łatwej analizy logów,
+- możliwość śledzenia żądań od użytkowników,
+- proste, scentralizowane środowisko działania z wykorzystaniem flag funkcji i podobnych mechanizmów.
+
+s:
+DevOps, 322
+
+.
+Jak zapewnić powtarzalność zadań operacyjnych?
+
+W celu zapewnienia powtarzalności zadań operacyjnych:
+- automatyzuj całość lub część,
+- standaryzuj i dokumentuj,
+- twórz historyjki użytkownika Ops.
+
+s:
+DevOps, 324
+
+.
+Na czym polega standaryzacja stosu technologii?
+
+Standaryzacja stosu technologii polega na:
+- wybraniu technologii pomagających osiągnąć cele organizacji,
+- maksymalizcja wydajności zespołu vs. cele całej organizacji,
+- wspólne uzgodnienie Dev i Ops.
+Zwykle miękkie granice obejmujące niewielką liczbę technologii.
+
+s:
+DevOps, 325
+.
+Co to jest "improvement blitz"?
+
+"Improvement blitz" (czasami "kaizen blitz") to:
+- jedna z praktyk Toyota Production System,
+- dedykowany i skoncentrowany okres do rozwiązania określonego problemu,
+- zwykle kilka dni.
+
+s:
+DevOps, 329
+
+.
+Jak wyegzekwować praktyki rezerwowania czasu na prace związane z usprawnieniami?
+
+W celu znalezienia czasu na usprawnienia przeprowadzaj:
+- najlepiej "improvement blitz",
+- również "spring", "fall cleanings", "ticket queue inversion weeks", "hack days", "hackathon", "20% innovation time".
+
+s:
+DevOps, 331
+
+.
+Czym są "spring/fall cleanings", "ticket queue inversion weeks", "hack days", "hackathon", "20% innovation time"?
+
+"spring/fall cleanings" ("wiosenne lub jesienne sprzątanie"),
+"ticket queue inversion weeks" ("tygodnie odwróconej kolejki zleceń"),
+"hack days",
+"hackathon",
+"20% innovation time"
+to wydarzenia wprowadzajace innowacje, rzadziej usprawnienia.
+
+s:
+DevOps, 331
+
+.
+Jak organizacja może wspierać uczenie się?
+
+Organizacja może wspierać nauczanie i uczenie się dzięki:
+- poświęcaniu na to czasu organizacji,
+- zachęcaniu do udziału w konferencjach, wygłaszania na nich wykładów,
+- zachęcaniu do tworzenia i organizowania wewnętrznych lub zewnętrznych konferencji,
+- tworzeniu wewnętrznego systemu szkoleń.
+
+s:
+DevOps, 333
+.
+Jaką korzyść dla audytorów przynosi automatyzacja akceptacji i zatwierdzania?
+
+Dzięki automatyzacji akceptacji i zatwierdzania audytor może:
+- otrzymywać dowody wygenerowane na żądanie.
+
+s:
+DevOps, 341
+
+.
+Jak poprawić bezpieczeństwo?
+
+Bezpieczeństwo można poprawić poprzez:
+- bezpieczeństwo obowiązkiem wszystkich,
+- integracja mechanizmów prewencyjnych ze współnym repozytowrium kodu,
+- integracja zabezpieczeń z potokiem wdrożeń,
+- integracja zabezpieczeń z mechanizmami telemetrycznymi (wykrywanie luk),
+- ochrona potoku wdrożeń,
+- integracja wdrażania z zatwierdzaniem,
+- zmniejszenie wagi podziału obowiązków.
+
+s:
+DevOps, 341
+.
+Co to jest "InfoSec"?
+
+"InfoSec" (ang. Information security) to:
+- zagadnienia, praktyki, procesy, narzędzia, działy
+- dotyczące lub zajmujące się ochroną informacji.
+ 
+s:
+https://en.wikipedia.org/wiki/Information_security
+https://www.cisco.com/c/en/us/products/security/what-is-information-security-infosec.html
+
+.
+Kiedy realizować zadania InfoSec?
+
+Zadania InfoSec najlepiej realizować:
+- jak najwcześniej,
+- na koniec iteracji (nie na koniec projektu).
+
+s:
+DevOps, 344
+
+.
+Wymień kluczowe miary biznesowe.
+
+Kluczowe miary biznesowe:
+- szybkość tworzenia oprogramowania (szybkość dostarczania funkcjonalności na rynek),
+- niepowodzenia interakcji z klientami (awarie i błędy),
+- czas reakcji na zgodność z przepisami (czas od żądania audytu do dostarczenia żądanych informacji).
+
+s:
+DevOps, 345
+
+.
+Co to jest "GRC"?
+
+"GRC" (ang. governance, risk, and compliance - "nadzór, ryzyko i zgodność") to:
+- tradycyjnego sposobu działania InfoSec,
+- system do rejestrowania luk,
+- dostępny tylko dla InfoSec.
+
+s:
+DevOps, 345
+
+.
+Jak DevOps adresuje kwestie InfoSec?
+
+DevOps wprowadza:
+- bezpieczeństwo informacji jako codzienne zadanie każdego DevOps,
+- integracja InfoSec w całym technologicznym strumieniu wartości, włączenie w prace DevOps (również jako część zespołu DevOps),
+- użycie tych samych systemów (zamiast "GRC" dla InfoSec),
+- uwzględnianie InfoSec w śledzeniu defektów,
+- udział InfoSec w analizie post-mortem,
+- wzajemna nauka.
+
+s:
+DevOps, 343 - 347
+
+.
+Jak zintegrować zabezpieczenia z potokiem wdrożeń?
+
+W celu integracji zabezpieczeń z potokiem wdrożeń:
+- wdróż automatyczne testy bezpieczeństwa,
+- uruchamianych razem z innymi testami potoku wdrożeń,
+- najlepiej przy wprowadzaniu zmian do repozytorium kodu,
+- w kontraście do tradycyjnego raportu na koniec prac rozwojowych.
+
+s:
+DevOps, 347
+
+.
+Co to jest "ścieżka szczęśliwa"?
+
+"Ścieżka szczęśliwa" to:
+- typ testowania, gdy wszystko idzie zgodnie z oczekiwaniami, bez błędów,
+- typowy dla Dev.
+
+s:
+DevOps, 349
+
+.
+Co to jest "ścieżka smutna"?
+
+"Ścieżka smutna" to:
+- typ testowania, gdy coś idzie nie tak,
+- typowe dla QA, InfoSec i Fraud.
+
+s:
+DevOps, 349
+
+.
+Czym zastąpić testy ręcznie?
+
+Testy ręczne zastąp:
+- automatycznymi testami jednostkowymi,
+- automatycznymi testami funkcjonalnymi,
+aby mogły być stale uruchamiane w potoku wdrożeń.
+
+s:
+DevOps, 349
+
+.
+Jakie przedsięwzięcia uwzględnić w ramach testowania?
+
+W ramach testowania uwzględnij:
+- analizę statyczną: sprawdza kod programu,
+- analizę dynamiczną: w czasie pracy programu, testowanie z zewnątrz do wewnątrz,
+- skanowanie zależności: inny typ testów statycznych,
+- integralność kodu źródłowego i podpisywanie kodu: własny kod PGP dla użytkowników repozytorium, podpisywanie operacji.
+
+s:
+DevOps, 349
+
+.
+Co to jest "PGP"?
+
+"PGP" (ang. Pretty Good Privacy) to:
+- narzędzie do szyfrowania, odszyfrowywania i uwierzytelniania m.in. poczty elektronicznej, plików, katalogów oraz partycji dyskowych.
+
+s:
+https://pl.wikipedia.org/wiki/Pretty_Good_Privacy
+
+.
+Jak pomóc pisać kod, który przeciwdziała nadużyciom?
+
+W celu przeciwdziałniu nadużyciom zdefiniuj wzorce projektowe, m.in.:
+- jak przechowywać hasła,
+- jak postępować w przypadku zapomnianych haseł,
+- jak obsługiwać logowanie,
+- jak zapobiec wrażliwości na ataki za pomocą skryptów krzyżowych (XSS).
+
+s:
+DevOps, 350
+
+.
+Jak zapewnić bezpieczeństwo łańcuchowi dostaw oprogramowania?
+
+Ponieważ tworzenie oprogramowania w dużej mierze polega na używaniu zewnętrznych komponentów,
+to konieczne jest uwzględnienie luk w tych komponentach.
+
+s:
+DevOps, 353
+
+.
+Jak zapewnić bezpieczeństwo środowiska?
+
+W celu zapenienia bezpieczeństwa środowiska:
+- wdróż testy automatyczne: poprawność ustawień, długość kluczy,
+- wdróż testy do skanowania: luki w zabezpieczeniach,
+- sprawdzaj, czy otwarte są tylko wymagane porty,
+- sprawdzaj pod kątem znanych zagrożeń: np. SQL injection,
+- parametry testów pobieraj z repozytorium,
+- umieszczaj w repozytorium wyniki testów.
+
+s:
+DevOps, 355
+
+Jak przyspieszyć wykrywanie naruszeń?
+
+W celu przyspieszenia wykrywania naruszeń:
+- zintegruj bezpieczeństwo informacji z telemetrią produkcji,
+- zastosuj w aplikacji i środowiskach mechanizmy monitorowania, rejestrowania i alarmowania,
+- stwórz odpowiednie mechanizmy telemetryczne w aplikacji,
+- stwórz odpowiednie mechanizmy telemetryczne w środowisku.
+
+s:
+DevOps, 357
+
+.
+Podaj przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji. 
+
+Przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji:
+- udane i nieudane logowania,
+- resetowanie hasła,
+- resetowanie adresu e-mail,
+- zmiany danych karty kredytowej.
+
+s:
+DevOps, 358
+
+.
+Podaj przykłady sytuacji dla telemetrii zabezpieczeń w środowisku. 
+
+Przykłady sytuacji dla telemetrii zabezpieczeń w środowisku:
+- zmiany w systemie operacyjnym (np. produkcja, środowisko kompilacji),
+- zmiany w grupach zabezpieczeń,
+- modyfikacje konfiguracji,
+- zmiany w infrastrukturze chmury,
+- próby ataków (XSS, SQL injection),
+- błędy serwera WWW (np. 4XX, 5XX).
+
+s:
+DevOps, 358
+
+.
+Jak chronić potok wdrożeń?
+
+W celu ochrony potoku wdrożeń, czyli:
+- kompilacji,
+- integracji,
+- wdrożeń
+należy:
+- hartować serwery CI/CD (podobnie jak produkcja, automatyzacja odtworzenia),
+- ewidencjonować zmiany przy użyciu systemu kontroli wersji,
+- wykrywać sytuacje podejrzane,
+- uniezależnić procesy CI,
+- system kontroli wersji tylko do odczytu dla CI/CD.
+
+s:
+DevOps, 360
+.
+Co jest podstawowym mechanizmem ograniczania zagrożeń?
+
+Podstawowym mechanizmem ograniczania zagrożeń dla:
+- operacji,
+- bezpieczeństwa
+są:
+- procesy zarządzania zmianami.
+
+s:
+DevOps, 363
+
+.
+Jak obniżyć ryzyko wdrożeń (w kontekście procesów zarządzania zmianami)?
+
+W celu obniżenia ryzyka wdrożeń (w kontekście procesów zarządzania zmianami):
+- minimalizuj udział ręczny w procesie zatwierdzania zmian (testy automatyczne, proaktywne monitorowanie produkcji),
+- zintegruj mechanizmy bezpieczeństwa i zgodności z przepisami z istniejącym procesem zarządzania zmianami.
+
+s:
+DevOps, 363
+
+.
+Wymień kategorie zmian.
+
+Kategorie zmian:
+- zmiany standardowe: niskie ryzyko, zgodne z ustalonym i zatwierdzonym procesem, uproszczone zatwierdzanie, 
+- zmiany normalne: wyższe ryzyko, wymagany przegląd lub zatwierdzenie,
+- zmiany pilne: wysokie ryzyko, awarie.
+
+s:
+DevOps, 364
+
+.
+Co to jest "badanie niszczące"?
+
+"Badanie niszczące" to:
+- długotrwałe badanie wytrzymałościowe na produkcji, aż do zniszczenia komponentu,
+- pozwala zrozumieć awarię,
+- pozwala wprowadzić korekty.
+
+s:
+DevOps, 368
+
+.
+Kim jest "bibliotekarz kodu"?
+
+"Bibliotekarz kodu" to:
+osoba która przegląda i zatwierdza zmianę przed wypromowaniem jej do produkcji.
+
+s:
+DevOps, 369
+
+.
+Jak zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania?
+
+Żeby zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania:
+- zmniejsz rolę podziału obowiązków,
+- zrezygnuj z "bibliotekarza kodu",
+- wprowadź programowanie w parach, ciągłą kontrolę operacji ewidencjonowania kodu, przeglądy kodu. 
+
+s:
+DevOps, 369
+
+.
+Na czym polegają trudności we współpracy DevOps i InfoSec?
+
+Trudności we współpracy DevOps i InfoSec:
+- audytor nie potrafi czytać kodu,
+- programista nie zna przepisów, norm, ustaw związanych z bezpieczeństwem.
+
+s:
+DevOps, 371
+.
+Jakie jest prawdopodobieństwo porażki transformacji DevOps?
+
+Prawdopodobieństwo porażki transformacji DevOps jest:
+- duże,
+- zmiany organizacyjne mogą zostać cofnięte.
+
+s:
+DevOps, 378
+
+.
+Komu przynosi korzyści DevOps?
+
+DevOps przynosi korzyści:
+- Dev,
+- Ops,
+- QA,
+- InfoSec,
+- właścicielom produktu,
+- klientom.
+
+s:
+DevOps, 379
+.
+Co to jest "konwergencja DevOps"?
+
+"Konwergencja DevOps" to:
+- zbieżność z innymi ruchami w zarządzaniu,
+- wzajemne uzupełnianie i współdziałanie.
+
+s:
+DevOps, 383
+
+.
+Z jakimi ruchami zachodzi "konwergencja DevOps"?
+
+"Konwergencja DevOps" zachodzi z:
+- Lean (szczupłe zarządzanie, unikanie marnotrastwa),
+- Agile (model przyrostowy),
+- Toyota Kata (stałe doskonalenie).
+
+s:
+DevOps, 383
+
+.
+Co to jest "chmura konfliktów"?
+
+"Chmura konfliktów" to:
+- konflikt między dwoma potrzebnymi działaniami,
+- np. szybko wprowadzaj zmiany vs. zapewniaj stabliność. 
+
+s:
+DevOps, 386
+
+.
+Jak przełamać "chmurę konfliktów" dla IT?
+
+"Chmurę konfliktów" dla IT można przełamać dzięki DevOps:
+- integracja Dev i Ops,
+- patrz "trzy drogi".
+
+s:
+DevOps, 387
+
+.
+Na czym polega "spirala degradacji"?
+
+"Spirala degradacji":
+- kruche aplikacje, projekty pilne, usprawnienia mało pilne,
+- coraz bardziej kruche aplikacje,
+- coraz więcej czasu na awarie, coraz mniej czasu na projekty,
+- aż do braku możliwości realizacji projektów.
+
+s:
+DevOps, 387
+
+.
+Jakie są niebezpieczeństwa związane z przełączaniem pracy i kolejkami?
+
+Przykład problemu związanego z przełączaniem pracy i kolejkami:
+- 30-minutowe zadanie,
+- wymaga 7-krotnego przełączania (zespół serwerów, sieci, db...),
+- każdy zajęty w 90%,
+- więc na każdego czekamy 9h,
+- łaczny czas oczekiwania 7x9h = 63h
+
+s:
+DevOps, 389
+
+.
+Wymień mity na temat bezpieczeństwa.
+
+Mity na temat bezpieczeństwa:
+1. Najważniejszą przyczyną wypadków i incydentów jest błąd ludzki: Nie, to słabość systemowa.
+2. Systemy będą bezpieczne, jeśli ludzie będą przestrzegali obowiązujących procedur.
+3. Bezpieczeństwo można poprawić przez bariery i zabezpieczenia; im więcej warstw ochrony tym większe bezpieczeństwo.
+4. Analiza wypadku pozwala zidentyfikować jego główną przyczynę (prawdę).
+5. Badania wypadków polegają na logicznej i racjonalnej identyfikacji ich przyczyn na podstawie faktów. 
+6. Bezpieczeństwo zawsze ma najwyższy priorytet. Ta zasada nigdy nie będzie zagrożona. 
+
+s:
+DevOps, 390
+.
+Dlaczego 5tys. posiągnięć linki Andon nie paraliżuje produkcji Toyoty?
+
+5tys. posiągnięć linki Andon nie paraliżuje produkcji Toyoty, bo:
+- nie każde pociągnięcie powoduje zatrzymanie linii produkcyjnej,
+- lider zespołu ma 50s na rozwiązanie problemu.
+
+s:
+DevOps, 391
+
+.
+Jak zamienić operacje instalcji oprogramowania w operacje kontroli wersji?
+
+Żeby zamienić operacje instalcji oprogramowania w operacje kontroli wersji:
+- wyeliminuj instalatory z GUI,
+- porównaj czysty obraz serwera z obrazem po instalacji,
+- umieść zmiany w repozytorium kodu,
+- przekształć ewentualne konfiguracje w bazie danych na pliki. 
+
+s:
+DevOps, 391
+
+.
+Co to jest "infinite hows"?
+
+"Infinite hows" ("nieskończone pytania jak") to:
+- forma dyskusji.
+
+s:
+DevOps, 393
+
+.
+Co to jest "Małpia Armia"?
+
+"Małpia Armia" (ang. Simian Army) to:
+- rozwinięcie "Chaos Monkey" w rodzinę narzędzi,
+- symulują coraz bardziej katastrofalne błędy.
+
+s:
+DevOps, 394
+
+.
+Co to jest "przezroczysty czas sprawności"?
+
+"Przezroczysty czas sprawności" to podejście charakteryzujące się:
+- możliwością samodzielnej identyfikacji problemu przez uzytkowników,
+- komunikacją przez internet (ogólna, zamiast e-mail),
+- jednym miejscem komunikacji,
+- udostępnienie informacji o problemach,
+- panel kondycji usługi.
+
+s:
+DevOps, 395

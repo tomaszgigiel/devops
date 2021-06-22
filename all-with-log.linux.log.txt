@@ -1,4 +1,4 @@
-Script started on 2021-06-22 22:42:10+0200
+Script started on 2021-06-22 23:15:25+0200
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -25,18 +25,18 @@ Ran 0 tests containing 0 assertions.
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 22, 2021 10:42:33 PM clojure.tools.logging$eval155$fn__158 invoke
-INFO: {:info , :table-of-contents-path src/test/resources/table-of-contents.txt, :faq-chapters-path src/test/resources/faq-chapters/}
-Jun 22, 2021 10:42:33 PM clojure.tools.logging$eval155$fn__158 invoke
+Jun 22, 2021 11:15:45 PM clojure.tools.logging$eval155$fn__158 invoke
+INFO: {:info , :table-of-contents-path src/test/resources/table-of-contents.txt, :faq-chapters-path src/test/resources/faq-chapters/, :faq-chapters-merged-path src/test/resources/faq-chapters-merget.txt}
+Jun 22, 2021 11:15:45 PM clojure.tools.logging$eval155$fn__158 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 22, 2021 10:42:43 PM clojure.tools.logging$eval161$fn__164 invoke
+Jun 22, 2021 11:15:54 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 22, 2021 10:42:52 PM clojure.tools.logging$eval161$fn__164 invoke
+Jun 22, 2021 11:16:02 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.merge: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -44,9 +44,9 @@ Compiling pl.tomaszgigiel.devops.core
 Compiling pl.tomaszgigiel.devops.core
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-Jun 22, 2021 10:43:04 PM clojure.tools.logging$eval136$fn__139 invoke
-INFO: {:info , :table-of-contents-path src/test/resources/table-of-contents.txt, :faq-chapters-path src/test/resources/faq-chapters/}
-Jun 22, 2021 10:43:04 PM clojure.tools.logging$eval136$fn__139 invoke
+Jun 22, 2021 11:16:13 PM clojure.tools.logging$eval136$fn__139 invoke
+INFO: {:info , :table-of-contents-path src/test/resources/table-of-contents.txt, :faq-chapters-path src/test/resources/faq-chapters/, :faq-chapters-merged-path src/test/resources/faq-chapters-merget.txt}
+Jun 22, 2021 11:16:13 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -54,9 +54,9 @@ Compiling pl.tomaszgigiel.devops.core
 Compiling pl.tomaszgigiel.devops.core
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-Jun 22, 2021 10:43:15 PM clojure.tools.logging$eval136$fn__139 invoke
-INFO: {:info , :table-of-contents-path src/test/resources/table-of-contents.txt, :faq-chapters-path src/test/resources/faq-chapters/}
-Jun 22, 2021 10:43:15 PM clojure.tools.logging$eval136$fn__139 invoke
+Jun 22, 2021 11:16:23 PM clojure.tools.logging$eval136$fn__139 invoke
+INFO: {:info , :table-of-contents-path src/test/resources/table-of-contents.txt, :faq-chapters-path src/test/resources/faq-chapters/, :faq-chapters-merged-path src/test/resources/faq-chapters-merget.txt}
+Jun 22, 2021 11:16:23 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -67,4 +67,4 @@ Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-ube
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 
-Script done on 2021-06-22 22:43:24+0200
+Script done on 2021-06-22 23:16:32+0200

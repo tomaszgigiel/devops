@@ -7,18 +7,21 @@
   (:require [pl.tomaszgigiel.devops.common :as common])
   (:gen-class))
 
-(defn create-file [dir name]
-  (spit (str dir name ".txt") "" :append true))
+(defn create-file [path content]
+  (spit path content :append false))
 
-(defn create-files [props]
+(defn merge-files [props]
   (let [dir (:faq-chapters-path props)
-        table-of-contents (str/replace (str/lower-case (slurp (:table-of-contents-path props))) #"—|:|’|/| |," "-")
-        lines (map-indexed (fn [idx itm] (str/replace (format "devops-handbook-%02d-%s" idx itm)  #"-{1,}" "-")) (remove str/blank? (str/split-lines table-of-contents)))]
-    (run! #(create-file dir %) lines)))
+        dir (io/file dir)
+        files (sort (filter #(.isFile %) (file-seq dir)))
+        content (mapv slurp files)
+        content (apply str content)
+        out (:faq-chapters-merged-path props)]
+    (create-file out content)))
 
 (defn- work [path]
   (let [props (with-open [r (io/reader path)] (edn/read (java.io.PushbackReader. r)))]
-    (create-files props)))
+    (merge-files props)))
 
 (defn -main [& args]
   "devops: DevOps Notes"
