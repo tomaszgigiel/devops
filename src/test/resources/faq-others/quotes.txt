@@ -14,7 +14,9 @@ Nie istnieje jedna doskonała architektura dla wszystkich produktów i we wszyst
 
 Monitorowanie jest tak ważne, że systemy monitorowania powinny być bardziej dostępne i skalowalne niż monitorowane systemy. [DevOps, 230]
 
-wysłanie wszystkich pracowników firmy na wakacje przyniosłyby firmie i jej klientom więcej korzyści niż budowanie jednej z tych nic niewartych cech funkcjonalnych [DevOps, 278] 
+wysłanie wszystkich pracowników firmy na wakacje przyniosłyby firmie i jej klientom więcej korzyści niż budowanie jednej z tych nic niewartych cech funkcjonalnych [DevOps, 278]
+
+Poproś programistę, żeby dokonał przeglądu 10 wierszy kodu, to znajdzie w nim 10 problemów. Poproś go, aby zrobił to dla 500 wierszy, to powie, że kod wygląda dobrze. [DevOps, 287]
 
 My, programiści, już nie piszemy spersonalizowanego oprogramowania - zamiast tego montujemy to, czego potrzebujemy, z opensource'owych części, które stały się łańcuchem dostaw oprogramowania, na który jesteśmy zdani [DevOps, 353]
 

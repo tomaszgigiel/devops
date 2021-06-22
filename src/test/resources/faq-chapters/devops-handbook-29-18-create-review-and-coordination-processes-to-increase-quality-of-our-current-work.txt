@@ -1,0 +1,201 @@
+.
+Jak zmniejszyć ryzyko wprowadzania zmian zanim zostaną wprowadzone?
+
+Aby zmniejszyć ryzyko wprowadzania zmian zanim zostaną wprowadzone:
+- stosuj "pull request".
+
+s:
+DevOps, 281
+
+.
+Co to jest "pull request"?
+
+"Pull request" (żądanie ściągnięcia) to:
+- forma wzajemnego przeglądania kodu,
+- uwzględnia Dev i Ops,
+- zainteresowani mogą przejrzeć, omówić, zmodyfikować.
+
+s:
+DevOps, 281
+
+.
+Co to jest "GitHub Flow"?
+
+"GitHub Flow" to:
+- tworzenie nowej gałęzi,
+- praca na nowej gałęzi,
+- "pull request",
+- scalenie do master,
+- wdrożenie na produkcję.
+
+s:
+DevOps, 282
+https://guides.github.com/introduction/flow/
+
+.
+Co to jest "myślenie alternatywne"?
+
+"Myślenie alternatywne" (counterfactual thinking) to:
+- ludzka skłonność do tworzenia alternatyw zdarzeń, które już się wydarzyły,
+- opis "systemu zgodnego z wyobrażeniami" w przeciwieństwie do "systemu w rzeczywistości".
+
+s:
+DevOps, 283
+
+.
+Jakie są niebezpieczeństwa związane z procesami zatwierdzania zmian?
+
+Niebezpieczeństwa związane z procesami zatwierdzania zmian:
+- jeśli panuje kultura niskiego zaufania, dowodzenia, kontroli,
+- to praktyki DevOps (zarządzanie zmianami, testowanie),
+- mogą prowadzić do większych problemów.
+
+s:
+DevOps, 284
+
+.
+Jakie są potencjalne zagrożenia związane ze "zbytnim kontrolowaniem zmian"?
+
+Potencjalne zagrożenia związane ze "zbytnim kontrolowaniem zmian" to:
+- długie czasy realizacji,
+- zmniejszenie siły i szybkości sprzężenia zwrotnego,
+- dodatkowe pytania, zatwierdzania, oceniania,
+- zamiast kontroli zewnętrznej, przeglądy współpracowników.
+
+s:
+DevOps, 284
+
+.
+Jakie są techniczne środki zaradcze na zagrożenia? 
+
+Techniczne środki zaradcze na zagrożenia:
+- redundancja,
+- mechanizmy pracy awaryjnej (failover): awaryjne przełączanie na rezerwowy system,
+- kompleksowe testy,
+- symulacje.
+
+s:
+DevOps, 287
+
+.
+Czym są "przeglądy kodu"?
+
+Przeglądy kodu (code review) to:
+- wzajemne przeglądy dokonywanych zmian,
+- kodu, środowisk, baz danych,
+- poprawa jakości, wzajemna nauka,
+- jedna lub więcej opinii,
+- w przeciwieństwie do zatwierdzeń przez zewnętrzne organy przed wdrażaniem.
+
+s:
+DevOps, 287
+
+.
+Jakie są wskazówki dotyczące przeglądów kodu?
+
+Wskazówki dotyczące przeglądów kodu:
+- każda zmiana przed wprowadzeniem do master podlega przeglądowi kodu,
+- każdy monitoruje zmiany w master,
+- zmiany wysokiego ryzyka są identyfikowane,
+- zbyt duża zmiana jest dzielona.
+
+s:
+DevOps, 288
+
+.
+Jakie są formy przeglądu kodu?
+
+Formy przeglądu kodu:
+- programowanie w parach,
+- "zapuszczanie żurawia",
+- wiadomości e-mail z powiadomieniami o zmianach,
+- przegląd kodu z wykorzystaniem narzędzi.
+
+s:
+DevOps, 288
+
+.
+Jakie są potencjalne zagrożenia wynikające z większego udziału testów ręcznych?
+
+Potencjalne zagrożenia wynikające z większego udziału testów ręcznych:
+- awaria,
+- więcej testów, również ręcznych,
+- testy ręczne są wolniejsze i bardziej uciążliwe niż testy automatyczne,
+- dłuższy okres testowania,
+- rzadsze wdrażanie,
+- większa paczka,
+- zwiększenie paczki powoduje pogorszenie wdrożenia (trudne, więcej błędów, dłuższe naprawy).
+
+s:
+DevOps, 290
+
+.
+Co to jest "programowanie w parach"?
+
+"Programowanie w parach":
+- inaczej praca parami (pairing),
+- inaczej programowanie parami (pair programming),
+- dwóch inżynierów współpracuje na tej samej stacji roboczej,
+- kierowca i nawigator lub  obserwator, 
+- stosowane nie tylko przez programistów.
+
+s:
+DevOps, 291
+
+.
+Na czym polega programowanie w parach w kontekście TDD?
+
+Programowanie w parach w kontekście TDD polega na:
+- jeden inżynier pisze zautomatyzowane testy,
+- drugi inżynier implementuje kod.
+
+s:
+DevOps, 291
+
+.
+Jakie są zalety "programowanie w parach"?
+
+Zalety "programowanie w parach":
+- mniej błędów,
+- rozważone więcej możliwości projektowych,
+- wzajemna nauka,
+- chociaż programiści wolniejsi.
+
+s:
+DevOps, 292
+
+.
+Jak weryfikować skuteczność przeglądu kodu przez współpracowników?
+
+Aby weryfikować skuteczność przeglądu kodu przez współpracowników:
+- obserwuj przestoje produkcyjne i analizuj proces przeglądu dla wszelkich istotnych zmian.
+
+s:
+DevOps, 293
+
+.
+Czym charakteryzuje się dobre żądanie ściągnięcia (pull request)?
+
+Dobre żądanie ściągnięcia (pull request) posiada:
+- kontekst dla czytelnika,
+- dokumentację lub opis,
+- uzasadnienie,
+- wskazanie zagrożeń,
+- opis środków zaradczych,
+- pomysły na ulepszenia,
+- dyskusja rozwiązania,
+- czasem kilka stron dokumentacji.
+
+s:
+DevOps, 293
+
+.
+Jak eliminować przeszkody organizacyjne?
+
+Aby eliminować przeszkody organizacyjne:
+- stosuj programowanie w parach (zamiast przeglądów zewnętrznych),
+- zaproponuj utrzymanie przez Dev (dla nowych technologii),
+- uczyń programistę odpowiedzialnym za zmianę (i zapewnienie weryfikacji).
+
+s:
+DevOps, 296
