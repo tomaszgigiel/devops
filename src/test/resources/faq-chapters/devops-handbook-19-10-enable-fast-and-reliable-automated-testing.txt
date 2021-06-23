@@ -88,7 +88,7 @@ DevOps, 161
 Co zrobić jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego?
 
 Jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego:
-- napisz test jednostkowy, za pomocą którego błąd zmajdziesz szybciej, wcześniej i taniej.
+- napisz test jednostkowy, za pomocą którego błąd znajdziesz szybciej, wcześniej i taniej.
 
 s:
 DevOps, 163

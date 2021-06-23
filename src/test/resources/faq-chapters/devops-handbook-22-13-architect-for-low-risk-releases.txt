@@ -60,7 +60,7 @@ Czym są "wersjonowane interfejsy API" (application strangler)?
 Wersjonowane interfejsy API:
 - inaczej usługi wersjonowane (versioned services),
 - inaczej usługi niezmienialne (immutable services),
-- API przykrywające wywołnia do starego systemu,
+- API przykrywające wywołania do starego systemu,
 - używane we wzorcu application strangler.
 
 s:

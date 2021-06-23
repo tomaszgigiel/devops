@@ -1054,7 +1054,7 @@ DevOps, 161
 Co zrobić jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego?
 
 Jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego:
-- napisz test jednostkowy, za pomocą którego błąd zmajdziesz szybciej, wcześniej i taniej.
+- napisz test jednostkowy, za pomocą którego błąd znajdziesz szybciej, wcześniej i taniej.
 
 s:
 DevOps, 163
@@ -1567,7 +1567,7 @@ Czym są "wersjonowane interfejsy API" (application strangler)?
 Wersjonowane interfejsy API:
 - inaczej usługi wersjonowane (versioned services),
 - inaczej usługi niezmienialne (immutable services),
-- API przykrywające wywołnia do starego systemu,
+- API przykrywające wywołania do starego systemu,
 - używane we wzorcu application strangler.
 
 s:
@@ -2240,7 +2240,7 @@ Co to jest "kultura sprawiedliwości"?
 
 "Kultura sprawiedliwości" (just culture) to kultura, która:
 - traktuje błąd jako okazję do nauki,
-- nie karze za błedy,
+- nie karze za błędy,
 - uznaje, że błąd człowieka jest konsekwencją narzędzi.
 
 s:
