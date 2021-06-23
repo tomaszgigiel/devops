@@ -12,7 +12,7 @@ DevOps, 383
 Z jakimi ruchami zachodzi "konwergencja DevOps"?
 
 "Konwergencja DevOps" zachodzi z:
-- Lean (szczupłe zarządzanie, unikanie marnotrastwa),
+- Lean (szczupłe zarządzanie, unikanie marnotrawstwa),
 - Agile (model przyrostowy),
 - Toyota Kata (stałe doskonalenie).
 
@@ -24,7 +24,7 @@ Co to jest "chmura konfliktów"?
 
 "Chmura konfliktów" to:
 - konflikt między dwoma potrzebnymi działaniami,
-- np. szybko wprowadzaj zmiany vs. zapewniaj stabliność. 
+- np. szybko wprowadzaj zmiany vs. zapewniaj stabilność.
 
 s:
 DevOps, 386
@@ -59,7 +59,7 @@ Przykład problemu związanego z przełączaniem pracy i kolejkami:
 - wymaga 7-krotnego przełączania (zespół serwerów, sieci, db...),
 - każdy zajęty w 90%,
 - więc na każdego czekamy 9h,
-- łaczny czas oczekiwania 7x9h = 63h
+- łączny czas oczekiwania 7x9h = 63h
 
 s:
 DevOps, 389
@@ -72,15 +72,15 @@ Mity na temat bezpieczeństwa:
 2. Systemy będą bezpieczne, jeśli ludzie będą przestrzegali obowiązujących procedur.
 3. Bezpieczeństwo można poprawić przez bariery i zabezpieczenia; im więcej warstw ochrony tym większe bezpieczeństwo.
 4. Analiza wypadku pozwala zidentyfikować jego główną przyczynę (prawdę).
-5. Badania wypadków polegają na logicznej i racjonalnej identyfikacji ich przyczyn na podstawie faktów. 
-6. Bezpieczeństwo zawsze ma najwyższy priorytet. Ta zasada nigdy nie będzie zagrożona. 
+5. Badania wypadków polegają na logicznej i racjonalnej identyfikacji ich przyczyn na podstawie faktów.
+6. Bezpieczeństwo zawsze ma najwyższy priorytet. Ta zasada nigdy nie będzie zagrożona.
 
 s:
 DevOps, 390
 .
-Dlaczego 5tys. posiągnięć linki Andon nie paraliżuje produkcji Toyoty?
+Dlaczego 5tys. pociągnięć linki Andon nie paraliżuje produkcji Toyoty?
 
-5tys. posiągnięć linki Andon nie paraliżuje produkcji Toyoty, bo:
+5tys. pociągnięć linki Andon nie paraliżuje produkcji Toyoty, bo:
 - nie każde pociągnięcie powoduje zatrzymanie linii produkcyjnej,
 - lider zespołu ma 50s na rozwiązanie problemu.
 
@@ -88,13 +88,13 @@ s:
 DevOps, 391
 
 .
-Jak zamienić operacje instalcji oprogramowania w operacje kontroli wersji?
+Jak zamienić operacje instalacji oprogramowania w operacje kontroli wersji?
 
-Żeby zamienić operacje instalcji oprogramowania w operacje kontroli wersji:
+Żeby zamienić operacje instalacji oprogramowania w operacje kontroli wersji:
 - wyeliminuj instalatory z GUI,
 - porównaj czysty obraz serwera z obrazem po instalacji,
 - umieść zmiany w repozytorium kodu,
-- przekształć ewentualne konfiguracje w bazie danych na pliki. 
+- przekształć ewentualne konfiguracje w bazie danych na pliki.
 
 s:
 DevOps, 391
@@ -111,7 +111,7 @@ DevOps, 393
 .
 Co to jest "Małpia Armia"?
 
-"Małpia Armia" (ang. Simian Army) to:
+"Małpia Armia" (Simian Army) to:
 - rozwinięcie "Chaos Monkey" w rodzinę narzędzi,
 - symulują coraz bardziej katastrofalne błędy.
 
@@ -122,7 +122,7 @@ DevOps, 394
 Co to jest "przezroczysty czas sprawności"?
 
 "Przezroczysty czas sprawności" to podejście charakteryzujące się:
-- możliwością samodzielnej identyfikacji problemu przez uzytkowników,
+- możliwością samodzielnej identyfikacji problemu przez użytkowników,
 - komunikacją przez internet (ogólna, zamiast e-mail),
 - jednym miejscem komunikacji,
 - udostępnienie informacji o problemach,

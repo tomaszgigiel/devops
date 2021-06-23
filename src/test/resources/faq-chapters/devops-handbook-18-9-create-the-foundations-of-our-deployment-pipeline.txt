@@ -13,7 +13,7 @@ DevOps, 141
 
 Co to jest "rewizja"?
 
-"Rewizja" (ang. commit) to:
+"Rewizja" (commit) to:
 - grupa zmian wprowadzana do systemu kontroli wersji.
 
 s:

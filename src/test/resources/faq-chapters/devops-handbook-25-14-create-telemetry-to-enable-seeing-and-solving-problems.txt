@@ -74,7 +74,7 @@ DevOps, 231
 Jakie są poziomy rejestrowania informacji?
 
 Poziomy rejestrowania informacji:
-DEBUG, INFO, WARN, ERROR, FATAl.
+DEBUG, INFO, WARN, ERROR, FATAL.
 
 s:
 DevOps, 232
@@ -100,7 +100,7 @@ s:
 DevOps, 236
 
 .
-Co to jest "promiennik informacji"? (ang. information radiator)
+Co to jest "promiennik informacji"? (information radiator)
 
 "Promiennik informacji" (information radiator) to:
 - mechanizm udostępniania danych,

@@ -35,7 +35,7 @@ Jak zadbać o wprowadzanie usprawnień w codziennej pracy?
 Aby wprowadzać usprawnienia w codziennej pracy:
 - jawnie rezerwuj czas na spłacanie długu technicznego,
 - usuwanie wad,
-- refaktoryzację.
+- refaktoryzację,
 - poprawianie problematycznych obszarów kodu i środowisk.
 
 s:
@@ -52,9 +52,9 @@ s:
 DevOps, 74
 
 .
-Jak DevOps proponuje zwiekszać odporność?
+Jak DevOps proponuje zwiększać odporność?
 
-DevOps proponuje zwiekszać odporność poprzez:
+DevOps proponuje zwiększać odporność poprzez:
 - usprawnienia,
 - zwiększanie wydajności,
 - zwiększanie elastyczności.
@@ -67,7 +67,7 @@ DevOps, 75
 .
 Co to jest "antykruchość"?
 
-"Antykruchość" (ang. antifragility) to:
+"Antykruchość" (antifragility) to:
 - proces zastosowania napięcia w celu zwiększenia elastyczności.
 
 s:
@@ -77,7 +77,7 @@ DevOps, 75
 Jak wstrzykiwać napięcie w codziennej pracy?
 
 Wstrzykuj napięcie w codziennej pracy poprzez:
-- skrócaj czas realizacji,
+- skracaj czas realizacji,
 - zwiększaj zakres pokrycia testami,
 - zmniejszaj czas wykonywania testów,
 - symuluj awarie.
@@ -89,8 +89,11 @@ DevOps, 75
 Jaka jest rola lidera w DevOps?
 
 Rola lidera w DevOps to:
-- stworzanie warunków, dzięki którym zespół może odkryć świetność w swojej codziennej pracy,
+- stwarzanie warunków, dzięki którym zespół może odkryć świetność w swojej codziennej pracy,
 - podkreślanie wartości uczenia się,
 - i rozwiązywania problemów.
 W opozycji do tradycyjnego:
 - podejmuj właściwe decyzje.
+
+s:
+DevOps, 76

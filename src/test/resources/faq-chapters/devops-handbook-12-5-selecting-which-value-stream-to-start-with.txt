@@ -23,7 +23,7 @@ Jak wybrać strumienie wartości, od których należy zacząć transformację De
 
 Transformację DevOps zacznij od:
 - kilku obszarów,
-- zespółów innowatorów,
+- zespołów innowatorów,
 - projektów umożliwiających automatyczne testowanie i wdrażanie.
 
 s:
@@ -32,11 +32,11 @@ DevOps, 87
 .
 Co to jest "system SoR"?
 
-"System SoR" (ang. systems of record) to:
+"System SoR" (systems of record) to:
 - systemy podobne do ERP,
 - poprawność jest kluczowa,
 - zarządzanie firmą, np. HR,
-- "robić to dobrze". 
+- "robić to dobrze".
 
 s:
 DevOps, 88
@@ -44,7 +44,7 @@ DevOps, 88
 .
 Co to jest "system SoE"?
 
-"System SoE" (ang. systems of engagement) to:
+"System SoE" (systems of engagement) to:
 - dla klientów lub pracowników,
 - np. systemy e-commerce,
 - zgodnością z przepisami,

@@ -2,9 +2,9 @@
 Co to jest "elastyczna organizacja"?
 
 "Elastyczna organizacja" to organizacja, która:
-wykrywa problemy,
-rozwiązuje problemy,
-udostępnia rozwiązania w całej organizacji.
+- wykrywa problemy,
+- rozwiązuje problemy,
+- udostępnia rozwiązania w całej organizacji.
 
 s:
 DevOps, 303
@@ -21,8 +21,8 @@ DevOps, 303
 Co to jest "dynamiczny system uczenia się"?
 
 "Dynamiczny system uczenia się" to system, który:
-pozwala zrozumieć popełniane błędy,
-przekształca zrozumienie na działania, które zapobiegają powtórzeniu podobnych błędów w przyszłości.
+- pozwala zrozumieć popełniane błędy,
+- przekształca zrozumienie na działania, które zapobiegają powtórzeniu podobnych błędów w przyszłości.
 
 s:
 DevOps, 303
@@ -31,10 +31,10 @@ DevOps, 303
 Co to jest "Chaos Monkey"?
 
 "Chaos Monkey" to:
-narzędzie zbudowane przez Netflix,
-wstrzykuje błędy do infrastruktury,
-doprowadziło do stworzenia usługi odpornej na rzeczywistą awarię Amazona,
-przykład ciągłego uczenia się i eksperymentowania.
+- narzędzie zbudowane przez Netflix,
+- wstrzykuje błędy do infrastruktury,
+- doprowadziło do stworzenia usługi odpornej na rzeczywistą awarię Amazona,
+- przykład ciągłego uczenia się i eksperymentowania.
 
 s:
 DevOps, 304
@@ -42,10 +42,10 @@ DevOps, 304
 .
 Co to jest "kultura sprawiedliwości"?
 
-"Kultura sprawiedliwości" (ang. just culture) to kultura, która:
-traktuje błąd jako okazję do nauki,
-nie karze za błedy,
-uznaje, że błąd człowieka jest konsekwencją narzędzi.
+"Kultura sprawiedliwości" (just culture) to kultura, która:
+- traktuje błąd jako okazję do nauki,
+- nie karze za błedy,
+- uznaje, że błąd człowieka jest konsekwencją narzędzi.
 
 s:
 DevOps, 306
@@ -54,8 +54,8 @@ DevOps, 306
 Co pomaga tworzyć kulturę sprawiedliwości i uczenia się?
 
 Kulturę sprawiedliwości pomagają tworzyć praktyki:
-"analiza post-mortem bez poszukiwania winnych": analiza wydarzeń i decyzji w czasie bliskim awarii,
-kontrolowane wprowadzanie awarii do produkcji: stworzenie możliwości do ćwiczenia zachowań w sytuacjach awaryjnych.
+- "analiza post-mortem bez poszukiwania winnych": analiza wydarzeń i decyzji w czasie bliskim awarii,
+- kontrolowane wprowadzanie awarii do produkcji: stworzenie możliwości do ćwiczenia zachowań w sytuacjach awaryjnych.
 
 s:
 DevOps, 306
@@ -64,15 +64,15 @@ DevOps, 306
 Jaki są warunki skutecznej "analizy post-mortem"?
 
 Warunki skutecznej "analizy post-mortem":
-natychmiast po wystąpieniu awarii,
-opracowanie chronologii istotnych wydarzeń,
-zebranie interesariuszy,
-współdzielenie informacji bez obaw o karę lub odwet,
-burza mózgów,
-zaprojektowanie środków zaradczych,
-opracowanie planu wdrożenia środków zaradczych,
-opublikowanie wniosków dla jak najszerszego grona odbiorców.
- 
+- natychmiast po wystąpieniu awarii,
+- opracowanie chronologii istotnych wydarzeń,
+- zebranie interesariuszy,
+- współdzielenie informacji bez obaw o karę lub odwet,
+- burza mózgów,
+- zaprojektowanie środków zaradczych,
+- opracowanie planu wdrożenia środków zaradczych,
+- opublikowanie wniosków dla jak najszerszego grona odbiorców.
+
 s:
 DevOps, 308
 
@@ -80,8 +80,8 @@ DevOps, 308
 Czym powinien się charakteryzować "środek zaradczy"?
 
 "Środek zaradczy" powinien:
-uniemożliwić popełnienie podobnego błedu w przyszłości,
-bez założenia, że pracownicy będą "lepsi" (np. bardziej uważni).
+- uniemożliwić popełnienie podobnego błędu w przyszłości,
+- bez założenia, że pracownicy będą "lepsi" (np. bardziej uważni).
 
 s:
 DevOps, 308
@@ -90,7 +90,7 @@ DevOps, 308
 Podaj przykład środka zaradczego "analizy post-mortem".
 
 Przykład środka zaradczego "analizy post-mortem":
-nowe automatyczne testy podczas wdrożenia.
+- nowe automatyczne testy podczas wdrożenia.
 
 s:
 DevOps, 308
@@ -98,10 +98,10 @@ DevOps, 308
 .
 Jak poprawiać zarządzanie i rozumienie systemu w którym działamy (w kontekście awarii)?
 
-W celu poprawy zarządzania i rozumennia systemu w którym działamy:
-wyszukuj coraz słabsze sygnały awarii (zmniejszaj próg tolerancji awarii),
-analizuj sytuacje, w których o mało nie doszło do awarii,
-wszelkie prace w strumieniu wartości technologii traktować jako eksperymentalne.
+W celu poprawy zarządzania i rozumienia systemu w którym działamy:
+- wyszukuj coraz słabsze sygnały awarii (zmniejszaj próg tolerancji awarii),
+- analizuj sytuacje, w których o mało nie doszło do awarii,
+- wszelkie prace w strumieniu wartości technologii traktować jako eksperymentalne.
 
 s:
 DevOps, 310
@@ -110,11 +110,11 @@ DevOps, 310
 Dlaczego organizacje stosujące praktyki DevOps częściej mają awarię?
 
 Organizacje stosujące praktyki DevOps częściej mają awarię, bo:
-wysokowydajne organizacje publikują kilkadziesiąt razy częściej,
-są bardziej otwarte na eksperymenty.
+- wysokowydajne organizacje publikują kilkadziesiąt razy częściej,
+- są bardziej otwarte na eksperymenty.
 Uwagi:
-na podstawie raportu "Raport 2014 State of DevOps Report",
-dużo więcej wdrożeń nawet przy niższym współczynniku, to wieksza liczba awarii. 
+- na podstawie raportu "Raport 2014 State of DevOps Report",
+- dużo więcej wdrożeń nawet przy niższym współczynniku, to większa liczba awarii.
 
 s:
 DevOps, 312
@@ -122,10 +122,10 @@ DevOps, 312
 .
 Czym są "dni gier" (w kontekście awarii)?
 
-"Dni gier" (ang. game days) to zaplanowane symulowacje awarii:
-określenie awarii,
-przygotowanie środków zaradczych,
-przeprowadzenie awarii.
+"Dni gier" (game days) to zaplanowane symulacje awarii:
+- określenie awarii,
+- przygotowanie środków zaradczych,
+- przeprowadzenie awarii.
 
 s:
 DevOps, 314
@@ -133,8 +133,8 @@ DevOps, 314
 .
 Co to jest "inżynieria odporności"?
 
-"Inżynieria odporności" (ang. resilience engineering) to:
-ćwiczenia mające na celu zwiększenie odporności poprzez iniekcję awarii na dużą skalę w kluczowych systemach.
+"Inżynieria odporności" (resilience engineering) to:
+- ćwiczenia mające na celu zwiększenie odporności poprzez iniekcję awarii na dużą skalę w kluczowych systemach.
 
 s:
 DevOps, 314

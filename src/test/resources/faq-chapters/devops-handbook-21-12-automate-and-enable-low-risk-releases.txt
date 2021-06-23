@@ -3,7 +3,8 @@ Co to jest "test kanarkowy"?
 
 "Test kanarkowy" to:
 - wdrożenie oprogramowania na małej grupie serwerów produkcyjnych
-- w celu sprawdzenia, czy oprogramowanie nie ulegnie awarii pod realnym obciążeniem.
+- w celu sprawdzenia, czy oprogramowanie nie ulegnie awarii pod realnym obciążeniem,
+- kanarek umierając ostrzega górnika.
 
 s:
 DevOps, 183
@@ -12,7 +13,7 @@ DevOps, 183
 Jaka relacja jest między liczbą zmian i liczbą wydań?
 
 Relacja między liczbą zmian i liczbą wydań:
-- jesli chcesz więcej zmian,
+- jeśli chcesz więcej zmian,
 - to potrzebujesz więcej wdrożeń,
 - wdrożenie obsługuje stałą liczbę zmian.
 
@@ -179,15 +180,15 @@ Co to jest "wzorzec wydań kanarkowych"?
 - rodzaj "wzorzec wdrażania niebieskie-zielone",
 - automatyzacja procesu wydań,
 - promowania do coraz ważniejszych środowisk,
-- kanarki umierają wcześniej niż górnicy.
+- kanarek umierając ostrzega górnika.
 
 s:
 DevOps, 200
 
 .
-Jakie są grupy środowisk wspierajace "wzorzec wydań kanarkowych"?
+Jakie są grupy środowisk wspierające "wzorzec wydań kanarkowych"?
 
-Grupy środowisk wspierajace "wzorzec wydań kanarkowych":
+Grupy środowisk wspierających "wzorzec wydań kanarkowych":
 - Grupa A1: serwery produkcyjne dla wewnętrznych pracowników,
 - Grupa A2: serwery produkcyjne dla niewielkiej grupy klientów,
 - Grupa A3: pozostałe serwery produkcyjne.
@@ -230,7 +231,7 @@ DevOps, 202
 .
 Jakie operacje umożliwiają przełączniki cech funkcjonalnych?
 
-Przełączniki cech funkcjonalnych umożliwiają: 
+Przełączniki cech funkcjonalnych umożliwiają:
 - łatwe wycofywanie,
 - obniżanie wydajności "z wdziękiem",
 - zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi.
@@ -296,7 +297,7 @@ DevOps, 196, 203
 Wyjaśnij "ciągła integracja" vs. "ciągłe dostarczanie" vs. "ciągłe wdrażanie"?
 
 - "ciągła integracja" (continuous integration): ciągłe scalane z rewizją master,
-- "ciągłe dostarczanie" (continuous delivery): ciagła gotowość do wydania na żądanie, rozwinięcie "ciągła integracja",
+- "ciągłe dostarczanie" (continuous delivery): ciągła gotowość do wydania na żądanie, rozwinięcie "ciągła integracja",
 - "ciągłe wdrażanie" (continuous deployment): ciągłe wdrażanie, rozwinięcie "ciągłe dostarczanie".
 
 s:

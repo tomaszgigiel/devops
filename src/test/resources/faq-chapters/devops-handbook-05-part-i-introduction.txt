@@ -11,7 +11,7 @@ Opisz trzy drogi DevOps.
 
 Trzy drogi DevOps:
 - przepływ: przyspieszają dostarczanie wyników pracy rozwoju i operacji,
-- sprzężenia zwrotnye, pozwalają tworzyć coraz bezpieczniejsze systemy pracy,
+- sprzężenia zwrotne, pozwalają tworzyć coraz bezpieczniejsze systemy pracy,
 - ciągłe uczenie się i eksperymentowanie: promuje kulturę wysokiego zaufania, naukowe podejście do podejmowania ryzyka.
 
 s:
@@ -24,8 +24,8 @@ Lean:
 - czas przekształcenia surowców na produkty jest najlepszym wskaźnikiem jakości,
 - niewielkie partie jednym z najlepszych predyktorów krótkich terminów realizacji,
 - zasada pull,
-- jakość u źródła (ang. quality at the source),
-- zarządzanie z poszanowaniem człowieka (ang. leading with humility).
+- jakość u źródła (quality at the source),
+- zarządzanie z poszanowaniem człowieka (leading with humility).
 
 s:
 DevOps, 36

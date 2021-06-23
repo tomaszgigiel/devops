@@ -13,7 +13,7 @@ Jak umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartośc
 
 Żeby umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości:
 - niewielkie partie,
-- zmniejszenie produkcji niezakończonej (ang. Work In Process — WIP),
+- zmniejszenie produkcji niezakończonej (Work In Process - WIP),
 - przeciwdziałanie przeróbkom,
 - ciągła optymalizacja.
 
@@ -23,7 +23,7 @@ DevOps, 40
 .
 Co to jest "czas realizacji"?
 
-Czas realizacji (ang. lead time) to:
+Czas realizacji (lead time) to:
 - od złożenia zamówienia,
 - do zrealizowania zamówienia.
 
@@ -33,8 +33,8 @@ DevOps, 41
 .
 Co to jest "czas przetwarzania"?
 
-Czas przetwarzania (ang. processing time) to:
-- inaczej czas zadania (ang. task time),
+Czas przetwarzania (processing time) to:
+- inaczej czas zadania (task time),
 - od rozpoczęcia pracy nad zamówieniem,
 - do zrealizowania zamówienia.
 
@@ -46,7 +46,7 @@ Ile trwa czas realizacji wdrażania w DevOps?
 
 Czas realizacji wdrażania w DevOps trwa:
 - w idealnym środowisku, kilka minut,
-- automtyzacja testów, wdrażania,
+- automatyzacja testów, wdrażania,
 - modułowa architektura, luźne powiązania,
 - niewielkie, autonomiczne zespoły.
 
@@ -56,7 +56,7 @@ DevOps, 43
 .
 Co to jest wskaźnik procentu C/A?
 
-Wskaźnik procentu C/A (ang. complete and accurate - "gotowe i dokładne") to:
+Wskaźnik procentu C/A (complete and accurate - "gotowe i dokładne") to:
 - parametr w strumieniu wartości technologii,
 - odzwierciedla jakość wyników etapu,
 - procent przypadków, gdy dalszy etap otrzymuje pracę w postaci gotowej do wykorzystania.
@@ -94,7 +94,7 @@ Opisz "trzecią drogę".
 "Trzecia droga":
 - kultura wysokiego zaufania,
 - eksperymentowanie,
-- okalne odkrycia na globalne usprawnienia.
+- lokalne odkrycia na globalne usprawnienia.
 
 s:
 DevOps, 45

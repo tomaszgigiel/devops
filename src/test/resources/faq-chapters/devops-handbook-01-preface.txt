@@ -1,7 +1,7 @@
 .
 Co to jest SLA?
 
-SLA (ang. service level agreement) to:
+SLA (service level agreement) to:
 - umowa zapewnienia poziomu usług.
 
 s:
@@ -11,7 +11,7 @@ DevOps, 8
 Jak powstał termin "DevOps"?
 
 Termin "DevOps":
-- pojawił się pierwszy raz na konferencji DevOpsDays,
+- pojawił się pierwszy raz na konferencji DevOpsDays 2009,
 - zorganizowanej przez Patrick Debois.
 
 s:
@@ -20,7 +20,7 @@ DevOps, 9
 .
 Co to jest CM?
 
-CM (ang. configuration management) to:
+CM (configuration management) to:
 - zarządzanie konfiguracją.
 
 s:
@@ -40,7 +40,7 @@ DevOps, 10
 .
 Co to jest ITIL?
 
-ITIL (ang. Information Technology Infrastructure Library) to:
+ITIL (Information Technology Infrastructure Library) to:
 - ciągle zmieniająca się biblioteka praktyk,
 - kodyfikuje procesy i techniki stanowiących podstawę operacji IT,
 - obejmuje strategię usług, projektowanie i pomoc techniczną.
@@ -51,7 +51,7 @@ DevOps, 11
 .
 Co to jest ITSM?
 
-ITSM (ang. IT Service Management - dosł. zarządzanie usługami IT) to:
+ITSM (IT Service Management - dosł. zarządzanie usługami IT) to:
 - czynności wykonywane przez organizację,
 - w celu projektowania, budowy, dostarczania, obsługi i kontroli usług informatycznych oferowanych klientom.
 
@@ -69,7 +69,7 @@ Mity związane z DevOps:
 4. DevOps jest niezgodny z zasadami bezpieczeństwa informacji i zgodności z przepisami: elementy kontroli są zintegrowane z każdym z etapów codziennej pracy w cyklu tworzenia oprogramowania.
 5. DevOps eliminuje funkcje operacji IT: działy operacji IT współpracują z działami rozwoju znacznie wcześniej w cyklu życia oprogramowania, praca personelu operacji IT przypomina działania programistów.
 6. DevOps to po prostu "infrastruktura jako kod" lub automatyzacja: plus normy kulturowe i architektury.
-7. DevOps dotyczy tylko oprogramowania open source: patrz SAP, firmware HP LaserJet. 
+7. DevOps dotyczy tylko oprogramowania open source: patrz SAP, firmware HP LaserJet.
 
 s:
 DevOps, 11
@@ -89,10 +89,10 @@ DevOps, 13
 .
 Co to jest DevOps?
 
-DevOps (od ang. development and operations) to zestaw praktyk, który łączy:
-- rozwój (ang. development),
-- eksploatację (ang. operations),
-- zapewnienie jakości (ang. quality assurance).
+DevOps (development and operations) to zestaw praktyk, który łączy:
+- rozwój (development),
+- eksploatację (operations),
+- zapewnienie jakości (quality assurance).
 
 s:
 https://pl.wikipedia.org/wiki/DevOps

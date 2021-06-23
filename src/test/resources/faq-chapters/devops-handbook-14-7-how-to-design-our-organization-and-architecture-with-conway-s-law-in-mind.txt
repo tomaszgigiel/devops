@@ -46,7 +46,7 @@ Co to jest "drugi paradoks Toyoty"?
 
 "Drugi paradoks Toyoty":
 - wysoka skuteczność w organizacji funkcjonalnej,
-- rozwój i nawyki pracowników. 
+- rozwój i nawyki pracowników.
 
 s:
 DevOps, 114

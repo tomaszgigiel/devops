@@ -24,7 +24,7 @@ DevOps, 363
 Wymień kategorie zmian.
 
 Kategorie zmian:
-- zmiany standardowe: niskie ryzyko, zgodne z ustalonym i zatwierdzonym procesem, uproszczone zatwierdzanie, 
+- zmiany standardowe: niskie ryzyko, zgodne z ustalonym i zatwierdzonym procesem, uproszczone zatwierdzanie,
 - zmiany normalne: wyższe ryzyko, wymagany przegląd lub zatwierdzenie,
 - zmiany pilne: wysokie ryzyko, awarie.
 
@@ -46,7 +46,7 @@ DevOps, 368
 Kim jest "bibliotekarz kodu"?
 
 "Bibliotekarz kodu" to:
-osoba która przegląda i zatwierdza zmianę przed wypromowaniem jej do produkcji.
+- osoba która przegląda i zatwierdza zmianę przed wypromowaniem jej do produkcji.
 
 s:
 DevOps, 369
@@ -57,7 +57,7 @@ Jak zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania?
 Żeby zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania:
 - zmniejsz rolę podziału obowiązków,
 - zrezygnuj z "bibliotekarza kodu",
-- wprowadź programowanie w parach, ciągłą kontrolę operacji ewidencjonowania kodu, przeglądy kodu. 
+- wprowadź programowanie w parach, ciągłą kontrolę operacji ewidencjonowania kodu, przeglądy kodu.
 
 s:
 DevOps, 369

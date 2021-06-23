@@ -12,7 +12,7 @@ Jak poprawić bezpieczeństwo?
 
 Bezpieczeństwo można poprawić poprzez:
 - bezpieczeństwo obowiązkiem wszystkich,
-- integracja mechanizmów prewencyjnych ze współnym repozytowrium kodu,
+- integracja mechanizmów prewencyjnych ze wspólnym repozytorium kodu,
 - integracja zabezpieczeń z potokiem wdrożeń,
 - integracja zabezpieczeń z mechanizmami telemetrycznymi (wykrywanie luk),
 - ochrona potoku wdrożeń,

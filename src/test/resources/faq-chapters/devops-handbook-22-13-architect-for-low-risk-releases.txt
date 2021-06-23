@@ -2,9 +2,9 @@
 Co to jest "doświadczenie bliskie śmierci"?
 
 "Doświadczenie bliskie śmierci" to:
-- skrajne utrudnenie rozwoju i utrzymania systemu,
+- skrajne utrudnienie rozwoju i utrzymania systemu,
 - wskutek długu technicznego,
-- wsutek problemów archutektonicznych.
+- wskutek problemów architektonicznych.
 
 s:
 DevOps, 209
@@ -72,7 +72,7 @@ Co to jest "technika rozgałęziania przez abstrakcję"?
 "Technika rozgałęziania przez abstrakcję" (branching by abstraction) to:
 - stworzeniu warstwy abstrakcji pomiędzy zmienianymi obszarami,
 - pozwala na ewolucyjne projektowanie architektury,
-- pozwala na praccę na gałęzi master i stosowanie ciągłej integracji.
+- pozwala na pracę na gałęzi master i stosowanie ciągłej integracji.
 
 s:
 DevOps, 216

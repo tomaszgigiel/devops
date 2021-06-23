@@ -22,12 +22,12 @@ DevOps, 331
 .
 Czym są "spring/fall cleanings", "ticket queue inversion weeks", "hack days", "hackathon", "20% innovation time"?
 
-"spring/fall cleanings" ("wiosenne lub jesienne sprzątanie"),
-"ticket queue inversion weeks" ("tygodnie odwróconej kolejki zleceń"),
-"hack days",
-"hackathon",
-"20% innovation time"
-to wydarzenia wprowadzajace innowacje, rzadziej usprawnienia.
+- "spring/fall cleanings" ("wiosenne lub jesienne sprzątanie"),
+- "ticket queue inversion weeks" ("tygodnie odwróconej kolejki zleceń"),
+- "hack days",
+- "hackathon",
+- "20% innovation time"
+to wydarzenia wprowadzające innowacje, rzadziej usprawnienia.
 
 s:
 DevOps, 331

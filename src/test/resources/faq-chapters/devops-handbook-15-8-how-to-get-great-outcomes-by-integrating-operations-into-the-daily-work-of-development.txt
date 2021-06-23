@@ -1,5 +1,5 @@
 .
-Jak poprawić wydajność zespołół Dev?
+Jak poprawić wydajność zespołów Dev?
 
 Aby poprawić wydajność zespołów Dev:
 - twórz funkcje samoobsługowe dla Dev,

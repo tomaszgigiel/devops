@@ -30,12 +30,12 @@ https://pl.wikipedia.org/wiki/MTBF
 Co to jest "poprawka w przód"?
 
 "Poprawka w przód" (fix forward) to:
- - wprowadzanie w kodzie zmian, które eliminują wady,
- - a następnie przenieść je do produkcji za pośrednictwem potoku wdrożeń.
- 
+- wprowadzanie w kodzie zmian, które eliminują wady,
+- a następnie przenieść je do produkcji za pośrednictwem potoku wdrożeń.
+
 s:
 DevOps, 262
- 
+
 .
 Jak naprawiać defekty szybciej?
 

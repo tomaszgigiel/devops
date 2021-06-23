@@ -43,7 +43,7 @@ DevOps, 61
 .
 Co to jest "swarming"?
 
-"Swarming" (ang. swarm - "rój") to:
+"Swarming" (swarm - "rój") to:
 - mobilizowanie wszystkich osób, które są potrzebne do zażegnania kryzysu,
 - opanowanie problemów, zanim zdążą się rozprzestrzenić,
 - naprawienie złej sytuacji, by nie mogła się powtórzyć,
@@ -57,7 +57,7 @@ Co to jest "linka Andon"?
 
 "Linka Andon" to:
 - stosowana w fabryce Toyota (nie w samochodzie),
-- linka, którą każdy może pociagnąć jeśli zauważy problem,
+- linka, którą każdy może pociągnąć jeśli zauważy problem,
 - lider rozwiązuje problem < 1 min,
 - jeśli dłużej to zatrzymuje linię produkcyjną.
 

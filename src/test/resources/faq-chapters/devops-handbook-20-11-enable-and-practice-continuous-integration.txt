@@ -45,7 +45,7 @@ DevOps, 178
 Co to jest "gated commits"?
 
 "Gated commits" (rewizje ogrodzone) to:
-- odrzucanie rewizji, które powodują naruszenie stanu gotowości do wdrożenia. 
+- odrzucanie rewizji, które powodują naruszenie stanu gotowości do wdrożenia.
 
 s:
 DevOps, 178

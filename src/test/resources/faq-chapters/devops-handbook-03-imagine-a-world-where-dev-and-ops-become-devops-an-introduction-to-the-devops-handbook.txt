@@ -25,7 +25,7 @@ DevOps, 18
 .
 Co to jest "dług techniczny"?
 
-"Dług techniczny" (ang. technical debt) to:
+"Dług techniczny" (technical debt) to:
 - koncepcja w rozwoju oprogramowania,
 - odzwierciedla domniemany koszt dodatkowej pracy,
 - związanej z wyborem łatwego rozwiązania teraz,
@@ -39,7 +39,7 @@ https://en.wikipedia.org/wiki/Technical_debt
 Na czym polega spirala degradacji w IT?
 
 Spirala degradacji w IT:
-Ak1 1. dług techniczny i obejścia, naprawa odkładana na nieokreśloną przyszłość,
+Ak1 1. dług techniczny i obejścia, naprawa odkładana,
 Akt 2. droga na skróty w celu dotrzymania dat wydania,
 Akt 3. rozwój coraz trudniejszy, dłuższy, kosztowniejszy.
 Więcej czasu na obsługę awarii, mniej czasu na rozwój.
@@ -51,7 +51,7 @@ DevOps, 21
 Jak złamać spiralę degradacji?
 
 Spiralę degradacji może złamać:
-- niewielkie, niezależne zespoły obsługujące cały cykl życia oprogramowania, 
+- niewielkie, niezależne zespoły obsługujące cały cykl życia oprogramowania,
 - szybkie pętle zwrotne na każdym etapie,
 - architektura wspierająca pracę w niewielkich, niezależnych zespołach,
 - wprowadzanie/wycofywanie nowych funkcji dla segmentów klientów
@@ -93,7 +93,7 @@ Jak DevOps pomaga skalować wydajność pracy deweloperów?
 DevOps pomaga skalować wydajność pracy deweloperów poprzez:
 - wspiera pracę w małych, niezależnych zespołach,
 - co zmniejsza narzut związany z komunikacją, integracją i testowaniem,
-- co pozwala zachować wydajność nawet w dużych organizacjach. 
+- co pozwala zachować wydajność nawet w dużych organizacjach.
 
 s:
 DevOps, 29
@@ -102,7 +102,7 @@ DevOps, 29
 Jaka jest najważniejsza lekcja z "The Mythical Man-Month"?
 
 Najważniejsza lekcja z "The Mythical Man-Month":
-- do opóźnionego projektu nie dodowawaj dodatkowych programistów.
+- do opóźnionego projektu nie dodawaj dodatkowych programistów.
 
 s:
 DevOps, 29
@@ -111,8 +111,8 @@ DevOps, 29
 Wymień podstawowe zasady DevOps.
 
 Podstawowe zasady DevOps:
-- Pierwsza droga: Przepływ (ang. flow)
-- Druga droga: Sprzężenie zwrotne (ang. feedback)
+- Pierwsza droga: Przepływ (flow)
+- Druga droga: Sprzężenie zwrotne (feedback)
 - Trzecia droga: Ciągłe uczenie się i eksperymentowanie.
 
 s:

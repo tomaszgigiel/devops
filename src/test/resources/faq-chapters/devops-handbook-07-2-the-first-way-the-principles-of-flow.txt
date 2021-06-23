@@ -29,7 +29,7 @@ DevOps, 59
 .
 Co to jest WIP?
 
-WIP (ang. Work In Progress) to:
+WIP (Work In Progress) to:
 - praca w toku.
 
 s:
@@ -54,7 +54,7 @@ s:
 DevOps, 50
 
 .
-Dlaczego zmniejszać liczbę przełączeń (programiści, adminstratorzy, testerzy)?
+Dlaczego zmniejszać liczbę przełączeń (programiści, administratorzy, testerzy)?
 
 Zmniejszaj liczbę przełączeń, bo:
 - kolejka zadań,
@@ -65,7 +65,7 @@ s:
 DevOps, 53
 
 .
-Jak zmniejszyć konsekwencje przełączeń (programiści, adminstratorzy, testerzy)?
+Jak zmniejszyć konsekwencje przełączeń (programiści, administratorzy, testerzy)?
 
 Zmniejszaj konsekwencje przełączeń:
 - zmniejszy liczbę,

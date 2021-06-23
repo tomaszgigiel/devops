@@ -30,7 +30,7 @@ s:
 DevOps, 319
 
 .
-Ile repozytorów kodu powinna posiadać organizacja?
+Ile repozytoriów kodu powinna posiadać organizacja?
 
 Organizacja powinna posiadać jedno repozytorium kodu:
 - możliwość wykorzystywania doświadczeń wszystkich osób w organizacji,
@@ -56,7 +56,7 @@ s:
 DevOps, 321, 327
 
 .
-Jaką rolę pełnią testy automatyczne w rozpowszecnianiu wiedzy?
+Jaką rolę pełnią testy automatyczne w rozpowszechnianiu wiedzy?
 
 Testy automatyczne, szczególnie TDD:
 - stanowią specyfikację systemu,
@@ -97,7 +97,7 @@ Na czym polega standaryzacja stosu technologii?
 
 Standaryzacja stosu technologii polega na:
 - wybraniu technologii pomagających osiągnąć cele organizacji,
-- maksymalizcja wydajności zespołu vs. cele całej organizacji,
+- maksymalizacja wydajności zespołu vs. cele całej organizacji,
 - wspólne uzgodnienie Dev i Ops.
 Zwykle miękkie granice obejmujące niewielką liczbę technologii.
 

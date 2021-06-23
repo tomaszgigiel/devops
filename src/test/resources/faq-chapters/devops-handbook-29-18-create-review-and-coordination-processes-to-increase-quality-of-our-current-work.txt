@@ -66,7 +66,7 @@ s:
 DevOps, 284
 
 .
-Jakie są techniczne środki zaradcze na zagrożenia? 
+Jakie są techniczne środki zaradcze na zagrożenia?
 
 Techniczne środki zaradcze na zagrożenia:
 - redundancja,
@@ -136,7 +136,7 @@ Co to jest "programowanie w parach"?
 - inaczej praca parami (pairing),
 - inaczej programowanie parami (pair programming),
 - dwóch inżynierów współpracuje na tej samej stacji roboczej,
-- kierowca i nawigator lub  obserwator, 
+- kierowca i nawigator lub  obserwator,
 - stosowane nie tylko przez programistów.
 
 s:

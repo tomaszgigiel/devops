@@ -1,10 +1,10 @@
 .
 Co to jest "InfoSec"?
 
-"InfoSec" (ang. Information security) to:
+"InfoSec" (Information security) to:
 - zagadnienia, praktyki, procesy, narzędzia, działy
 - dotyczące lub zajmujące się ochroną informacji.
- 
+
 s:
 https://en.wikipedia.org/wiki/Information_security
 https://www.cisco.com/c/en/us/products/security/what-is-information-security-infosec.html
@@ -33,7 +33,7 @@ DevOps, 345
 .
 Co to jest "GRC"?
 
-"GRC" (ang. governance, risk, and compliance - "nadzór, ryzyko i zgodność") to:
+"GRC" (governance, risk, and compliance - "nadzór, ryzyko i zgodność") to:
 - tradycyjnego sposobu działania InfoSec,
 - system do rejestrowania luk,
 - dostępny tylko dla InfoSec.
@@ -113,7 +113,7 @@ DevOps, 349
 .
 Co to jest "PGP"?
 
-"PGP" (ang. Pretty Good Privacy) to:
+"PGP" (Pretty Good Privacy) to:
 - narzędzie do szyfrowania, odszyfrowywania i uwierzytelniania m.in. poczty elektronicznej, plików, katalogów oraz partycji dyskowych.
 
 s:
@@ -122,7 +122,7 @@ https://pl.wikipedia.org/wiki/Pretty_Good_Privacy
 .
 Jak pomóc pisać kod, który przeciwdziała nadużyciom?
 
-W celu przeciwdziałniu nadużyciom zdefiniuj wzorce projektowe, m.in.:
+W celu przeciwdziałaniu nadużyciom zdefiniuj wzorce projektowe, m.in.:
 - jak przechowywać hasła,
 - jak postępować w przypadku zapomnianych haseł,
 - jak obsługiwać logowanie,
@@ -143,7 +143,7 @@ DevOps, 353
 .
 Jak zapewnić bezpieczeństwo środowiska?
 
-W celu zapenienia bezpieczeństwa środowiska:
+W celu zapewnienia bezpieczeństwa środowiska:
 - wdróż testy automatyczne: poprawność ustawień, długość kluczy,
 - wdróż testy do skanowania: luki w zabezpieczeniach,
 - sprawdzaj, czy otwarte są tylko wymagane porty,
@@ -166,7 +166,7 @@ s:
 DevOps, 357
 
 .
-Podaj przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji. 
+Podaj przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji.
 
 Przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji:
 - udane i nieudane logowania,
@@ -178,7 +178,7 @@ s:
 DevOps, 358
 
 .
-Podaj przykłady sytuacji dla telemetrii zabezpieczeń w środowisku. 
+Podaj przykłady sytuacji dla telemetrii zabezpieczeń w środowisku.
 
 Przykłady sytuacji dla telemetrii zabezpieczeń w środowisku:
 - zmiany w systemie operacyjnym (np. produkcja, środowisko kompilacji),

@@ -25,7 +25,7 @@ Jak zintegrować testy A/B z procesem testowania/publikowania/planowania cechy f
 Aby zintegrować testy A/B z procesem testowania cechy funkcjonalnej:
 - na przykład losowo wyświetlaj witrynę w wersji A albo B,
 - przeanalizuj różnicę wyników,
-- zdolność eksperymwntowania rośnie z liczbą wdrożeń.
+- zdolność eksperymentowania rośnie z liczbą wdrożeń.
 
 s:
 DevOps, 276, 277, 278

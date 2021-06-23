@@ -27,10 +27,10 @@ s:
 DevOps, 95
 
 .
-Jak długi powinien być horyzont planowania poprawy?
+Jak długi powinien być horyzont planowania poprawy (wdrażanie DevOps)?
 
-Horyzont planowania poprawy powinien być:
-- krótki, klkutygodniowy.
+Horyzont planowania poprawy (wdrażanie DevOps) powinien być:
+- krótki, kilkutygodniowy.
 
 s:
 DevOps, 100
@@ -47,7 +47,7 @@ DevOps, 101
 Jak wzmacniać zachowania DevOps?
 
 Wzmacniaj zachowania DevOps dzięki narzędziom:
-- uzywaj wspólnych dla Dev i Ops,
+- używaj wspólnych dla Dev i Ops,
 - np. wspólne kolejki zadań w JIRA.
 
 s:

@@ -13,7 +13,7 @@ DevOps, 153
 .
 Co to jest "push on green"?
 
-"Push on green" (ang. pchaj, jeśli zielono) to:
+"Push on green" (pchaj, jeśli zielono) to:
 - filozofia dostarczania,
 - ewidencjonowanie kodu w repozytorium tylko wtedy, gdy przejdzie testy.
 
@@ -23,7 +23,7 @@ DevOps, 155
 .
 Co to jest "potok wdrożeń"?
 
-"Potok wdrożeń" (ang. deployment pipeline) to potok, który:
+"Potok wdrożeń" (deployment pipeline) to potok, który:
 - integruje kod i środowiska,
 - inicjuje testy natychmiast przy ewidencji kodu w repozytowium.
 
@@ -78,7 +78,7 @@ DevOps, 161
 .
 Co to jest "test dymny"?
 
-"Test dymny" (ang. smoke test) to:
+"Test dymny" (smoke test) to:
 - zbiór przypadków testowych pokrywających główne funkcjonalności produktu.
 
 s:
@@ -118,8 +118,8 @@ DevOps, 164
 Jak zagwarantować, że dysponujemy wiarygodnymi testami automatycznymi?
 
 Gwarancją wiarygodnych testów automatycznych są:
-- wytwarzanie oprogramowania sterowane testami: TDD (ang. test-driven development),
-- wytwarzanie oprogramowania sterowane testami akceptacyjnymi: ATDD (ang. acceptance test-driven development).
+- wytwarzanie oprogramowania sterowane testami: TDD (test-driven development),
+- wytwarzanie oprogramowania sterowane testami akceptacyjnymi: ATDD (acceptance test-driven development).
 
 s:
 DevOps, 165
@@ -134,18 +134,18 @@ s:
 DevOps, 167
 
 .
-Jak zagwaranotwać spełnienie wymagań niefunkcjonalnych?
+Jak zagwarantować spełnienie wymagań niefunkcjonalnych?
 
-Aby zagwaranotwać spełnienie wymagań niefunkcjonalnych:
+Aby zagwarantować spełnienie wymagań niefunkcjonalnych:
 - dodaj automatyczne testy wymagań niefunkcjonalnych.
 
 s:
 DevOps, 168
 
 .
-Jak zastosować "linkę andon" w potoku wdrożeń?
+Jak zastosować "linkę Andon" w potoku wdrożeń?
 
-"Linka andon" w potoku wdrożeń:
+"Linka Andon" w potoku wdrożeń:
 - w przypadku awarii potoku wdrożeń,
 - przede wszystkim napraw problem.
 
@@ -153,9 +153,9 @@ s:
 DevOps, 169
 
 .
-Dlaczego trzeba pociągać za "linkę andon"?
+Dlaczego trzeba pociągać za "linkę Andon"?
 
-Trzeba pociągać za "linkę andon", bo:
+Trzeba pociągać za "linkę Andon", bo:
 - tracimy możliwość wdrażania,
 - problemy narastają wraz z kolejnymi rewizjami,
 - konieczne zatrzymanie prac rozwojowych i "stabilizacja".
