@@ -1,0 +1,3746 @@
+<div class="paragraph">
+<p>.
+Co to jest SLA?</p>
+</div>
+<div class="paragraph">
+<p>SLA (service level agreement) to:
+- umowa zapewnienia poziomu usług.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 8</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak powstał termin "DevOps"?</p>
+</div>
+<div class="paragraph">
+<p>Termin "DevOps":
+- pojawił się pierwszy raz na konferencji DevOpsDays 2009,
+- zorganizowanej przez Patrick Debois.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 9</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest CM?</p>
+</div>
+<div class="paragraph">
+<p>CM (configuration management) to:
+- zarządzanie konfiguracją.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 10</p>
+</div>
+<div class="paragraph">
+<p>.
+Na czym polega koncepcja "infrastruktura jako kod"?</p>
+</div>
+<div class="paragraph">
+<p>Koncepcja "infrastruktura jako kod" polega na:
+- działy operacji zachowują się jak programiści,
+- utrzymują konfiguracje w systemach zarządzania kodem źródłowym,
+- adoptują wzorce dostaw CI/CD w swoich przepływach pracy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 10</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest ITIL?</p>
+</div>
+<div class="paragraph">
+<p>ITIL (Information Technology Infrastructure Library) to:
+- ciągle zmieniająca się biblioteka praktyk,
+- kodyfikuje procesy i techniki stanowiących podstawę operacji IT,
+- obejmuje strategię usług, projektowanie i pomoc techniczną.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 11</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest ITSM?</p>
+</div>
+<div class="paragraph">
+<p>ITSM (IT Service Management - dosł. zarządzanie usługami IT) to:
+- czynności wykonywane przez organizację,
+- w celu projektowania, budowy, dostarczania, obsługi i kontroli usług informatycznych oferowanych klientom.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 11
+<a href="https://en.wikipedia.org/wiki/IT_service_management" class="bare">https://en.wikipedia.org/wiki/IT_service_management</a></p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są mity związane z DevOps?</p>
+</div>
+<div class="paragraph">
+<p>Mity związane z DevOps:
+1. DevOps jest tylko dla startupów: patrz Google, Amazon, Netflix.
+2. DevOps zastępuje Agile: DevOps jest kontynuacją Agile.
+3. DevOps jest niezgodny z ITIL: praktyki DevOps mogą być zgodne z ITIL, szczególnie gdy procesy ITIL zostaną zautomatyzowane.
+4. DevOps jest niezgodny z zasadami bezpieczeństwa informacji i zgodności z przepisami: elementy kontroli są zintegrowane z każdym z etapów codziennej pracy w cyklu tworzenia oprogramowania.
+5. DevOps eliminuje funkcje operacji IT: działy operacji IT współpracują z działami rozwoju znacznie wcześniej w cyklu życia oprogramowania, praca personelu operacji IT przypomina działania programistów.
+6. DevOps to po prostu "infrastruktura jako kod" lub automatyzacja: plus normy kulturowe i architektury.
+7. DevOps dotyczy tylko oprogramowania open source: patrz SAP, firmware HP LaserJet.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 11</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie efekty przynosi wprowadzenie DevOps?</p>
+</div>
+<div class="paragraph">
+<p>Efekty DevOps:
+- bezpieczne systemy pracy,
+- szybkie, niezależne rozwijanie i walidowanie kodu przez małe zespoły,
+- bezpieczne wdrożenia,
+- wzmacnianie normy kulturowe wysokiego poziomu zaufania.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 13</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest DevOps?</p>
+</div>
+<div class="paragraph">
+<p>DevOps (development and operations) to zestaw praktyk, który łączy:
+- rozwój (development),
+- eksploatację (operations),
+- zapewnienie jakości (quality assurance).</p>
+</div>
+<div class="paragraph">
+<p>s:
+<a href="https://pl.wikipedia.org/wiki/DevOps" class="bare">https://pl.wikipedia.org/wiki/DevOps</a>
+<a href="https://en.wikipedia.org/wiki/DevOps" class="bare">https://en.wikipedia.org/wiki/DevOps</a>
+.
+Na czym polega DevOps?</p>
+</div>
+<div class="paragraph">
+<p>DevOps polega na współpracy:
+- właścicieli produktu,
+- deweloperów,
+- inżynierów walidacji (QA),
+- inżynierów operacji IT,
+- inżynierów bezpieczeństwa informacji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 17</p>
+</div>
+<div class="paragraph">
+<p>.
+Opisz sytuację bez DevOps.</p>
+</div>
+<div class="paragraph">
+<p>Sytuacja bez DevOps:
+- konflikt pomiędzy działem rozwoju a działem operacji IT,
+- testowanie i weryfikacja zabezpieczeń są wykonywane wyłącznie pod koniec projektu,
+- kluczowe aktywności wymagają wielu "ręcznych" działań.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 18</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "dług techniczny"?</p>
+</div>
+<div class="paragraph">
+<p>"Dług techniczny" (technical debt) to:
+- koncepcja w rozwoju oprogramowania,
+- odzwierciedla domniemany koszt dodatkowej pracy,
+- związanej z wyborem łatwego rozwiązania teraz,
+- zamiast stosowania lepszego podejścia, które zajęłoby więcej czasu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 20
+<a href="https://en.wikipedia.org/wiki/Technical_debt" class="bare">https://en.wikipedia.org/wiki/Technical_debt</a></p>
+</div>
+<div class="paragraph">
+<p>.
+Na czym polega spirala degradacji w IT?</p>
+</div>
+<div class="paragraph">
+<p>Spirala degradacji w IT:
+Ak1 1. dług techniczny i obejścia, naprawa odkładana,
+Akt 2. droga na skróty w celu dotrzymania dat wydania,
+Akt 3. rozwój coraz trudniejszy, dłuższy, kosztowniejszy.
+Więcej czasu na obsługę awarii, mniej czasu na rozwój.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 21</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak złamać spiralę degradacji?</p>
+</div>
+<div class="paragraph">
+<p>Spiralę degradacji może złamać:
+- niewielkie, niezależne zespoły obsługujące cały cykl życia oprogramowania,
+- szybkie pętle zwrotne na każdym etapie,
+- architektura wspierająca pracę w niewielkich, niezależnych zespołach,
+- wprowadzanie/wycofywanie nowych funkcji dla segmentów klientów
+- automatyzacja (m.in. wdrożeń, testów kodu w systemie kontroli wersji),
+- telemetria,
+- każdy problem okazją do nauki i usprawnień,
+- kultura inspiracji hipotezą: prace to hipotezy, rozwój produktu i usprawnianie to eksperymenty,
+- kultura zaufania i współpracy: nagradzanie za podejmowanie ryzyka,
+- dbanie o jakość: wstrzykiwanie usterek, żeby nauczyć się działania podczas awarii.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 25</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "dark launch"?</p>
+</div>
+<div class="paragraph">
+<p>"Dark launch" to:
+- częściowe wdrożenie,
+- dla wewnętrznych pracowników i małych grup rzeczywistych użytkowników,
+- pozwala to na testowanie i ewolucyjny rozwój,
+- aż do pożądanego celu biznesowego.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 26</p>
+</div>
+<div class="paragraph">
+<p>.
+Jaka jest wartość biznesowa DevOps?</p>
+</div>
+<div class="paragraph">
+<p>Wartość biznesowa DevOps:
+- wyższa wydajność, zwinność, niezawodność, bezpieczeństwo,
+- wyższe zadowolenie z pracy pracowników.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 28</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak DevOps pomaga skalować wydajność pracy deweloperów?</p>
+</div>
+<div class="paragraph">
+<p>DevOps pomaga skalować wydajność pracy deweloperów poprzez:
+- wspiera pracę w małych, niezależnych zespołach,
+- co zmniejsza narzut związany z komunikacją, integracją i testowaniem,
+- co pozwala zachować wydajność nawet w dużych organizacjach.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 29</p>
+</div>
+<div class="paragraph">
+<p>.
+Jaka jest najważniejsza lekcja z "The Mythical Man-Month"?</p>
+</div>
+<div class="paragraph">
+<p>Najważniejsza lekcja z "The Mythical Man-Month":
+- do opóźnionego projektu nie dodawaj dodatkowych programistów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 29</p>
+</div>
+<div class="paragraph">
+<p>.
+Wymień podstawowe zasady DevOps.</p>
+</div>
+<div class="paragraph">
+<p>Podstawowe zasady DevOps:
+- Pierwsza droga: Przepływ (flow)
+- Druga droga: Sprzężenie zwrotne (feedback)
+- Trzecia droga: Ciągłe uczenie się i eksperymentowanie.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 32
+.
+Jaka jest relacja między DevOps i Lean?</p>
+</div>
+<div class="paragraph">
+<p>DevOps to wynik zastosowania zasad metodyki Lean do strumienia wartości technologii.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 35</p>
+</div>
+<div class="paragraph">
+<p>.
+Opisz trzy drogi DevOps.</p>
+</div>
+<div class="paragraph">
+<p>Trzy drogi DevOps:
+- przepływ: przyspieszają dostarczanie wyników pracy rozwoju i operacji,
+- sprzężenia zwrotne, pozwalają tworzyć coraz bezpieczniejsze systemy pracy,
+- ciągłe uczenie się i eksperymentowanie: promuje kulturę wysokiego zaufania, naukowe podejście do podejmowania ryzyka.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 35</p>
+</div>
+<div class="paragraph">
+<p>.
+Scharakteryzuj Lean.</p>
+</div>
+<div class="paragraph">
+<p>Lean:
+- czas przekształcenia surowców na produkty jest najlepszym wskaźnikiem jakości,
+- niewielkie partie jednym z najlepszych predyktorów krótkich terminów realizacji,
+- zasada pull,
+- jakość u źródła (quality at the source),
+- zarządzanie z poszanowaniem człowieka (leading with humility).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 36</p>
+</div>
+<div class="paragraph">
+<p>Scharakteryzuj Agile.</p>
+</div>
+<div class="paragraph">
+<p>Agile:
+- częste dostarczanie działającego oprogramowania,
+- niewielkie zespoły,
+- zarządzanie wysokiego zaufania.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 36
+.
+Co to jest "strumień wartości"?</p>
+</div>
+<div class="paragraph">
+<p>"Strumień wartości" to:
+- podstawowa koncepcja Lean,
+- sekwencja działań podejmowanych przez organizację w celu realizacji zlecenia klienta.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 39</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości?</p>
+</div>
+<div class="paragraph">
+<p>Żeby umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości:
+- niewielkie partie,
+- zmniejszenie produkcji niezakończonej (Work In Process - WIP),
+- przeciwdziałanie przeróbkom,
+- ciągła optymalizacja.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 40</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "czas realizacji"?</p>
+</div>
+<div class="paragraph">
+<p>Czas realizacji (lead time) to:
+- od złożenia zamówienia,
+- do zrealizowania zamówienia.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 41</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "czas przetwarzania"?</p>
+</div>
+<div class="paragraph">
+<p>Czas przetwarzania (processing time) to:
+- inaczej czas zadania (task time),
+- od rozpoczęcia pracy nad zamówieniem,
+- do zrealizowania zamówienia.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 41</p>
+</div>
+<div class="paragraph">
+<p>.
+Ile trwa czas realizacji wdrażania w DevOps?</p>
+</div>
+<div class="paragraph">
+<p>Czas realizacji wdrażania w DevOps trwa:
+- w idealnym środowisku, kilka minut,
+- automatyzacja testów, wdrażania,
+- modułowa architektura, luźne powiązania,
+- niewielkie, autonomiczne zespoły.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 43</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest wskaźnik procentu C/A?</p>
+</div>
+<div class="paragraph">
+<p>Wskaźnik procentu C/A (complete and accurate - "gotowe i dokładne") to:
+- parametr w strumieniu wartości technologii,
+- odzwierciedla jakość wyników etapu,
+- procent przypadków, gdy dalszy etap otrzymuje pracę w postaci gotowej do wykorzystania.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 43</p>
+</div>
+<div class="paragraph">
+<p>.
+Opisz "pierwszą drogę".</p>
+</div>
+<div class="paragraph">
+<p>"Pierwsza droga":
+- szybki przepływ, skrócony czas realizacji,
+- Biznes &#8594; Dev &#8594; Ops &#8594; Klient,
+- praca widoczna,
+- małe partie,
+- przeciwdziałanie defektom,
+- optymalizacja,
+- automatyzacja, CI/CD.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 44</p>
+</div>
+<div class="paragraph">
+<p>.
+Opisz "drugą drogę".</p>
+</div>
+<div class="paragraph">
+<p>"Druga droga":
+- natychmiastowa informacja zwrotna.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 44</p>
+</div>
+<div class="paragraph">
+<p>.
+Opisz "trzecią drogę".</p>
+</div>
+<div class="paragraph">
+<p>"Trzecia droga":
+- kultura wysokiego zaufania,
+- eksperymentowanie,
+- lokalne odkrycia na globalne usprawnienia.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 45
+.
+Dlaczego praca powinna być widoczna?</p>
+</div>
+<div class="paragraph">
+<p>Czyń pracę widoczną, bo:
+- stanie się widoczna jako awaria,
+- można monitorować i zarządzać.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 48</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak uczynić pracę widoczną?</p>
+</div>
+<div class="paragraph">
+<p>Aby uczynić pracę widoczną:
+- użyj wizualnych pulpitów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 48</p>
+</div>
+<div class="paragraph">
+<p>.
+Dlaczego ograniczać pracę w toku?</p>
+</div>
+<div class="paragraph">
+<p>Ograniczaj pracę w toku, bo:
+- zmiana kontekstu pracownika jest kosztowna.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 59</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest WIP?</p>
+</div>
+<div class="paragraph">
+<p>WIP (Work In Progress) to:
+- praca w toku.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 50</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak ograniczać pracę w toku?</p>
+</div>
+<div class="paragraph">
+<p>Aby ograniczać pracę w toku:
+- wymuszaj limity pracy w toku.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 50</p>
+</div>
+<div class="paragraph">
+<p>.
+Dlaczego zmniejszać wielkość partii?</p>
+</div>
+<div class="paragraph">
+<p>Zmniejszaj wielkość partii, bo:
+- warunek szybkiego przepływu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 50</p>
+</div>
+<div class="paragraph">
+<p>.
+Dlaczego zmniejszać liczbę przełączeń (programiści, administratorzy, testerzy)?</p>
+</div>
+<div class="paragraph">
+<p>Zmniejszaj liczbę przełączeń, bo:
+- kolejka zadań,
+- koordynacja,
+- w konsekwencji wydłużony czas realizacji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 53</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zmniejszyć konsekwencje przełączeń (programiści, administratorzy, testerzy)?</p>
+</div>
+<div class="paragraph">
+<p>Zmniejszaj konsekwencje przełączeń:
+- zmniejszy liczbę,
+- automatyzuj.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 53</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak identyfikować i eliminować ograniczenia?</p>
+</div>
+<div class="paragraph">
+<p>Aby identyfikować i eliminować ograniczenia:
+- zawsze jest jedno i tylko jedno ograniczenie,
+- znajdź, napraw, ponów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 54</p>
+</div>
+<div class="paragraph">
+<p>.
+Co jest największym zagrożenie dla rentowności przedsiębiorstwa?</p>
+</div>
+<div class="paragraph">
+<p>Największym zagrożenie dla rentowności przedsiębiorstwa są:
+- odpady.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 55</p>
+</div>
+<div class="paragraph">
+<p>.
+Co jest "odpad"?</p>
+</div>
+<div class="paragraph">
+<p>"Odpad" to:
+- wykorzystanie zasobów poza tym, czego wymaga klient i za co jest gotów zapłacić.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 55</p>
+</div>
+<div class="paragraph">
+<p>.
+Wymień rodzaje odpadów.</p>
+</div>
+<div class="paragraph">
+<p>Rodzaje odpadów:
+- prace wykonane częściowo,
+- dodatkowe procesy,
+- dodatkowe funkcje,
+- przełączanie pomiędzy zadaniami,
+- oczekiwanie,
+- ruch,
+- defekty,
+- prace niestandardowe lub ręczne,
+- heroizm.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 56
+.
+Czego dotyczą zasady opisane w "druga droga"?</p>
+</div>
+<div class="paragraph">
+<p>Zasady "druga droga":
+- szybkie uzyskiwanie stałego strumienia informacji zwrotnych,
+- jak najwcześniej,
+- szybki, częsty przepływ informacji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 59</p>
+</div>
+<div class="paragraph">
+<p>.
+Na czym polegają problemy z bezpieczną pracą w złożonych systemach?</p>
+</div>
+<div class="paragraph">
+<p>Problemy z bezpieczną pracą w złożonych systemach:
+- brak możliwości objęcia całości przez jedną osobę,
+- te same czynności mogą powodować różne wyniki,
+- awarie są nieuniknione.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 60</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak "druga droga" może zwiększyć bezpieczeństwo?</p>
+</div>
+<div class="paragraph">
+<p>"Druga droga" może zwiększyć bezpieczeństwo dzięki:
+- zarządzaj pracami tak, żeby ujawniać problemy,
+- wykrywaj problemy i natychmiast rozwiązuj.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 60</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zauważać problemy natychmiast po ich wystąpieniu?</p>
+</div>
+<div class="paragraph">
+<p>Żeby zauważać problemy natychmiast po ich wystąpieniu:
+- stosuj pętle sprzężenia zwrotnego i sprzężenia w przód,
+- szybki, częsty przepływ informacji przez cały strumień wartości.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 61</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "swarming"?</p>
+</div>
+<div class="paragraph">
+<p>"Swarming" (swarm - "rój") to:
+- mobilizowanie wszystkich osób, które są potrzebne do zażegnania kryzysu,
+- opanowanie problemów, zanim zdążą się rozprzestrzenić,
+- naprawienie złej sytuacji, by nie mogła się powtórzyć,
+- nie twórz obejść, twórz rozwiązania.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 62</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "linka Andon"?</p>
+</div>
+<div class="paragraph">
+<p>"Linka Andon" to:
+- stosowana w fabryce Toyota (nie w samochodzie),
+- linka, którą każdy może pociągnąć jeśli zauważy problem,
+- lider rozwiązuje problem &lt; 1 min,
+- jeśli dłużej to zatrzymuje linię produkcyjną.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 63</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są zalety zapewniania jakości bliżej źródła?</p>
+</div>
+<div class="paragraph">
+<p>Zalety zapewniania jakości bliżej źródła:
+- niższe koszty,
+- błąd bardziej zrozumiały jeśli zgłoszony szybko po jego popełnieniu,
+- nie przenosisz błędu w dół strumienia.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 65, 66</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zapewniać jakość bliżej źródła?</p>
+</div>
+<div class="paragraph">
+<p>Aby zapewniać jakość bliżej źródła:
+- automatyzuj,
+- od razu testuj,
+- optymalizuj pracę w dole strumienia (np. przekazuj półprodukt, którego nie można źle podłączyć).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 65, 66
+.
+Na czym koncentruje się "trzecia droga"?</p>
+</div>
+<div class="paragraph">
+<p>"Trzecia droga" koncentruje się na:
+- kultura ciągłego uczenia się i eksperymentowania,
+- tworzenie indywidualnej wiedzy,
+- i przekształcanie w wiedzę organizacji,
+- kultura wysokiego zaufania,
+- coraz większe obciążenie systemu, by wymusić udoskonalenia.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 69</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "just culture"?</p>
+</div>
+<div class="paragraph">
+<p>"Just culture" ("kultura właściwego postępowania") to:
+- nie szukamy winnego,
+- szukamy jak usprawnić, żeby problem się nie powtórzył.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 71</p>
+</div>
+<div class="paragraph">
+<p>.
+Co jest ważniejsze od codziennej pracy?</p>
+</div>
+<div class="paragraph">
+<p>Od codziennej pracy ważniejsze są usprawnianie codziennej pracy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 71</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zadbać o wprowadzanie usprawnień w codziennej pracy?</p>
+</div>
+<div class="paragraph">
+<p>Aby wprowadzać usprawnienia w codziennej pracy:
+- jawnie rezerwuj czas na spłacanie długu technicznego,
+- usuwanie wad,
+- refaktoryzację,
+- poprawianie problematycznych obszarów kodu i środowisk.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 73</p>
+</div>
+<div class="paragraph">
+<p>.
+Dlaczego warto przekształcać lokalne odkrycia w globalne usprawnienia?</p>
+</div>
+<div class="paragraph">
+<p>Warto przekształcać lokalne odkrycia w globalne usprawnienia, bo:
+- gdy ktoś będzie wykonywał podobną pracę,
+- to skorzysta ze zbiorowego doświadczenia organizacji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 74</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak DevOps proponuje zwiększać odporność?</p>
+</div>
+<div class="paragraph">
+<p>DevOps proponuje zwiększać odporność poprzez:
+- usprawnienia,
+- zwiększanie wydajności,
+- zwiększanie elastyczności.
+W opozycji do tradycyjnego:
+- zwiększaj nadmiar.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 75</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "antykruchość"?</p>
+</div>
+<div class="paragraph">
+<p>"Antykruchość" (antifragility) to:
+- proces zastosowania napięcia w celu zwiększenia elastyczności.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 75</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak wstrzykiwać napięcie w codziennej pracy?</p>
+</div>
+<div class="paragraph">
+<p>Wstrzykuj napięcie w codziennej pracy poprzez:
+- skracaj czas realizacji,
+- zwiększaj zakres pokrycia testami,
+- zmniejszaj czas wykonywania testów,
+- symuluj awarie.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 75</p>
+</div>
+<div class="paragraph">
+<p>.
+Jaka jest rola lidera w DevOps?</p>
+</div>
+<div class="paragraph">
+<p>Rola lidera w DevOps to:
+- stwarzanie warunków, dzięki którym zespół może odkryć świetność w swojej codziennej pracy,
+- podkreślanie wartości uczenia się,
+- i rozwiązywania problemów.
+W opozycji do tradycyjnego:
+- podejmuj właściwe decyzje.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 76
+.
+Co jest "projekt greenfield"?</p>
+</div>
+<div class="paragraph">
+<p>"Projekt greenfield" to:
+- nowy projekt.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 86</p>
+</div>
+<div class="paragraph">
+<p>.
+Co jest "projekt brownfield"?</p>
+</div>
+<div class="paragraph">
+<p>"Projekt brownfield" to:
+- już obsługują klientów,
+- potencjalnie są w użyciu od wielu lat,
+- często z dużym długiem technicznym.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 87</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak wybrać strumienie wartości, od których należy zacząć transformację DevOps?</p>
+</div>
+<div class="paragraph">
+<p>Transformację DevOps zacznij od:
+- kilku obszarów,
+- zespołów innowatorów,
+- projektów umożliwiających automatyczne testowanie i wdrażanie.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 87</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "system SoR"?</p>
+</div>
+<div class="paragraph">
+<p>"System SoR" (systems of record) to:
+- systemy podobne do ERP,
+- poprawność jest kluczowa,
+- zarządzanie firmą, np. HR,
+- "robić to dobrze".</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 88</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "system SoE"?</p>
+</div>
+<div class="paragraph">
+<p>"System SoE" (systems of engagement) to:
+- dla klientów lub pracowników,
+- np. systemy e-commerce,
+- zgodnością z przepisami,
+- "robić to szybko".</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 88</p>
+</div>
+<div class="paragraph">
+<p>.
+Wymień fazy rozwoju metodyki DevOps w organizacji?</p>
+</div>
+<div class="paragraph">
+<p>Fazy rozwoju metodyki DevOps w organizacji:
+- znajdź innowatorów i pionierów,
+- zbuduj masę krytyczną i milczącą większość,
+- zidentyfikuj "hamulcowych".</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 91
+.
+Jakie są działania po wybraniu strumienia wartości do transformacji DevOps?</p>
+</div>
+<div class="paragraph">
+<p>Po wybraniu strumienia wartości do transformacji DevOps:
+- zrozum,
+- zidentyfikuj uczestników,
+- opisz (mapa strumienia wartości),
+- stwórz dedykowany zespół transformacji,
+- uzgodnij cel.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 93</p>
+</div>
+<div class="paragraph">
+<p>.
+Kto uczestniczy w strumieniu wartości?</p>
+</div>
+<div class="paragraph">
+<p>Uczestnicy strumienia wartości:
+- właściciel produktu,
+- zespół deweloperów,
+- zespół walidacji (zapewnienia jakości - QA),
+- zespół operacyjny,
+- zespół zabezpieczeń,
+- menedżerowie wydania,
+- menedżerowie techniczni lub menedżer strumienia wartości.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 95</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak długi powinien być horyzont planowania poprawy (wdrażanie DevOps)?</p>
+</div>
+<div class="paragraph">
+<p>Horyzont planowania poprawy (wdrażanie DevOps) powinien być:
+- krótki, kilkutygodniowy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 100</p>
+</div>
+<div class="paragraph">
+<p>.
+Ile czasu poświęcić na dług techniczny?</p>
+</div>
+<div class="paragraph">
+<p>Na dług techniczny poświęć 20% czasu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 101</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak wzmacniać zachowania DevOps?</p>
+</div>
+<div class="paragraph">
+<p>Wzmacniaj zachowania DevOps dzięki narzędziom:
+- używaj wspólnych dla Dev i Ops,
+- np. wspólne kolejki zadań w JIRA.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 105
+.
+Jak brzmi "prawo Conwaya"?</p>
+</div>
+<div class="paragraph">
+<p>"Prawo Conwaya":
+- organizacja oprogramowania jest zgodna z organizacją zespołu programistów,
+- pięciu programistów napisze system składający się z pięciu modułów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 107</p>
+</div>
+<div class="paragraph">
+<p>.
+Wymień typy struktur organizacyjnych.</p>
+</div>
+<div class="paragraph">
+<p>Typy struktur organizacyjnych:
+- funkcjonalne: optymalizacja wzgl. kosztów, wiedzy, podziału pracy,
+- macierzowe: łączą oba typy,
+- rynkowe: optymalizacja wzgl. szybkości reagowania na potrzeby klientów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 110</p>
+</div>
+<div class="paragraph">
+<p>.
+Wymień problemy organizacji funkcjonalnych.</p>
+</div>
+<div class="paragraph">
+<p>Problemy organizacji funkcjonalnych:
+- podział pracy, koordynacja, kolejki,
+- brak zrozumienia jak praca przekłada się na cele w strumieniu,
+- centralizacja walidacji, opóźnienia.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 111</p>
+</div>
+<div class="paragraph">
+<p>.
+Wymień zalety organizacji rynkowych.</p>
+</div>
+<div class="paragraph">
+<p>Zalety organizacji rynkowych:
+- odpowiedź na słabości organizacji funkcjonalnych,
+- patrz "trzy drogi",
+- wspólny cel: jakość, dostępność i bezpieczeństwo.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 112, 114</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "drugi paradoks Toyoty"?</p>
+</div>
+<div class="paragraph">
+<p>"Drugi paradoks Toyoty":
+- wysoka skuteczność w organizacji funkcjonalnej,
+- rozwój i nawyki pracowników.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 114</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "silos"?</p>
+</div>
+<div class="paragraph">
+<p>"Silos" to:
+- obraz struktury spowodowanej nadmierną specjalizacją zespołów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 115</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak promować dostrzeganie długoterminowych konsekwencji decyzji podejmowanych przez deweloperów?</p>
+</div>
+<div class="paragraph">
+<p>Dostrzeganie długoterminowych konsekwencji decyzji podejmowanych przez deweloperów promuj przez:
+- przypisywanie do produktu,
+- nie do projektu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 117</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak wykorzystać "prawo Conwaya"?</p>
+</div>
+<div class="paragraph">
+<p>Uwzględniaj "prawo Conwaya":
+- zadbaj o lokalizację, komunikację zespołów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 117</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zatrudniając dziesiątki tysięcy programistów zachować wydajność małych zespołów?</p>
+</div>
+<div class="paragraph">
+<p>Przy bardzo dużej liczbie programistów w organizacji wysoką wydajność małych zespołów pomaga zachować:
+- usługi luźno powiązane w ramach ograniczonych kontekstów,
+- SOA, mikrousługi,
+- Amazon, Goole.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 118</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak brzmi zasada "zespół na dwie pizze"?</p>
+</div>
+<div class="paragraph">
+<p>Zasada "zespół na dwie pizze":
+- niewielki rozmiar zespołu,
+- 5 - 10 osób,
+- szybkie, autonomiczne, dobrze zorientowane.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 120
+.
+Jak poprawić wydajność zespołów Dev?</p>
+</div>
+<div class="paragraph">
+<p>Aby poprawić wydajność zespołów Dev:
+- twórz funkcje samoobsługowe dla Dev,
+- wprowadź do zespołu Ops,
+- przydziel do zespołu łączników Ops.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 126</p>
+</div>
+<div class="paragraph">
+<p>.
+Kim jest "łącznik Ops"?</p>
+</div>
+<div class="paragraph">
+<p>"Łącznik Ops" to:
+- reprezentant Dev w Ops,
+- rozumie Dev,
+- potrafi się poruszać w Ops.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 126, 130</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak Ops realizuje prace dla Dev (Netflix)?</p>
+</div>
+<div class="paragraph">
+<p>Ops:
+- nie buduje,
+- nie tworzy,
+- nie wdraża
+- nie zarządza konfiguracjami
+dla Dev.
+Zamiast tego buduje narzędzia umożliwiające samoobsługę.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 128
+.
+Co to jest "ciągłe dostarczanie"?</p>
+</div>
+<div class="paragraph">
+<p>"Ciągłe dostarczanie" (continuous delivery) to:
+- podejście inżynierii oprogramowania,
+- wytwarzanie w krótkich cyklach,
+- wdrażanie w dowolnym momencie.</p>
+</div>
+<div class="paragraph">
+<p>s:
+<a href="https://en.wikipedia.org/wiki/Continuous_delivery" class="bare">https://en.wikipedia.org/wiki/Continuous_delivery</a>
+.
+Jak utworzyć szybki i niezawodny przepływ?</p>
+</div>
+<div class="paragraph">
+<p>Aby utworzyć szybki i niezawodny przepływ:
+- pracuj na środowiskach zbliżonych do produkcyjnych,
+- twórz dowolne środowisko: automatyzacja, samoobsługa, na żądanie,
+- twórz jednego repozytorium prawdy dla całego systemu: kod, dokumentacja, konfiguracje, środowiska,
+- twórz infrastrukturę, którą łatwiej odbudować, niż naprawić,
+- akceptuj zadanie programistyczne, gdy zbudowane, wdrożone, przetestowane na środowisku zbliżonym do produkcyjnego.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 141</p>
+</div>
+<div class="paragraph">
+<p>Co to jest "rewizja"?</p>
+</div>
+<div class="paragraph">
+<p>"Rewizja" (commit) to:
+- grupa zmian wprowadzana do systemu kontroli wersji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 145</p>
+</div>
+<div class="paragraph">
+<p>.
+Co umieszczać we współdzielonym repozytorium kontroli wersji?</p>
+</div>
+<div class="paragraph">
+<p>We współdzielonym repozytorium kontroli wersji:
+- kod i zależności,
+- skrypty,
+- narzędzia,
+- pliki kontenerów,
+- artefakty projektu,
+- pliki konfiguracyjne,
+- inne.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 146
+.
+Jakie problemy rozwiązuje testowanie automatyczne?</p>
+</div>
+<div class="paragraph">
+<p>Testowanie automatyczne pomaga:
+- testować często,
+- testować w bliskim sąsiedztwie zmiany: uniknięcie "archeologii", nauka,
+- ograniczać koszty testowania rosnące z ilością kodu,
+- utrzymać produktywność programistów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 153</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "push on green"?</p>
+</div>
+<div class="paragraph">
+<p>"Push on green" (pchaj, jeśli zielono) to:
+- filozofia dostarczania,
+- ewidencjonowanie kodu w repozytorium tylko wtedy, gdy przejdzie testy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 155</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "potok wdrożeń"?</p>
+</div>
+<div class="paragraph">
+<p>"Potok wdrożeń" (deployment pipeline) to potok, który:
+- integruje kod i środowiska,
+- inicjuje testy natychmiast przy ewidencji kodu w repozytowium.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 156</p>
+</div>
+<div class="paragraph">
+<p>.
+Dlaczego tworzyć procedury automatycznej kompilacji i testowania działające w dedykowanych środowiskach?</p>
+</div>
+<div class="paragraph">
+<p>Należy tworzyć procedury automatycznej kompilacji i testowania działające w dedykowanych środowiskach, bo:
+- procesy budowania i testowania mogą działać przez cały czas, niezależnie od nawyków inżynierów,
+- zrozumienie wszystkich zależności wymaganych do budowania,
+- pomagają zapewnić powtarzalność instalacji (pakiet instalacyjny, kontener),
+- środowiska można upodabniać do produkcji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 157</p>
+</div>
+<div class="paragraph">
+<p>.
+Czego wymagają praktyki ciągłej integracji?</p>
+</div>
+<div class="paragraph">
+<p>Praktyki ciągłej integracji wymagają:
+- zbioru automatycznych testów,
+- "zatrzymania całej linii produkcyjnej", gdy testy nie przejdą,
+- małe partie pracy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 159</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "zielona kompilacja"?</p>
+</div>
+<div class="paragraph">
+<p>"Zielona kompilacja" to:
+- wszystko, co zostało zaewidencjonowane w repozytorium,
+- buduje się i nadaje się do wdrożenia.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 160</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są kategorie testów automatycznych?</p>
+</div>
+<div class="paragraph">
+<p>Kategorie testów automatycznych:
+- testy jednostkowe: najszybsze, testują klasę, funkcję,
+- testy akceptacyjne: wolniejsze, testują aplikację,
+- testy integracji: najwolniejsze, testują współdziałanie z innymi aplikacjami.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 161</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "test dymny"?</p>
+</div>
+<div class="paragraph">
+<p>"Test dymny" (smoke test) to:
+- zbiór przypadków testowych pokrywających główne funkcjonalności produktu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 161</p>
+</div>
+<div class="paragraph">
+<p>.
+Co zrobić jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego?</p>
+</div>
+<div class="paragraph">
+<p>Jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego:
+- napisz test jednostkowy, za pomocą którego błąd znajdziesz szybciej, wcześniej i taniej.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 163</p>
+</div>
+<div class="paragraph">
+<p>.
+Kiedy testy jednostkowe lub akceptacyjne są trudne i kosztowne do pisania i utrzymywania?</p>
+</div>
+<div class="paragraph">
+<p>Testy jednostkowe lub akceptacyjne są trudne i kosztowne do pisania i utrzymywania:
+- architektura jest zbyt ściśle sprzężona,
+- brak separacja pomiędzy modułami.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 163</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak przyspieszyć działanie testów?</p>
+</div>
+<div class="paragraph">
+<p>Aby przyspieszyć działanie testów:
+- wykorzystaj współbieżność,
+- różnych testów w ramach tej samej kategorii,
+- różnych kategorii.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 164</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zagwarantować, że dysponujemy wiarygodnymi testami automatycznymi?</p>
+</div>
+<div class="paragraph">
+<p>Gwarancją wiarygodnych testów automatycznych są:
+- wytwarzanie oprogramowania sterowane testami: TDD (test-driven development),
+- wytwarzanie oprogramowania sterowane testami akceptacyjnymi: ATDD (acceptance test-driven development).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 165</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak wykrywać problemy z wydajnością?</p>
+</div>
+<div class="paragraph">
+<p>Aby wykrywać problemy z wydajnością:
+- dodaj automatyczne testy wydajności.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 167</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zagwarantować spełnienie wymagań niefunkcjonalnych?</p>
+</div>
+<div class="paragraph">
+<p>Aby zagwarantować spełnienie wymagań niefunkcjonalnych:
+- dodaj automatyczne testy wymagań niefunkcjonalnych.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 168</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zastosować "linkę Andon" w potoku wdrożeń?</p>
+</div>
+<div class="paragraph">
+<p>"Linka Andon" w potoku wdrożeń:
+- w przypadku awarii potoku wdrożeń,
+- przede wszystkim napraw problem.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 169</p>
+</div>
+<div class="paragraph">
+<p>.
+Dlaczego trzeba pociągać za "linkę Andon"?</p>
+</div>
+<div class="paragraph">
+<p>Trzeba pociągać za "linkę Andon", bo:
+- tracimy możliwość wdrażania,
+- problemy narastają wraz z kolejnymi rewizjami,
+- konieczne zatrzymanie prac rozwojowych i "stabilizacja".</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 170
+.
+Co to jest TBD?</p>
+</div>
+<div class="paragraph">
+<p>TBD (trunk-based development) to:
+- praktyka ciągłej integracji i rozwoju oprogramowania bazującego na rewizji master,
+- większa wydajność, stabilność, satysfakcja, wg. "Puppet Labs State of DevOps Report 2015".</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 175, 181</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są strategie tworzenia gałęzi w repozytorium?</p>
+</div>
+<div class="paragraph">
+<p>Strategie tworzenia gałęzi w repozytorium:
+- optymalizowane pod kątem indywidualnej wydajności: prywatne gałęzie, trudne scalanie,
+- optymalizowane pod kątem wydajności zespołu: wspólny obszar, każda rewizja niesie ryzyko awarii całego projektu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 177</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są wady stosowania wielu gałęzi?</p>
+</div>
+<div class="paragraph">
+<p>Wady stosowania wielu gałęzi:
+- rzadkie scalanie,
+- koszt scalania rośnie wykładniczo z liczbą gałęzi,
+- opóźnione testy,
+- rezygnacja z refaktoringu w gałęzi.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 178</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są praktyki pracy na rewizji master?</p>
+</div>
+<div class="paragraph">
+<p>Praktyki pracy na rewizji master:
+- często ewidencjonuj kod w rewizji master, np. raz dziennie,
+- "gated commits" (rewizje ogrodzone).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 178</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "gated commits"?</p>
+</div>
+<div class="paragraph">
+<p>"Gated commits" (rewizje ogrodzone) to:
+- odrzucanie rewizji, które powodują naruszenie stanu gotowości do wdrożenia.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 178</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "kod gotowy"?</p>
+</div>
+<div class="paragraph">
+<p>"Kod gotowy" to:
+- na koniec każdego interwału rozwoju,
+- kod zintegrowany, przetestowany, działający i potencjalnie gotowy do wdrożenia,
+- zademonstrowany w środowisku zbliżonym do produkcyjnego,
+- zbudowany na podstawie rewizji master w procesie inicjowanym jednym kliknięciem,
+- zweryfikowany za pomocą testów automatycznych.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 179</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "staging environment (stage)"?</p>
+</div>
+<div class="paragraph">
+<p>"Staging environment (stage)" to:
+- środowisko preprodukcyjne/przedprodukcyjne.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 181
+.
+Co to jest "test kanarkowy"?</p>
+</div>
+<div class="paragraph">
+<p>"Test kanarkowy" to:
+- wdrożenie oprogramowania na małej grupie serwerów produkcyjnych
+- w celu sprawdzenia, czy oprogramowanie nie ulegnie awarii pod realnym obciążeniem,
+- kanarek umierając ostrzega górnika.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 183</p>
+</div>
+<div class="paragraph">
+<p>.
+Jaka relacja jest między liczbą zmian i liczbą wydań?</p>
+</div>
+<div class="paragraph">
+<p>Relacja między liczbą zmian i liczbą wydań:
+- jeśli chcesz więcej zmian,
+- to potrzebujesz więcej wdrożeń,
+- wdrożenie obsługuje stałą liczbę zmian.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 184</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są wymagania potoku wdrożeń?</p>
+</div>
+<div class="paragraph">
+<p>Wymagania potoku wdrożeń:
+- wdrażanie w każdym środowisku w taki sam sposób,
+- testy dymne wdrożeń,
+- utrzymywanie spójnych środowisk.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 186</p>
+</div>
+<div class="paragraph">
+<p>.
+Kto powinien wdrażać? Dev? Ops?</p>
+</div>
+<div class="paragraph">
+<p>Wdrożenia mogą być realizowane przez Dev lub Ops.
+Nie ma to wpływu na procent pomyślnych wdrożeń.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 190</p>
+</div>
+<div class="paragraph">
+<p>.
+Kiedy proces wdrażania kodu może być częścią potoku wdrożeń?</p>
+</div>
+<div class="paragraph">
+<p>Proces wdrażania kodu może być częścią potoku wdrożeń, gdy:
+- jest zautomatyzowany.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 190</p>
+</div>
+<div class="paragraph">
+<p>.
+Co powinna zapewniać automatyzacja wdrażania kodu?</p>
+</div>
+<div class="paragraph">
+<p>Automatyzacja wdrażania kodu powinna zapewniać:
+- możliwość wdrażania pakietów stworzonych w procesie ciągłej integracji,
+- błyskawiczną ocenę gotowości środowisk produkcyjnych,
+- samoobsługowe wdrażanie,
+- automatyczny zapis,
+- testy dymne,
+- szybka pętla sprzężenia zwrotnego.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 190</p>
+</div>
+<div class="paragraph">
+<p>.
+Czy wdrożenie i wydanie to to samo?</p>
+</div>
+<div class="paragraph">
+<p>Nie:
+- wdrożenie (deployment) to wdrożenia produkcyjne,
+- wydanie (release) to publikacja funkcjonalności.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 194</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest wdrożenie?</p>
+</div>
+<div class="paragraph">
+<p>Wdrożenie (deployment) to:
+- instalacja określonej wersji oprogramowania,
+- wdrożenia produkcyjne,
+- może być związane z nowymi funkcjami.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 194</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest wydanie?</p>
+</div>
+<div class="paragraph">
+<p>Wydanie (release) to:
+- proces udostępnienia nowych funkcji,
+- publikacja funkcjonalności.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 194</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są kategorie wzorców wydań?</p>
+</div>
+<div class="paragraph">
+<p>Kategorie wzorców wydań:
+- wzorce wydań bazujące na środowisku,
+- wzorce wydań bazujące na aplikacjach.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 194</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym są "wzorce wydań bazujące na środowisku"?</p>
+</div>
+<div class="paragraph">
+<p>"Wzorce wydań bazujące na środowisku" to:
+- "żywy" ruch klientów na jedno środowisko,
+- wdrożenie na inne środowisko,
+- wydanie poprzez przełączenie ruchu,
+- wdrożenia niebieski-zielony, wydania kanarkowe, systemy CIS (cluster immune systems).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 195</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym są "wzorce wydań bazujące na aplikacjach"?</p>
+</div>
+<div class="paragraph">
+<p>"Wzorce wydań bazujące na aplikacjach" to:
+- modyfikowanie aplikacji,
+- publikacja funkcjonalności, nawet pojedynczej funkcji za pomocą zmian w konfiguracji,
+- stopniowe rozszerzanie grupy odbiorców nowych funkcjonalności,
+- ślepe uruchamianie (dark launching),
+- staging.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 195</p>
+</div>
+<div class="paragraph">
+<p>Co to jest "staging"?</p>
+</div>
+<div class="paragraph">
+<p>"Staging" to:
+- inaczej środowisko etapowe, pomostowe, przedprodukcyjne, preprodukcyjne,
+- środowisko do testowania, które dokładnie przypomina środowisko produkcyjne.</p>
+</div>
+<div class="paragraph">
+<p>s:
+<a href="https://en.wikipedia.org/wiki/Deployment_environment#Staging" class="bare">https://en.wikipedia.org/wiki/Deployment_environment#Staging</a></p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "wzorzec wdrażania niebieskie-zielone"?</p>
+</div>
+<div class="paragraph">
+<p>"Wzorzec wdrażania niebieskie-zielone" to:
+- wzorzec wydań bazujący na środowisku,
+- dwa środowiska produkcyjne: niebieskie i zielone,
+- jedno obsługuje "żywy ruch", drugie wdrożenia,
+- wydanie polega na przełączeniu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 197</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak obsługiwać zmiany w bazie danych we "wzorce wydań bazujące na środowisku"?</p>
+</div>
+<div class="paragraph">
+<p>Obsługa zmian w bazie danych we "wzorce wydań bazujące na środowisku":
+- dwie bazy danych (niebieska i zielona): ryzyka utraty transakcji,
+- oddzielenie zmiany bazy danych od zmian w aplikacji: nie mutujemy istniejących obiektów bazy danych.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 198</p>
+</div>
+<div class="paragraph">
+<p>.
+Na czym polega "oddzielenie zmiany bazy danych od zmian w aplikacji" w ramach "wzorce wydań bazujące na środowisku"?</p>
+</div>
+<div class="paragraph">
+<p>"Oddzielenie zmiany bazy danych od zmian w aplikacji" w ramach "wzorce wydań bazujące na środowisku":
+- inaczej "rozwiń-zwiń",
+- rozwijamy poprzez dodawanie nowych obiektów,
+- następnie zwijamy poprzez usunięcie starych,
+- nie mutujemy istniejących obiektów bazy danych,
+- możliwe dublowanie danych.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 198</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "wzorzec wydań kanarkowych"?</p>
+</div>
+<div class="paragraph">
+<p>"Wzorzec wydań kanarkowych" to:
+- rodzaj "wzorzec wdrażania niebieskie-zielone",
+- automatyzacja procesu wydań,
+- promowania do coraz ważniejszych środowisk,
+- kanarek umierając ostrzega górnika.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 200</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są grupy środowisk wspierające "wzorzec wydań kanarkowych"?</p>
+</div>
+<div class="paragraph">
+<p>Grupy środowisk wspierających "wzorzec wydań kanarkowych":
+- Grupa A1: serwery produkcyjne dla wewnętrznych pracowników,
+- Grupa A2: serwery produkcyjne dla niewielkiej grupy klientów,
+- Grupa A3: pozostałe serwery produkcyjne.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 200</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "wzorzec CIS"?</p>
+</div>
+<div class="paragraph">
+<p>Wzorzec CIS (cluster immune system, "układ odpornościowy w formie klastra") to:
+- rozszerzenie "wzorzec wydań kanarkowych",
+- wydawanie powiązane z monitorowaniem,
+- zautomatyzowane wycofywanie,
+- jeśli nie są spełniane warunki, np. wydajność.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 201</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zastosować "wzorce wydań bazujące na aplikacjach"?</p>
+</div>
+<div class="paragraph">
+<p>Aby zastosować "wzorce wydań bazujące na aplikacjach":
+- zaimplementuj przełączniki cech funkcjonalnych.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 202</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym są "przełączniki cech funkcjonalnych"?</p>
+</div>
+<div class="paragraph">
+<p>"Przełączniki cech funkcjonalnych" (feature toggles) to:
+- podstawowy sposób zastosowania wzorców wdrożeń na bazie aplikacji.
+- mechanizmu selektywnego włączania lub wyłączania cech funkcjonalnych,
+- np. poprzez plik konfiguracyjny aplikacji, usługę sieciową.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 202</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie operacje umożliwiają przełączniki cech funkcjonalnych?</p>
+</div>
+<div class="paragraph">
+<p>Przełączniki cech funkcjonalnych umożliwiają:
+- łatwe wycofywanie,
+- obniżanie wydajności "z wdziękiem",
+- zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 202</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest obniżanie wydajności "z wdziękiem"?</p>
+</div>
+<div class="paragraph">
+<p>Obniżanie wydajności "z wdziękiem" to:
+- jedna z operacji umożliwianych przez przełączniki cech funkcjonalnych,
+- stosowane, gdy obciążenie usługi jest zbyt wysokie,
+- obniżenie jakości usługi,
+- obniżenie poziomu dostarczanych funkcjonalności,
+- np. wyłączenie funkcji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 202</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi"?</p>
+</div>
+<div class="paragraph">
+<p>"Zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi" to:
+- jedna z operacji umożliwianych przez przełączniki cech funkcjonalnych,
+- ukrycie za przełącznikiem funkcji,
+- która korzysta z innej, jeszcze niegotowej funkcji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 202</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "HDD (hypothesis-driven development)"?</p>
+</div>
+<div class="paragraph">
+<p>"HDD (hypothesis-driven development)" (wytwarzanie oprogramowania sterowane hipotezami) to:
+- wytwarzanie oprogramowania
+- jako serii eksperymentów w celu ustalenia, czy oczekiwany wynik zostanie osiągnięty.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 203</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "testowanie A/B"?</p>
+</div>
+<div class="paragraph">
+<p>"Testowanie A/B" to:
+- metoda badawcza polegająca na porównaniu dwóch wersji celem wybrania lepszej.</p>
+</div>
+<div class="paragraph">
+<p>s:
+<a href="https://pl.wikipedia.org/wiki/Test_A/B" class="bare">https://pl.wikipedia.org/wiki/Test_A/B</a></p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "ślepe uruchamianie"?</p>
+</div>
+<div class="paragraph">
+<p>"Ślepe uruchamianie" (dark launching) to:
+- wdrożenie na produkcji, testy, gdy funkcjonalność niewidoczna dla klientów,
+- stopniowa aktywacja dla niewielkich segmentów klientów,
+- możliwe za pomocą "przełączników cech funkcjonalnych".</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 196, 203</p>
+</div>
+<div class="paragraph">
+<p>.
+Wyjaśnij "ciągła integracja" vs. "ciągłe dostarczanie" vs. "ciągłe wdrażanie"?</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>"ciągła integracja" (continuous integration): ciągłe scalane z rewizją master,</p>
+</li>
+<li>
+<p>"ciągłe dostarczanie" (continuous delivery): ciągła gotowość do wydania na żądanie, rozwinięcie "ciągła integracja",</p>
+</li>
+<li>
+<p>"ciągłe wdrażanie" (continuous deployment): ciągłe wdrażanie, rozwinięcie "ciągłe dostarczanie".</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 206
+.
+Co to jest "doświadczenie bliskie śmierci"?</p>
+</div>
+<div class="paragraph">
+<p>"Doświadczenie bliskie śmierci" to:
+- skrajne utrudnienie rozwoju i utrzymania systemu,
+- wskutek długu technicznego,
+- wskutek problemów architektonicznych.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 209</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "strangler application pattern"?</p>
+</div>
+<div class="paragraph">
+<p>"Strangler application pattern" (wzorzec dusiciela) to:
+- stopniowe zastępowanie całego systemu,
+- zamiast "wycofywać i wymieniać",
+- ukrywanie wywołań do starego systemu za API, zaniechanie zmian,
+- nowe funkcjonalności za pomocą nowych usług.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 210</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak brzmi "drugie prawo architektonicznej termodynamiki"?</p>
+</div>
+<div class="paragraph">
+<p>"Drugie prawo architektonicznej termodynamiki":
+- zmniejszenie ogólnej złożoności,
+- i zwiększanie wydajności pracy wszystkich zespołów programistycznych,
+- rzadko jest celem indywidualnego projektu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 211</p>
+</div>
+<div class="paragraph">
+<p>.
+Jaka architektura, ułatwia wydajność, testowalność i bezpieczeństwo?</p>
+</div>
+<div class="paragraph">
+<p>Architektura, która ułatwia wydajność, testowalność i bezpieczeństwo to:
+- o luźnych sprzężeniach,
+- z dobrze zdefiniowanymi interfejsami, które wymuszają sposób połączenia modułów ze sobą,
+- zorientowana na usługi.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 211</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są archetypy architektoniczne?</p>
+</div>
+<div class="paragraph">
+<p>Archetypy architektoniczne:
+- monolityczna v1: cała funkcjonalność w jednej aplikacji,
+- monolityczna v2: zbiór monolitycznych warstw: "fronton prezentacyjny", "serwer aplikacji", "warstwa bazy danych",
+- mikrousługi: modularne, niezależne relacje grafowe zamiast warstw, utrwalanie w izolacji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 213</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym są "wersjonowane interfejsy API" (application strangler)?</p>
+</div>
+<div class="paragraph">
+<p>Wersjonowane interfejsy API:
+- inaczej usługi wersjonowane (versioned services),
+- inaczej usługi niezmienialne (immutable services),
+- API przykrywające wywołania do starego systemu,
+- używane we wzorcu application strangler.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 215</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "technika rozgałęziania przez abstrakcję"?</p>
+</div>
+<div class="paragraph">
+<p>"Technika rozgałęziania przez abstrakcję" (branching by abstraction) to:
+- stworzeniu warstwy abstrakcji pomiędzy zmienianymi obszarami,
+- pozwala na ewolucyjne projektowanie architektury,
+- pozwala na pracę na gałęzi master i stosowanie ciągłej integracji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 216
+.
+Na czym polega druga droga?</p>
+</div>
+<div class="paragraph">
+<p>Druga droga polega na:
+- szybkie i ciągłe sprzężenie zwrotne od Ops do Dev,
+- skracanie i wzmacnianie pętli sprzężenia zwrotnego,
+- integracja wiedzy dołu strumienia z Ops, Dev, kierownictwem.
+- telemetria.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 223
+.
+Jakie są cele telemetrii?</p>
+</div>
+<div class="paragraph">
+<p>Cele telemetrii:
+- dostrzeganie problemów,
+- dostarczanie informacji pomocnej w rozwiązywaniu problemów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 225</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "kultura przyczynowości"?</p>
+</div>
+<div class="paragraph">
+<p>"Kultura przyczynowości" (culture of causality) to:
+- zrozumienie awarii,
+- koncentracja na rozwiązywaniu problemów,
+- zamiast ślepego restartowania serwerów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 226</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "telemetria"?</p>
+</div>
+<div class="paragraph">
+<p>"Telemetria" to:
+- zautomatyzowany proces komunikacji,
+- w wyniku którego pomiary oraz inne dane są gromadzone w zdalnych punktach,
+- a następnie są przesyłane do urządzeń odbiorczych w celu monitorowania.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 226</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest MTTR?</p>
+</div>
+<div class="paragraph">
+<p>MTTR (Mean Time To Repair) to:
+- średni czas od momentu wystąpienia awarii do naprawy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 227</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zapewnić niski MTTR?</p>
+</div>
+<div class="paragraph">
+<p>Aby zapewnić niski MTTR:
+- repozytorium kontroli wersji dla Ops,
+- telemetria i proaktywne monitorowanie.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 227</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są składniki architektury monitorowania?</p>
+</div>
+<div class="paragraph">
+<p>Składniki architektury monitorowania:
+- zbieranie danych w warstwach logiki biznesowej, aplikacji i środowiska: pliki logów, dzienniki zdarzeń,
+- router zdarzeń odpowiedzialny za przechowywanie zdarzeń i parametrów: wykresy, alarmy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 229</p>
+</div>
+<div class="paragraph">
+<p>.
+Dla jakich funkcjonalności tworzyć mechanizmy telemetrii?</p>
+</div>
+<div class="paragraph">
+<p>Jeśli:
+- funkcjonalność została zaimplementowana,
+to:
+- zasługuje na stworzenie mechanizmów telemetrii.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 231</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są poziomy rejestrowania informacji?</p>
+</div>
+<div class="paragraph">
+<p>Poziomy rejestrowania informacji:
+DEBUG, INFO, WARN, ERROR, FATAL.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 232</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są negatywne efekty braku dostępnej publicznie telemetrii?</p>
+</div>
+<div class="paragraph">
+<p>Negatywne efekty braku dostępnej publicznie telemetrii:
+- budowanie kultury obwiniania,
+- niezdolność do budowania wiedzy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 233</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak ułatwić dostęp do telemetrii?</p>
+</div>
+<div class="paragraph">
+<p>Aby ułatwić dostęp do telemetrii:
+- samoobsługa,
+- każdy zainteresowany ma łatwy dostęp.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 236</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "promiennik informacji"? (information radiator)</p>
+</div>
+<div class="paragraph">
+<p>"Promiennik informacji" (information radiator) to:
+- mechanizm udostępniania danych,
+- tablica informacyjna, publicznie dostępna, przezroczystość,
+- zespół nie ma nic do ukrycia przed gośćmi,
+- zespół nie ma nic do ukrycia przed samym sobą.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 236</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są poziomy telemetrii?</p>
+</div>
+<div class="paragraph">
+<p>Poziomy telemetrii:
+- poziom biznesowy,
+- poziom aplikacji,
+- poziom infrastruktury,
+- poziom oprogramowania klienckiego,
+- poziom potoku wdrożeń.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 239</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "lejek nabywania klienta"?</p>
+</div>
+<div class="paragraph">
+<p>"Lejek nabywania klienta" (customer acquisition funnel) to:
+- zawiera wskaźniki biznesowe,
+- określa teoretyczne kroki potencjalnego klienta.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 240</p>
+</div>
+<div class="paragraph">
+<p>.
+Jaką rolę pełnią wskaźniki biznesowe w kontekście parametrów infrastruktury?</p>
+</div>
+<div class="paragraph">
+<p>Wskaźniki biznesowe tworzą kontekst dla parametrów infrastruktury.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 243</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "okres rozstrzygania"?</p>
+</div>
+<div class="paragraph">
+<p>"Okres rozstrzygania" to:
+- przejściowy okres niższej jakości usługi,
+- ze względu na przejściowe problemy wynikające z wdrożenia nowej funkcjonalności,
+- np. chybione wyszukiwania w pamięci podręcznej.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 243
+.
+Co to jest "wykrywanie odstających"?</p>
+</div>
+<div class="paragraph">
+<p>"Wykrywanie odstających" (outlier detection) to:
+- technika statystyczna,
+- wykrywanie nieprawidłowych warunków działania,
+- które mogą spowodować znaczące obniżenie wydajności,
+- identyfikacja węzłów spoza wzorca,
+- usunięcie z produkcji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 246</p>
+</div>
+<div class="paragraph">
+<p>.
+Które techniki statystyczne pomagają w wykrywaniu problemów?</p>
+</div>
+<div class="paragraph">
+<p>Techniki statystyczne, które pomagają w wykrywaniu problemów:
+- średnia,
+- odchylenie standardowe,
+- analiza parametrów produkcyjnych,</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 246</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak techniki statystyczne pomagają w wykrywaniu problemów?</p>
+</div>
+<div class="paragraph">
+<p>Techniki statystyczne pomagają w wykrywaniu problemów:
+- np. alert, gdy liczba prób nieuprawnionego logowania przekroczy wartość trzech odchyleń standardowych powyżej średniej.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 247</p>
+</div>
+<div class="paragraph">
+<p>.
+Co monitorować?</p>
+</div>
+<div class="paragraph">
+<p>Monitoruj (dąż do):
+- wskaźniki przewidujące awarię,
+- nie awarie.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 248</p>
+</div>
+<div class="paragraph">
+<p>.
+Na czym polega problem z technikami statystycznymi w wykrywaniu problemów?</p>
+</div>
+<div class="paragraph">
+<p>Problem z technikami statystycznymi w wykrywaniu problemów:
+- nie wszystkie zestawy danych mają rozkład Gaussa.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 249</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak wykrywać problemy, gdy zestawy danych nie mają rozkładu Gaussa?</p>
+</div>
+<div class="paragraph">
+<p>Żeby wykrywać problemy, gdy zestawy danych nie mają rozkładu Gaussa to:
+- użyj technik wykrywania anomalii,
+- wyszukuj elementy niezgodne ze wzorcem.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 253</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "wygładzanie"?</p>
+</div>
+<div class="paragraph">
+<p>"Wygładzanie" (smoothing) to:
+- technika statystyczna,
+- uzycie średnich ruchomych (kroczących).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 253
+.
+Kto się boi wdrażać kod?</p>
+</div>
+<div class="paragraph">
+<p>Wdrażać kod boją się wszyscy, i Dev, i Ops.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 260</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zwiększyć bezpieczeństwo wdrożeń?</p>
+</div>
+<div class="paragraph">
+<p>Aby zwiększyć bezpieczeństwo wdrożeń:
+- wdróż sprzężenia zwrotne w całym strumieniu wartości,
+- użyj telemetrii,
+- optymalizuj pod kątem MTTR (zamiast MTBF).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 260</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest MTBF?</p>
+</div>
+<div class="paragraph">
+<p>MTBF (mean time between failures) to:
+- średni czas bezawaryjnej pracy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+<a href="https://pl.wikipedia.org/wiki/MTBF" class="bare">https://pl.wikipedia.org/wiki/MTBF</a></p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "poprawka w przód"?</p>
+</div>
+<div class="paragraph">
+<p>"Poprawka w przód" (fix forward) to:
+- wprowadzanie w kodzie zmian, które eliminują wady,
+- a następnie przenieść je do produkcji za pośrednictwem potoku wdrożeń.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 262</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak naprawiać defekty szybciej?</p>
+</div>
+<div class="paragraph">
+<p>Aby naprawiać defekty szybciej:
+- wprowadź wspólne dyżury Dev i Ops,
+- budź programistów o 2 w nocy,
+- uświadom Dev, że "gotowe" oznacza również bezproblemowe w Ops.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 263</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym są "zapytania kontekstowe"?</p>
+</div>
+<div class="paragraph">
+<p>"Zapytania kontekstowe" to:
+- technik w projektowaniu UX,
+- obserwacja użytkowania aplikacji na produkcji,
+- przez programistów,
+- np. przy biurku klienta,
+- w konsekwencji programiści tworzą lepiej.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 264</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "UX"?</p>
+</div>
+<div class="paragraph">
+<p>"UX" (user experience, doświadczenie użytkownika) to:
+- wrażenia użytkownika podczas korzystania z produktu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+<a href="https://pl.wikipedia.org/wiki/User_experience" class="bare">https://pl.wikipedia.org/wiki/User_experience</a></p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "mechanizm odsyłania usługi"?</p>
+</div>
+<div class="paragraph">
+<p>"Mechanizm odsyłania usługi" (service handback mechanism) to:
+- gdy usługa produkcyjna staje się krucha,
+- to Ops może przekazać utrzymanie usługi do Dev,
+- zapobiega powiększaniu długu technicznego.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 268</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "SRE"?</p>
+</div>
+<div class="paragraph">
+<p>"SRE" (Site Reliability Engineers, inżynierowie niezawodności ośrodka) to:
+- inaczej inżynier Ops.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 269</p>
+</div>
+<div class="paragraph">
+<p>.
+Na czym polegają procesy LRR i HRR?</p>
+</div>
+<div class="paragraph">
+<p>Procesy LRR i HRR polegają na:
+- LRR (Launch Readiness Review), pierwszy etap publikowania nowej usługi, publikuje i utrzymuje Dev,
+- HRR (Hand-Off Readiness Review), drugi etap, utrzymanie przechodzi do Ops,
+- listy kontrolne podobne, ale HRR bardziej restrykcyjna.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 270
+.
+Jakie pytanie należy zadać przed rozpoczęciem budowy funkcjonalności?</p>
+</div>
+<div class="paragraph">
+<p>Przed rozpoczęciem budowy funkcjonalności należy zapytać:
+- czy powinniśmy budować tę funkcjonalność i dlaczego?</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 273</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie techniki pomagają określić, czy przewidywana funkcjonalność rzeczywiście pozwoli osiągnąć pożądane rezultaty?</p>
+</div>
+<div class="paragraph">
+<p>Techniki, które pomagają określić, czy przewidywana funkcjonalność rzeczywiście pozwoli osiągnąć pożądane rezultaty:
+- wytwarzanie oprogramowania sterowane hipotezami (hypothesis-driven development),
+- lejki popytu (customer acquisition funnels),
+- testowanie A/B,
+- ankiety, prototypy, testy użyteczności.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 273</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zintegrować testy A/B z procesem testowania/publikowania/planowania cechy funkcjonalnej?</p>
+</div>
+<div class="paragraph">
+<p>Aby zintegrować testy A/B z procesem testowania cechy funkcjonalnej:
+- na przykład losowo wyświetlaj witrynę w wersji A albo B,
+- przeanalizuj różnicę wyników,
+- zdolność eksperymentowania rośnie z liczbą wdrożeń.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 276, 277, 278</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są inne nazwy testów A/B?</p>
+</div>
+<div class="paragraph">
+<p>Testy A/B to inaczej:
+- kontrolowane eksperymenty online,
+- testy podziału (split tests),
+- testowanie wielu zmiennych.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 276
+.
+Jak zmniejszyć ryzyko wprowadzania zmian zanim zostaną wprowadzone?</p>
+</div>
+<div class="paragraph">
+<p>Aby zmniejszyć ryzyko wprowadzania zmian zanim zostaną wprowadzone:
+- stosuj "pull request".</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 281</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "pull request"?</p>
+</div>
+<div class="paragraph">
+<p>"Pull request" (żądanie ściągnięcia) to:
+- forma wzajemnego przeglądania kodu,
+- uwzględnia Dev i Ops,
+- zainteresowani mogą przejrzeć, omówić, zmodyfikować.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 281</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "GitHub Flow"?</p>
+</div>
+<div class="paragraph">
+<p>"GitHub Flow" to:
+- tworzenie nowej gałęzi,
+- praca na nowej gałęzi,
+- "pull request",
+- scalenie do master,
+- wdrożenie na produkcję.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 282
+<a href="https://guides.github.com/introduction/flow/" class="bare">https://guides.github.com/introduction/flow/</a></p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "myślenie alternatywne"?</p>
+</div>
+<div class="paragraph">
+<p>"Myślenie alternatywne" (counterfactual thinking) to:
+- ludzka skłonność do tworzenia alternatyw zdarzeń, które już się wydarzyły,
+- opis "systemu zgodnego z wyobrażeniami" w przeciwieństwie do "systemu w rzeczywistości".</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 283</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są niebezpieczeństwa związane z procesami zatwierdzania zmian?</p>
+</div>
+<div class="paragraph">
+<p>Niebezpieczeństwa związane z procesami zatwierdzania zmian:
+- jeśli panuje kultura niskiego zaufania, dowodzenia, kontroli,
+- to praktyki DevOps (zarządzanie zmianami, testowanie),
+- mogą prowadzić do większych problemów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 284</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są potencjalne zagrożenia związane ze "zbytnim kontrolowaniem zmian"?</p>
+</div>
+<div class="paragraph">
+<p>Potencjalne zagrożenia związane ze "zbytnim kontrolowaniem zmian" to:
+- długie czasy realizacji,
+- zmniejszenie siły i szybkości sprzężenia zwrotnego,
+- dodatkowe pytania, zatwierdzania, oceniania,
+- zamiast kontroli zewnętrznej, przeglądy współpracowników.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 284</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są techniczne środki zaradcze na zagrożenia?</p>
+</div>
+<div class="paragraph">
+<p>Techniczne środki zaradcze na zagrożenia:
+- redundancja,
+- mechanizmy pracy awaryjnej (failover): awaryjne przełączanie na rezerwowy system,
+- kompleksowe testy,
+- symulacje.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 287</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym są "przeglądy kodu"?</p>
+</div>
+<div class="paragraph">
+<p>Przeglądy kodu (code review) to:
+- wzajemne przeglądy dokonywanych zmian,
+- kodu, środowisk, baz danych,
+- poprawa jakości, wzajemna nauka,
+- jedna lub więcej opinii,
+- w przeciwieństwie do zatwierdzeń przez zewnętrzne organy przed wdrażaniem.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 287</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są wskazówki dotyczące przeglądów kodu?</p>
+</div>
+<div class="paragraph">
+<p>Wskazówki dotyczące przeglądów kodu:
+- każda zmiana przed wprowadzeniem do master podlega przeglądowi kodu,
+- każdy monitoruje zmiany w master,
+- zmiany wysokiego ryzyka są identyfikowane,
+- zbyt duża zmiana jest dzielona.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 288</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są formy przeglądu kodu?</p>
+</div>
+<div class="paragraph">
+<p>Formy przeglądu kodu:
+- programowanie w parach,
+- "zapuszczanie żurawia",
+- wiadomości e-mail z powiadomieniami o zmianach,
+- przegląd kodu z wykorzystaniem narzędzi.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 288</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są potencjalne zagrożenia wynikające z większego udziału testów ręcznych?</p>
+</div>
+<div class="paragraph">
+<p>Potencjalne zagrożenia wynikające z większego udziału testów ręcznych:
+- awaria,
+- więcej testów, również ręcznych,
+- testy ręczne są wolniejsze i bardziej uciążliwe niż testy automatyczne,
+- dłuższy okres testowania,
+- rzadsze wdrażanie,
+- większa paczka,
+- zwiększenie paczki powoduje pogorszenie wdrożenia (trudne, więcej błędów, dłuższe naprawy).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 290</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "programowanie w parach"?</p>
+</div>
+<div class="paragraph">
+<p>"Programowanie w parach":
+- inaczej praca parami (pairing),
+- inaczej programowanie parami (pair programming),
+- dwóch inżynierów współpracuje na tej samej stacji roboczej,
+- kierowca i nawigator lub  obserwator,
+- stosowane nie tylko przez programistów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 291</p>
+</div>
+<div class="paragraph">
+<p>.
+Na czym polega programowanie w parach w kontekście TDD?</p>
+</div>
+<div class="paragraph">
+<p>Programowanie w parach w kontekście TDD polega na:
+- jeden inżynier pisze zautomatyzowane testy,
+- drugi inżynier implementuje kod.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 291</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są zalety "programowanie w parach"?</p>
+</div>
+<div class="paragraph">
+<p>Zalety "programowanie w parach":
+- mniej błędów,
+- rozważone więcej możliwości projektowych,
+- wzajemna nauka,
+- chociaż programiści wolniejsi.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 292</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak weryfikować skuteczność przeglądu kodu przez współpracowników?</p>
+</div>
+<div class="paragraph">
+<p>Aby weryfikować skuteczność przeglądu kodu przez współpracowników:
+- obserwuj przestoje produkcyjne i analizuj proces przeglądu dla wszelkich istotnych zmian.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 293</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym charakteryzuje się dobre żądanie ściągnięcia (pull request)?</p>
+</div>
+<div class="paragraph">
+<p>Dobre żądanie ściągnięcia (pull request) posiada:
+- kontekst dla czytelnika,
+- dokumentację lub opis,
+- uzasadnienie,
+- wskazanie zagrożeń,
+- opis środków zaradczych,
+- pomysły na ulepszenia,
+- dyskusja rozwiązania,
+- czasem kilka stron dokumentacji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 293</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak eliminować przeszkody organizacyjne?</p>
+</div>
+<div class="paragraph">
+<p>Aby eliminować przeszkody organizacyjne:
+- stosuj programowanie w parach (zamiast przeglądów zewnętrznych),
+- zaproponuj utrzymanie przez Dev (dla nowych technologii),
+- uczyń programistę odpowiedzialnym za zmianę (i zapewnienie weryfikacji).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 296
+.
+Co to jest "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania"?</p>
+</div>
+<div class="paragraph">
+<p>"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania" to:
+- praktyki umożliwiające uczenie się,
+- tak szybko, wcześnie, często i tanio, jak to możliwe.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 301</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie praktyki składają się na "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania"?</p>
+</div>
+<div class="paragraph">
+<p>Praktyki "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania":
+- praktyki uczenia się na podstawie wypadków i awarii,
+- praktyki organizowania i projektowania systemów pracy aby stale eksperymentować i uczyć się.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 301</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie mechanizmy składają się na "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania"?</p>
+</div>
+<div class="paragraph">
+<p>Mechanizmy "Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania":
+- "kultura uczciwości": warunki dla bezpiecznej pracy,
+- wstrzykiwanie awarii produkcyjnych: odporność,
+- konwersja lokalnych odkryć na globalne usprawnienia,
+- rezerwacja czasu na stworzenie organizacyjnych mechanizmów usprawnień i uczenia się.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 301
+.
+Co to jest "elastyczna organizacja"?</p>
+</div>
+<div class="paragraph">
+<p>"Elastyczna organizacja" to organizacja, która:
+- wykrywa problemy,
+- rozwiązuje problemy,
+- udostępnia rozwiązania w całej organizacji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 303</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zbudować "elastyczną organizację"?</p>
+</div>
+<div class="paragraph">
+<p>Zbuduj dynamiczny system uczenia się.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 303</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "dynamiczny system uczenia się"?</p>
+</div>
+<div class="paragraph">
+<p>"Dynamiczny system uczenia się" to system, który:
+- pozwala zrozumieć popełniane błędy,
+- przekształca zrozumienie na działania, które zapobiegają powtórzeniu podobnych błędów w przyszłości.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 303</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "Chaos Monkey"?</p>
+</div>
+<div class="paragraph">
+<p>"Chaos Monkey" to:
+- narzędzie zbudowane przez Netflix,
+- wstrzykuje błędy do infrastruktury,
+- doprowadziło do stworzenia usługi odpornej na rzeczywistą awarię Amazona,
+- przykład ciągłego uczenia się i eksperymentowania.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 304</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "kultura sprawiedliwości"?</p>
+</div>
+<div class="paragraph">
+<p>"Kultura sprawiedliwości" (just culture) to kultura, która:
+- traktuje błąd jako okazję do nauki,
+- nie karze za błędy,
+- uznaje, że błąd człowieka jest konsekwencją narzędzi.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 306</p>
+</div>
+<div class="paragraph">
+<p>.
+Co pomaga tworzyć kulturę sprawiedliwości i uczenia się?</p>
+</div>
+<div class="paragraph">
+<p>Kulturę sprawiedliwości pomagają tworzyć praktyki:
+- "analiza post-mortem bez poszukiwania winnych": analiza wydarzeń i decyzji w czasie bliskim awarii,
+- kontrolowane wprowadzanie awarii do produkcji: stworzenie możliwości do ćwiczenia zachowań w sytuacjach awaryjnych.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 306</p>
+</div>
+<div class="paragraph">
+<p>.
+Jaki są warunki skutecznej "analizy post-mortem"?</p>
+</div>
+<div class="paragraph">
+<p>Warunki skutecznej "analizy post-mortem":
+- natychmiast po wystąpieniu awarii,
+- opracowanie chronologii istotnych wydarzeń,
+- zebranie interesariuszy,
+- współdzielenie informacji bez obaw o karę lub odwet,
+- burza mózgów,
+- zaprojektowanie środków zaradczych,
+- opracowanie planu wdrożenia środków zaradczych,
+- opublikowanie wniosków dla jak najszerszego grona odbiorców.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 308</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym powinien się charakteryzować "środek zaradczy"?</p>
+</div>
+<div class="paragraph">
+<p>"Środek zaradczy" powinien:
+- uniemożliwić popełnienie podobnego błędu w przyszłości,
+- bez założenia, że pracownicy będą "lepsi" (np. bardziej uważni).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 308</p>
+</div>
+<div class="paragraph">
+<p>.
+Podaj przykład środka zaradczego "analizy post-mortem".</p>
+</div>
+<div class="paragraph">
+<p>Przykład środka zaradczego "analizy post-mortem":
+- nowe automatyczne testy podczas wdrożenia.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 308</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak poprawiać zarządzanie i rozumienie systemu w którym działamy (w kontekście awarii)?</p>
+</div>
+<div class="paragraph">
+<p>W celu poprawy zarządzania i rozumienia systemu w którym działamy:
+- wyszukuj coraz słabsze sygnały awarii (zmniejszaj próg tolerancji awarii),
+- analizuj sytuacje, w których o mało nie doszło do awarii,
+- wszelkie prace w strumieniu wartości technologii traktować jako eksperymentalne.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 310</p>
+</div>
+<div class="paragraph">
+<p>.
+Dlaczego organizacje stosujące praktyki DevOps częściej mają awarię?</p>
+</div>
+<div class="paragraph">
+<p>Organizacje stosujące praktyki DevOps częściej mają awarię, bo:
+- wysokowydajne organizacje publikują kilkadziesiąt razy częściej,
+- są bardziej otwarte na eksperymenty.
+Uwagi:
+- na podstawie raportu "Raport 2014 State of DevOps Report",
+- dużo więcej wdrożeń nawet przy niższym współczynniku, to większa liczba awarii.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 312</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym są "dni gier" (w kontekście awarii)?</p>
+</div>
+<div class="paragraph">
+<p>"Dni gier" (game days) to zaplanowane symulacje awarii:
+- określenie awarii,
+- przygotowanie środków zaradczych,
+- przeprowadzenie awarii.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 314</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "inżynieria odporności"?</p>
+</div>
+<div class="paragraph">
+<p>"Inżynieria odporności" (resilience engineering) to:
+- ćwiczenia mające na celu zwiększenie odporności poprzez iniekcję awarii na dużą skalę w kluczowych systemach.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 314
+.
+Jak poprawić odporność systemu pracy?</p>
+</div>
+<div class="paragraph">
+<p>Odporność systemu pracy poprawiają:
+- proaktywne planowanie,
+- testowanie scenariuszy awarii.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 317</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak usprawnić komunikację między zespołami?</p>
+</div>
+<div class="paragraph">
+<p>Sposoby usprawnienia komunikacji między zespołami:
+- wykonywanie prac za pomocą poleceń w chat roomie,
+- emitowanie komunikatów w chat roomie podczas prac,
+- rejestrowanie i upublicznianie całej komunikacji,
+- komunikacja jako dokumentacja prac i praktyk.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 318</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zwiększyć zgodność organizacji z przepisami?</p>
+</div>
+<div class="paragraph">
+<p>Zgodność organizacji z przepisami jest proporcjonalna do stopnia, w jakim przepisy są wyrażone w kodzie.
+Czyli automatyzacja.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 319</p>
+</div>
+<div class="paragraph">
+<p>.
+Ile repozytoriów kodu powinna posiadać organizacja?</p>
+</div>
+<div class="paragraph">
+<p>Organizacja powinna posiadać jedno repozytorium kodu:
+- możliwość wykorzystywania doświadczeń wszystkich osób w organizacji,
+- kodowanie i współdzielenie wiedzy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 320, 321</p>
+</div>
+<div class="paragraph">
+<p>.
+Co powinno być umieszczane w repozytorium kodu?</p>
+</div>
+<div class="paragraph">
+<p>W repozytorium kodu powinny być umieszczane:
+- kod źródłowy,
+- architektura jako kod,
+- standardy konfiguracji,
+- narzędzia do instalacji,
+- standardy i narzędzia testowania, w tym zabezpieczenia,
+- narzędzia obsługi potoku wdrożeń,
+- narzędzia monitorowania i analizy,
+- samouczki i standardy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 321, 327</p>
+</div>
+<div class="paragraph">
+<p>.
+Jaką rolę pełnią testy automatyczne w rozpowszechnianiu wiedzy?</p>
+</div>
+<div class="paragraph">
+<p>Testy automatyczne, szczególnie TDD:
+- stanowią specyfikację systemu,
+- pokazują dobre praktyki użycia.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 322</p>
+</div>
+<div class="paragraph">
+<p>.
+Podaj przykłady wymagań niefunkcjonalnych ułatwiających wdrożenia.</p>
+</div>
+<div class="paragraph">
+<p>Przykłady wymagań niefunkcjonalnych ułatwiających wdrożenia:
+- odpowiednia liczba wskaźników telemetrycznych w aplikacji i środowiskach,
+- możliwość dokładnego śledzenia zależności,
+- odpowiednia elastyczność usług oraz degradacji,
+- zgodność pomiędzy wersjami,
+- możliwość archiwizacji danych,
+- możliwość łatwej analizy logów,
+- możliwość śledzenia żądań od użytkowników,
+- proste, scentralizowane środowisko działania z wykorzystaniem flag funkcji i podobnych mechanizmów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 322</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zapewnić powtarzalność zadań operacyjnych?</p>
+</div>
+<div class="paragraph">
+<p>W celu zapewnienia powtarzalności zadań operacyjnych:
+- automatyzuj całość lub część,
+- standaryzuj i dokumentuj,
+- twórz historyjki użytkownika Ops.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 324</p>
+</div>
+<div class="paragraph">
+<p>.
+Na czym polega standaryzacja stosu technologii?</p>
+</div>
+<div class="paragraph">
+<p>Standaryzacja stosu technologii polega na:
+- wybraniu technologii pomagających osiągnąć cele organizacji,
+- maksymalizacja wydajności zespołu vs. cele całej organizacji,
+- wspólne uzgodnienie Dev i Ops.
+Zwykle miękkie granice obejmujące niewielką liczbę technologii.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 325
+.
+Co to jest "improvement blitz"?</p>
+</div>
+<div class="paragraph">
+<p>"Improvement blitz" (czasami "kaizen blitz") to:
+- jedna z praktyk Toyota Production System,
+- dedykowany i skoncentrowany okres do rozwiązania określonego problemu,
+- zwykle kilka dni.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 329</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak wyegzekwować praktyki rezerwowania czasu na prace związane z usprawnieniami?</p>
+</div>
+<div class="paragraph">
+<p>W celu znalezienia czasu na usprawnienia przeprowadzaj:
+- najlepiej "improvement blitz",
+- również "spring", "fall cleanings", "ticket queue inversion weeks", "hack days", "hackathon", "20% innovation time".</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 331</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym są "spring/fall cleanings", "ticket queue inversion weeks", "hack days", "hackathon", "20% innovation time"?</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>"spring/fall cleanings" ("wiosenne lub jesienne sprzątanie"),</p>
+</li>
+<li>
+<p>"ticket queue inversion weeks" ("tygodnie odwróconej kolejki zleceń"),</p>
+</li>
+<li>
+<p>"hack days",</p>
+</li>
+<li>
+<p>"hackathon",</p>
+</li>
+<li>
+<p>"20% innovation time"
+to wydarzenia wprowadzające innowacje, rzadziej usprawnienia.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 331</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak organizacja może wspierać uczenie się?</p>
+</div>
+<div class="paragraph">
+<p>Organizacja może wspierać nauczanie i uczenie się dzięki:
+- poświęcaniu na to czasu organizacji,
+- zachęcaniu do udziału w konferencjach, wygłaszania na nich wykładów,
+- zachęcaniu do tworzenia i organizowania wewnętrznych lub zewnętrznych konferencji,
+- tworzeniu wewnętrznego systemu szkoleń.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 333
+.
+Jaką korzyść dla audytorów przynosi automatyzacja akceptacji i zatwierdzania?</p>
+</div>
+<div class="paragraph">
+<p>Dzięki automatyzacji akceptacji i zatwierdzania audytor może:
+- otrzymywać dowody wygenerowane na żądanie.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 341</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak poprawić bezpieczeństwo?</p>
+</div>
+<div class="paragraph">
+<p>Bezpieczeństwo można poprawić poprzez:
+- bezpieczeństwo obowiązkiem wszystkich,
+- integracja mechanizmów prewencyjnych ze wspólnym repozytorium kodu,
+- integracja zabezpieczeń z potokiem wdrożeń,
+- integracja zabezpieczeń z mechanizmami telemetrycznymi (wykrywanie luk),
+- ochrona potoku wdrożeń,
+- integracja wdrażania z zatwierdzaniem,
+- zmniejszenie wagi podziału obowiązków.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 341
+.
+Co to jest "InfoSec"?</p>
+</div>
+<div class="paragraph">
+<p>"InfoSec" (Information security) to:
+- zagadnienia, praktyki, procesy, narzędzia, działy
+- dotyczące lub zajmujące się ochroną informacji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+<a href="https://en.wikipedia.org/wiki/Information_security" class="bare">https://en.wikipedia.org/wiki/Information_security</a>
+<a href="https://www.cisco.com/c/en/us/products/security/what-is-information-security-infosec.html" class="bare">https://www.cisco.com/c/en/us/products/security/what-is-information-security-infosec.html</a></p>
+</div>
+<div class="paragraph">
+<p>.
+Kiedy realizować zadania InfoSec?</p>
+</div>
+<div class="paragraph">
+<p>Zadania InfoSec najlepiej realizować:
+- jak najwcześniej,
+- na koniec iteracji (nie na koniec projektu).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 344</p>
+</div>
+<div class="paragraph">
+<p>.
+Wymień kluczowe miary biznesowe.</p>
+</div>
+<div class="paragraph">
+<p>Kluczowe miary biznesowe:
+- szybkość tworzenia oprogramowania (szybkość dostarczania funkcjonalności na rynek),
+- niepowodzenia interakcji z klientami (awarie i błędy),
+- czas reakcji na zgodność z przepisami (czas od żądania audytu do dostarczenia żądanych informacji).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 345</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "GRC"?</p>
+</div>
+<div class="paragraph">
+<p>"GRC" (governance, risk, and compliance - "nadzór, ryzyko i zgodność") to:
+- tradycyjnego sposobu działania InfoSec,
+- system do rejestrowania luk,
+- dostępny tylko dla InfoSec.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 345</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak DevOps adresuje kwestie InfoSec?</p>
+</div>
+<div class="paragraph">
+<p>DevOps wprowadza:
+- bezpieczeństwo informacji jako codzienne zadanie każdego DevOps,
+- integracja InfoSec w całym technologicznym strumieniu wartości, włączenie w prace DevOps (również jako część zespołu DevOps),
+- użycie tych samych systemów (zamiast "GRC" dla InfoSec),
+- uwzględnianie InfoSec w śledzeniu defektów,
+- udział InfoSec w analizie post-mortem,
+- wzajemna nauka.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 343 - 347</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zintegrować zabezpieczenia z potokiem wdrożeń?</p>
+</div>
+<div class="paragraph">
+<p>W celu integracji zabezpieczeń z potokiem wdrożeń:
+- wdróż automatyczne testy bezpieczeństwa,
+- uruchamianych razem z innymi testami potoku wdrożeń,
+- najlepiej przy wprowadzaniu zmian do repozytorium kodu,
+- w kontraście do tradycyjnego raportu na koniec prac rozwojowych.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 347</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "ścieżka szczęśliwa"?</p>
+</div>
+<div class="paragraph">
+<p>"Ścieżka szczęśliwa" to:
+- typ testowania, gdy wszystko idzie zgodnie z oczekiwaniami, bez błędów,
+- typowy dla Dev.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 349</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "ścieżka smutna"?</p>
+</div>
+<div class="paragraph">
+<p>"Ścieżka smutna" to:
+- typ testowania, gdy coś idzie nie tak,
+- typowe dla QA, InfoSec i Fraud.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 349</p>
+</div>
+<div class="paragraph">
+<p>.
+Czym zastąpić testy ręcznie?</p>
+</div>
+<div class="paragraph">
+<p>Testy ręczne zastąp:
+- automatycznymi testami jednostkowymi,
+- automatycznymi testami funkcjonalnymi,
+aby mogły być stale uruchamiane w potoku wdrożeń.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 349</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie przedsięwzięcia uwzględnić w ramach testowania?</p>
+</div>
+<div class="paragraph">
+<p>W ramach testowania uwzględnij:
+- analizę statyczną: sprawdza kod programu,
+- analizę dynamiczną: w czasie pracy programu, testowanie z zewnątrz do wewnątrz,
+- skanowanie zależności: inny typ testów statycznych,
+- integralność kodu źródłowego i podpisywanie kodu: własny kod PGP dla użytkowników repozytorium, podpisywanie operacji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 349</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "PGP"?</p>
+</div>
+<div class="paragraph">
+<p>"PGP" (Pretty Good Privacy) to:
+- narzędzie do szyfrowania, odszyfrowywania i uwierzytelniania m.in. poczty elektronicznej, plików, katalogów oraz partycji dyskowych.</p>
+</div>
+<div class="paragraph">
+<p>s:
+<a href="https://pl.wikipedia.org/wiki/Pretty_Good_Privacy" class="bare">https://pl.wikipedia.org/wiki/Pretty_Good_Privacy</a></p>
+</div>
+<div class="paragraph">
+<p>.
+Jak pomóc pisać kod, który przeciwdziała nadużyciom?</p>
+</div>
+<div class="paragraph">
+<p>W celu przeciwdziałaniu nadużyciom zdefiniuj wzorce projektowe, m.in.:
+- jak przechowywać hasła,
+- jak postępować w przypadku zapomnianych haseł,
+- jak obsługiwać logowanie,
+- jak zapobiec wrażliwości na ataki za pomocą skryptów krzyżowych (XSS).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 350</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zapewnić bezpieczeństwo łańcuchowi dostaw oprogramowania?</p>
+</div>
+<div class="paragraph">
+<p>Ponieważ tworzenie oprogramowania w dużej mierze polega na używaniu zewnętrznych komponentów,
+to konieczne jest uwzględnienie luk w tych komponentach.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 353</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zapewnić bezpieczeństwo środowiska?</p>
+</div>
+<div class="paragraph">
+<p>W celu zapewnienia bezpieczeństwa środowiska:
+- wdróż testy automatyczne: poprawność ustawień, długość kluczy,
+- wdróż testy do skanowania: luki w zabezpieczeniach,
+- sprawdzaj, czy otwarte są tylko wymagane porty,
+- sprawdzaj pod kątem znanych zagrożeń: np. SQL injection,
+- parametry testów pobieraj z repozytorium,
+- umieszczaj w repozytorium wyniki testów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 355</p>
+</div>
+<div class="paragraph">
+<p>Jak przyspieszyć wykrywanie naruszeń?</p>
+</div>
+<div class="paragraph">
+<p>W celu przyspieszenia wykrywania naruszeń:
+- zintegruj bezpieczeństwo informacji z telemetrią produkcji,
+- zastosuj w aplikacji i środowiskach mechanizmy monitorowania, rejestrowania i alarmowania,
+- stwórz odpowiednie mechanizmy telemetryczne w aplikacji,
+- stwórz odpowiednie mechanizmy telemetryczne w środowisku.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 357</p>
+</div>
+<div class="paragraph">
+<p>.
+Podaj przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji.</p>
+</div>
+<div class="paragraph">
+<p>Przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji:
+- udane i nieudane logowania,
+- resetowanie hasła,
+- resetowanie adresu e-mail,
+- zmiany danych karty kredytowej.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 358</p>
+</div>
+<div class="paragraph">
+<p>.
+Podaj przykłady sytuacji dla telemetrii zabezpieczeń w środowisku.</p>
+</div>
+<div class="paragraph">
+<p>Przykłady sytuacji dla telemetrii zabezpieczeń w środowisku:
+- zmiany w systemie operacyjnym (np. produkcja, środowisko kompilacji),
+- zmiany w grupach zabezpieczeń,
+- modyfikacje konfiguracji,
+- zmiany w infrastrukturze chmury,
+- próby ataków (XSS, SQL injection),
+- błędy serwera WWW (np. 4XX, 5XX).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 358</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak chronić potok wdrożeń?</p>
+</div>
+<div class="paragraph">
+<p>W celu ochrony potoku wdrożeń, czyli:
+- kompilacji,
+- integracji,
+- wdrożeń
+należy:
+- hartować serwery CI/CD (podobnie jak produkcja, automatyzacja odtworzenia),
+- ewidencjonować zmiany przy użyciu systemu kontroli wersji,
+- wykrywać sytuacje podejrzane,
+- uniezależnić procesy CI,
+- system kontroli wersji tylko do odczytu dla CI/CD.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 360
+.
+Co jest podstawowym mechanizmem ograniczania zagrożeń?</p>
+</div>
+<div class="paragraph">
+<p>Podstawowym mechanizmem ograniczania zagrożeń dla:
+- operacji,
+- bezpieczeństwa
+są:
+- procesy zarządzania zmianami.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 363</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak obniżyć ryzyko wdrożeń (w kontekście procesów zarządzania zmianami)?</p>
+</div>
+<div class="paragraph">
+<p>W celu obniżenia ryzyka wdrożeń (w kontekście procesów zarządzania zmianami):
+- minimalizuj udział ręczny w procesie zatwierdzania zmian (testy automatyczne, proaktywne monitorowanie produkcji),
+- zintegruj mechanizmy bezpieczeństwa i zgodności z przepisami z istniejącym procesem zarządzania zmianami.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 363</p>
+</div>
+<div class="paragraph">
+<p>.
+Wymień kategorie zmian.</p>
+</div>
+<div class="paragraph">
+<p>Kategorie zmian:
+- zmiany standardowe: niskie ryzyko, zgodne z ustalonym i zatwierdzonym procesem, uproszczone zatwierdzanie,
+- zmiany normalne: wyższe ryzyko, wymagany przegląd lub zatwierdzenie,
+- zmiany pilne: wysokie ryzyko, awarie.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 364</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "badanie niszczące"?</p>
+</div>
+<div class="paragraph">
+<p>"Badanie niszczące" to:
+- długotrwałe badanie wytrzymałościowe na produkcji, aż do zniszczenia komponentu,
+- pozwala zrozumieć awarię,
+- pozwala wprowadzić korekty.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 368</p>
+</div>
+<div class="paragraph">
+<p>.
+Kim jest "bibliotekarz kodu"?</p>
+</div>
+<div class="paragraph">
+<p>"Bibliotekarz kodu" to:
+- osoba która przegląda i zatwierdza zmianę przed wypromowaniem jej do produkcji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 369</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania?</p>
+</div>
+<div class="paragraph">
+<p>Żeby zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania:
+- zmniejsz rolę podziału obowiązków,
+- zrezygnuj z "bibliotekarza kodu",
+- wprowadź programowanie w parach, ciągłą kontrolę operacji ewidencjonowania kodu, przeglądy kodu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 369</p>
+</div>
+<div class="paragraph">
+<p>.
+Na czym polegają trudności we współpracy DevOps i InfoSec?</p>
+</div>
+<div class="paragraph">
+<p>Trudności we współpracy DevOps i InfoSec:
+- audytor nie potrafi czytać kodu,
+- programista nie zna przepisów, norm, ustaw związanych z bezpieczeństwem.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 371
+.
+Jakie jest prawdopodobieństwo porażki transformacji DevOps?</p>
+</div>
+<div class="paragraph">
+<p>Prawdopodobieństwo porażki transformacji DevOps jest:
+- duże,
+- zmiany organizacyjne mogą zostać cofnięte.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 378</p>
+</div>
+<div class="paragraph">
+<p>.
+Komu przynosi korzyści DevOps?</p>
+</div>
+<div class="paragraph">
+<p>DevOps przynosi korzyści:
+- Dev,
+- Ops,
+- QA,
+- InfoSec,
+- właścicielom produktu,
+- klientom.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 379
+.
+Co to jest "konwergencja DevOps"?</p>
+</div>
+<div class="paragraph">
+<p>"Konwergencja DevOps" to:
+- zbieżność z innymi ruchami w zarządzaniu,
+- wzajemne uzupełnianie i współdziałanie.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 383</p>
+</div>
+<div class="paragraph">
+<p>.
+Z jakimi ruchami zachodzi "konwergencja DevOps"?</p>
+</div>
+<div class="paragraph">
+<p>"Konwergencja DevOps" zachodzi z:
+- Lean (szczupłe zarządzanie, unikanie marnotrawstwa),
+- Agile (model przyrostowy),
+- Toyota Kata (stałe doskonalenie).</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 383</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "chmura konfliktów"?</p>
+</div>
+<div class="paragraph">
+<p>"Chmura konfliktów" to:
+- konflikt między dwoma potrzebnymi działaniami,
+- np. szybko wprowadzaj zmiany vs. zapewniaj stabilność.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 386</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak przełamać "chmurę konfliktów" dla IT?</p>
+</div>
+<div class="paragraph">
+<p>"Chmurę konfliktów" dla IT można przełamać dzięki DevOps:
+- integracja Dev i Ops,
+- patrz "trzy drogi".</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 387</p>
+</div>
+<div class="paragraph">
+<p>.
+Na czym polega "spirala degradacji"?</p>
+</div>
+<div class="paragraph">
+<p>"Spirala degradacji":
+- kruche aplikacje, projekty pilne, usprawnienia mało pilne,
+- coraz bardziej kruche aplikacje,
+- coraz więcej czasu na awarie, coraz mniej czasu na projekty,
+- aż do braku możliwości realizacji projektów.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 387</p>
+</div>
+<div class="paragraph">
+<p>.
+Jakie są niebezpieczeństwa związane z przełączaniem pracy i kolejkami?</p>
+</div>
+<div class="paragraph">
+<p>Przykład problemu związanego z przełączaniem pracy i kolejkami:
+- 30-minutowe zadanie,
+- wymaga 7-krotnego przełączania (zespół serwerów, sieci, db&#8230;&#8203;),
+- każdy zajęty w 90%,
+- więc na każdego czekamy 9h,
+- łączny czas oczekiwania 7x9h = 63h</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 389</p>
+</div>
+<div class="paragraph">
+<p>.
+Wymień mity na temat bezpieczeństwa.</p>
+</div>
+<div class="paragraph">
+<p>Mity na temat bezpieczeństwa:
+1. Najważniejszą przyczyną wypadków i incydentów jest błąd ludzki: Nie, to słabość systemowa.
+2. Systemy będą bezpieczne, jeśli ludzie będą przestrzegali obowiązujących procedur.
+3. Bezpieczeństwo można poprawić przez bariery i zabezpieczenia; im więcej warstw ochrony tym większe bezpieczeństwo.
+4. Analiza wypadku pozwala zidentyfikować jego główną przyczynę (prawdę).
+5. Badania wypadków polegają na logicznej i racjonalnej identyfikacji ich przyczyn na podstawie faktów.
+6. Bezpieczeństwo zawsze ma najwyższy priorytet. Ta zasada nigdy nie będzie zagrożona.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 390
+.
+Dlaczego 5tys. pociągnięć linki Andon nie paraliżuje produkcji Toyoty?</p>
+</div>
+<div class="paragraph">
+<p>5tys. pociągnięć linki Andon nie paraliżuje produkcji Toyoty, bo:
+- nie każde pociągnięcie powoduje zatrzymanie linii produkcyjnej,
+- lider zespołu ma 50s na rozwiązanie problemu.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 391</p>
+</div>
+<div class="paragraph">
+<p>.
+Jak zamienić operacje instalacji oprogramowania w operacje kontroli wersji?</p>
+</div>
+<div class="paragraph">
+<p>Żeby zamienić operacje instalacji oprogramowania w operacje kontroli wersji:
+- wyeliminuj instalatory z GUI,
+- porównaj czysty obraz serwera z obrazem po instalacji,
+- umieść zmiany w repozytorium kodu,
+- przekształć ewentualne konfiguracje w bazie danych na pliki.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 391</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "infinite hows"?</p>
+</div>
+<div class="paragraph">
+<p>"Infinite hows" ("nieskończone pytania jak") to:
+- forma dyskusji.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 393</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "Małpia Armia"?</p>
+</div>
+<div class="paragraph">
+<p>"Małpia Armia" (Simian Army) to:
+- rozwinięcie "Chaos Monkey" w rodzinę narzędzi,
+- symulują coraz bardziej katastrofalne błędy.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 394</p>
+</div>
+<div class="paragraph">
+<p>.
+Co to jest "przezroczysty czas sprawności"?</p>
+</div>
+<div class="paragraph">
+<p>"Przezroczysty czas sprawności" to podejście charakteryzujące się:
+- możliwością samodzielnej identyfikacji problemu przez użytkowników,
+- komunikacją przez internet (ogólna, zamiast e-mail),
+- jednym miejscem komunikacji,
+- udostępnienie informacji o problemach,
+- panel kondycji usługi.</p>
+</div>
+<div class="paragraph">
+<p>s:
+DevOps, 395</p>
+</div>
