@@ -1,4 +1,4 @@
-(ns pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged-asciidoctor
+(ns pl.tomaszgigiel.devops.chapters.create-faq-chapters-asciidoctor
   (:require [clojure.edn :as edn])
   (:require [clojure.java.io :as io])
   (:require [clojure.string :as str])
@@ -15,7 +15,7 @@
 (defn asciidoctor-files [props]
   (let [in (:faq-chapters-merged-path props)
         content (slurp in)
-        out (:faq-chapters-merged-asciidoctor-path props)
+        out (:faq-chapters-asciidoctor-path props)
         content (.. Asciidoctor$Factory (create) (convert content (new HashMap)))]
     (create-file out content)))
 
@@ -29,5 +29,5 @@
       (if exit-message
         (cmd/exit (if ok? 0 1) exit-message)
         (work (first args)))
-      (log/info "pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged-asciidoctor: ok")
+      (log/info "pl.tomaszgigiel.devops.chapters.create-faq-chapters-asciidoctor: ok")
       (shutdown-agents)))
