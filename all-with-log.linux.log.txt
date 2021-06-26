@@ -1,4 +1,4 @@
-Script started on 2021-06-26 14:58:21+0200
+Script started on 2021-06-26 15:17:27+0200
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -25,36 +25,36 @@ Ran 0 tests containing 0 assertions.
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 26, 2021 2:58:52 PM clojure.tools.logging$eval155$fn__158 invoke
+Jun 26, 2021 3:17:53 PM clojure.tools.logging$eval155$fn__158 invoke
 INFO: {:info , :table-of-contents-path src/test/resources/table-of-contents.txt, :faq-chapters-path src/test/resources/faq-chapters/, :faq-chapters-merged-path src/test/resources/faq-chapters-merged.txt, :faq-chapters-merged-asciidoctor-path src/test/resources/faq-chapters-merged-asciidoctor.html, :faq-chapters-edn-path src/test/resources/faq-chapters-edn.edn}
-Jun 26, 2021 2:58:52 PM clojure.tools.logging$eval155$fn__158 invoke
+Jun 26, 2021 3:17:53 PM clojure.tools.logging$eval155$fn__158 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 26, 2021 2:59:09 PM clojure.tools.logging$eval161$fn__164 invoke
-INFO: pl.tomaszgigiel.devops.chapters.create: ok
+Jun 26, 2021 3:18:02 PM clojure.tools.logging$eval161$fn__164 invoke
+INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 26, 2021 2:59:22 PM clojure.tools.logging$eval161$fn__164 invoke
-INFO: pl.tomaszgigiel.devops.chapters.merge: ok
+Jun 26, 2021 3:18:12 PM clojure.tools.logging$eval161$fn__164 invoke
+INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 26, 2021 2:59:45 PM clojure.tools.logging$eval161$fn__164 invoke
-INFO: pl.tomaszgigiel.devops.chapters.asciidoctor: ok
+Jun 26, 2021 3:18:34 PM clojure.tools.logging$eval161$fn__164 invoke
+INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged-asciidoctor: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 26, 2021 3:00:07 PM clojure.tools.logging$eval161$fn__164 invoke
-INFO: pl.tomaszgigiel.devops.chapters.create-edn: ok
+Jun 26, 2021 3:18:54 PM clojure.tools.logging$eval161$fn__164 invoke
+INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-edn: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
 Compiling pl.tomaszgigiel.devops.core
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-Jun 26, 2021 3:00:31 PM clojure.tools.logging$eval136$fn__139 invoke
+Jun 26, 2021 3:19:16 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: {:info , :table-of-contents-path src/test/resources/table-of-contents.txt, :faq-chapters-path src/test/resources/faq-chapters/, :faq-chapters-merged-path src/test/resources/faq-chapters-merged.txt, :faq-chapters-merged-asciidoctor-path src/test/resources/faq-chapters-merged-asciidoctor.html, :faq-chapters-edn-path src/test/resources/faq-chapters-edn.edn}
-Jun 26, 2021 3:00:31 PM clojure.tools.logging$eval136$fn__139 invoke
+Jun 26, 2021 3:19:16 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -62,9 +62,9 @@ Compiling pl.tomaszgigiel.devops.core
 Compiling pl.tomaszgigiel.devops.core
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-Jun 26, 2021 3:00:54 PM clojure.tools.logging$eval136$fn__139 invoke
+Jun 26, 2021 3:19:45 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: {:info , :table-of-contents-path src/test/resources/table-of-contents.txt, :faq-chapters-path src/test/resources/faq-chapters/, :faq-chapters-merged-path src/test/resources/faq-chapters-merged.txt, :faq-chapters-merged-asciidoctor-path src/test/resources/faq-chapters-merged-asciidoctor.html, :faq-chapters-edn-path src/test/resources/faq-chapters-edn.edn}
-Jun 26, 2021 3:00:54 PM clojure.tools.logging$eval136$fn__139 invoke
+Jun 26, 2021 3:19:45 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -75,4 +75,4 @@ Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-ube
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 
-Script done on 2021-06-26 15:01:18+0200
+Script done on 2021-06-26 15:20:10+0200

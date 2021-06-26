@@ -1,4 +1,4 @@
-(ns pl.tomaszgigiel.devops.chapters.merge
+(ns pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged
   (:require [clojure.edn :as edn])
   (:require [clojure.java.io :as io])
   (:require [clojure.string :as str])
@@ -29,5 +29,5 @@
       (if exit-message
         (cmd/exit (if ok? 0 1) exit-message)
         (work (first args)))
-      (log/info "pl.tomaszgigiel.devops.chapters.merge: ok")
+      (log/info "pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged: ok")
       (shutdown-agents)))

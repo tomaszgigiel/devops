@@ -19,14 +19,14 @@
 
   :profiles {:test {:resource-paths ["src/test/resources"]}
              :main-core {:main pl.tomaszgigiel.devops.core}
-             :main-chapters-create {:main pl.tomaszgigiel.devops.chapters.create}
-             :main-chapters-merge {:main pl.tomaszgigiel.devops.chapters.merge}
-             :main-chapters-asciidoctor {:main pl.tomaszgigiel.devops.chapters.asciidoctor}
-             :main-chapters-create-edn {:main pl.tomaszgigiel.devops.chapters.create-edn}}
+             :main-create-faq-chapters {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters}
+             :main-create-faq-chapters-merged {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged}
+             :main-create-faq-chapters-merged-asciidoctor {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged-asciidoctor}
+             :main-create-faq-chapters-edn {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-edn}}
   
   :aliases {"run-main-core" ["with-profile" "main-core" "run"]
-            "run-main-chapters-create" ["with-profile" "main-chapters-create" "run"]
-            "run-main-chapters-merge" ["with-profile" "main-chapters-merge" "run"]
-            "run-main-chapters-asciidoctor" ["with-profile" "main-chapters-asciidoctor" "run"]
-            "run-main-chapters-create-edn" ["with-profile" "main-chapters-create-edn" "run"]}
+            "run-main-create-faq-chapters" ["with-profile" "main-create-faq-chapters" "run"]
+            "run-main-create-faq-chapters-merged" ["with-profile" "main-create-faq-chapters-merged" "run"]
+            "run-main-create-faq-chapters-merged-asciidoctor" ["with-profile" "main-create-faq-chapters-merged-asciidoctor" "run"]
+            "run-main-create-faq-chapters-edn" ["with-profile" "main-create-faq-chapters-edn" "run"]}
 )

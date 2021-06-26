@@ -1,4 +1,4 @@
-(ns pl.tomaszgigiel.devops.chapters.create-edn
+(ns pl.tomaszgigiel.devops.chapters.create-faq-chapters-edn
   (:require [clojure.edn :as edn])
   (:require [clojure.java.io :as io])
   (:require [clojure.pprint :as pp])
@@ -57,5 +57,5 @@
       (if exit-message
         (cmd/exit (if ok? 0 1) exit-message)
         (work (first args)))
-      (log/info "pl.tomaszgigiel.devops.chapters.create-edn: ok")
+      (log/info "pl.tomaszgigiel.devops.chapters.create-faq-chapters-edn: ok")
       (shutdown-agents)))
