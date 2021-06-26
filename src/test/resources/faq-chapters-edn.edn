@@ -1,0 +1,2925 @@
+[{:question ["Co to jest SLA?"],
+  :answer
+  ["SLA (service level agreement) to:"
+   "- umowa zapewnienia poziomu usług."],
+  :source ["s:" "DevOps, 8"],
+  :tag ["devops-handbook-01-preface"],
+  :chunk
+  ["Co to jest SLA?\r\n\r\nSLA (service level agreement) to:\r\n- umowa zapewnienia poziomu usług.\r\n\r\ns:\r\nDevOps, 8"]}
+ {:question ["Jak powstał termin \"DevOps\"?"],
+  :answer
+  ["Termin \"DevOps\":"
+   "- pojawił się pierwszy raz na konferencji DevOpsDays 2009,"
+   "- zorganizowanej przez Patrick Debois."],
+  :source ["s:" "DevOps, 9"],
+  :tag ["devops-handbook-01-preface"],
+  :chunk
+  ["Jak powstał termin \"DevOps\"?\r\n\r\nTermin \"DevOps\":\r\n- pojawił się pierwszy raz na konferencji DevOpsDays 2009,\r\n- zorganizowanej przez Patrick Debois.\r\n\r\ns:\r\nDevOps, 9"]}
+ {:question ["Co to jest CM?"],
+  :answer
+  ["CM (configuration management) to:" "- zarządzanie konfiguracją."],
+  :source ["s:" "DevOps, 10"],
+  :tag ["devops-handbook-01-preface"],
+  :chunk
+  ["Co to jest CM?\r\n\r\nCM (configuration management) to:\r\n- zarządzanie konfiguracją.\r\n\r\ns:\r\nDevOps, 10"]}
+ {:question ["Na czym polega koncepcja \"infrastruktura jako kod\"?"],
+  :answer
+  ["Koncepcja \"infrastruktura jako kod\" polega na:"
+   "- działy operacji zachowują się jak programiści,"
+   "- utrzymują konfiguracje w systemach zarządzania kodem źródłowym,"
+   "- adoptują wzorce dostaw CI/CD w swoich przepływach pracy."],
+  :source ["s:" "DevOps, 10"],
+  :tag ["devops-handbook-01-preface"],
+  :chunk
+  ["Na czym polega koncepcja \"infrastruktura jako kod\"?\r\n\r\nKoncepcja \"infrastruktura jako kod\" polega na:\r\n- działy operacji zachowują się jak programiści,\r\n- utrzymują konfiguracje w systemach zarządzania kodem źródłowym,\r\n- adoptują wzorce dostaw CI/CD w swoich przepływach pracy.\r\n\r\ns:\r\nDevOps, 10"]}
+ {:question ["Co to jest ITIL?"],
+  :answer
+  ["ITIL (Information Technology Infrastructure Library) to:"
+   "- ciągle zmieniająca się biblioteka praktyk,"
+   "- kodyfikuje procesy i techniki stanowiących podstawę operacji IT,"
+   "- obejmuje strategię usług, projektowanie i pomoc techniczną."],
+  :source ["s:" "DevOps, 11"],
+  :tag ["devops-handbook-01-preface"],
+  :chunk
+  ["Co to jest ITIL?\r\n\r\nITIL (Information Technology Infrastructure Library) to:\r\n- ciągle zmieniająca się biblioteka praktyk,\r\n- kodyfikuje procesy i techniki stanowiących podstawę operacji IT,\r\n- obejmuje strategię usług, projektowanie i pomoc techniczną.\r\n\r\ns:\r\nDevOps, 11"]}
+ {:question ["Co to jest ITSM?"],
+  :answer
+  ["ITSM (IT Service Management - dosł. zarządzanie usługami IT) to:"
+   "- czynności wykonywane przez organizację,"
+   "- w celu projektowania, budowy, dostarczania, obsługi i kontroli usług informatycznych oferowanych klientom."],
+  :source
+  ["s:"
+   "DevOps, 11"
+   "https://en.wikipedia.org/wiki/IT_service_management"],
+  :tag ["devops-handbook-01-preface"],
+  :chunk
+  ["Co to jest ITSM?\r\n\r\nITSM (IT Service Management - dosł. zarządzanie usługami IT) to:\r\n- czynności wykonywane przez organizację,\r\n- w celu projektowania, budowy, dostarczania, obsługi i kontroli usług informatycznych oferowanych klientom.\r\n\r\ns:\r\nDevOps, 11\r\nhttps://en.wikipedia.org/wiki/IT_service_management"]}
+ {:question ["Jakie są mity związane z DevOps?"],
+  :answer
+  ["Mity związane z DevOps:"
+   "1. DevOps jest tylko dla startupów: patrz Google, Amazon, Netflix."
+   "2. DevOps zastępuje Agile: DevOps jest kontynuacją Agile."
+   "3. DevOps jest niezgodny z ITIL: praktyki DevOps mogą być zgodne z ITIL, szczególnie gdy procesy ITIL zostaną zautomatyzowane."
+   "4. DevOps jest niezgodny z zasadami bezpieczeństwa informacji i zgodności z przepisami: elementy kontroli są zintegrowane z każdym z etapów codziennej pracy w cyklu tworzenia oprogramowania."
+   "5. DevOps eliminuje funkcje operacji IT: działy operacji IT współpracują z działami rozwoju znacznie wcześniej w cyklu życia oprogramowania, praca personelu operacji IT przypomina działania programistów."
+   "6. DevOps to po prostu \"infrastruktura jako kod\" lub automatyzacja: plus normy kulturowe i architektury."
+   "7. DevOps dotyczy tylko oprogramowania open source: patrz SAP, firmware HP LaserJet."],
+  :source ["s:" "DevOps, 11"],
+  :tag ["devops-handbook-01-preface"],
+  :chunk
+  ["Jakie są mity związane z DevOps?\r\n\r\nMity związane z DevOps:\r\n1. DevOps jest tylko dla startupów: patrz Google, Amazon, Netflix.\r\n2. DevOps zastępuje Agile: DevOps jest kontynuacją Agile.\r\n3. DevOps jest niezgodny z ITIL: praktyki DevOps mogą być zgodne z ITIL, szczególnie gdy procesy ITIL zostaną zautomatyzowane.\r\n4. DevOps jest niezgodny z zasadami bezpieczeństwa informacji i zgodności z przepisami: elementy kontroli są zintegrowane z każdym z etapów codziennej pracy w cyklu tworzenia oprogramowania.\r\n5. DevOps eliminuje funkcje operacji IT: działy operacji IT współpracują z działami rozwoju znacznie wcześniej w cyklu życia oprogramowania, praca personelu operacji IT przypomina działania programistów.\r\n6. DevOps to po prostu \"infrastruktura jako kod\" lub automatyzacja: plus normy kulturowe i architektury.\r\n7. DevOps dotyczy tylko oprogramowania open source: patrz SAP, firmware HP LaserJet.\r\n\r\ns:\r\nDevOps, 11"]}
+ {:question ["Jakie efekty przynosi wprowadzenie DevOps?"],
+  :answer
+  ["Efekty DevOps:"
+   "- bezpieczne systemy pracy,"
+   "- szybkie, niezależne rozwijanie i walidowanie kodu przez małe zespoły,"
+   "- bezpieczne wdrożenia,"
+   "- wzmacnianie normy kulturowe wysokiego poziomu zaufania."],
+  :source ["s:" "DevOps, 13"],
+  :tag ["devops-handbook-01-preface"],
+  :chunk
+  ["Jakie efekty przynosi wprowadzenie DevOps?\r\n\r\nEfekty DevOps:\r\n- bezpieczne systemy pracy,\r\n- szybkie, niezależne rozwijanie i walidowanie kodu przez małe zespoły,\r\n- bezpieczne wdrożenia,\r\n- wzmacnianie normy kulturowe wysokiego poziomu zaufania.\r\n\r\ns:\r\nDevOps, 13"]}
+ {:question ["Co to jest DevOps?"],
+  :answer
+  ["DevOps (development and operations) to zestaw praktyk, który łączy:"
+   "- rozwój (development),"
+   "- eksploatację (operations),"
+   "- zapewnienie jakości (quality assurance)."],
+  :source
+  ["s:"
+   "https://pl.wikipedia.org/wiki/DevOps"
+   "https://en.wikipedia.org/wiki/DevOps"],
+  :tag ["devops-handbook-01-preface"],
+  :chunk
+  ["Co to jest DevOps?\r\n\r\nDevOps (development and operations) to zestaw praktyk, który łączy:\r\n- rozwój (development),\r\n- eksploatację (operations),\r\n- zapewnienie jakości (quality assurance).\r\n\r\ns:\r\nhttps://pl.wikipedia.org/wiki/DevOps\r\nhttps://en.wikipedia.org/wiki/DevOps"]}
+ {:question ["Na czym polega DevOps?"],
+  :answer
+  ["DevOps polega na współpracy:"
+   "- właścicieli produktu,"
+   "- deweloperów,"
+   "- inżynierów walidacji (QA),"
+   "- inżynierów operacji IT,"
+   "- inżynierów bezpieczeństwa informacji."],
+  :source ["s:" "DevOps, 17"],
+  :tag
+  ["devops-handbook-03-imagine-a-world-where-dev-and-ops-become-devops-an-introduction-to-the-devops-handbook"],
+  :chunk
+  ["Na czym polega DevOps?\r\n\r\nDevOps polega na współpracy:\r\n- właścicieli produktu,\r\n- deweloperów,\r\n- inżynierów walidacji (QA),\r\n- inżynierów operacji IT,\r\n- inżynierów bezpieczeństwa informacji.\r\n\r\ns:\r\nDevOps, 17"]}
+ {:question ["Opisz sytuację bez DevOps."],
+  :answer
+  ["Sytuacja bez DevOps:"
+   "- konflikt pomiędzy działem rozwoju a działem operacji IT,"
+   "- testowanie i weryfikacja zabezpieczeń są wykonywane wyłącznie pod koniec projektu,"
+   "- kluczowe aktywności wymagają wielu \"ręcznych\" działań."],
+  :source ["s:" "DevOps, 18"],
+  :tag
+  ["devops-handbook-03-imagine-a-world-where-dev-and-ops-become-devops-an-introduction-to-the-devops-handbook"],
+  :chunk
+  ["Opisz sytuację bez DevOps.\r\n\r\nSytuacja bez DevOps:\r\n- konflikt pomiędzy działem rozwoju a działem operacji IT,\r\n- testowanie i weryfikacja zabezpieczeń są wykonywane wyłącznie pod koniec projektu,\r\n- kluczowe aktywności wymagają wielu \"ręcznych\" działań.\r\n\r\ns:\r\nDevOps, 18"]}
+ {:question ["Co to jest \"dług techniczny\"?"],
+  :answer
+  ["\"Dług techniczny\" (technical debt) to:"
+   "- koncepcja w rozwoju oprogramowania,"
+   "- odzwierciedla domniemany koszt dodatkowej pracy,"
+   "- związanej z wyborem łatwego rozwiązania teraz,"
+   "- zamiast stosowania lepszego podejścia, które zajęłoby więcej czasu."],
+  :source
+  ["s:" "DevOps, 20" "https://en.wikipedia.org/wiki/Technical_debt"],
+  :tag
+  ["devops-handbook-03-imagine-a-world-where-dev-and-ops-become-devops-an-introduction-to-the-devops-handbook"],
+  :chunk
+  ["Co to jest \"dług techniczny\"?\r\n\r\n\"Dług techniczny\" (technical debt) to:\r\n- koncepcja w rozwoju oprogramowania,\r\n- odzwierciedla domniemany koszt dodatkowej pracy,\r\n- związanej z wyborem łatwego rozwiązania teraz,\r\n- zamiast stosowania lepszego podejścia, które zajęłoby więcej czasu.\r\n\r\ns:\r\nDevOps, 20\r\nhttps://en.wikipedia.org/wiki/Technical_debt"]}
+ {:question ["Na czym polega spirala degradacji w IT?"],
+  :answer
+  ["Spirala degradacji w IT:"
+   "Ak1 1. dług techniczny i obejścia, naprawa odkładana,"
+   "Akt 2. droga na skróty w celu dotrzymania dat wydania,"
+   "Akt 3. rozwój coraz trudniejszy, dłuższy, kosztowniejszy."
+   "Więcej czasu na obsługę awarii, mniej czasu na rozwój."],
+  :source ["s:" "DevOps, 21"],
+  :tag
+  ["devops-handbook-03-imagine-a-world-where-dev-and-ops-become-devops-an-introduction-to-the-devops-handbook"],
+  :chunk
+  ["Na czym polega spirala degradacji w IT?\r\n\r\nSpirala degradacji w IT:\r\nAk1 1. dług techniczny i obejścia, naprawa odkładana,\r\nAkt 2. droga na skróty w celu dotrzymania dat wydania,\r\nAkt 3. rozwój coraz trudniejszy, dłuższy, kosztowniejszy.\r\nWięcej czasu na obsługę awarii, mniej czasu na rozwój.\r\n\r\ns:\r\nDevOps, 21"]}
+ {:question ["Jak złamać spiralę degradacji?"],
+  :answer
+  ["Spiralę degradacji może złamać:"
+   "- niewielkie, niezależne zespoły obsługujące cały cykl życia oprogramowania,"
+   "- szybkie pętle zwrotne na każdym etapie,"
+   "- architektura wspierająca pracę w niewielkich, niezależnych zespołach,"
+   "- wprowadzanie/wycofywanie nowych funkcji dla segmentów klientów"
+   "- automatyzacja (m.in. wdrożeń, testów kodu w systemie kontroli wersji),"
+   "- telemetria,"
+   "- każdy problem okazją do nauki i usprawnień,"
+   "- kultura inspiracji hipotezą: prace to hipotezy, rozwój produktu i usprawnianie to eksperymenty,"
+   "- kultura zaufania i współpracy: nagradzanie za podejmowanie ryzyka,"
+   "- dbanie o jakość: wstrzykiwanie usterek, żeby nauczyć się działania podczas awarii."],
+  :source ["s:" "DevOps, 25"],
+  :tag
+  ["devops-handbook-03-imagine-a-world-where-dev-and-ops-become-devops-an-introduction-to-the-devops-handbook"],
+  :chunk
+  ["Jak złamać spiralę degradacji?\r\n\r\nSpiralę degradacji może złamać:\r\n- niewielkie, niezależne zespoły obsługujące cały cykl życia oprogramowania,\r\n- szybkie pętle zwrotne na każdym etapie,\r\n- architektura wspierająca pracę w niewielkich, niezależnych zespołach,\r\n- wprowadzanie/wycofywanie nowych funkcji dla segmentów klientów\r\n- automatyzacja (m.in. wdrożeń, testów kodu w systemie kontroli wersji),\r\n- telemetria,\r\n- każdy problem okazją do nauki i usprawnień,\r\n- kultura inspiracji hipotezą: prace to hipotezy, rozwój produktu i usprawnianie to eksperymenty,\r\n- kultura zaufania i współpracy: nagradzanie za podejmowanie ryzyka,\r\n- dbanie o jakość: wstrzykiwanie usterek, żeby nauczyć się działania podczas awarii.\r\n\r\ns:\r\nDevOps, 25"]}
+ {:question ["Co to jest \"dark launch\"?"],
+  :answer
+  ["\"Dark launch\" to:"
+   "- częściowe wdrożenie,"
+   "- dla wewnętrznych pracowników i małych grup rzeczywistych użytkowników,"
+   "- pozwala to na testowanie i ewolucyjny rozwój,"
+   "- aż do pożądanego celu biznesowego."],
+  :source ["s:" "DevOps, 26"],
+  :tag
+  ["devops-handbook-03-imagine-a-world-where-dev-and-ops-become-devops-an-introduction-to-the-devops-handbook"],
+  :chunk
+  ["Co to jest \"dark launch\"?\r\n\r\n\"Dark launch\" to:\r\n- częściowe wdrożenie,\r\n- dla wewnętrznych pracowników i małych grup rzeczywistych użytkowników,\r\n- pozwala to na testowanie i ewolucyjny rozwój,\r\n- aż do pożądanego celu biznesowego.\r\n\r\ns:\r\nDevOps, 26"]}
+ {:question ["Jaka jest wartość biznesowa DevOps?"],
+  :answer
+  ["Wartość biznesowa DevOps:"
+   "- wyższa wydajność, zwinność, niezawodność, bezpieczeństwo,"
+   "- wyższe zadowolenie z pracy pracowników."],
+  :source ["s:" "DevOps, 28"],
+  :tag
+  ["devops-handbook-03-imagine-a-world-where-dev-and-ops-become-devops-an-introduction-to-the-devops-handbook"],
+  :chunk
+  ["Jaka jest wartość biznesowa DevOps?\r\n\r\nWartość biznesowa DevOps:\r\n- wyższa wydajność, zwinność, niezawodność, bezpieczeństwo,\r\n- wyższe zadowolenie z pracy pracowników.\r\n\r\ns:\r\nDevOps, 28"]}
+ {:question
+  ["Jak DevOps pomaga skalować wydajność pracy deweloperów?"],
+  :answer
+  ["DevOps pomaga skalować wydajność pracy deweloperów poprzez:"
+   "- wspiera pracę w małych, niezależnych zespołach,"
+   "- co zmniejsza narzut związany z komunikacją, integracją i testowaniem,"
+   "- co pozwala zachować wydajność nawet w dużych organizacjach."],
+  :source ["s:" "DevOps, 29"],
+  :tag
+  ["devops-handbook-03-imagine-a-world-where-dev-and-ops-become-devops-an-introduction-to-the-devops-handbook"],
+  :chunk
+  ["Jak DevOps pomaga skalować wydajność pracy deweloperów?\r\n\r\nDevOps pomaga skalować wydajność pracy deweloperów poprzez:\r\n- wspiera pracę w małych, niezależnych zespołach,\r\n- co zmniejsza narzut związany z komunikacją, integracją i testowaniem,\r\n- co pozwala zachować wydajność nawet w dużych organizacjach.\r\n\r\ns:\r\nDevOps, 29"]}
+ {:question
+  ["Jaka jest najważniejsza lekcja z \"The Mythical Man-Month\"?"],
+  :answer
+  ["Najważniejsza lekcja z \"The Mythical Man-Month\":"
+   "- do opóźnionego projektu nie dodawaj dodatkowych programistów."],
+  :source ["s:" "DevOps, 29"],
+  :tag
+  ["devops-handbook-03-imagine-a-world-where-dev-and-ops-become-devops-an-introduction-to-the-devops-handbook"],
+  :chunk
+  ["Jaka jest najważniejsza lekcja z \"The Mythical Man-Month\"?\r\n\r\nNajważniejsza lekcja z \"The Mythical Man-Month\":\r\n- do opóźnionego projektu nie dodawaj dodatkowych programistów.\r\n\r\ns:\r\nDevOps, 29"]}
+ {:question ["Wymień podstawowe zasady DevOps."],
+  :answer
+  ["Podstawowe zasady DevOps:"
+   "- Pierwsza droga: Przepływ (flow)"
+   "- Druga droga: Sprzężenie zwrotne (feedback)"
+   "- Trzecia droga: Ciągłe uczenie się i eksperymentowanie."],
+  :source ["s:" "DevOps, 32"],
+  :tag
+  ["devops-handbook-03-imagine-a-world-where-dev-and-ops-become-devops-an-introduction-to-the-devops-handbook"],
+  :chunk
+  ["Wymień podstawowe zasady DevOps.\r\n\r\nPodstawowe zasady DevOps:\r\n- Pierwsza droga: Przepływ (flow)\r\n- Druga droga: Sprzężenie zwrotne (feedback)\r\n- Trzecia droga: Ciągłe uczenie się i eksperymentowanie.\r\n\r\ns:\r\nDevOps, 32"]}
+ {:question ["Jaka jest relacja między DevOps i Lean?"],
+  :answer
+  ["DevOps to wynik zastosowania zasad metodyki Lean do strumienia wartości technologii."],
+  :source ["s:" "DevOps, 35"],
+  :tag ["devops-handbook-05-part-i-introduction"],
+  :chunk
+  ["Jaka jest relacja między DevOps i Lean?\r\n\r\nDevOps to wynik zastosowania zasad metodyki Lean do strumienia wartości technologii.\r\n\r\ns:\r\nDevOps, 35"]}
+ {:question ["Opisz trzy drogi DevOps."],
+  :answer
+  ["Trzy drogi DevOps:"
+   "- przepływ: przyspieszają dostarczanie wyników pracy rozwoju i operacji,"
+   "- sprzężenia zwrotne, pozwalają tworzyć coraz bezpieczniejsze systemy pracy,"
+   "- ciągłe uczenie się i eksperymentowanie: promuje kulturę wysokiego zaufania, naukowe podejście do podejmowania ryzyka."],
+  :source ["s:" "DevOps, 35"],
+  :tag ["devops-handbook-05-part-i-introduction"],
+  :chunk
+  ["Opisz trzy drogi DevOps.\r\n\r\nTrzy drogi DevOps:\r\n- przepływ: przyspieszają dostarczanie wyników pracy rozwoju i operacji,\r\n- sprzężenia zwrotne, pozwalają tworzyć coraz bezpieczniejsze systemy pracy,\r\n- ciągłe uczenie się i eksperymentowanie: promuje kulturę wysokiego zaufania, naukowe podejście do podejmowania ryzyka.\r\n\r\ns:\r\nDevOps, 35"]}
+ {:question ["Scharakteryzuj Lean."],
+  :answer
+  ["Lean:"
+   "- czas przekształcenia surowców na produkty jest najlepszym wskaźnikiem jakości,"
+   "- niewielkie partie jednym z najlepszych predyktorów krótkich terminów realizacji,"
+   "- zasada pull,"
+   "- jakość u źródła (quality at the source),"
+   "- zarządzanie z poszanowaniem człowieka (leading with humility)."],
+  :source ["s:" "DevOps, 36"],
+  :tag ["devops-handbook-05-part-i-introduction"],
+  :chunk
+  ["Scharakteryzuj Lean.\r\n\r\nLean:\r\n- czas przekształcenia surowców na produkty jest najlepszym wskaźnikiem jakości,\r\n- niewielkie partie jednym z najlepszych predyktorów krótkich terminów realizacji,\r\n- zasada pull,\r\n- jakość u źródła (quality at the source),\r\n- zarządzanie z poszanowaniem człowieka (leading with humility).\r\n\r\ns:\r\nDevOps, 36\r\n\r\nScharakteryzuj Agile.\r\n\r\nAgile:\r\n- częste dostarczanie działającego oprogramowania,\r\n- niewielkie zespoły,\r\n- zarządzanie wysokiego zaufania.\r\n\r\ns:\r\nDevOps, 36"]}
+ {:question ["Co to jest \"strumień wartości\"?"],
+  :answer
+  ["\"Strumień wartości\" to:"
+   "- podstawowa koncepcja Lean,"
+   "- sekwencja działań podejmowanych przez organizację w celu realizacji zlecenia klienta."],
+  :source ["s:" "DevOps, 39"],
+  :tag
+  ["devops-handbook-06-1-agile-continuous-delivery-and-the-three-ways"],
+  :chunk
+  ["Co to jest \"strumień wartości\"?\r\n\r\n\"Strumień wartości\" to:\r\n- podstawowa koncepcja Lean,\r\n- sekwencja działań podejmowanych przez organizację w celu realizacji zlecenia klienta.\r\n\r\ns:\r\nDevOps, 39"]}
+ {:question
+  ["Jak umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości?"],
+  :answer
+  ["Żeby umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości:"
+   "- niewielkie partie,"
+   "- zmniejszenie produkcji niezakończonej (Work In Process - WIP),"
+   "- przeciwdziałanie przeróbkom,"
+   "- ciągła optymalizacja."],
+  :source ["s:" "DevOps, 40"],
+  :tag
+  ["devops-handbook-06-1-agile-continuous-delivery-and-the-three-ways"],
+  :chunk
+  ["Jak umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości?\r\n\r\nŻeby umożliwić szybkie i przewidywalne terminy realizacji w strumieniu wartości:\r\n- niewielkie partie,\r\n- zmniejszenie produkcji niezakończonej (Work In Process - WIP),\r\n- przeciwdziałanie przeróbkom,\r\n- ciągła optymalizacja.\r\n\r\ns:\r\nDevOps, 40"]}
+ {:question ["Co to jest \"czas realizacji\"?"],
+  :answer
+  ["Czas realizacji (lead time) to:"
+   "- od złożenia zamówienia,"
+   "- do zrealizowania zamówienia."],
+  :source ["s:" "DevOps, 41"],
+  :tag
+  ["devops-handbook-06-1-agile-continuous-delivery-and-the-three-ways"],
+  :chunk
+  ["Co to jest \"czas realizacji\"?\r\n\r\nCzas realizacji (lead time) to:\r\n- od złożenia zamówienia,\r\n- do zrealizowania zamówienia.\r\n\r\ns:\r\nDevOps, 41"]}
+ {:question ["Co to jest \"czas przetwarzania\"?"],
+  :answer
+  ["Czas przetwarzania (processing time) to:"
+   "- inaczej czas zadania (task time),"
+   "- od rozpoczęcia pracy nad zamówieniem,"
+   "- do zrealizowania zamówienia."],
+  :source ["s:" "DevOps, 41"],
+  :tag
+  ["devops-handbook-06-1-agile-continuous-delivery-and-the-three-ways"],
+  :chunk
+  ["Co to jest \"czas przetwarzania\"?\r\n\r\nCzas przetwarzania (processing time) to:\r\n- inaczej czas zadania (task time),\r\n- od rozpoczęcia pracy nad zamówieniem,\r\n- do zrealizowania zamówienia.\r\n\r\ns:\r\nDevOps, 41"]}
+ {:question ["Ile trwa czas realizacji wdrażania w DevOps?"],
+  :answer
+  ["Czas realizacji wdrażania w DevOps trwa:"
+   "- w idealnym środowisku, kilka minut,"
+   "- automatyzacja testów, wdrażania,"
+   "- modułowa architektura, luźne powiązania,"
+   "- niewielkie, autonomiczne zespoły."],
+  :source ["s:" "DevOps, 43"],
+  :tag
+  ["devops-handbook-06-1-agile-continuous-delivery-and-the-three-ways"],
+  :chunk
+  ["Ile trwa czas realizacji wdrażania w DevOps?\r\n\r\nCzas realizacji wdrażania w DevOps trwa:\r\n- w idealnym środowisku, kilka minut,\r\n- automatyzacja testów, wdrażania,\r\n- modułowa architektura, luźne powiązania,\r\n- niewielkie, autonomiczne zespoły.\r\n\r\ns:\r\nDevOps, 43"]}
+ {:question ["Co to jest wskaźnik procentu C/A?"],
+  :answer
+  ["Wskaźnik procentu C/A (complete and accurate - \"gotowe i dokładne\") to:"
+   "- parametr w strumieniu wartości technologii,"
+   "- odzwierciedla jakość wyników etapu,"
+   "- procent przypadków, gdy dalszy etap otrzymuje pracę w postaci gotowej do wykorzystania."],
+  :source ["s:" "DevOps, 43"],
+  :tag
+  ["devops-handbook-06-1-agile-continuous-delivery-and-the-three-ways"],
+  :chunk
+  ["Co to jest wskaźnik procentu C/A?\r\n\r\nWskaźnik procentu C/A (complete and accurate - \"gotowe i dokładne\") to:\r\n- parametr w strumieniu wartości technologii,\r\n- odzwierciedla jakość wyników etapu,\r\n- procent przypadków, gdy dalszy etap otrzymuje pracę w postaci gotowej do wykorzystania.\r\n\r\ns:\r\nDevOps, 43"]}
+ {:question ["Opisz \"pierwszą drogę\"."],
+  :answer
+  ["\"Pierwsza droga\":"
+   "- szybki przepływ, skrócony czas realizacji,"
+   "- Biznes -> Dev -> Ops -> Klient,"
+   "- praca widoczna,"
+   "- małe partie,"
+   "- przeciwdziałanie defektom,"
+   "- optymalizacja,"
+   "- automatyzacja, CI/CD."],
+  :source ["s:" "DevOps, 44"],
+  :tag
+  ["devops-handbook-06-1-agile-continuous-delivery-and-the-three-ways"],
+  :chunk
+  ["Opisz \"pierwszą drogę\".\r\n\r\n\"Pierwsza droga\":\r\n- szybki przepływ, skrócony czas realizacji,\r\n- Biznes -> Dev -> Ops -> Klient,\r\n- praca widoczna,\r\n- małe partie,\r\n- przeciwdziałanie defektom,\r\n- optymalizacja,\r\n- automatyzacja, CI/CD.\r\n\r\ns:\r\nDevOps, 44"]}
+ {:question ["Opisz \"drugą drogę\"."],
+  :answer ["\"Druga droga\":" "- natychmiastowa informacja zwrotna."],
+  :source ["s:" "DevOps, 44"],
+  :tag
+  ["devops-handbook-06-1-agile-continuous-delivery-and-the-three-ways"],
+  :chunk
+  ["Opisz \"drugą drogę\".\r\n\r\n\"Druga droga\":\r\n- natychmiastowa informacja zwrotna.\r\n\r\ns:\r\nDevOps, 44"]}
+ {:question ["Opisz \"trzecią drogę\"."],
+  :answer
+  ["\"Trzecia droga\":"
+   "- kultura wysokiego zaufania,"
+   "- eksperymentowanie,"
+   "- lokalne odkrycia na globalne usprawnienia."],
+  :source ["s:" "DevOps, 45"],
+  :tag
+  ["devops-handbook-06-1-agile-continuous-delivery-and-the-three-ways"],
+  :chunk
+  ["Opisz \"trzecią drogę\".\r\n\r\n\"Trzecia droga\":\r\n- kultura wysokiego zaufania,\r\n- eksperymentowanie,\r\n- lokalne odkrycia na globalne usprawnienia.\r\n\r\ns:\r\nDevOps, 45"]}
+ {:question ["Dlaczego praca powinna być widoczna?"],
+  :answer
+  ["Czyń pracę widoczną, bo:"
+   "- stanie się widoczna jako awaria,"
+   "- można monitorować i zarządzać."],
+  :source ["s:" "DevOps, 48"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Dlaczego praca powinna być widoczna?\r\n\r\nCzyń pracę widoczną, bo:\r\n- stanie się widoczna jako awaria,\r\n- można monitorować i zarządzać.\r\n\r\ns:\r\nDevOps, 48"]}
+ {:question ["Jak uczynić pracę widoczną?"],
+  :answer
+  ["Aby uczynić pracę widoczną:" "- użyj wizualnych pulpitów."],
+  :source ["s:" "DevOps, 48"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Jak uczynić pracę widoczną?\r\n\r\nAby uczynić pracę widoczną:\r\n- użyj wizualnych pulpitów.\r\n\r\ns:\r\nDevOps, 48"]}
+ {:question ["Dlaczego ograniczać pracę w toku?"],
+  :answer
+  ["Ograniczaj pracę w toku, bo:"
+   "- zmiana kontekstu pracownika jest kosztowna."],
+  :source ["s:" "DevOps, 59"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Dlaczego ograniczać pracę w toku?\r\n\r\nOgraniczaj pracę w toku, bo:\r\n- zmiana kontekstu pracownika jest kosztowna.\r\n\r\ns:\r\nDevOps, 59"]}
+ {:question ["Co to jest WIP?"],
+  :answer ["WIP (Work In Progress) to:" "- praca w toku."],
+  :source ["s:" "DevOps, 50"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Co to jest WIP?\r\n\r\nWIP (Work In Progress) to:\r\n- praca w toku.\r\n\r\ns:\r\nDevOps, 50"]}
+ {:question ["Jak ograniczać pracę w toku?"],
+  :answer
+  ["Aby ograniczać pracę w toku:" "- wymuszaj limity pracy w toku."],
+  :source ["s:" "DevOps, 50"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Jak ograniczać pracę w toku?\r\n\r\nAby ograniczać pracę w toku:\r\n- wymuszaj limity pracy w toku.\r\n\r\ns:\r\nDevOps, 50"]}
+ {:question ["Dlaczego zmniejszać wielkość partii?"],
+  :answer
+  ["Zmniejszaj wielkość partii, bo:" "- warunek szybkiego przepływu."],
+  :source ["s:" "DevOps, 50"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Dlaczego zmniejszać wielkość partii?\r\n\r\nZmniejszaj wielkość partii, bo:\r\n- warunek szybkiego przepływu.\r\n\r\ns:\r\nDevOps, 50"]}
+ {:question
+  ["Dlaczego zmniejszać liczbę przełączeń (programiści, administratorzy, testerzy)?"],
+  :answer
+  ["Zmniejszaj liczbę przełączeń, bo:"
+   "- kolejka zadań,"
+   "- koordynacja,"
+   "- w konsekwencji wydłużony czas realizacji."],
+  :source ["s:" "DevOps, 53"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Dlaczego zmniejszać liczbę przełączeń (programiści, administratorzy, testerzy)?\r\n\r\nZmniejszaj liczbę przełączeń, bo:\r\n- kolejka zadań,\r\n- koordynacja,\r\n- w konsekwencji wydłużony czas realizacji.\r\n\r\ns:\r\nDevOps, 53"]}
+ {:question
+  ["Jak zmniejszyć konsekwencje przełączeń (programiści, administratorzy, testerzy)?"],
+  :answer
+  ["Zmniejszaj konsekwencje przełączeń:"
+   "- zmniejszy liczbę,"
+   "- automatyzuj."],
+  :source ["s:" "DevOps, 53"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Jak zmniejszyć konsekwencje przełączeń (programiści, administratorzy, testerzy)?\r\n\r\nZmniejszaj konsekwencje przełączeń:\r\n- zmniejszy liczbę,\r\n- automatyzuj.\r\n\r\ns:\r\nDevOps, 53"]}
+ {:question ["Jak identyfikować i eliminować ograniczenia?"],
+  :answer
+  ["Aby identyfikować i eliminować ograniczenia:"
+   "- zawsze jest jedno i tylko jedno ograniczenie,"
+   "- znajdź, napraw, ponów."],
+  :source ["s:" "DevOps, 54"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Jak identyfikować i eliminować ograniczenia?\r\n\r\nAby identyfikować i eliminować ograniczenia:\r\n- zawsze jest jedno i tylko jedno ograniczenie,\r\n- znajdź, napraw, ponów.\r\n\r\ns:\r\nDevOps, 54"]}
+ {:question
+  ["Co jest największym zagrożenie dla rentowności przedsiębiorstwa?"],
+  :answer
+  ["Największym zagrożenie dla rentowności przedsiębiorstwa są:"
+   "- odpady."],
+  :source ["s:" "DevOps, 55"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Co jest największym zagrożenie dla rentowności przedsiębiorstwa?\r\n\r\nNajwiększym zagrożenie dla rentowności przedsiębiorstwa są:\r\n- odpady.\r\n\r\ns:\r\nDevOps, 55"]}
+ {:question ["Co jest \"odpad\"?"],
+  :answer
+  ["\"Odpad\" to:"
+   "- wykorzystanie zasobów poza tym, czego wymaga klient i za co jest gotów zapłacić."],
+  :source ["s:" "DevOps, 55"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Co jest \"odpad\"?\r\n\r\n\"Odpad\" to:\r\n- wykorzystanie zasobów poza tym, czego wymaga klient i za co jest gotów zapłacić.\r\n\r\ns:\r\nDevOps, 55"]}
+ {:question ["Wymień rodzaje odpadów."],
+  :answer
+  ["Rodzaje odpadów:"
+   "- prace wykonane częściowo,"
+   "- dodatkowe procesy,"
+   "- dodatkowe funkcje,"
+   "- przełączanie pomiędzy zadaniami,"
+   "- oczekiwanie,"
+   "- ruch,"
+   "- defekty,"
+   "- prace niestandardowe lub ręczne,"
+   "- heroizm."],
+  :source ["s:" "DevOps, 56"],
+  :tag ["devops-handbook-07-2-the-first-way-the-principles-of-flow"],
+  :chunk
+  ["Wymień rodzaje odpadów.\r\n\r\nRodzaje odpadów:\r\n- prace wykonane częściowo,\r\n- dodatkowe procesy,\r\n- dodatkowe funkcje,\r\n- przełączanie pomiędzy zadaniami,\r\n- oczekiwanie,\r\n- ruch,\r\n- defekty,\r\n- prace niestandardowe lub ręczne,\r\n- heroizm.\r\n\r\ns:\r\nDevOps, 56"]}
+ {:question ["Czego dotyczą zasady opisane w \"druga droga\"?"],
+  :answer
+  ["Zasady \"druga droga\":"
+   "- szybkie uzyskiwanie stałego strumienia informacji zwrotnych,"
+   "- jak najwcześniej,"
+   "- szybki, częsty przepływ informacji."],
+  :source ["s:" "DevOps, 59"],
+  :tag
+  ["devops-handbook-08-3-the-second-way-the-principles-of-feedback"],
+  :chunk
+  ["Czego dotyczą zasady opisane w \"druga droga\"?\r\n\r\nZasady \"druga droga\":\r\n- szybkie uzyskiwanie stałego strumienia informacji zwrotnych,\r\n- jak najwcześniej,\r\n- szybki, częsty przepływ informacji.\r\n\r\ns:\r\nDevOps, 59"]}
+ {:question
+  ["Na czym polegają problemy z bezpieczną pracą w złożonych systemach?"],
+  :answer
+  ["Problemy z bezpieczną pracą w złożonych systemach:"
+   "- brak możliwości objęcia całości przez jedną osobę,"
+   "- te same czynności mogą powodować różne wyniki,"
+   "- awarie są nieuniknione."],
+  :source ["s:" "DevOps, 60"],
+  :tag
+  ["devops-handbook-08-3-the-second-way-the-principles-of-feedback"],
+  :chunk
+  ["Na czym polegają problemy z bezpieczną pracą w złożonych systemach?\r\n\r\nProblemy z bezpieczną pracą w złożonych systemach:\r\n- brak możliwości objęcia całości przez jedną osobę,\r\n- te same czynności mogą powodować różne wyniki,\r\n- awarie są nieuniknione.\r\n\r\ns:\r\nDevOps, 60"]}
+ {:question ["Jak \"druga droga\" może zwiększyć bezpieczeństwo?"],
+  :answer
+  ["\"Druga droga\" może zwiększyć bezpieczeństwo dzięki:"
+   "- zarządzaj pracami tak, żeby ujawniać problemy,"
+   "- wykrywaj problemy i natychmiast rozwiązuj."],
+  :source ["s:" "DevOps, 60"],
+  :tag
+  ["devops-handbook-08-3-the-second-way-the-principles-of-feedback"],
+  :chunk
+  ["Jak \"druga droga\" może zwiększyć bezpieczeństwo?\r\n\r\n\"Druga droga\" może zwiększyć bezpieczeństwo dzięki:\r\n- zarządzaj pracami tak, żeby ujawniać problemy,\r\n- wykrywaj problemy i natychmiast rozwiązuj.\r\n\r\ns:\r\nDevOps, 60"]}
+ {:question ["Jak zauważać problemy natychmiast po ich wystąpieniu?"],
+  :answer
+  ["Żeby zauważać problemy natychmiast po ich wystąpieniu:"
+   "- stosuj pętle sprzężenia zwrotnego i sprzężenia w przód,"
+   "- szybki, częsty przepływ informacji przez cały strumień wartości."],
+  :source ["s:" "DevOps, 61"],
+  :tag
+  ["devops-handbook-08-3-the-second-way-the-principles-of-feedback"],
+  :chunk
+  ["Jak zauważać problemy natychmiast po ich wystąpieniu?\r\n\r\nŻeby zauważać problemy natychmiast po ich wystąpieniu:\r\n- stosuj pętle sprzężenia zwrotnego i sprzężenia w przód,\r\n- szybki, częsty przepływ informacji przez cały strumień wartości.\r\n\r\ns:\r\nDevOps, 61"]}
+ {:question ["Co to jest \"swarming\"?"],
+  :answer
+  ["\"Swarming\" (swarm - \"rój\") to:"
+   "- mobilizowanie wszystkich osób, które są potrzebne do zażegnania kryzysu,"
+   "- opanowanie problemów, zanim zdążą się rozprzestrzenić,"
+   "- naprawienie złej sytuacji, by nie mogła się powtórzyć,"
+   "- nie twórz obejść, twórz rozwiązania."],
+  :source ["s:" "DevOps, 62"],
+  :tag
+  ["devops-handbook-08-3-the-second-way-the-principles-of-feedback"],
+  :chunk
+  ["Co to jest \"swarming\"?\r\n\r\n\"Swarming\" (swarm - \"rój\") to:\r\n- mobilizowanie wszystkich osób, które są potrzebne do zażegnania kryzysu,\r\n- opanowanie problemów, zanim zdążą się rozprzestrzenić,\r\n- naprawienie złej sytuacji, by nie mogła się powtórzyć,\r\n- nie twórz obejść, twórz rozwiązania.\r\n\r\ns:\r\nDevOps, 62"]}
+ {:question ["Co to jest \"linka Andon\"?"],
+  :answer
+  ["\"Linka Andon\" to:"
+   "- stosowana w fabryce Toyota (nie w samochodzie),"
+   "- linka, którą każdy może pociągnąć jeśli zauważy problem,"
+   "- lider rozwiązuje problem < 1 min,"
+   "- jeśli dłużej to zatrzymuje linię produkcyjną."],
+  :source ["s:" "DevOps, 63"],
+  :tag
+  ["devops-handbook-08-3-the-second-way-the-principles-of-feedback"],
+  :chunk
+  ["Co to jest \"linka Andon\"?\r\n\r\n\"Linka Andon\" to:\r\n- stosowana w fabryce Toyota (nie w samochodzie),\r\n- linka, którą każdy może pociągnąć jeśli zauważy problem,\r\n- lider rozwiązuje problem < 1 min,\r\n- jeśli dłużej to zatrzymuje linię produkcyjną.\r\n\r\ns:\r\nDevOps, 63"]}
+ {:question ["Jakie są zalety zapewniania jakości bliżej źródła?"],
+  :answer
+  ["Zalety zapewniania jakości bliżej źródła:"
+   "- niższe koszty,"
+   "- błąd bardziej zrozumiały jeśli zgłoszony szybko po jego popełnieniu,"
+   "- nie przenosisz błędu w dół strumienia."],
+  :source ["s:" "DevOps, 65, 66"],
+  :tag
+  ["devops-handbook-08-3-the-second-way-the-principles-of-feedback"],
+  :chunk
+  ["Jakie są zalety zapewniania jakości bliżej źródła?\r\n\r\nZalety zapewniania jakości bliżej źródła:\r\n- niższe koszty,\r\n- błąd bardziej zrozumiały jeśli zgłoszony szybko po jego popełnieniu,\r\n- nie przenosisz błędu w dół strumienia.\r\n\r\ns:\r\nDevOps, 65, 66"]}
+ {:question ["Jak zapewniać jakość bliżej źródła?"],
+  :answer
+  ["Aby zapewniać jakość bliżej źródła:"
+   "- automatyzuj,"
+   "- od razu testuj,"
+   "- optymalizuj pracę w dole strumienia (np. przekazuj półprodukt, którego nie można źle podłączyć)."],
+  :source ["s:" "DevOps, 65, 66"],
+  :tag
+  ["devops-handbook-08-3-the-second-way-the-principles-of-feedback"],
+  :chunk
+  ["Jak zapewniać jakość bliżej źródła?\r\n\r\nAby zapewniać jakość bliżej źródła:\r\n- automatyzuj,\r\n- od razu testuj,\r\n- optymalizuj pracę w dole strumienia (np. przekazuj półprodukt, którego nie można źle podłączyć).\r\n\r\ns:\r\nDevOps, 65, 66"]}
+ {:question ["Na czym koncentruje się \"trzecia droga\"?"],
+  :answer
+  ["\"Trzecia droga\" koncentruje się na:"
+   "- kultura ciągłego uczenia się i eksperymentowania,"
+   "- tworzenie indywidualnej wiedzy,"
+   "- i przekształcanie w wiedzę organizacji,"
+   "- kultura wysokiego zaufania,"
+   "- coraz większe obciążenie systemu, by wymusić udoskonalenia."],
+  :source ["s:" "DevOps, 69"],
+  :tag
+  ["devops-handbook-09-4-the-third-way-the-principles-of-continual-learning-and-experimentation"],
+  :chunk
+  ["Na czym koncentruje się \"trzecia droga\"?\r\n\r\n\"Trzecia droga\" koncentruje się na:\r\n- kultura ciągłego uczenia się i eksperymentowania,\r\n- tworzenie indywidualnej wiedzy,\r\n- i przekształcanie w wiedzę organizacji,\r\n- kultura wysokiego zaufania,\r\n- coraz większe obciążenie systemu, by wymusić udoskonalenia.\r\n\r\ns:\r\nDevOps, 69"]}
+ {:question ["Co to jest \"just culture\"?"],
+  :answer
+  ["\"Just culture\" (\"kultura właściwego postępowania\") to:"
+   "- nie szukamy winnego,"
+   "- szukamy jak usprawnić, żeby problem się nie powtórzył."],
+  :source ["s:" "DevOps, 71"],
+  :tag
+  ["devops-handbook-09-4-the-third-way-the-principles-of-continual-learning-and-experimentation"],
+  :chunk
+  ["Co to jest \"just culture\"?\r\n\r\n\"Just culture\" (\"kultura właściwego postępowania\") to:\r\n- nie szukamy winnego,\r\n- szukamy jak usprawnić, żeby problem się nie powtórzył.\r\n\r\ns:\r\nDevOps, 71"]}
+ {:question ["Co jest ważniejsze od codziennej pracy?"],
+  :answer
+  ["Od codziennej pracy ważniejsze są usprawnianie codziennej pracy."],
+  :source ["s:" "DevOps, 71"],
+  :tag
+  ["devops-handbook-09-4-the-third-way-the-principles-of-continual-learning-and-experimentation"],
+  :chunk
+  ["Co jest ważniejsze od codziennej pracy?\r\n\r\nOd codziennej pracy ważniejsze są usprawnianie codziennej pracy.\r\n\r\ns:\r\nDevOps, 71"]}
+ {:question
+  ["Jak zadbać o wprowadzanie usprawnień w codziennej pracy?"],
+  :answer
+  ["Aby wprowadzać usprawnienia w codziennej pracy:"
+   "- jawnie rezerwuj czas na spłacanie długu technicznego,"
+   "- usuwanie wad,"
+   "- refaktoryzację,"
+   "- poprawianie problematycznych obszarów kodu i środowisk."],
+  :source ["s:" "DevOps, 73"],
+  :tag
+  ["devops-handbook-09-4-the-third-way-the-principles-of-continual-learning-and-experimentation"],
+  :chunk
+  ["Jak zadbać o wprowadzanie usprawnień w codziennej pracy?\r\n\r\nAby wprowadzać usprawnienia w codziennej pracy:\r\n- jawnie rezerwuj czas na spłacanie długu technicznego,\r\n- usuwanie wad,\r\n- refaktoryzację,\r\n- poprawianie problematycznych obszarów kodu i środowisk.\r\n\r\ns:\r\nDevOps, 73"]}
+ {:question
+  ["Dlaczego warto przekształcać lokalne odkrycia w globalne usprawnienia?"],
+  :answer
+  ["Warto przekształcać lokalne odkrycia w globalne usprawnienia, bo:"
+   "- gdy ktoś będzie wykonywał podobną pracę,"
+   "- to skorzysta ze zbiorowego doświadczenia organizacji."],
+  :source ["s:" "DevOps, 74"],
+  :tag
+  ["devops-handbook-09-4-the-third-way-the-principles-of-continual-learning-and-experimentation"],
+  :chunk
+  ["Dlaczego warto przekształcać lokalne odkrycia w globalne usprawnienia?\r\n\r\nWarto przekształcać lokalne odkrycia w globalne usprawnienia, bo:\r\n- gdy ktoś będzie wykonywał podobną pracę,\r\n- to skorzysta ze zbiorowego doświadczenia organizacji.\r\n\r\ns:\r\nDevOps, 74"]}
+ {:question ["Jak DevOps proponuje zwiększać odporność?"],
+  :answer
+  ["DevOps proponuje zwiększać odporność poprzez:"
+   "- usprawnienia,"
+   "- zwiększanie wydajności,"
+   "- zwiększanie elastyczności."
+   "W opozycji do tradycyjnego:"
+   "- zwiększaj nadmiar."],
+  :source ["s:" "DevOps, 75"],
+  :tag
+  ["devops-handbook-09-4-the-third-way-the-principles-of-continual-learning-and-experimentation"],
+  :chunk
+  ["Jak DevOps proponuje zwiększać odporność?\r\n\r\nDevOps proponuje zwiększać odporność poprzez:\r\n- usprawnienia,\r\n- zwiększanie wydajności,\r\n- zwiększanie elastyczności.\r\nW opozycji do tradycyjnego:\r\n- zwiększaj nadmiar.\r\n\r\ns:\r\nDevOps, 75"]}
+ {:question ["Co to jest \"antykruchość\"?"],
+  :answer
+  ["\"Antykruchość\" (antifragility) to:"
+   "- proces zastosowania napięcia w celu zwiększenia elastyczności."],
+  :source ["s:" "DevOps, 75"],
+  :tag
+  ["devops-handbook-09-4-the-third-way-the-principles-of-continual-learning-and-experimentation"],
+  :chunk
+  ["Co to jest \"antykruchość\"?\r\n\r\n\"Antykruchość\" (antifragility) to:\r\n- proces zastosowania napięcia w celu zwiększenia elastyczności.\r\n\r\ns:\r\nDevOps, 75"]}
+ {:question ["Jak wstrzykiwać napięcie w codziennej pracy?"],
+  :answer
+  ["Wstrzykuj napięcie w codziennej pracy poprzez:"
+   "- skracaj czas realizacji,"
+   "- zwiększaj zakres pokrycia testami,"
+   "- zmniejszaj czas wykonywania testów,"
+   "- symuluj awarie."],
+  :source ["s:" "DevOps, 75"],
+  :tag
+  ["devops-handbook-09-4-the-third-way-the-principles-of-continual-learning-and-experimentation"],
+  :chunk
+  ["Jak wstrzykiwać napięcie w codziennej pracy?\r\n\r\nWstrzykuj napięcie w codziennej pracy poprzez:\r\n- skracaj czas realizacji,\r\n- zwiększaj zakres pokrycia testami,\r\n- zmniejszaj czas wykonywania testów,\r\n- symuluj awarie.\r\n\r\ns:\r\nDevOps, 75"]}
+ {:question ["Jaka jest rola lidera w DevOps?"],
+  :answer
+  ["Rola lidera w DevOps to:"
+   "- stwarzanie warunków, dzięki którym zespół może odkryć świetność w swojej codziennej pracy,"
+   "- podkreślanie wartości uczenia się,"
+   "- i rozwiązywania problemów."
+   "W opozycji do tradycyjnego:"
+   "- podejmuj właściwe decyzje."],
+  :source ["s:" "DevOps, 76"],
+  :tag
+  ["devops-handbook-09-4-the-third-way-the-principles-of-continual-learning-and-experimentation"],
+  :chunk
+  ["Jaka jest rola lidera w DevOps?\r\n\r\nRola lidera w DevOps to:\r\n- stwarzanie warunków, dzięki którym zespół może odkryć świetność w swojej codziennej pracy,\r\n- podkreślanie wartości uczenia się,\r\n- i rozwiązywania problemów.\r\nW opozycji do tradycyjnego:\r\n- podejmuj właściwe decyzje.\r\n\r\ns:\r\nDevOps, 76"]}
+ {:question ["Co jest \"projekt greenfield\"?"],
+  :answer ["\"Projekt greenfield\" to:" "- nowy projekt."],
+  :source ["s:" "DevOps, 86"],
+  :tag
+  ["devops-handbook-12-5-selecting-which-value-stream-to-start-with"],
+  :chunk
+  ["Co jest \"projekt greenfield\"?\r\n\r\n\"Projekt greenfield\" to:\r\n- nowy projekt.\r\n\r\ns:\r\nDevOps, 86"]}
+ {:question ["Co jest \"projekt brownfield\"?"],
+  :answer
+  ["\"Projekt brownfield\" to:"
+   "- już obsługują klientów,"
+   "- potencjalnie są w użyciu od wielu lat,"
+   "- często z dużym długiem technicznym."],
+  :source ["s:" "DevOps, 87"],
+  :tag
+  ["devops-handbook-12-5-selecting-which-value-stream-to-start-with"],
+  :chunk
+  ["Co jest \"projekt brownfield\"?\r\n\r\n\"Projekt brownfield\" to:\r\n- już obsługują klientów,\r\n- potencjalnie są w użyciu od wielu lat,\r\n- często z dużym długiem technicznym.\r\n\r\ns:\r\nDevOps, 87"]}
+ {:question
+  ["Jak wybrać strumienie wartości, od których należy zacząć transformację DevOps?"],
+  :answer
+  ["Transformację DevOps zacznij od:"
+   "- kilku obszarów,"
+   "- zespołów innowatorów,"
+   "- projektów umożliwiających automatyczne testowanie i wdrażanie."],
+  :source ["s:" "DevOps, 87"],
+  :tag
+  ["devops-handbook-12-5-selecting-which-value-stream-to-start-with"],
+  :chunk
+  ["Jak wybrać strumienie wartości, od których należy zacząć transformację DevOps?\r\n\r\nTransformację DevOps zacznij od:\r\n- kilku obszarów,\r\n- zespołów innowatorów,\r\n- projektów umożliwiających automatyczne testowanie i wdrażanie.\r\n\r\ns:\r\nDevOps, 87"]}
+ {:question ["Co to jest \"system SoR\"?"],
+  :answer
+  ["\"System SoR\" (systems of record) to:"
+   "- systemy podobne do ERP,"
+   "- poprawność jest kluczowa,"
+   "- zarządzanie firmą, np. HR,"
+   "- \"robić to dobrze\"."],
+  :source ["s:" "DevOps, 88"],
+  :tag
+  ["devops-handbook-12-5-selecting-which-value-stream-to-start-with"],
+  :chunk
+  ["Co to jest \"system SoR\"?\r\n\r\n\"System SoR\" (systems of record) to:\r\n- systemy podobne do ERP,\r\n- poprawność jest kluczowa,\r\n- zarządzanie firmą, np. HR,\r\n- \"robić to dobrze\".\r\n\r\ns:\r\nDevOps, 88"]}
+ {:question ["Co to jest \"system SoE\"?"],
+  :answer
+  ["\"System SoE\" (systems of engagement) to:"
+   "- dla klientów lub pracowników,"
+   "- np. systemy e-commerce,"
+   "- zgodnością z przepisami,"
+   "- \"robić to szybko\"."],
+  :source ["s:" "DevOps, 88"],
+  :tag
+  ["devops-handbook-12-5-selecting-which-value-stream-to-start-with"],
+  :chunk
+  ["Co to jest \"system SoE\"?\r\n\r\n\"System SoE\" (systems of engagement) to:\r\n- dla klientów lub pracowników,\r\n- np. systemy e-commerce,\r\n- zgodnością z przepisami,\r\n- \"robić to szybko\".\r\n\r\ns:\r\nDevOps, 88"]}
+ {:question ["Wymień fazy rozwoju metodyki DevOps w organizacji?"],
+  :answer
+  ["Fazy rozwoju metodyki DevOps w organizacji:"
+   "- znajdź innowatorów i pionierów,"
+   "- zbuduj masę krytyczną i milczącą większość,"
+   "- zidentyfikuj \"hamulcowych\"."],
+  :source ["s:" "DevOps, 91"],
+  :tag
+  ["devops-handbook-12-5-selecting-which-value-stream-to-start-with"],
+  :chunk
+  ["Wymień fazy rozwoju metodyki DevOps w organizacji?\r\n\r\nFazy rozwoju metodyki DevOps w organizacji:\r\n- znajdź innowatorów i pionierów,\r\n- zbuduj masę krytyczną i milczącą większość,\r\n- zidentyfikuj \"hamulcowych\".\r\n\r\ns:\r\nDevOps, 91"]}
+ {:question
+  ["Jakie są działania po wybraniu strumienia wartości do transformacji DevOps?"],
+  :answer
+  ["Po wybraniu strumienia wartości do transformacji DevOps:"
+   "- zrozum,"
+   "- zidentyfikuj uczestników,"
+   "- opisz (mapa strumienia wartości),"
+   "- stwórz dedykowany zespół transformacji,"
+   "- uzgodnij cel."],
+  :source ["s:" "DevOps, 93"],
+  :tag
+  ["devops-handbook-13-6-understanding-the-work-in-our-value-stream-making-it-visible-and-expanding-it-across-the-organization"],
+  :chunk
+  ["Jakie są działania po wybraniu strumienia wartości do transformacji DevOps?\r\n\r\nPo wybraniu strumienia wartości do transformacji DevOps:\r\n- zrozum,\r\n- zidentyfikuj uczestników,\r\n- opisz (mapa strumienia wartości),\r\n- stwórz dedykowany zespół transformacji,\r\n- uzgodnij cel.\r\n\r\ns:\r\nDevOps, 93"]}
+ {:question ["Kto uczestniczy w strumieniu wartości?"],
+  :answer
+  ["Uczestnicy strumienia wartości:"
+   "- właściciel produktu,"
+   "- zespół deweloperów,"
+   "- zespół walidacji (zapewnienia jakości - QA),"
+   "- zespół operacyjny,"
+   "- zespół zabezpieczeń,"
+   "- menedżerowie wydania,"
+   "- menedżerowie techniczni lub menedżer strumienia wartości."],
+  :source ["s:" "DevOps, 95"],
+  :tag
+  ["devops-handbook-13-6-understanding-the-work-in-our-value-stream-making-it-visible-and-expanding-it-across-the-organization"],
+  :chunk
+  ["Kto uczestniczy w strumieniu wartości?\r\n\r\nUczestnicy strumienia wartości:\r\n- właściciel produktu,\r\n- zespół deweloperów,\r\n- zespół walidacji (zapewnienia jakości - QA),\r\n- zespół operacyjny,\r\n- zespół zabezpieczeń,\r\n- menedżerowie wydania,\r\n- menedżerowie techniczni lub menedżer strumienia wartości.\r\n\r\ns:\r\nDevOps, 95"]}
+ {:question
+  ["Jak długi powinien być horyzont planowania poprawy (wdrażanie DevOps)?"],
+  :answer
+  ["Horyzont planowania poprawy (wdrażanie DevOps) powinien być:"
+   "- krótki, kilkutygodniowy."],
+  :source ["s:" "DevOps, 100"],
+  :tag
+  ["devops-handbook-13-6-understanding-the-work-in-our-value-stream-making-it-visible-and-expanding-it-across-the-organization"],
+  :chunk
+  ["Jak długi powinien być horyzont planowania poprawy (wdrażanie DevOps)?\r\n\r\nHoryzont planowania poprawy (wdrażanie DevOps) powinien być:\r\n- krótki, kilkutygodniowy.\r\n\r\ns:\r\nDevOps, 100"]}
+ {:question ["Ile czasu poświęcić na dług techniczny?"],
+  :answer ["Na dług techniczny poświęć 20% czasu."],
+  :source ["s:" "DevOps, 101"],
+  :tag
+  ["devops-handbook-13-6-understanding-the-work-in-our-value-stream-making-it-visible-and-expanding-it-across-the-organization"],
+  :chunk
+  ["Ile czasu poświęcić na dług techniczny?\r\n\r\nNa dług techniczny poświęć 20% czasu.\r\n\r\ns:\r\nDevOps, 101"]}
+ {:question ["Jak wzmacniać zachowania DevOps?"],
+  :answer
+  ["Wzmacniaj zachowania DevOps dzięki narzędziom:"
+   "- używaj wspólnych dla Dev i Ops,"
+   "- np. wspólne kolejki zadań w JIRA."],
+  :source ["s:" "DevOps, 105"],
+  :tag
+  ["devops-handbook-13-6-understanding-the-work-in-our-value-stream-making-it-visible-and-expanding-it-across-the-organization"],
+  :chunk
+  ["Jak wzmacniać zachowania DevOps?\r\n\r\nWzmacniaj zachowania DevOps dzięki narzędziom:\r\n- używaj wspólnych dla Dev i Ops,\r\n- np. wspólne kolejki zadań w JIRA.\r\n\r\ns:\r\nDevOps, 105"]}
+ {:question ["Jak brzmi \"prawo Conwaya\"?"],
+  :answer
+  ["\"Prawo Conwaya\":"
+   "- organizacja oprogramowania jest zgodna z organizacją zespołu programistów,"
+   "- pięciu programistów napisze system składający się z pięciu modułów."],
+  :source ["s:" "DevOps, 107"],
+  :tag
+  ["devops-handbook-14-7-how-to-design-our-organization-and-architecture-with-conway-s-law-in-mind"],
+  :chunk
+  ["Jak brzmi \"prawo Conwaya\"?\r\n\r\n\"Prawo Conwaya\":\r\n- organizacja oprogramowania jest zgodna z organizacją zespołu programistów,\r\n- pięciu programistów napisze system składający się z pięciu modułów.\r\n\r\ns:\r\nDevOps, 107"]}
+ {:question ["Wymień typy struktur organizacyjnych."],
+  :answer
+  ["Typy struktur organizacyjnych:"
+   "- funkcjonalne: optymalizacja wzgl. kosztów, wiedzy, podziału pracy,"
+   "- macierzowe: łączą oba typy,"
+   "- rynkowe: optymalizacja wzgl. szybkości reagowania na potrzeby klientów."],
+  :source ["s:" "DevOps, 110"],
+  :tag
+  ["devops-handbook-14-7-how-to-design-our-organization-and-architecture-with-conway-s-law-in-mind"],
+  :chunk
+  ["Wymień typy struktur organizacyjnych.\r\n\r\nTypy struktur organizacyjnych:\r\n- funkcjonalne: optymalizacja wzgl. kosztów, wiedzy, podziału pracy,\r\n- macierzowe: łączą oba typy,\r\n- rynkowe: optymalizacja wzgl. szybkości reagowania na potrzeby klientów.\r\n\r\ns:\r\nDevOps, 110"]}
+ {:question ["Wymień problemy organizacji funkcjonalnych."],
+  :answer
+  ["Problemy organizacji funkcjonalnych:"
+   "- podział pracy, koordynacja, kolejki,"
+   "- brak zrozumienia jak praca przekłada się na cele w strumieniu,"
+   "- centralizacja walidacji, opóźnienia."],
+  :source ["s:" "DevOps, 111"],
+  :tag
+  ["devops-handbook-14-7-how-to-design-our-organization-and-architecture-with-conway-s-law-in-mind"],
+  :chunk
+  ["Wymień problemy organizacji funkcjonalnych.\r\n\r\nProblemy organizacji funkcjonalnych:\r\n- podział pracy, koordynacja, kolejki,\r\n- brak zrozumienia jak praca przekłada się na cele w strumieniu,\r\n- centralizacja walidacji, opóźnienia.\r\n\r\ns:\r\nDevOps, 111"]}
+ {:question ["Wymień zalety organizacji rynkowych."],
+  :answer
+  ["Zalety organizacji rynkowych:"
+   "- odpowiedź na słabości organizacji funkcjonalnych,"
+   "- patrz \"trzy drogi\","
+   "- wspólny cel: jakość, dostępność i bezpieczeństwo."],
+  :source ["s:" "DevOps, 112, 114"],
+  :tag
+  ["devops-handbook-14-7-how-to-design-our-organization-and-architecture-with-conway-s-law-in-mind"],
+  :chunk
+  ["Wymień zalety organizacji rynkowych.\r\n\r\nZalety organizacji rynkowych:\r\n- odpowiedź na słabości organizacji funkcjonalnych,\r\n- patrz \"trzy drogi\",\r\n- wspólny cel: jakość, dostępność i bezpieczeństwo.\r\n\r\ns:\r\nDevOps, 112, 114"]}
+ {:question ["Co to jest \"drugi paradoks Toyoty\"?"],
+  :answer
+  ["\"Drugi paradoks Toyoty\":"
+   "- wysoka skuteczność w organizacji funkcjonalnej,"
+   "- rozwój i nawyki pracowników."],
+  :source ["s:" "DevOps, 114"],
+  :tag
+  ["devops-handbook-14-7-how-to-design-our-organization-and-architecture-with-conway-s-law-in-mind"],
+  :chunk
+  ["Co to jest \"drugi paradoks Toyoty\"?\r\n\r\n\"Drugi paradoks Toyoty\":\r\n- wysoka skuteczność w organizacji funkcjonalnej,\r\n- rozwój i nawyki pracowników.\r\n\r\ns:\r\nDevOps, 114"]}
+ {:question ["Co to jest \"silos\"?"],
+  :answer
+  ["\"Silos\" to:"
+   "- obraz struktury spowodowanej nadmierną specjalizacją zespołów."],
+  :source ["s:" "DevOps, 115"],
+  :tag
+  ["devops-handbook-14-7-how-to-design-our-organization-and-architecture-with-conway-s-law-in-mind"],
+  :chunk
+  ["Co to jest \"silos\"?\r\n\r\n\"Silos\" to:\r\n- obraz struktury spowodowanej nadmierną specjalizacją zespołów.\r\n\r\ns:\r\nDevOps, 115"]}
+ {:question
+  ["Jak promować dostrzeganie długoterminowych konsekwencji decyzji podejmowanych przez deweloperów?"],
+  :answer
+  ["Dostrzeganie długoterminowych konsekwencji decyzji podejmowanych przez deweloperów promuj przez:"
+   "- przypisywanie do produktu,"
+   "- nie do projektu."],
+  :source ["s:" "DevOps, 117"],
+  :tag
+  ["devops-handbook-14-7-how-to-design-our-organization-and-architecture-with-conway-s-law-in-mind"],
+  :chunk
+  ["Jak promować dostrzeganie długoterminowych konsekwencji decyzji podejmowanych przez deweloperów?\r\n\r\nDostrzeganie długoterminowych konsekwencji decyzji podejmowanych przez deweloperów promuj przez:\r\n- przypisywanie do produktu,\r\n- nie do projektu.\r\n\r\ns:\r\nDevOps, 117"]}
+ {:question ["Jak wykorzystać \"prawo Conwaya\"?"],
+  :answer
+  ["Uwzględniaj \"prawo Conwaya\":"
+   "- zadbaj o lokalizację, komunikację zespołów."],
+  :source ["s:" "DevOps, 117"],
+  :tag
+  ["devops-handbook-14-7-how-to-design-our-organization-and-architecture-with-conway-s-law-in-mind"],
+  :chunk
+  ["Jak wykorzystać \"prawo Conwaya\"?\r\n\r\nUwzględniaj \"prawo Conwaya\":\r\n- zadbaj o lokalizację, komunikację zespołów.\r\n\r\ns:\r\nDevOps, 117"]}
+ {:question
+  ["Jak zatrudniając dziesiątki tysięcy programistów zachować wydajność małych zespołów?"],
+  :answer
+  ["Przy bardzo dużej liczbie programistów w organizacji wysoką wydajność małych zespołów pomaga zachować:"
+   "- usługi luźno powiązane w ramach ograniczonych kontekstów,"
+   "- SOA, mikrousługi,"
+   "- Amazon, Goole."],
+  :source ["s:" "DevOps, 118"],
+  :tag
+  ["devops-handbook-14-7-how-to-design-our-organization-and-architecture-with-conway-s-law-in-mind"],
+  :chunk
+  ["Jak zatrudniając dziesiątki tysięcy programistów zachować wydajność małych zespołów?\r\n\r\nPrzy bardzo dużej liczbie programistów w organizacji wysoką wydajność małych zespołów pomaga zachować:\r\n- usługi luźno powiązane w ramach ograniczonych kontekstów,\r\n- SOA, mikrousługi,\r\n- Amazon, Goole.\r\n\r\ns:\r\nDevOps, 118"]}
+ {:question ["Jak brzmi zasada \"zespół na dwie pizze\"?"],
+  :answer
+  ["Zasada \"zespół na dwie pizze\":"
+   "- niewielki rozmiar zespołu,"
+   "- 5 - 10 osób,"
+   "- szybkie, autonomiczne, dobrze zorientowane."],
+  :source ["s:" "DevOps, 120"],
+  :tag
+  ["devops-handbook-14-7-how-to-design-our-organization-and-architecture-with-conway-s-law-in-mind"],
+  :chunk
+  ["Jak brzmi zasada \"zespół na dwie pizze\"?\r\n\r\nZasada \"zespół na dwie pizze\":\r\n- niewielki rozmiar zespołu,\r\n- 5 - 10 osób,\r\n- szybkie, autonomiczne, dobrze zorientowane.\r\n\r\ns:\r\nDevOps, 120"]}
+ {:question ["Jak poprawić wydajność zespołów Dev?"],
+  :answer
+  ["Aby poprawić wydajność zespołów Dev:"
+   "- twórz funkcje samoobsługowe dla Dev,"
+   "- wprowadź do zespołu Ops,"
+   "- przydziel do zespołu łączników Ops."],
+  :source ["s:" "DevOps, 126"],
+  :tag
+  ["devops-handbook-15-8-how-to-get-great-outcomes-by-integrating-operations-into-the-daily-work-of-development"],
+  :chunk
+  ["Jak poprawić wydajność zespołów Dev?\r\n\r\nAby poprawić wydajność zespołów Dev:\r\n- twórz funkcje samoobsługowe dla Dev,\r\n- wprowadź do zespołu Ops,\r\n- przydziel do zespołu łączników Ops.\r\n\r\ns:\r\nDevOps, 126"]}
+ {:question ["Kim jest \"łącznik Ops\"?"],
+  :answer
+  ["\"Łącznik Ops\" to:"
+   "- reprezentant Dev w Ops,"
+   "- rozumie Dev,"
+   "- potrafi się poruszać w Ops."],
+  :source ["s:" "DevOps, 126, 130"],
+  :tag
+  ["devops-handbook-15-8-how-to-get-great-outcomes-by-integrating-operations-into-the-daily-work-of-development"],
+  :chunk
+  ["Kim jest \"łącznik Ops\"?\r\n\r\n\"Łącznik Ops\" to:\r\n- reprezentant Dev w Ops,\r\n- rozumie Dev,\r\n- potrafi się poruszać w Ops.\r\n\r\ns:\r\nDevOps, 126, 130"]}
+ {:question ["Jak Ops realizuje prace dla Dev (Netflix)?"],
+  :answer
+  ["Ops:"
+   "- nie buduje,"
+   "- nie tworzy,"
+   "- nie wdraża"
+   "- nie zarządza konfiguracjami"
+   "dla Dev."
+   "Zamiast tego buduje narzędzia umożliwiające samoobsługę."],
+  :source ["s:" "DevOps, 128"],
+  :tag
+  ["devops-handbook-15-8-how-to-get-great-outcomes-by-integrating-operations-into-the-daily-work-of-development"],
+  :chunk
+  ["Jak Ops realizuje prace dla Dev (Netflix)?\r\n\r\nOps:\r\n- nie buduje,\r\n- nie tworzy,\r\n- nie wdraża\r\n- nie zarządza konfiguracjami\r\ndla Dev.\r\nZamiast tego buduje narzędzia umożliwiające samoobsługę.\r\n\r\ns:\r\nDevOps, 128"]}
+ {:question ["Co to jest \"ciągłe dostarczanie\"?"],
+  :answer
+  ["\"Ciągłe dostarczanie\" (continuous delivery) to:"
+   "- podejście inżynierii oprogramowania,"
+   "- wytwarzanie w krótkich cyklach,"
+   "- wdrażanie w dowolnym momencie."],
+  :source ["s:" "https://en.wikipedia.org/wiki/Continuous_delivery"],
+  :tag ["devops-handbook-17-part-iii-introduction"],
+  :chunk
+  ["Co to jest \"ciągłe dostarczanie\"?\r\n\r\n\"Ciągłe dostarczanie\" (continuous delivery) to:\r\n- podejście inżynierii oprogramowania,\r\n- wytwarzanie w krótkich cyklach,\r\n- wdrażanie w dowolnym momencie.\r\n\r\ns:\r\nhttps://en.wikipedia.org/wiki/Continuous_delivery"]}
+ {:question ["Jak utworzyć szybki i niezawodny przepływ?"],
+  :answer
+  ["Aby utworzyć szybki i niezawodny przepływ:"
+   "- pracuj na środowiskach zbliżonych do produkcyjnych,"
+   "- twórz dowolne środowisko: automatyzacja, samoobsługa, na żądanie,"
+   "- twórz jednego repozytorium prawdy dla całego systemu: kod, dokumentacja, konfiguracje, środowiska,"
+   "- twórz infrastrukturę, którą łatwiej odbudować, niż naprawić,"
+   "- akceptuj zadanie programistyczne, gdy zbudowane, wdrożone, przetestowane na środowisku zbliżonym do produkcyjnego."],
+  :source ["s:" "DevOps, 141"],
+  :tag
+  ["devops-handbook-18-9-create-the-foundations-of-our-deployment-pipeline"],
+  :chunk
+  ["Jak utworzyć szybki i niezawodny przepływ?\r\n\r\nAby utworzyć szybki i niezawodny przepływ:\r\n- pracuj na środowiskach zbliżonych do produkcyjnych,\r\n- twórz dowolne środowisko: automatyzacja, samoobsługa, na żądanie,\r\n- twórz jednego repozytorium prawdy dla całego systemu: kod, dokumentacja, konfiguracje, środowiska,\r\n- twórz infrastrukturę, którą łatwiej odbudować, niż naprawić,\r\n- akceptuj zadanie programistyczne, gdy zbudowane, wdrożone, przetestowane na środowisku zbliżonym do produkcyjnego.\r\n\r\ns:\r\nDevOps, 141\r\n\r\nCo to jest \"rewizja\"?\r\n\r\n\"Rewizja\" (commit) to:\r\n- grupa zmian wprowadzana do systemu kontroli wersji.\r\n\r\ns:\r\nDevOps, 145"]}
+ {:question
+  ["Co umieszczać we współdzielonym repozytorium kontroli wersji?"],
+  :answer
+  ["We współdzielonym repozytorium kontroli wersji:"
+   "- kod i zależności,"
+   "- skrypty,"
+   "- narzędzia,"
+   "- pliki kontenerów,"
+   "- artefakty projektu,"
+   "- pliki konfiguracyjne,"
+   "- inne."],
+  :source ["s:" "DevOps, 146"],
+  :tag
+  ["devops-handbook-18-9-create-the-foundations-of-our-deployment-pipeline"],
+  :chunk
+  ["Co umieszczać we współdzielonym repozytorium kontroli wersji?\r\n\r\nWe współdzielonym repozytorium kontroli wersji:\r\n- kod i zależności,\r\n- skrypty,\r\n- narzędzia,\r\n- pliki kontenerów,\r\n- artefakty projektu,\r\n- pliki konfiguracyjne,\r\n- inne.\r\n\r\ns:\r\nDevOps, 146"]}
+ {:question ["Jakie problemy rozwiązuje testowanie automatyczne?"],
+  :answer
+  ["Testowanie automatyczne pomaga:"
+   "- testować często,"
+   "- testować w bliskim sąsiedztwie zmiany: uniknięcie \"archeologii\", nauka,"
+   "- ograniczać koszty testowania rosnące z ilością kodu,"
+   "- utrzymać produktywność programistów."],
+  :source ["s:" "DevOps, 153"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Jakie problemy rozwiązuje testowanie automatyczne?\r\n\r\nTestowanie automatyczne pomaga:\r\n- testować często,\r\n- testować w bliskim sąsiedztwie zmiany: uniknięcie \"archeologii\", nauka,\r\n- ograniczać koszty testowania rosnące z ilością kodu,\r\n- utrzymać produktywność programistów.\r\n\r\ns:\r\nDevOps, 153"]}
+ {:question ["Co to jest \"push on green\"?"],
+  :answer
+  ["\"Push on green\" (pchaj, jeśli zielono) to:"
+   "- filozofia dostarczania,"
+   "- ewidencjonowanie kodu w repozytorium tylko wtedy, gdy przejdzie testy."],
+  :source ["s:" "DevOps, 155"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Co to jest \"push on green\"?\r\n\r\n\"Push on green\" (pchaj, jeśli zielono) to:\r\n- filozofia dostarczania,\r\n- ewidencjonowanie kodu w repozytorium tylko wtedy, gdy przejdzie testy.\r\n\r\ns:\r\nDevOps, 155"]}
+ {:question ["Co to jest \"potok wdrożeń\"?"],
+  :answer
+  ["\"Potok wdrożeń\" (deployment pipeline) to potok, który:"
+   "- integruje kod i środowiska,"
+   "- inicjuje testy natychmiast przy ewidencji kodu w repozytowium."],
+  :source ["s:" "DevOps, 156"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Co to jest \"potok wdrożeń\"?\r\n\r\n\"Potok wdrożeń\" (deployment pipeline) to potok, który:\r\n- integruje kod i środowiska,\r\n- inicjuje testy natychmiast przy ewidencji kodu w repozytowium.\r\n\r\ns:\r\nDevOps, 156"]}
+ {:question
+  ["Dlaczego tworzyć procedury automatycznej kompilacji i testowania działające w dedykowanych środowiskach?"],
+  :answer
+  ["Należy tworzyć procedury automatycznej kompilacji i testowania działające w dedykowanych środowiskach, bo:"
+   "- procesy budowania i testowania mogą działać przez cały czas, niezależnie od nawyków inżynierów,"
+   "- zrozumienie wszystkich zależności wymaganych do budowania,"
+   "- pomagają zapewnić powtarzalność instalacji (pakiet instalacyjny, kontener),"
+   "- środowiska można upodabniać do produkcji."],
+  :source ["s:" "DevOps, 157"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Dlaczego tworzyć procedury automatycznej kompilacji i testowania działające w dedykowanych środowiskach?\r\n\r\nNależy tworzyć procedury automatycznej kompilacji i testowania działające w dedykowanych środowiskach, bo:\r\n- procesy budowania i testowania mogą działać przez cały czas, niezależnie od nawyków inżynierów,\r\n- zrozumienie wszystkich zależności wymaganych do budowania,\r\n- pomagają zapewnić powtarzalność instalacji (pakiet instalacyjny, kontener),\r\n- środowiska można upodabniać do produkcji.\r\n\r\ns:\r\nDevOps, 157"]}
+ {:question ["Czego wymagają praktyki ciągłej integracji?"],
+  :answer
+  ["Praktyki ciągłej integracji wymagają:"
+   "- zbioru automatycznych testów,"
+   "- \"zatrzymania całej linii produkcyjnej\", gdy testy nie przejdą,"
+   "- małe partie pracy."],
+  :source ["" "s:" "DevOps, 159"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Czego wymagają praktyki ciągłej integracji?\r\n\r\nPraktyki ciągłej integracji wymagają:\r\n- zbioru automatycznych testów,\r\n- \"zatrzymania całej linii produkcyjnej\", gdy testy nie przejdą,\r\n- małe partie pracy.\r\n\r\n\r\ns:\r\nDevOps, 159"]}
+ {:question ["Co to jest \"zielona kompilacja\"?"],
+  :answer
+  ["\"Zielona kompilacja\" to:"
+   "- wszystko, co zostało zaewidencjonowane w repozytorium,"
+   "- buduje się i nadaje się do wdrożenia."],
+  :source ["s:" "DevOps, 160"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Co to jest \"zielona kompilacja\"?\r\n\r\n\"Zielona kompilacja\" to:\r\n- wszystko, co zostało zaewidencjonowane w repozytorium,\r\n- buduje się i nadaje się do wdrożenia.\r\n\r\ns:\r\nDevOps, 160"]}
+ {:question ["Jakie są kategorie testów automatycznych?"],
+  :answer
+  ["Kategorie testów automatycznych:"
+   "- testy jednostkowe: najszybsze, testują klasę, funkcję,"
+   "- testy akceptacyjne: wolniejsze, testują aplikację,"
+   "- testy integracji: najwolniejsze, testują współdziałanie z innymi aplikacjami."],
+  :source ["s:" "DevOps, 161"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Jakie są kategorie testów automatycznych?\r\n\r\nKategorie testów automatycznych:\r\n- testy jednostkowe: najszybsze, testują klasę, funkcję,\r\n- testy akceptacyjne: wolniejsze, testują aplikację,\r\n- testy integracji: najwolniejsze, testują współdziałanie z innymi aplikacjami.\r\n\r\ns:\r\nDevOps, 161"]}
+ {:question ["Co to jest \"test dymny\"?"],
+  :answer
+  ["\"Test dymny\" (smoke test) to:"
+   "- zbiór przypadków testowych pokrywających główne funkcjonalności produktu."],
+  :source ["s:" "DevOps, 161"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Co to jest \"test dymny\"?\r\n\r\n\"Test dymny\" (smoke test) to:\r\n- zbiór przypadków testowych pokrywających główne funkcjonalności produktu.\r\n\r\ns:\r\nDevOps, 161"]}
+ {:question
+  ["Co zrobić jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego?"],
+  :answer
+  ["Jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego:"
+   "- napisz test jednostkowy, za pomocą którego błąd znajdziesz szybciej, wcześniej i taniej."],
+  :source ["s:" "DevOps, 163"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Co zrobić jeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego?\r\n\r\nJeśli znajdziesz błąd dopiero za pomocą testu akceptacyjnego lub integracyjnego:\r\n- napisz test jednostkowy, za pomocą którego błąd znajdziesz szybciej, wcześniej i taniej.\r\n\r\ns:\r\nDevOps, 163"]}
+ {:question
+  ["Kiedy testy jednostkowe lub akceptacyjne są trudne i kosztowne do pisania i utrzymywania?"],
+  :answer
+  ["Testy jednostkowe lub akceptacyjne są trudne i kosztowne do pisania i utrzymywania:"
+   "- architektura jest zbyt ściśle sprzężona,"
+   "- brak separacja pomiędzy modułami."],
+  :source ["s:" "DevOps, 163"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Kiedy testy jednostkowe lub akceptacyjne są trudne i kosztowne do pisania i utrzymywania?\r\n\r\nTesty jednostkowe lub akceptacyjne są trudne i kosztowne do pisania i utrzymywania:\r\n- architektura jest zbyt ściśle sprzężona,\r\n- brak separacja pomiędzy modułami.\r\n\r\ns:\r\nDevOps, 163"]}
+ {:question ["Jak przyspieszyć działanie testów?"],
+  :answer
+  ["Aby przyspieszyć działanie testów:"
+   "- wykorzystaj współbieżność,"
+   "- różnych testów w ramach tej samej kategorii,"
+   "- różnych kategorii."],
+  :source ["s:" "DevOps, 164"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Jak przyspieszyć działanie testów?\r\n\r\nAby przyspieszyć działanie testów:\r\n- wykorzystaj współbieżność,\r\n- różnych testów w ramach tej samej kategorii,\r\n- różnych kategorii.\r\n\r\ns:\r\nDevOps, 164"]}
+ {:question
+  ["Jak zagwarantować, że dysponujemy wiarygodnymi testami automatycznymi?"],
+  :answer
+  ["Gwarancją wiarygodnych testów automatycznych są:"
+   "- wytwarzanie oprogramowania sterowane testami: TDD (test-driven development),"
+   "- wytwarzanie oprogramowania sterowane testami akceptacyjnymi: ATDD (acceptance test-driven development)."],
+  :source ["s:" "DevOps, 165"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Jak zagwarantować, że dysponujemy wiarygodnymi testami automatycznymi?\r\n\r\nGwarancją wiarygodnych testów automatycznych są:\r\n- wytwarzanie oprogramowania sterowane testami: TDD (test-driven development),\r\n- wytwarzanie oprogramowania sterowane testami akceptacyjnymi: ATDD (acceptance test-driven development).\r\n\r\ns:\r\nDevOps, 165"]}
+ {:question ["Jak wykrywać problemy z wydajnością?"],
+  :answer
+  ["Aby wykrywać problemy z wydajnością:"
+   "- dodaj automatyczne testy wydajności."],
+  :source ["s:" "DevOps, 167"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Jak wykrywać problemy z wydajnością?\r\n\r\nAby wykrywać problemy z wydajnością:\r\n- dodaj automatyczne testy wydajności.\r\n\r\ns:\r\nDevOps, 167"]}
+ {:question
+  ["Jak zagwarantować spełnienie wymagań niefunkcjonalnych?"],
+  :answer
+  ["Aby zagwarantować spełnienie wymagań niefunkcjonalnych:"
+   "- dodaj automatyczne testy wymagań niefunkcjonalnych."],
+  :source ["s:" "DevOps, 168"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Jak zagwarantować spełnienie wymagań niefunkcjonalnych?\r\n\r\nAby zagwarantować spełnienie wymagań niefunkcjonalnych:\r\n- dodaj automatyczne testy wymagań niefunkcjonalnych.\r\n\r\ns:\r\nDevOps, 168"]}
+ {:question ["Jak zastosować \"linkę Andon\" w potoku wdrożeń?"],
+  :answer
+  ["\"Linka Andon\" w potoku wdrożeń:"
+   "- w przypadku awarii potoku wdrożeń,"
+   "- przede wszystkim napraw problem."],
+  :source ["s:" "DevOps, 169"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Jak zastosować \"linkę Andon\" w potoku wdrożeń?\r\n\r\n\"Linka Andon\" w potoku wdrożeń:\r\n- w przypadku awarii potoku wdrożeń,\r\n- przede wszystkim napraw problem.\r\n\r\ns:\r\nDevOps, 169"]}
+ {:question ["Dlaczego trzeba pociągać za \"linkę Andon\"?"],
+  :answer
+  ["Trzeba pociągać za \"linkę Andon\", bo:"
+   "- tracimy możliwość wdrażania,"
+   "- problemy narastają wraz z kolejnymi rewizjami,"
+   "- konieczne zatrzymanie prac rozwojowych i \"stabilizacja\"."],
+  :source ["s:" "DevOps, 170"],
+  :tag
+  ["devops-handbook-19-10-enable-fast-and-reliable-automated-testing"],
+  :chunk
+  ["Dlaczego trzeba pociągać za \"linkę Andon\"?\r\n\r\nTrzeba pociągać za \"linkę Andon\", bo:\r\n- tracimy możliwość wdrażania,\r\n- problemy narastają wraz z kolejnymi rewizjami,\r\n- konieczne zatrzymanie prac rozwojowych i \"stabilizacja\".\r\n\r\ns:\r\nDevOps, 170"]}
+ {:question ["Co to jest TBD?"],
+  :answer
+  ["TBD (trunk-based development) to:"
+   "- praktyka ciągłej integracji i rozwoju oprogramowania bazującego na rewizji master,"
+   "- większa wydajność, stabilność, satysfakcja, wg. \"Puppet Labs State of DevOps Report 2015\"."],
+  :source ["s:" "DevOps, 175, 181"],
+  :tag
+  ["devops-handbook-20-11-enable-and-practice-continuous-integration"],
+  :chunk
+  ["Co to jest TBD?\r\n\r\nTBD (trunk-based development) to:\r\n- praktyka ciągłej integracji i rozwoju oprogramowania bazującego na rewizji master,\r\n- większa wydajność, stabilność, satysfakcja, wg. \"Puppet Labs State of DevOps Report 2015\".\r\n\r\ns:\r\nDevOps, 175, 181"]}
+ {:question ["Jakie są strategie tworzenia gałęzi w repozytorium?"],
+  :answer
+  ["Strategie tworzenia gałęzi w repozytorium:"
+   "- optymalizowane pod kątem indywidualnej wydajności: prywatne gałęzie, trudne scalanie,"
+   "- optymalizowane pod kątem wydajności zespołu: wspólny obszar, każda rewizja niesie ryzyko awarii całego projektu."],
+  :source ["s:" "DevOps, 177"],
+  :tag
+  ["devops-handbook-20-11-enable-and-practice-continuous-integration"],
+  :chunk
+  ["Jakie są strategie tworzenia gałęzi w repozytorium?\r\n\r\nStrategie tworzenia gałęzi w repozytorium:\r\n- optymalizowane pod kątem indywidualnej wydajności: prywatne gałęzie, trudne scalanie,\r\n- optymalizowane pod kątem wydajności zespołu: wspólny obszar, każda rewizja niesie ryzyko awarii całego projektu.\r\n\r\ns:\r\nDevOps, 177"]}
+ {:question ["Jakie są wady stosowania wielu gałęzi?"],
+  :answer
+  ["Wady stosowania wielu gałęzi:"
+   "- rzadkie scalanie,"
+   "- koszt scalania rośnie wykładniczo z liczbą gałęzi,"
+   "- opóźnione testy,"
+   "- rezygnacja z refaktoringu w gałęzi."],
+  :source ["" "s:" "DevOps, 178"],
+  :tag
+  ["devops-handbook-20-11-enable-and-practice-continuous-integration"],
+  :chunk
+  ["Jakie są wady stosowania wielu gałęzi?\r\n\r\nWady stosowania wielu gałęzi:\r\n- rzadkie scalanie,\r\n- koszt scalania rośnie wykładniczo z liczbą gałęzi,\r\n- opóźnione testy,\r\n- rezygnacja z refaktoringu w gałęzi.\r\n\r\n\r\ns:\r\nDevOps, 178"]}
+ {:question ["Jakie są praktyki pracy na rewizji master?"],
+  :answer
+  ["Praktyki pracy na rewizji master:"
+   "- często ewidencjonuj kod w rewizji master, np. raz dziennie,"
+   "- \"gated commits\" (rewizje ogrodzone)."],
+  :source ["s:" "DevOps, 178"],
+  :tag
+  ["devops-handbook-20-11-enable-and-practice-continuous-integration"],
+  :chunk
+  ["Jakie są praktyki pracy na rewizji master?\r\n\r\nPraktyki pracy na rewizji master:\r\n- często ewidencjonuj kod w rewizji master, np. raz dziennie,\r\n- \"gated commits\" (rewizje ogrodzone).\r\n\r\ns:\r\nDevOps, 178"]}
+ {:question ["Co to jest \"gated commits\"?"],
+  :answer
+  ["\"Gated commits\" (rewizje ogrodzone) to:"
+   "- odrzucanie rewizji, które powodują naruszenie stanu gotowości do wdrożenia."],
+  :source ["s:" "DevOps, 178"],
+  :tag
+  ["devops-handbook-20-11-enable-and-practice-continuous-integration"],
+  :chunk
+  ["Co to jest \"gated commits\"?\r\n\r\n\"Gated commits\" (rewizje ogrodzone) to:\r\n- odrzucanie rewizji, które powodują naruszenie stanu gotowości do wdrożenia.\r\n\r\ns:\r\nDevOps, 178"]}
+ {:question ["Co to jest \"kod gotowy\"?"],
+  :answer
+  ["\"Kod gotowy\" to:"
+   "- na koniec każdego interwału rozwoju,"
+   "- kod zintegrowany, przetestowany, działający i potencjalnie gotowy do wdrożenia,"
+   "- zademonstrowany w środowisku zbliżonym do produkcyjnego,"
+   "- zbudowany na podstawie rewizji master w procesie inicjowanym jednym kliknięciem,"
+   "- zweryfikowany za pomocą testów automatycznych."],
+  :source ["s:" "DevOps, 179"],
+  :tag
+  ["devops-handbook-20-11-enable-and-practice-continuous-integration"],
+  :chunk
+  ["Co to jest \"kod gotowy\"?\r\n\r\n\"Kod gotowy\" to:\r\n- na koniec każdego interwału rozwoju,\r\n- kod zintegrowany, przetestowany, działający i potencjalnie gotowy do wdrożenia,\r\n- zademonstrowany w środowisku zbliżonym do produkcyjnego,\r\n- zbudowany na podstawie rewizji master w procesie inicjowanym jednym kliknięciem,\r\n- zweryfikowany za pomocą testów automatycznych.\r\n\r\ns:\r\nDevOps, 179"]}
+ {:question ["Co to jest \"staging environment (stage)\"?"],
+  :answer
+  ["\"Staging environment (stage)\" to:"
+   "- środowisko preprodukcyjne/przedprodukcyjne."],
+  :source ["s:" "DevOps, 181"],
+  :tag
+  ["devops-handbook-20-11-enable-and-practice-continuous-integration"],
+  :chunk
+  ["Co to jest \"staging environment (stage)\"?\r\n\r\n\"Staging environment (stage)\" to:\r\n- środowisko preprodukcyjne/przedprodukcyjne.\r\n\r\ns:\r\nDevOps, 181"]}
+ {:question ["Co to jest \"test kanarkowy\"?"],
+  :answer
+  ["\"Test kanarkowy\" to:"
+   "- wdrożenie oprogramowania na małej grupie serwerów produkcyjnych"
+   "- w celu sprawdzenia, czy oprogramowanie nie ulegnie awarii pod realnym obciążeniem,"
+   "- kanarek umierając ostrzega górnika."],
+  :source ["s:" "DevOps, 183"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest \"test kanarkowy\"?\r\n\r\n\"Test kanarkowy\" to:\r\n- wdrożenie oprogramowania na małej grupie serwerów produkcyjnych\r\n- w celu sprawdzenia, czy oprogramowanie nie ulegnie awarii pod realnym obciążeniem,\r\n- kanarek umierając ostrzega górnika.\r\n\r\ns:\r\nDevOps, 183"]}
+ {:question ["Jaka relacja jest między liczbą zmian i liczbą wydań?"],
+  :answer
+  ["Relacja między liczbą zmian i liczbą wydań:"
+   "- jeśli chcesz więcej zmian,"
+   "- to potrzebujesz więcej wdrożeń,"
+   "- wdrożenie obsługuje stałą liczbę zmian."],
+  :source ["s:" "DevOps, 184"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Jaka relacja jest między liczbą zmian i liczbą wydań?\r\n\r\nRelacja między liczbą zmian i liczbą wydań:\r\n- jeśli chcesz więcej zmian,\r\n- to potrzebujesz więcej wdrożeń,\r\n- wdrożenie obsługuje stałą liczbę zmian.\r\n\r\ns:\r\nDevOps, 184"]}
+ {:question ["Jakie są wymagania potoku wdrożeń?"],
+  :answer
+  ["Wymagania potoku wdrożeń:"
+   "- wdrażanie w każdym środowisku w taki sam sposób,"
+   "- testy dymne wdrożeń,"
+   "- utrzymywanie spójnych środowisk."],
+  :source ["s:" "DevOps, 186"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Jakie są wymagania potoku wdrożeń?\r\n\r\nWymagania potoku wdrożeń:\r\n- wdrażanie w każdym środowisku w taki sam sposób,\r\n- testy dymne wdrożeń,\r\n- utrzymywanie spójnych środowisk.\r\n\r\ns:\r\nDevOps, 186"]}
+ {:question ["Kto powinien wdrażać? Dev? Ops?"],
+  :answer
+  ["Wdrożenia mogą być realizowane przez Dev lub Ops."
+   "Nie ma to wpływu na procent pomyślnych wdrożeń."],
+  :source ["s:" "DevOps, 190"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Kto powinien wdrażać? Dev? Ops?\r\n\r\nWdrożenia mogą być realizowane przez Dev lub Ops.\r\nNie ma to wpływu na procent pomyślnych wdrożeń.\r\n\r\ns:\r\nDevOps, 190"]}
+ {:question
+  ["Kiedy proces wdrażania kodu może być częścią potoku wdrożeń?"],
+  :answer
+  ["Proces wdrażania kodu może być częścią potoku wdrożeń, gdy:"
+   "- jest zautomatyzowany."],
+  :source ["s:" "DevOps, 190"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Kiedy proces wdrażania kodu może być częścią potoku wdrożeń?\r\n\r\nProces wdrażania kodu może być częścią potoku wdrożeń, gdy:\r\n- jest zautomatyzowany.\r\n\r\ns:\r\nDevOps, 190"]}
+ {:question ["Co powinna zapewniać automatyzacja wdrażania kodu?"],
+  :answer
+  ["Automatyzacja wdrażania kodu powinna zapewniać:"
+   "- możliwość wdrażania pakietów stworzonych w procesie ciągłej integracji,"
+   "- błyskawiczną ocenę gotowości środowisk produkcyjnych,"
+   "- samoobsługowe wdrażanie,"
+   "- automatyczny zapis,"
+   "- testy dymne,"
+   "- szybka pętla sprzężenia zwrotnego."],
+  :source ["s:" "DevOps, 190"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co powinna zapewniać automatyzacja wdrażania kodu?\r\n\r\nAutomatyzacja wdrażania kodu powinna zapewniać:\r\n- możliwość wdrażania pakietów stworzonych w procesie ciągłej integracji,\r\n- błyskawiczną ocenę gotowości środowisk produkcyjnych,\r\n- samoobsługowe wdrażanie,\r\n- automatyczny zapis,\r\n- testy dymne,\r\n- szybka pętla sprzężenia zwrotnego.\r\n\r\ns:\r\nDevOps, 190"]}
+ {:question ["Czy wdrożenie i wydanie to to samo?"],
+  :answer
+  ["Nie:"
+   "- wdrożenie (deployment) to wdrożenia produkcyjne,"
+   "- wydanie (release) to publikacja funkcjonalności."],
+  :source ["s:" "DevOps, 194"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Czy wdrożenie i wydanie to to samo?\r\n\r\nNie:\r\n- wdrożenie (deployment) to wdrożenia produkcyjne,\r\n- wydanie (release) to publikacja funkcjonalności.\r\n\r\ns:\r\nDevOps, 194"]}
+ {:question ["Co to jest wdrożenie?"],
+  :answer
+  ["Wdrożenie (deployment) to:"
+   "- instalacja określonej wersji oprogramowania,"
+   "- wdrożenia produkcyjne,"
+   "- może być związane z nowymi funkcjami."],
+  :source ["s:" "DevOps, 194"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest wdrożenie?\r\n\r\nWdrożenie (deployment) to:\r\n- instalacja określonej wersji oprogramowania,\r\n- wdrożenia produkcyjne,\r\n- może być związane z nowymi funkcjami.\r\n\r\ns:\r\nDevOps, 194"]}
+ {:question ["Co to jest wydanie?"],
+  :answer
+  ["Wydanie (release) to:"
+   "- proces udostępnienia nowych funkcji,"
+   "- publikacja funkcjonalności."],
+  :source ["s:" "DevOps, 194"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest wydanie?\r\n\r\nWydanie (release) to:\r\n- proces udostępnienia nowych funkcji,\r\n- publikacja funkcjonalności.\r\n\r\ns:\r\nDevOps, 194"]}
+ {:question ["Jakie są kategorie wzorców wydań?"],
+  :answer
+  ["Kategorie wzorców wydań:"
+   "- wzorce wydań bazujące na środowisku,"
+   "- wzorce wydań bazujące na aplikacjach."],
+  :source ["s:" "DevOps, 194"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Jakie są kategorie wzorców wydań?\r\n\r\nKategorie wzorców wydań:\r\n- wzorce wydań bazujące na środowisku,\r\n- wzorce wydań bazujące na aplikacjach.\r\n\r\ns:\r\nDevOps, 194"]}
+ {:question ["Czym są \"wzorce wydań bazujące na środowisku\"?"],
+  :answer
+  ["\"Wzorce wydań bazujące na środowisku\" to:"
+   "- \"żywy\" ruch klientów na jedno środowisko,"
+   "- wdrożenie na inne środowisko,"
+   "- wydanie poprzez przełączenie ruchu,"
+   "- wdrożenia niebieski-zielony, wydania kanarkowe, systemy CIS (cluster immune systems)."],
+  :source ["s:" "DevOps, 195"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Czym są \"wzorce wydań bazujące na środowisku\"?\r\n\r\n\"Wzorce wydań bazujące na środowisku\" to:\r\n- \"żywy\" ruch klientów na jedno środowisko,\r\n- wdrożenie na inne środowisko,\r\n- wydanie poprzez przełączenie ruchu,\r\n- wdrożenia niebieski-zielony, wydania kanarkowe, systemy CIS (cluster immune systems).\r\n\r\ns:\r\nDevOps, 195"]}
+ {:question ["Czym są \"wzorce wydań bazujące na aplikacjach\"?"],
+  :answer
+  ["\"Wzorce wydań bazujące na aplikacjach\" to:"
+   "- modyfikowanie aplikacji,"
+   "- publikacja funkcjonalności, nawet pojedynczej funkcji za pomocą zmian w konfiguracji,"
+   "- stopniowe rozszerzanie grupy odbiorców nowych funkcjonalności,"
+   "- ślepe uruchamianie (dark launching),"
+   "- staging."],
+  :source ["s:" "DevOps, 195"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Czym są \"wzorce wydań bazujące na aplikacjach\"?\r\n\r\n\"Wzorce wydań bazujące na aplikacjach\" to:\r\n- modyfikowanie aplikacji,\r\n- publikacja funkcjonalności, nawet pojedynczej funkcji za pomocą zmian w konfiguracji,\r\n- stopniowe rozszerzanie grupy odbiorców nowych funkcjonalności,\r\n- ślepe uruchamianie (dark launching),\r\n- staging.\r\n\r\ns:\r\nDevOps, 195\r\n\r\nCo to jest \"staging\"?\r\n\r\n\"Staging\" to:\r\n- inaczej środowisko etapowe, pomostowe, przedprodukcyjne, preprodukcyjne,\r\n- środowisko do testowania, które dokładnie przypomina środowisko produkcyjne.\r\n\r\ns:\r\nhttps://en.wikipedia.org/wiki/Deployment_environment#Staging"]}
+ {:question ["Co to jest \"wzorzec wdrażania niebieskie-zielone\"?"],
+  :answer
+  ["\"Wzorzec wdrażania niebieskie-zielone\" to:"
+   "- wzorzec wydań bazujący na środowisku,"
+   "- dwa środowiska produkcyjne: niebieskie i zielone,"
+   "- jedno obsługuje \"żywy ruch\", drugie wdrożenia,"
+   "- wydanie polega na przełączeniu."],
+  :source ["s:" "DevOps, 197"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest \"wzorzec wdrażania niebieskie-zielone\"?\r\n\r\n\"Wzorzec wdrażania niebieskie-zielone\" to:\r\n- wzorzec wydań bazujący na środowisku,\r\n- dwa środowiska produkcyjne: niebieskie i zielone,\r\n- jedno obsługuje \"żywy ruch\", drugie wdrożenia,\r\n- wydanie polega na przełączeniu.\r\n\r\ns:\r\nDevOps, 197"]}
+ {:question
+  ["Jak obsługiwać zmiany w bazie danych we \"wzorce wydań bazujące na środowisku\"?"],
+  :answer
+  ["Obsługa zmian w bazie danych we \"wzorce wydań bazujące na środowisku\":"
+   "- dwie bazy danych (niebieska i zielona): ryzyka utraty transakcji,"
+   "- oddzielenie zmiany bazy danych od zmian w aplikacji: nie mutujemy istniejących obiektów bazy danych."],
+  :source ["s:" "DevOps, 198"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Jak obsługiwać zmiany w bazie danych we \"wzorce wydań bazujące na środowisku\"?\r\n\r\nObsługa zmian w bazie danych we \"wzorce wydań bazujące na środowisku\":\r\n- dwie bazy danych (niebieska i zielona): ryzyka utraty transakcji,\r\n- oddzielenie zmiany bazy danych od zmian w aplikacji: nie mutujemy istniejących obiektów bazy danych.\r\n\r\ns:\r\nDevOps, 198"]}
+ {:question
+  ["Na czym polega \"oddzielenie zmiany bazy danych od zmian w aplikacji\" w ramach \"wzorce wydań bazujące na środowisku\"?"],
+  :answer
+  ["\"Oddzielenie zmiany bazy danych od zmian w aplikacji\" w ramach \"wzorce wydań bazujące na środowisku\":"
+   "- inaczej \"rozwiń-zwiń\","
+   "- rozwijamy poprzez dodawanie nowych obiektów,"
+   "- następnie zwijamy poprzez usunięcie starych,"
+   "- nie mutujemy istniejących obiektów bazy danych,"
+   "- możliwe dublowanie danych."],
+  :source ["s:" "DevOps, 198"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Na czym polega \"oddzielenie zmiany bazy danych od zmian w aplikacji\" w ramach \"wzorce wydań bazujące na środowisku\"?\r\n\r\n\"Oddzielenie zmiany bazy danych od zmian w aplikacji\" w ramach \"wzorce wydań bazujące na środowisku\":\r\n- inaczej \"rozwiń-zwiń\",\r\n- rozwijamy poprzez dodawanie nowych obiektów,\r\n- następnie zwijamy poprzez usunięcie starych,\r\n- nie mutujemy istniejących obiektów bazy danych,\r\n- możliwe dublowanie danych.\r\n\r\ns:\r\nDevOps, 198"]}
+ {:question ["Co to jest \"wzorzec wydań kanarkowych\"?"],
+  :answer
+  ["\"Wzorzec wydań kanarkowych\" to:"
+   "- rodzaj \"wzorzec wdrażania niebieskie-zielone\","
+   "- automatyzacja procesu wydań,"
+   "- promowania do coraz ważniejszych środowisk,"
+   "- kanarek umierając ostrzega górnika."],
+  :source ["s:" "DevOps, 200"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest \"wzorzec wydań kanarkowych\"?\r\n\r\n\"Wzorzec wydań kanarkowych\" to:\r\n- rodzaj \"wzorzec wdrażania niebieskie-zielone\",\r\n- automatyzacja procesu wydań,\r\n- promowania do coraz ważniejszych środowisk,\r\n- kanarek umierając ostrzega górnika.\r\n\r\ns:\r\nDevOps, 200"]}
+ {:question
+  ["Jakie są grupy środowisk wspierające \"wzorzec wydań kanarkowych\"?"],
+  :answer
+  ["Grupy środowisk wspierających \"wzorzec wydań kanarkowych\":"
+   "- Grupa A1: serwery produkcyjne dla wewnętrznych pracowników,"
+   "- Grupa A2: serwery produkcyjne dla niewielkiej grupy klientów,"
+   "- Grupa A3: pozostałe serwery produkcyjne."],
+  :source ["s:" "DevOps, 200"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Jakie są grupy środowisk wspierające \"wzorzec wydań kanarkowych\"?\r\n\r\nGrupy środowisk wspierających \"wzorzec wydań kanarkowych\":\r\n- Grupa A1: serwery produkcyjne dla wewnętrznych pracowników,\r\n- Grupa A2: serwery produkcyjne dla niewielkiej grupy klientów,\r\n- Grupa A3: pozostałe serwery produkcyjne.\r\n\r\ns:\r\nDevOps, 200"]}
+ {:question ["Co to jest \"wzorzec CIS\"?"],
+  :answer
+  ["Wzorzec CIS (cluster immune system, \"układ odpornościowy w formie klastra\") to:"
+   "- rozszerzenie \"wzorzec wydań kanarkowych\","
+   "- wydawanie powiązane z monitorowaniem,"
+   "- zautomatyzowane wycofywanie,"
+   "- jeśli nie są spełniane warunki, np. wydajność."],
+  :source ["s:" "DevOps, 201"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest \"wzorzec CIS\"?\r\n\r\nWzorzec CIS (cluster immune system, \"układ odpornościowy w formie klastra\") to:\r\n- rozszerzenie \"wzorzec wydań kanarkowych\",\r\n- wydawanie powiązane z monitorowaniem,\r\n- zautomatyzowane wycofywanie,\r\n- jeśli nie są spełniane warunki, np. wydajność.\r\n\r\ns:\r\nDevOps, 201"]}
+ {:question
+  ["Jak zastosować \"wzorce wydań bazujące na aplikacjach\"?"],
+  :answer
+  ["Aby zastosować \"wzorce wydań bazujące na aplikacjach\":"
+   "- zaimplementuj przełączniki cech funkcjonalnych."],
+  :source ["s:" "DevOps, 202"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Jak zastosować \"wzorce wydań bazujące na aplikacjach\"?\r\n\r\nAby zastosować \"wzorce wydań bazujące na aplikacjach\":\r\n- zaimplementuj przełączniki cech funkcjonalnych.\r\n\r\ns:\r\nDevOps, 202"]}
+ {:question ["Czym są \"przełączniki cech funkcjonalnych\"?"],
+  :answer
+  ["\"Przełączniki cech funkcjonalnych\" (feature toggles) to:"
+   "- podstawowy sposób zastosowania wzorców wdrożeń na bazie aplikacji."
+   "- mechanizmu selektywnego włączania lub wyłączania cech funkcjonalnych,"
+   "- np. poprzez plik konfiguracyjny aplikacji, usługę sieciową."],
+  :source ["s:" "DevOps, 202"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Czym są \"przełączniki cech funkcjonalnych\"?\r\n\r\n\"Przełączniki cech funkcjonalnych\" (feature toggles) to:\r\n- podstawowy sposób zastosowania wzorców wdrożeń na bazie aplikacji.\r\n- mechanizmu selektywnego włączania lub wyłączania cech funkcjonalnych,\r\n- np. poprzez plik konfiguracyjny aplikacji, usługę sieciową.\r\n\r\ns:\r\nDevOps, 202"]}
+ {:question
+  ["Jakie operacje umożliwiają przełączniki cech funkcjonalnych?"],
+  :answer
+  ["Przełączniki cech funkcjonalnych umożliwiają:"
+   "- łatwe wycofywanie,"
+   "- obniżanie wydajności \"z wdziękiem\","
+   "- zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi."],
+  :source ["s:" "DevOps, 202"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Jakie operacje umożliwiają przełączniki cech funkcjonalnych?\r\n\r\nPrzełączniki cech funkcjonalnych umożliwiają:\r\n- łatwe wycofywanie,\r\n- obniżanie wydajności \"z wdziękiem\",\r\n- zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi.\r\n\r\ns:\r\nDevOps, 202"]}
+ {:question ["Co to jest obniżanie wydajności \"z wdziękiem\"?"],
+  :answer
+  ["Obniżanie wydajności \"z wdziękiem\" to:"
+   "- jedna z operacji umożliwianych przez przełączniki cech funkcjonalnych,"
+   "- stosowane, gdy obciążenie usługi jest zbyt wysokie,"
+   "- obniżenie jakości usługi,"
+   "- obniżenie poziomu dostarczanych funkcjonalności,"
+   "- np. wyłączenie funkcji."],
+  :source ["s:" "DevOps, 202"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest obniżanie wydajności \"z wdziękiem\"?\r\n\r\nObniżanie wydajności \"z wdziękiem\" to:\r\n- jedna z operacji umożliwianych przez przełączniki cech funkcjonalnych,\r\n- stosowane, gdy obciążenie usługi jest zbyt wysokie,\r\n- obniżenie jakości usługi,\r\n- obniżenie poziomu dostarczanych funkcjonalności,\r\n- np. wyłączenie funkcji.\r\n\r\ns:\r\nDevOps, 202"]}
+ {:question
+  ["Co to jest \"zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi\"?"],
+  :answer
+  ["\"Zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi\" to:"
+   "- jedna z operacji umożliwianych przez przełączniki cech funkcjonalnych,"
+   "- ukrycie za przełącznikiem funkcji,"
+   "- która korzysta z innej, jeszcze niegotowej funkcji."],
+  :source ["s:" "DevOps, 202"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest \"zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi\"?\r\n\r\n\"Zwiększenie odporności dzięki wykorzystaniu architektury zorientowanej na usługi\" to:\r\n- jedna z operacji umożliwianych przez przełączniki cech funkcjonalnych,\r\n- ukrycie za przełącznikiem funkcji,\r\n- która korzysta z innej, jeszcze niegotowej funkcji.\r\n\r\ns:\r\nDevOps, 202"]}
+ {:question ["Co to jest \"HDD (hypothesis-driven development)\"?"],
+  :answer
+  ["\"HDD (hypothesis-driven development)\" (wytwarzanie oprogramowania sterowane hipotezami) to:"
+   "- wytwarzanie oprogramowania"
+   "- jako serii eksperymentów w celu ustalenia, czy oczekiwany wynik zostanie osiągnięty."],
+  :source ["s:" "DevOps, 203"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest \"HDD (hypothesis-driven development)\"?\r\n\r\n\"HDD (hypothesis-driven development)\" (wytwarzanie oprogramowania sterowane hipotezami) to:\r\n- wytwarzanie oprogramowania\r\n- jako serii eksperymentów w celu ustalenia, czy oczekiwany wynik zostanie osiągnięty.\r\n\r\ns:\r\nDevOps, 203"]}
+ {:question ["Co to jest \"testowanie A/B\"?"],
+  :answer
+  ["\"Testowanie A/B\" to:"
+   "- metoda badawcza polegająca na porównaniu dwóch wersji celem wybrania lepszej."],
+  :source ["s:" "https://pl.wikipedia.org/wiki/Test_A/B"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest \"testowanie A/B\"?\r\n\r\n\"Testowanie A/B\" to:\r\n- metoda badawcza polegająca na porównaniu dwóch wersji celem wybrania lepszej.\r\n\r\ns:\r\nhttps://pl.wikipedia.org/wiki/Test_A/B"]}
+ {:question ["Co to jest \"ślepe uruchamianie\"?"],
+  :answer
+  ["\"Ślepe uruchamianie\" (dark launching) to:"
+   "- wdrożenie na produkcji, testy, gdy funkcjonalność niewidoczna dla klientów,"
+   "- stopniowa aktywacja dla niewielkich segmentów klientów,"
+   "- możliwe za pomocą \"przełączników cech funkcjonalnych\"."],
+  :source ["s:" "DevOps, 196, 203"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Co to jest \"ślepe uruchamianie\"?\r\n\r\n\"Ślepe uruchamianie\" (dark launching) to:\r\n- wdrożenie na produkcji, testy, gdy funkcjonalność niewidoczna dla klientów,\r\n- stopniowa aktywacja dla niewielkich segmentów klientów,\r\n- możliwe za pomocą \"przełączników cech funkcjonalnych\".\r\n\r\ns:\r\nDevOps, 196, 203"]}
+ {:question
+  ["Wyjaśnij \"ciągła integracja\" vs. \"ciągłe dostarczanie\" vs. \"ciągłe wdrażanie\"?"],
+  :answer
+  ["- \"ciągła integracja\" (continuous integration): ciągłe scalane z rewizją master,"
+   "- \"ciągłe dostarczanie\" (continuous delivery): ciągła gotowość do wydania na żądanie, rozwinięcie \"ciągła integracja\","
+   "- \"ciągłe wdrażanie\" (continuous deployment): ciągłe wdrażanie, rozwinięcie \"ciągłe dostarczanie\"."],
+  :source ["s:" "DevOps, 206"],
+  :tag ["devops-handbook-21-12-automate-and-enable-low-risk-releases"],
+  :chunk
+  ["Wyjaśnij \"ciągła integracja\" vs. \"ciągłe dostarczanie\" vs. \"ciągłe wdrażanie\"?\r\n\r\n- \"ciągła integracja\" (continuous integration): ciągłe scalane z rewizją master,\r\n- \"ciągłe dostarczanie\" (continuous delivery): ciągła gotowość do wydania na żądanie, rozwinięcie \"ciągła integracja\",\r\n- \"ciągłe wdrażanie\" (continuous deployment): ciągłe wdrażanie, rozwinięcie \"ciągłe dostarczanie\".\r\n\r\ns:\r\nDevOps, 206"]}
+ {:question ["Co to jest \"doświadczenie bliskie śmierci\"?"],
+  :answer
+  ["\"Doświadczenie bliskie śmierci\" to:"
+   "- skrajne utrudnienie rozwoju i utrzymania systemu,"
+   "- wskutek długu technicznego,"
+   "- wskutek problemów architektonicznych."],
+  :source ["s:" "DevOps, 209"],
+  :tag ["devops-handbook-22-13-architect-for-low-risk-releases"],
+  :chunk
+  ["Co to jest \"doświadczenie bliskie śmierci\"?\r\n\r\n\"Doświadczenie bliskie śmierci\" to:\r\n- skrajne utrudnienie rozwoju i utrzymania systemu,\r\n- wskutek długu technicznego,\r\n- wskutek problemów architektonicznych.\r\n\r\ns:\r\nDevOps, 209"]}
+ {:question ["Co to jest \"strangler application pattern\"?"],
+  :answer
+  ["\"Strangler application pattern\" (wzorzec dusiciela) to:"
+   "- stopniowe zastępowanie całego systemu,"
+   "- zamiast \"wycofywać i wymieniać\","
+   "- ukrywanie wywołań do starego systemu za API, zaniechanie zmian,"
+   "- nowe funkcjonalności za pomocą nowych usług."],
+  :source ["s:" "DevOps, 210"],
+  :tag ["devops-handbook-22-13-architect-for-low-risk-releases"],
+  :chunk
+  ["Co to jest \"strangler application pattern\"?\r\n\r\n\"Strangler application pattern\" (wzorzec dusiciela) to:\r\n- stopniowe zastępowanie całego systemu,\r\n- zamiast \"wycofywać i wymieniać\",\r\n- ukrywanie wywołań do starego systemu za API, zaniechanie zmian,\r\n- nowe funkcjonalności za pomocą nowych usług.\r\n\r\ns:\r\nDevOps, 210"]}
+ {:question
+  ["Jak brzmi \"drugie prawo architektonicznej termodynamiki\"?"],
+  :answer
+  ["\"Drugie prawo architektonicznej termodynamiki\":"
+   "- zmniejszenie ogólnej złożoności,"
+   "- i zwiększanie wydajności pracy wszystkich zespołów programistycznych,"
+   "- rzadko jest celem indywidualnego projektu."],
+  :source ["s:" "DevOps, 211"],
+  :tag ["devops-handbook-22-13-architect-for-low-risk-releases"],
+  :chunk
+  ["Jak brzmi \"drugie prawo architektonicznej termodynamiki\"?\r\n\r\n\"Drugie prawo architektonicznej termodynamiki\":\r\n- zmniejszenie ogólnej złożoności,\r\n- i zwiększanie wydajności pracy wszystkich zespołów programistycznych,\r\n- rzadko jest celem indywidualnego projektu.\r\n\r\ns:\r\nDevOps, 211"]}
+ {:question
+  ["Jaka architektura, ułatwia wydajność, testowalność i bezpieczeństwo?"],
+  :answer
+  ["Architektura, która ułatwia wydajność, testowalność i bezpieczeństwo to:"
+   "- o luźnych sprzężeniach,"
+   "- z dobrze zdefiniowanymi interfejsami, które wymuszają sposób połączenia modułów ze sobą,"
+   "- zorientowana na usługi."],
+  :source ["s:" "DevOps, 211"],
+  :tag ["devops-handbook-22-13-architect-for-low-risk-releases"],
+  :chunk
+  ["Jaka architektura, ułatwia wydajność, testowalność i bezpieczeństwo?\r\n\r\nArchitektura, która ułatwia wydajność, testowalność i bezpieczeństwo to:\r\n- o luźnych sprzężeniach,\r\n- z dobrze zdefiniowanymi interfejsami, które wymuszają sposób połączenia modułów ze sobą,\r\n- zorientowana na usługi.\r\n\r\ns:\r\nDevOps, 211"]}
+ {:question ["Jakie są archetypy architektoniczne?"],
+  :answer
+  ["Archetypy architektoniczne:"
+   "- monolityczna v1: cała funkcjonalność w jednej aplikacji,"
+   "- monolityczna v2: zbiór monolitycznych warstw: \"fronton prezentacyjny\", \"serwer aplikacji\", \"warstwa bazy danych\","
+   "- mikrousługi: modularne, niezależne relacje grafowe zamiast warstw, utrwalanie w izolacji."],
+  :source ["s:" "DevOps, 213"],
+  :tag ["devops-handbook-22-13-architect-for-low-risk-releases"],
+  :chunk
+  ["Jakie są archetypy architektoniczne?\r\n\r\nArchetypy architektoniczne:\r\n- monolityczna v1: cała funkcjonalność w jednej aplikacji,\r\n- monolityczna v2: zbiór monolitycznych warstw: \"fronton prezentacyjny\", \"serwer aplikacji\", \"warstwa bazy danych\",\r\n- mikrousługi: modularne, niezależne relacje grafowe zamiast warstw, utrwalanie w izolacji.\r\n\r\ns:\r\nDevOps, 213"]}
+ {:question
+  ["Czym są \"wersjonowane interfejsy API\" (application strangler)?"],
+  :answer
+  ["Wersjonowane interfejsy API:"
+   "- inaczej usługi wersjonowane (versioned services),"
+   "- inaczej usługi niezmienialne (immutable services),"
+   "- API przykrywające wywołania do starego systemu,"
+   "- używane we wzorcu application strangler."],
+  :source ["s:" "DevOps, 215"],
+  :tag ["devops-handbook-22-13-architect-for-low-risk-releases"],
+  :chunk
+  ["Czym są \"wersjonowane interfejsy API\" (application strangler)?\r\n\r\nWersjonowane interfejsy API:\r\n- inaczej usługi wersjonowane (versioned services),\r\n- inaczej usługi niezmienialne (immutable services),\r\n- API przykrywające wywołania do starego systemu,\r\n- używane we wzorcu application strangler.\r\n\r\ns:\r\nDevOps, 215"]}
+ {:question
+  ["Co to jest \"technika rozgałęziania przez abstrakcję\"?"],
+  :answer
+  ["\"Technika rozgałęziania przez abstrakcję\" (branching by abstraction) to:"
+   "- stworzeniu warstwy abstrakcji pomiędzy zmienianymi obszarami,"
+   "- pozwala na ewolucyjne projektowanie architektury,"
+   "- pozwala na pracę na gałęzi master i stosowanie ciągłej integracji."],
+  :source ["s:" "DevOps, 216"],
+  :tag ["devops-handbook-22-13-architect-for-low-risk-releases"],
+  :chunk
+  ["Co to jest \"technika rozgałęziania przez abstrakcję\"?\r\n\r\n\"Technika rozgałęziania przez abstrakcję\" (branching by abstraction) to:\r\n- stworzeniu warstwy abstrakcji pomiędzy zmienianymi obszarami,\r\n- pozwala na ewolucyjne projektowanie architektury,\r\n- pozwala na pracę na gałęzi master i stosowanie ciągłej integracji.\r\n\r\ns:\r\nDevOps, 216"]}
+ {:question ["Na czym polega druga droga?"],
+  :answer
+  ["Druga droga polega na:"
+   "- szybkie i ciągłe sprzężenie zwrotne od Ops do Dev,"
+   "- skracanie i wzmacnianie pętli sprzężenia zwrotnego,"
+   "- integracja wiedzy dołu strumienia z Ops, Dev, kierownictwem."
+   "- telemetria."],
+  :source ["s:" "DevOps, 223"],
+  :tag ["devops-handbook-24-part-iv-introduction"],
+  :chunk
+  ["Na czym polega druga droga?\r\n\r\nDruga droga polega na:\r\n- szybkie i ciągłe sprzężenie zwrotne od Ops do Dev,\r\n- skracanie i wzmacnianie pętli sprzężenia zwrotnego,\r\n- integracja wiedzy dołu strumienia z Ops, Dev, kierownictwem.\r\n- telemetria.\r\n\r\ns:\r\nDevOps, 223"]}
+ {:question ["Jakie są cele telemetrii?"],
+  :answer
+  ["Cele telemetrii:"
+   "- dostrzeganie problemów,"
+   "- dostarczanie informacji pomocnej w rozwiązywaniu problemów."],
+  :source ["s:" "DevOps, 225"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Jakie są cele telemetrii?\r\n\r\nCele telemetrii:\r\n- dostrzeganie problemów,\r\n- dostarczanie informacji pomocnej w rozwiązywaniu problemów.\r\n\r\ns:\r\nDevOps, 225"]}
+ {:question ["Co to jest \"kultura przyczynowości\"?"],
+  :answer
+  ["\"Kultura przyczynowości\" (culture of causality) to:"
+   "- zrozumienie awarii,"
+   "- koncentracja na rozwiązywaniu problemów,"
+   "- zamiast ślepego restartowania serwerów."],
+  :source ["s:" "DevOps, 226"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Co to jest \"kultura przyczynowości\"?\r\n\r\n\"Kultura przyczynowości\" (culture of causality) to:\r\n- zrozumienie awarii,\r\n- koncentracja na rozwiązywaniu problemów,\r\n- zamiast ślepego restartowania serwerów.\r\n\r\ns:\r\nDevOps, 226"]}
+ {:question ["Co to jest \"telemetria\"?"],
+  :answer
+  ["\"Telemetria\" to:"
+   "- zautomatyzowany proces komunikacji,"
+   "- w wyniku którego pomiary oraz inne dane są gromadzone w zdalnych punktach,"
+   "- a następnie są przesyłane do urządzeń odbiorczych w celu monitorowania."],
+  :source ["s:" "DevOps, 226"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Co to jest \"telemetria\"?\r\n\r\n\"Telemetria\" to:\r\n- zautomatyzowany proces komunikacji,\r\n- w wyniku którego pomiary oraz inne dane są gromadzone w zdalnych punktach,\r\n- a następnie są przesyłane do urządzeń odbiorczych w celu monitorowania.\r\n\r\ns:\r\nDevOps, 226"]}
+ {:question ["Co to jest MTTR?"],
+  :answer
+  ["MTTR (Mean Time To Repair) to:"
+   "- średni czas od momentu wystąpienia awarii do naprawy."],
+  :source ["s:" "DevOps, 227"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Co to jest MTTR?\r\n\r\nMTTR (Mean Time To Repair) to:\r\n- średni czas od momentu wystąpienia awarii do naprawy.\r\n\r\ns:\r\nDevOps, 227"]}
+ {:question ["Jak zapewnić niski MTTR?"],
+  :answer
+  ["Aby zapewnić niski MTTR:"
+   "- repozytorium kontroli wersji dla Ops,"
+   "- telemetria i proaktywne monitorowanie."],
+  :source ["s:" "DevOps, 227"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Jak zapewnić niski MTTR?\r\n\r\nAby zapewnić niski MTTR:\r\n- repozytorium kontroli wersji dla Ops,\r\n- telemetria i proaktywne monitorowanie.\r\n\r\ns:\r\nDevOps, 227"]}
+ {:question ["Jakie są składniki architektury monitorowania?"],
+  :answer
+  ["Składniki architektury monitorowania:"
+   "- zbieranie danych w warstwach logiki biznesowej, aplikacji i środowiska: pliki logów, dzienniki zdarzeń,"
+   "- router zdarzeń odpowiedzialny za przechowywanie zdarzeń i parametrów: wykresy, alarmy."],
+  :source ["s:" "DevOps, 229"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Jakie są składniki architektury monitorowania?\r\n\r\nSkładniki architektury monitorowania:\r\n- zbieranie danych w warstwach logiki biznesowej, aplikacji i środowiska: pliki logów, dzienniki zdarzeń,\r\n- router zdarzeń odpowiedzialny za przechowywanie zdarzeń i parametrów: wykresy, alarmy.\r\n\r\ns:\r\nDevOps, 229"]}
+ {:question
+  ["Dla jakich funkcjonalności tworzyć mechanizmy telemetrii?"],
+  :answer
+  ["Jeśli:"
+   "- funkcjonalność została zaimplementowana,"
+   "to:"
+   "- zasługuje na stworzenie mechanizmów telemetrii."],
+  :source ["s:" "DevOps, 231"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Dla jakich funkcjonalności tworzyć mechanizmy telemetrii?\r\n\r\nJeśli:\r\n- funkcjonalność została zaimplementowana,\r\nto:\r\n- zasługuje na stworzenie mechanizmów telemetrii.\r\n\r\ns:\r\nDevOps, 231"]}
+ {:question ["Jakie są poziomy rejestrowania informacji?"],
+  :answer
+  ["Poziomy rejestrowania informacji:"
+   "DEBUG, INFO, WARN, ERROR, FATAL."],
+  :source ["s:" "DevOps, 232"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Jakie są poziomy rejestrowania informacji?\r\n\r\nPoziomy rejestrowania informacji:\r\nDEBUG, INFO, WARN, ERROR, FATAL.\r\n\r\ns:\r\nDevOps, 232"]}
+ {:question
+  ["Jakie są negatywne efekty braku dostępnej publicznie telemetrii?"],
+  :answer
+  ["Negatywne efekty braku dostępnej publicznie telemetrii:"
+   "- budowanie kultury obwiniania,"
+   "- niezdolność do budowania wiedzy."],
+  :source ["s:" "DevOps, 233"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Jakie są negatywne efekty braku dostępnej publicznie telemetrii?\r\n\r\nNegatywne efekty braku dostępnej publicznie telemetrii:\r\n- budowanie kultury obwiniania,\r\n- niezdolność do budowania wiedzy.\r\n\r\ns:\r\nDevOps, 233"]}
+ {:question ["Jak ułatwić dostęp do telemetrii?"],
+  :answer
+  ["Aby ułatwić dostęp do telemetrii:"
+   "- samoobsługa,"
+   "- każdy zainteresowany ma łatwy dostęp."],
+  :source ["s:" "DevOps, 236"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Jak ułatwić dostęp do telemetrii?\r\n\r\nAby ułatwić dostęp do telemetrii:\r\n- samoobsługa,\r\n- każdy zainteresowany ma łatwy dostęp.\r\n\r\ns:\r\nDevOps, 236"]}
+ {:question
+  ["Co to jest \"promiennik informacji\"? (information radiator)"],
+  :answer
+  ["\"Promiennik informacji\" (information radiator) to:"
+   "- mechanizm udostępniania danych,"
+   "- tablica informacyjna, publicznie dostępna, przezroczystość,"
+   "- zespół nie ma nic do ukrycia przed gośćmi,"
+   "- zespół nie ma nic do ukrycia przed samym sobą."],
+  :source ["s:" "DevOps, 236"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Co to jest \"promiennik informacji\"? (information radiator)\r\n\r\n\"Promiennik informacji\" (information radiator) to:\r\n- mechanizm udostępniania danych,\r\n- tablica informacyjna, publicznie dostępna, przezroczystość,\r\n- zespół nie ma nic do ukrycia przed gośćmi,\r\n- zespół nie ma nic do ukrycia przed samym sobą.\r\n\r\ns:\r\nDevOps, 236"]}
+ {:question ["Jakie są poziomy telemetrii?"],
+  :answer
+  ["Poziomy telemetrii:"
+   "- poziom biznesowy,"
+   "- poziom aplikacji,"
+   "- poziom infrastruktury,"
+   "- poziom oprogramowania klienckiego,"
+   "- poziom potoku wdrożeń."],
+  :source ["s:" "DevOps, 239"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Jakie są poziomy telemetrii?\r\n\r\nPoziomy telemetrii:\r\n- poziom biznesowy,\r\n- poziom aplikacji,\r\n- poziom infrastruktury,\r\n- poziom oprogramowania klienckiego,\r\n- poziom potoku wdrożeń.\r\n\r\ns:\r\nDevOps, 239"]}
+ {:question ["Co to jest \"lejek nabywania klienta\"?"],
+  :answer
+  ["\"Lejek nabywania klienta\" (customer acquisition funnel) to:"
+   "- zawiera wskaźniki biznesowe,"
+   "- określa teoretyczne kroki potencjalnego klienta."],
+  :source ["s:" "DevOps, 240"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Co to jest \"lejek nabywania klienta\"?\r\n\r\n\"Lejek nabywania klienta\" (customer acquisition funnel) to:\r\n- zawiera wskaźniki biznesowe,\r\n- określa teoretyczne kroki potencjalnego klienta.\r\n\r\ns:\r\nDevOps, 240"]}
+ {:question
+  ["Jaką rolę pełnią wskaźniki biznesowe w kontekście parametrów infrastruktury?"],
+  :answer
+  ["Wskaźniki biznesowe tworzą kontekst dla parametrów infrastruktury."],
+  :source ["s:" "DevOps, 243"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Jaką rolę pełnią wskaźniki biznesowe w kontekście parametrów infrastruktury?\r\n\r\nWskaźniki biznesowe tworzą kontekst dla parametrów infrastruktury.\r\n\r\ns:\r\nDevOps, 243"]}
+ {:question ["Co to jest \"okres rozstrzygania\"?"],
+  :answer
+  ["\"Okres rozstrzygania\" to:"
+   "- przejściowy okres niższej jakości usługi,"
+   "- ze względu na przejściowe problemy wynikające z wdrożenia nowej funkcjonalności,"
+   "- np. chybione wyszukiwania w pamięci podręcznej."],
+  :source ["s:" "DevOps, 243"],
+  :tag
+  ["devops-handbook-25-14-create-telemetry-to-enable-seeing-and-solving-problems"],
+  :chunk
+  ["Co to jest \"okres rozstrzygania\"?\r\n\r\n\"Okres rozstrzygania\" to:\r\n- przejściowy okres niższej jakości usługi,\r\n- ze względu na przejściowe problemy wynikające z wdrożenia nowej funkcjonalności,\r\n- np. chybione wyszukiwania w pamięci podręcznej.\r\n\r\ns:\r\nDevOps, 243"]}
+ {:question ["Co to jest \"wykrywanie odstających\"?"],
+  :answer
+  ["\"Wykrywanie odstających\" (outlier detection) to:"
+   "- technika statystyczna,"
+   "- wykrywanie nieprawidłowych warunków działania,"
+   "- które mogą spowodować znaczące obniżenie wydajności,"
+   "- identyfikacja węzłów spoza wzorca,"
+   "- usunięcie z produkcji."],
+  :source ["s:" "DevOps, 246"],
+  :tag
+  ["devops-handbook-26-15-analyze-telemetry-to-better-anticipate-problems-and-achieve-goals"],
+  :chunk
+  ["Co to jest \"wykrywanie odstających\"?\r\n\r\n\"Wykrywanie odstających\" (outlier detection) to:\r\n- technika statystyczna,\r\n- wykrywanie nieprawidłowych warunków działania,\r\n- które mogą spowodować znaczące obniżenie wydajności,\r\n- identyfikacja węzłów spoza wzorca,\r\n- usunięcie z produkcji.\r\n\r\ns:\r\nDevOps, 246"]}
+ {:question
+  ["Które techniki statystyczne pomagają w wykrywaniu problemów?"],
+  :answer
+  ["Techniki statystyczne, które pomagają w wykrywaniu problemów:"
+   "- średnia,"
+   "- odchylenie standardowe,"
+   "- analiza parametrów produkcyjnych,"],
+  :source ["s:" "DevOps, 246"],
+  :tag
+  ["devops-handbook-26-15-analyze-telemetry-to-better-anticipate-problems-and-achieve-goals"],
+  :chunk
+  ["Które techniki statystyczne pomagają w wykrywaniu problemów?\r\n\r\nTechniki statystyczne, które pomagają w wykrywaniu problemów:\r\n- średnia,\r\n- odchylenie standardowe,\r\n- analiza parametrów produkcyjnych,\r\n\r\ns:\r\nDevOps, 246"]}
+ {:question
+  ["Jak techniki statystyczne pomagają w wykrywaniu problemów?"],
+  :answer
+  ["Techniki statystyczne pomagają w wykrywaniu problemów:"
+   "- np. alert, gdy liczba prób nieuprawnionego logowania przekroczy wartość trzech odchyleń standardowych powyżej średniej."],
+  :source ["s:" "DevOps, 247"],
+  :tag
+  ["devops-handbook-26-15-analyze-telemetry-to-better-anticipate-problems-and-achieve-goals"],
+  :chunk
+  ["Jak techniki statystyczne pomagają w wykrywaniu problemów?\r\n\r\nTechniki statystyczne pomagają w wykrywaniu problemów:\r\n- np. alert, gdy liczba prób nieuprawnionego logowania przekroczy wartość trzech odchyleń standardowych powyżej średniej.\r\n\r\ns:\r\nDevOps, 247"]}
+ {:question ["Co monitorować?"],
+  :answer
+  ["Monitoruj (dąż do):"
+   "- wskaźniki przewidujące awarię,"
+   "- nie awarie."],
+  :source ["s:" "DevOps, 248"],
+  :tag
+  ["devops-handbook-26-15-analyze-telemetry-to-better-anticipate-problems-and-achieve-goals"],
+  :chunk
+  ["Co monitorować?\r\n\r\nMonitoruj (dąż do):\r\n- wskaźniki przewidujące awarię,\r\n- nie awarie.\r\n\r\ns:\r\nDevOps, 248"]}
+ {:question
+  ["Na czym polega problem z technikami statystycznymi w wykrywaniu problemów?"],
+  :answer
+  ["Problem z technikami statystycznymi w wykrywaniu problemów:"
+   "- nie wszystkie zestawy danych mają rozkład Gaussa."],
+  :source ["s:" "DevOps, 249"],
+  :tag
+  ["devops-handbook-26-15-analyze-telemetry-to-better-anticipate-problems-and-achieve-goals"],
+  :chunk
+  ["Na czym polega problem z technikami statystycznymi w wykrywaniu problemów?\r\n\r\nProblem z technikami statystycznymi w wykrywaniu problemów:\r\n- nie wszystkie zestawy danych mają rozkład Gaussa.\r\n\r\ns:\r\nDevOps, 249"]}
+ {:question
+  ["Jak wykrywać problemy, gdy zestawy danych nie mają rozkładu Gaussa?"],
+  :answer
+  ["Żeby wykrywać problemy, gdy zestawy danych nie mają rozkładu Gaussa to:"
+   "- użyj technik wykrywania anomalii,"
+   "- wyszukuj elementy niezgodne ze wzorcem."],
+  :source ["s:" "DevOps, 253"],
+  :tag
+  ["devops-handbook-26-15-analyze-telemetry-to-better-anticipate-problems-and-achieve-goals"],
+  :chunk
+  ["Jak wykrywać problemy, gdy zestawy danych nie mają rozkładu Gaussa?\r\n\r\nŻeby wykrywać problemy, gdy zestawy danych nie mają rozkładu Gaussa to:\r\n- użyj technik wykrywania anomalii,\r\n- wyszukuj elementy niezgodne ze wzorcem.\r\n\r\ns:\r\nDevOps, 253"]}
+ {:question ["Co to jest \"wygładzanie\"?"],
+  :answer
+  ["\"Wygładzanie\" (smoothing) to:"
+   "- technika statystyczna,"
+   "- uzycie średnich ruchomych (kroczących)."],
+  :source ["s:" "DevOps, 253"],
+  :tag
+  ["devops-handbook-26-15-analyze-telemetry-to-better-anticipate-problems-and-achieve-goals"],
+  :chunk
+  ["Co to jest \"wygładzanie\"?\r\n\r\n\"Wygładzanie\" (smoothing) to:\r\n- technika statystyczna,\r\n- uzycie średnich ruchomych (kroczących).\r\n\r\ns:\r\nDevOps, 253"]}
+ {:question ["Kto się boi wdrażać kod?"],
+  :answer ["Wdrażać kod boją się wszyscy, i Dev, i Ops."],
+  :source ["s:" "DevOps, 260"],
+  :tag
+  ["devops-handbook-27-16-enable-feedback-so-development-and-operations-can-safely-deploy-code"],
+  :chunk
+  ["Kto się boi wdrażać kod?\r\n\r\nWdrażać kod boją się wszyscy, i Dev, i Ops.\r\n\r\ns:\r\nDevOps, 260"]}
+ {:question ["Jak zwiększyć bezpieczeństwo wdrożeń?"],
+  :answer
+  ["Aby zwiększyć bezpieczeństwo wdrożeń:"
+   "- wdróż sprzężenia zwrotne w całym strumieniu wartości,"
+   "- użyj telemetrii,"
+   "- optymalizuj pod kątem MTTR (zamiast MTBF)."],
+  :source ["s:" "DevOps, 260"],
+  :tag
+  ["devops-handbook-27-16-enable-feedback-so-development-and-operations-can-safely-deploy-code"],
+  :chunk
+  ["Jak zwiększyć bezpieczeństwo wdrożeń?\r\n\r\nAby zwiększyć bezpieczeństwo wdrożeń:\r\n- wdróż sprzężenia zwrotne w całym strumieniu wartości,\r\n- użyj telemetrii,\r\n- optymalizuj pod kątem MTTR (zamiast MTBF).\r\n\r\ns:\r\nDevOps, 260"]}
+ {:question ["Co to jest MTBF?"],
+  :answer
+  ["MTBF (mean time between failures) to:"
+   "- średni czas bezawaryjnej pracy."],
+  :source ["s:" "https://pl.wikipedia.org/wiki/MTBF"],
+  :tag
+  ["devops-handbook-27-16-enable-feedback-so-development-and-operations-can-safely-deploy-code"],
+  :chunk
+  ["Co to jest MTBF?\r\n\r\nMTBF (mean time between failures) to:\r\n- średni czas bezawaryjnej pracy.\r\n\r\ns:\r\nhttps://pl.wikipedia.org/wiki/MTBF"]}
+ {:question ["Co to jest \"poprawka w przód\"?"],
+  :answer
+  ["\"Poprawka w przód\" (fix forward) to:"
+   "- wprowadzanie w kodzie zmian, które eliminują wady,"
+   "- a następnie przenieść je do produkcji za pośrednictwem potoku wdrożeń."],
+  :source ["s:" "DevOps, 262"],
+  :tag
+  ["devops-handbook-27-16-enable-feedback-so-development-and-operations-can-safely-deploy-code"],
+  :chunk
+  ["Co to jest \"poprawka w przód\"?\r\n\r\n\"Poprawka w przód\" (fix forward) to:\r\n- wprowadzanie w kodzie zmian, które eliminują wady,\r\n- a następnie przenieść je do produkcji za pośrednictwem potoku wdrożeń.\r\n\r\ns:\r\nDevOps, 262"]}
+ {:question ["Jak naprawiać defekty szybciej?"],
+  :answer
+  ["Aby naprawiać defekty szybciej:"
+   "- wprowadź wspólne dyżury Dev i Ops,"
+   "- budź programistów o 2 w nocy,"
+   "- uświadom Dev, że \"gotowe\" oznacza również bezproblemowe w Ops."],
+  :source ["s:" "DevOps, 263"],
+  :tag
+  ["devops-handbook-27-16-enable-feedback-so-development-and-operations-can-safely-deploy-code"],
+  :chunk
+  ["Jak naprawiać defekty szybciej?\r\n\r\nAby naprawiać defekty szybciej:\r\n- wprowadź wspólne dyżury Dev i Ops,\r\n- budź programistów o 2 w nocy,\r\n- uświadom Dev, że \"gotowe\" oznacza również bezproblemowe w Ops.\r\n\r\ns:\r\nDevOps, 263"]}
+ {:question ["Czym są \"zapytania kontekstowe\"?"],
+  :answer
+  ["\"Zapytania kontekstowe\" to:"
+   "- technik w projektowaniu UX,"
+   "- obserwacja użytkowania aplikacji na produkcji,"
+   "- przez programistów,"
+   "- np. przy biurku klienta,"
+   "- w konsekwencji programiści tworzą lepiej."],
+  :source ["s:" "DevOps, 264"],
+  :tag
+  ["devops-handbook-27-16-enable-feedback-so-development-and-operations-can-safely-deploy-code"],
+  :chunk
+  ["Czym są \"zapytania kontekstowe\"?\r\n\r\n\"Zapytania kontekstowe\" to:\r\n- technik w projektowaniu UX,\r\n- obserwacja użytkowania aplikacji na produkcji,\r\n- przez programistów,\r\n- np. przy biurku klienta,\r\n- w konsekwencji programiści tworzą lepiej.\r\n\r\ns:\r\nDevOps, 264"]}
+ {:question ["Co to jest \"UX\"?"],
+  :answer
+  ["\"UX\" (user experience, doświadczenie użytkownika) to:"
+   "- wrażenia użytkownika podczas korzystania z produktu."],
+  :source ["s:" "https://pl.wikipedia.org/wiki/User_experience"],
+  :tag
+  ["devops-handbook-27-16-enable-feedback-so-development-and-operations-can-safely-deploy-code"],
+  :chunk
+  ["Co to jest \"UX\"?\r\n\r\n\"UX\" (user experience, doświadczenie użytkownika) to:\r\n- wrażenia użytkownika podczas korzystania z produktu.\r\n\r\ns:\r\nhttps://pl.wikipedia.org/wiki/User_experience"]}
+ {:question ["Co to jest \"mechanizm odsyłania usługi\"?"],
+  :answer
+  ["\"Mechanizm odsyłania usługi\" (service handback mechanism) to:"
+   "- gdy usługa produkcyjna staje się krucha,"
+   "- to Ops może przekazać utrzymanie usługi do Dev,"
+   "- zapobiega powiększaniu długu technicznego."],
+  :source ["s:" "DevOps, 268"],
+  :tag
+  ["devops-handbook-27-16-enable-feedback-so-development-and-operations-can-safely-deploy-code"],
+  :chunk
+  ["Co to jest \"mechanizm odsyłania usługi\"?\r\n\r\n\"Mechanizm odsyłania usługi\" (service handback mechanism) to:\r\n- gdy usługa produkcyjna staje się krucha,\r\n- to Ops może przekazać utrzymanie usługi do Dev,\r\n- zapobiega powiększaniu długu technicznego.\r\n\r\ns:\r\nDevOps, 268"]}
+ {:question ["Co to jest \"SRE\"?"],
+  :answer
+  ["\"SRE\" (Site Reliability Engineers, inżynierowie niezawodności ośrodka) to:"
+   "- inaczej inżynier Ops."],
+  :source ["s:" "DevOps, 269"],
+  :tag
+  ["devops-handbook-27-16-enable-feedback-so-development-and-operations-can-safely-deploy-code"],
+  :chunk
+  ["Co to jest \"SRE\"?\r\n\r\n\"SRE\" (Site Reliability Engineers, inżynierowie niezawodności ośrodka) to:\r\n- inaczej inżynier Ops.\r\n\r\ns:\r\nDevOps, 269"]}
+ {:question ["Na czym polegają procesy LRR i HRR?"],
+  :answer
+  ["Procesy LRR i HRR polegają na:"
+   "- LRR (Launch Readiness Review), pierwszy etap publikowania nowej usługi, publikuje i utrzymuje Dev,"
+   "- HRR (Hand-Off Readiness Review), drugi etap, utrzymanie przechodzi do Ops,"
+   "- listy kontrolne podobne, ale HRR bardziej restrykcyjna."],
+  :source ["s:" "DevOps, 270"],
+  :tag
+  ["devops-handbook-27-16-enable-feedback-so-development-and-operations-can-safely-deploy-code"],
+  :chunk
+  ["Na czym polegają procesy LRR i HRR?\r\n\r\nProcesy LRR i HRR polegają na:\r\n- LRR (Launch Readiness Review), pierwszy etap publikowania nowej usługi, publikuje i utrzymuje Dev,\r\n- HRR (Hand-Off Readiness Review), drugi etap, utrzymanie przechodzi do Ops,\r\n- listy kontrolne podobne, ale HRR bardziej restrykcyjna.\r\n\r\ns:\r\nDevOps, 270"]}
+ {:question
+  ["Jakie pytanie należy zadać przed rozpoczęciem budowy funkcjonalności?"],
+  :answer
+  ["Przed rozpoczęciem budowy funkcjonalności należy zapytać:"
+   "- czy powinniśmy budować tę funkcjonalność i dlaczego?"],
+  :source ["s:" "DevOps, 273"],
+  :tag
+  ["devops-handbook-28-17-integrate-hypothesis-driven-development-and-a-b-testing-into-our-daily-work"],
+  :chunk
+  ["Jakie pytanie należy zadać przed rozpoczęciem budowy funkcjonalności?\r\n\r\nPrzed rozpoczęciem budowy funkcjonalności należy zapytać:\r\n- czy powinniśmy budować tę funkcjonalność i dlaczego?\r\n\r\ns:\r\nDevOps, 273"]}
+ {:question
+  ["Jakie techniki pomagają określić, czy przewidywana funkcjonalność rzeczywiście pozwoli osiągnąć pożądane rezultaty?"],
+  :answer
+  ["Techniki, które pomagają określić, czy przewidywana funkcjonalność rzeczywiście pozwoli osiągnąć pożądane rezultaty:"
+   "- wytwarzanie oprogramowania sterowane hipotezami (hypothesis-driven development),"
+   "- lejki popytu (customer acquisition funnels),"
+   "- testowanie A/B,"
+   "- ankiety, prototypy, testy użyteczności."],
+  :source ["s:" "DevOps, 273"],
+  :tag
+  ["devops-handbook-28-17-integrate-hypothesis-driven-development-and-a-b-testing-into-our-daily-work"],
+  :chunk
+  ["Jakie techniki pomagają określić, czy przewidywana funkcjonalność rzeczywiście pozwoli osiągnąć pożądane rezultaty?\r\n\r\nTechniki, które pomagają określić, czy przewidywana funkcjonalność rzeczywiście pozwoli osiągnąć pożądane rezultaty:\r\n- wytwarzanie oprogramowania sterowane hipotezami (hypothesis-driven development),\r\n- lejki popytu (customer acquisition funnels),\r\n- testowanie A/B,\r\n- ankiety, prototypy, testy użyteczności.\r\n\r\ns:\r\nDevOps, 273"]}
+ {:question
+  ["Jak zintegrować testy A/B z procesem testowania/publikowania/planowania cechy funkcjonalnej?"],
+  :answer
+  ["Aby zintegrować testy A/B z procesem testowania cechy funkcjonalnej:"
+   "- na przykład losowo wyświetlaj witrynę w wersji A albo B,"
+   "- przeanalizuj różnicę wyników,"
+   "- zdolność eksperymentowania rośnie z liczbą wdrożeń."],
+  :source ["s:" "DevOps, 276, 277, 278"],
+  :tag
+  ["devops-handbook-28-17-integrate-hypothesis-driven-development-and-a-b-testing-into-our-daily-work"],
+  :chunk
+  ["Jak zintegrować testy A/B z procesem testowania/publikowania/planowania cechy funkcjonalnej?\r\n\r\nAby zintegrować testy A/B z procesem testowania cechy funkcjonalnej:\r\n- na przykład losowo wyświetlaj witrynę w wersji A albo B,\r\n- przeanalizuj różnicę wyników,\r\n- zdolność eksperymentowania rośnie z liczbą wdrożeń.\r\n\r\ns:\r\nDevOps, 276, 277, 278"]}
+ {:question ["Jakie są inne nazwy testów A/B?"],
+  :answer
+  ["Testy A/B to inaczej:"
+   "- kontrolowane eksperymenty online,"
+   "- testy podziału (split tests),"
+   "- testowanie wielu zmiennych."],
+  :source ["s:" "DevOps, 276"],
+  :tag
+  ["devops-handbook-28-17-integrate-hypothesis-driven-development-and-a-b-testing-into-our-daily-work"],
+  :chunk
+  ["Jakie są inne nazwy testów A/B?\r\n\r\nTesty A/B to inaczej:\r\n- kontrolowane eksperymenty online,\r\n- testy podziału (split tests),\r\n- testowanie wielu zmiennych.\r\n\r\ns:\r\nDevOps, 276"]}
+ {:question
+  ["Jak zmniejszyć ryzyko wprowadzania zmian zanim zostaną wprowadzone?"],
+  :answer
+  ["Aby zmniejszyć ryzyko wprowadzania zmian zanim zostaną wprowadzone:"
+   "- stosuj \"pull request\"."],
+  :source ["s:" "DevOps, 281"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Jak zmniejszyć ryzyko wprowadzania zmian zanim zostaną wprowadzone?\r\n\r\nAby zmniejszyć ryzyko wprowadzania zmian zanim zostaną wprowadzone:\r\n- stosuj \"pull request\".\r\n\r\ns:\r\nDevOps, 281"]}
+ {:question ["Co to jest \"pull request\"?"],
+  :answer
+  ["\"Pull request\" (żądanie ściągnięcia) to:"
+   "- forma wzajemnego przeglądania kodu,"
+   "- uwzględnia Dev i Ops,"
+   "- zainteresowani mogą przejrzeć, omówić, zmodyfikować."],
+  :source ["s:" "DevOps, 281"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Co to jest \"pull request\"?\r\n\r\n\"Pull request\" (żądanie ściągnięcia) to:\r\n- forma wzajemnego przeglądania kodu,\r\n- uwzględnia Dev i Ops,\r\n- zainteresowani mogą przejrzeć, omówić, zmodyfikować.\r\n\r\ns:\r\nDevOps, 281"]}
+ {:question ["Co to jest \"GitHub Flow\"?"],
+  :answer
+  ["\"GitHub Flow\" to:"
+   "- tworzenie nowej gałęzi,"
+   "- praca na nowej gałęzi,"
+   "- \"pull request\","
+   "- scalenie do master,"
+   "- wdrożenie na produkcję."],
+  :source
+  ["s:" "DevOps, 282" "https://guides.github.com/introduction/flow/"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Co to jest \"GitHub Flow\"?\r\n\r\n\"GitHub Flow\" to:\r\n- tworzenie nowej gałęzi,\r\n- praca na nowej gałęzi,\r\n- \"pull request\",\r\n- scalenie do master,\r\n- wdrożenie na produkcję.\r\n\r\ns:\r\nDevOps, 282\r\nhttps://guides.github.com/introduction/flow/"]}
+ {:question ["Co to jest \"myślenie alternatywne\"?"],
+  :answer
+  ["\"Myślenie alternatywne\" (counterfactual thinking) to:"
+   "- ludzka skłonność do tworzenia alternatyw zdarzeń, które już się wydarzyły,"
+   "- opis \"systemu zgodnego z wyobrażeniami\" w przeciwieństwie do \"systemu w rzeczywistości\"."],
+  :source ["s:" "DevOps, 283"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Co to jest \"myślenie alternatywne\"?\r\n\r\n\"Myślenie alternatywne\" (counterfactual thinking) to:\r\n- ludzka skłonność do tworzenia alternatyw zdarzeń, które już się wydarzyły,\r\n- opis \"systemu zgodnego z wyobrażeniami\" w przeciwieństwie do \"systemu w rzeczywistości\".\r\n\r\ns:\r\nDevOps, 283"]}
+ {:question
+  ["Jakie są niebezpieczeństwa związane z procesami zatwierdzania zmian?"],
+  :answer
+  ["Niebezpieczeństwa związane z procesami zatwierdzania zmian:"
+   "- jeśli panuje kultura niskiego zaufania, dowodzenia, kontroli,"
+   "- to praktyki DevOps (zarządzanie zmianami, testowanie),"
+   "- mogą prowadzić do większych problemów."],
+  :source ["s:" "DevOps, 284"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Jakie są niebezpieczeństwa związane z procesami zatwierdzania zmian?\r\n\r\nNiebezpieczeństwa związane z procesami zatwierdzania zmian:\r\n- jeśli panuje kultura niskiego zaufania, dowodzenia, kontroli,\r\n- to praktyki DevOps (zarządzanie zmianami, testowanie),\r\n- mogą prowadzić do większych problemów.\r\n\r\ns:\r\nDevOps, 284"]}
+ {:question
+  ["Jakie są potencjalne zagrożenia związane ze \"zbytnim kontrolowaniem zmian\"?"],
+  :answer
+  ["Potencjalne zagrożenia związane ze \"zbytnim kontrolowaniem zmian\" to:"
+   "- długie czasy realizacji,"
+   "- zmniejszenie siły i szybkości sprzężenia zwrotnego,"
+   "- dodatkowe pytania, zatwierdzania, oceniania,"
+   "- zamiast kontroli zewnętrznej, przeglądy współpracowników."],
+  :source ["s:" "DevOps, 284"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Jakie są potencjalne zagrożenia związane ze \"zbytnim kontrolowaniem zmian\"?\r\n\r\nPotencjalne zagrożenia związane ze \"zbytnim kontrolowaniem zmian\" to:\r\n- długie czasy realizacji,\r\n- zmniejszenie siły i szybkości sprzężenia zwrotnego,\r\n- dodatkowe pytania, zatwierdzania, oceniania,\r\n- zamiast kontroli zewnętrznej, przeglądy współpracowników.\r\n\r\ns:\r\nDevOps, 284"]}
+ {:question ["Jakie są techniczne środki zaradcze na zagrożenia?"],
+  :answer
+  ["Techniczne środki zaradcze na zagrożenia:"
+   "- redundancja,"
+   "- mechanizmy pracy awaryjnej (failover): awaryjne przełączanie na rezerwowy system,"
+   "- kompleksowe testy,"
+   "- symulacje."],
+  :source ["s:" "DevOps, 287"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Jakie są techniczne środki zaradcze na zagrożenia?\r\n\r\nTechniczne środki zaradcze na zagrożenia:\r\n- redundancja,\r\n- mechanizmy pracy awaryjnej (failover): awaryjne przełączanie na rezerwowy system,\r\n- kompleksowe testy,\r\n- symulacje.\r\n\r\ns:\r\nDevOps, 287"]}
+ {:question ["Czym są \"przeglądy kodu\"?"],
+  :answer
+  ["Przeglądy kodu (code review) to:"
+   "- wzajemne przeglądy dokonywanych zmian,"
+   "- kodu, środowisk, baz danych,"
+   "- poprawa jakości, wzajemna nauka,"
+   "- jedna lub więcej opinii,"
+   "- w przeciwieństwie do zatwierdzeń przez zewnętrzne organy przed wdrażaniem."],
+  :source ["s:" "DevOps, 287"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Czym są \"przeglądy kodu\"?\r\n\r\nPrzeglądy kodu (code review) to:\r\n- wzajemne przeglądy dokonywanych zmian,\r\n- kodu, środowisk, baz danych,\r\n- poprawa jakości, wzajemna nauka,\r\n- jedna lub więcej opinii,\r\n- w przeciwieństwie do zatwierdzeń przez zewnętrzne organy przed wdrażaniem.\r\n\r\ns:\r\nDevOps, 287"]}
+ {:question ["Jakie są wskazówki dotyczące przeglądów kodu?"],
+  :answer
+  ["Wskazówki dotyczące przeglądów kodu:"
+   "- każda zmiana przed wprowadzeniem do master podlega przeglądowi kodu,"
+   "- każdy monitoruje zmiany w master,"
+   "- zmiany wysokiego ryzyka są identyfikowane,"
+   "- zbyt duża zmiana jest dzielona."],
+  :source ["s:" "DevOps, 288"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Jakie są wskazówki dotyczące przeglądów kodu?\r\n\r\nWskazówki dotyczące przeglądów kodu:\r\n- każda zmiana przed wprowadzeniem do master podlega przeglądowi kodu,\r\n- każdy monitoruje zmiany w master,\r\n- zmiany wysokiego ryzyka są identyfikowane,\r\n- zbyt duża zmiana jest dzielona.\r\n\r\ns:\r\nDevOps, 288"]}
+ {:question ["Jakie są formy przeglądu kodu?"],
+  :answer
+  ["Formy przeglądu kodu:"
+   "- programowanie w parach,"
+   "- \"zapuszczanie żurawia\","
+   "- wiadomości e-mail z powiadomieniami o zmianach,"
+   "- przegląd kodu z wykorzystaniem narzędzi."],
+  :source ["s:" "DevOps, 288"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Jakie są formy przeglądu kodu?\r\n\r\nFormy przeglądu kodu:\r\n- programowanie w parach,\r\n- \"zapuszczanie żurawia\",\r\n- wiadomości e-mail z powiadomieniami o zmianach,\r\n- przegląd kodu z wykorzystaniem narzędzi.\r\n\r\ns:\r\nDevOps, 288"]}
+ {:question
+  ["Jakie są potencjalne zagrożenia wynikające z większego udziału testów ręcznych?"],
+  :answer
+  ["Potencjalne zagrożenia wynikające z większego udziału testów ręcznych:"
+   "- awaria,"
+   "- więcej testów, również ręcznych,"
+   "- testy ręczne są wolniejsze i bardziej uciążliwe niż testy automatyczne,"
+   "- dłuższy okres testowania,"
+   "- rzadsze wdrażanie,"
+   "- większa paczka,"
+   "- zwiększenie paczki powoduje pogorszenie wdrożenia (trudne, więcej błędów, dłuższe naprawy)."],
+  :source ["s:" "DevOps, 290"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Jakie są potencjalne zagrożenia wynikające z większego udziału testów ręcznych?\r\n\r\nPotencjalne zagrożenia wynikające z większego udziału testów ręcznych:\r\n- awaria,\r\n- więcej testów, również ręcznych,\r\n- testy ręczne są wolniejsze i bardziej uciążliwe niż testy automatyczne,\r\n- dłuższy okres testowania,\r\n- rzadsze wdrażanie,\r\n- większa paczka,\r\n- zwiększenie paczki powoduje pogorszenie wdrożenia (trudne, więcej błędów, dłuższe naprawy).\r\n\r\ns:\r\nDevOps, 290"]}
+ {:question ["Co to jest \"programowanie w parach\"?"],
+  :answer
+  ["\"Programowanie w parach\":"
+   "- inaczej praca parami (pairing),"
+   "- inaczej programowanie parami (pair programming),"
+   "- dwóch inżynierów współpracuje na tej samej stacji roboczej,"
+   "- kierowca i nawigator lub  obserwator,"
+   "- stosowane nie tylko przez programistów."],
+  :source ["s:" "DevOps, 291"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Co to jest \"programowanie w parach\"?\r\n\r\n\"Programowanie w parach\":\r\n- inaczej praca parami (pairing),\r\n- inaczej programowanie parami (pair programming),\r\n- dwóch inżynierów współpracuje na tej samej stacji roboczej,\r\n- kierowca i nawigator lub  obserwator,\r\n- stosowane nie tylko przez programistów.\r\n\r\ns:\r\nDevOps, 291"]}
+ {:question
+  ["Na czym polega programowanie w parach w kontekście TDD?"],
+  :answer
+  ["Programowanie w parach w kontekście TDD polega na:"
+   "- jeden inżynier pisze zautomatyzowane testy,"
+   "- drugi inżynier implementuje kod."],
+  :source ["s:" "DevOps, 291"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Na czym polega programowanie w parach w kontekście TDD?\r\n\r\nProgramowanie w parach w kontekście TDD polega na:\r\n- jeden inżynier pisze zautomatyzowane testy,\r\n- drugi inżynier implementuje kod.\r\n\r\ns:\r\nDevOps, 291"]}
+ {:question ["Jakie są zalety \"programowanie w parach\"?"],
+  :answer
+  ["Zalety \"programowanie w parach\":"
+   "- mniej błędów,"
+   "- rozważone więcej możliwości projektowych,"
+   "- wzajemna nauka,"
+   "- chociaż programiści wolniejsi."],
+  :source ["s:" "DevOps, 292"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Jakie są zalety \"programowanie w parach\"?\r\n\r\nZalety \"programowanie w parach\":\r\n- mniej błędów,\r\n- rozważone więcej możliwości projektowych,\r\n- wzajemna nauka,\r\n- chociaż programiści wolniejsi.\r\n\r\ns:\r\nDevOps, 292"]}
+ {:question
+  ["Jak weryfikować skuteczność przeglądu kodu przez współpracowników?"],
+  :answer
+  ["Aby weryfikować skuteczność przeglądu kodu przez współpracowników:"
+   "- obserwuj przestoje produkcyjne i analizuj proces przeglądu dla wszelkich istotnych zmian."],
+  :source ["s:" "DevOps, 293"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Jak weryfikować skuteczność przeglądu kodu przez współpracowników?\r\n\r\nAby weryfikować skuteczność przeglądu kodu przez współpracowników:\r\n- obserwuj przestoje produkcyjne i analizuj proces przeglądu dla wszelkich istotnych zmian.\r\n\r\ns:\r\nDevOps, 293"]}
+ {:question
+  ["Czym charakteryzuje się dobre żądanie ściągnięcia (pull request)?"],
+  :answer
+  ["Dobre żądanie ściągnięcia (pull request) posiada:"
+   "- kontekst dla czytelnika,"
+   "- dokumentację lub opis,"
+   "- uzasadnienie,"
+   "- wskazanie zagrożeń,"
+   "- opis środków zaradczych,"
+   "- pomysły na ulepszenia,"
+   "- dyskusja rozwiązania,"
+   "- czasem kilka stron dokumentacji."],
+  :source ["s:" "DevOps, 293"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Czym charakteryzuje się dobre żądanie ściągnięcia (pull request)?\r\n\r\nDobre żądanie ściągnięcia (pull request) posiada:\r\n- kontekst dla czytelnika,\r\n- dokumentację lub opis,\r\n- uzasadnienie,\r\n- wskazanie zagrożeń,\r\n- opis środków zaradczych,\r\n- pomysły na ulepszenia,\r\n- dyskusja rozwiązania,\r\n- czasem kilka stron dokumentacji.\r\n\r\ns:\r\nDevOps, 293"]}
+ {:question ["Jak eliminować przeszkody organizacyjne?"],
+  :answer
+  ["Aby eliminować przeszkody organizacyjne:"
+   "- stosuj programowanie w parach (zamiast przeglądów zewnętrznych),"
+   "- zaproponuj utrzymanie przez Dev (dla nowych technologii),"
+   "- uczyń programistę odpowiedzialnym za zmianę (i zapewnienie weryfikacji)."],
+  :source ["s:" "DevOps, 296"],
+  :tag
+  ["devops-handbook-29-18-create-review-and-coordination-processes-to-increase-quality-of-our-current-work"],
+  :chunk
+  ["Jak eliminować przeszkody organizacyjne?\r\n\r\nAby eliminować przeszkody organizacyjne:\r\n- stosuj programowanie w parach (zamiast przeglądów zewnętrznych),\r\n- zaproponuj utrzymanie przez Dev (dla nowych technologii),\r\n- uczyń programistę odpowiedzialnym za zmianę (i zapewnienie weryfikacji).\r\n\r\ns:\r\nDevOps, 296"]}
+ {:question
+  ["Co to jest \"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\"?"],
+  :answer
+  ["\"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\" to:"
+   "- praktyki umożliwiające uczenie się,"
+   "- tak szybko, wcześnie, często i tanio, jak to możliwe."],
+  :source ["s:" "DevOps, 301"],
+  :tag ["devops-handbook-31-part-v-introduction"],
+  :chunk
+  ["Co to jest \"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\"?\r\n\r\n\"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\" to:\r\n- praktyki umożliwiające uczenie się,\r\n- tak szybko, wcześnie, często i tanio, jak to możliwe.\r\n\r\ns:\r\nDevOps, 301"]}
+ {:question
+  ["Jakie praktyki składają się na \"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\"?"],
+  :answer
+  ["Praktyki \"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\":"
+   "- praktyki uczenia się na podstawie wypadków i awarii,"
+   "- praktyki organizowania i projektowania systemów pracy aby stale eksperymentować i uczyć się."],
+  :source ["s:" "DevOps, 301"],
+  :tag ["devops-handbook-31-part-v-introduction"],
+  :chunk
+  ["Jakie praktyki składają się na \"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\"?\r\n\r\nPraktyki \"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\":\r\n- praktyki uczenia się na podstawie wypadków i awarii,\r\n- praktyki organizowania i projektowania systemów pracy aby stale eksperymentować i uczyć się.\r\n\r\ns:\r\nDevOps, 301"]}
+ {:question
+  ["Jakie mechanizmy składają się na \"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\"?"],
+  :answer
+  ["Mechanizmy \"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\":"
+   "- \"kultura uczciwości\": warunki dla bezpiecznej pracy,"
+   "- wstrzykiwanie awarii produkcyjnych: odporność,"
+   "- konwersja lokalnych odkryć na globalne usprawnienia,"
+   "- rezerwacja czasu na stworzenie organizacyjnych mechanizmów usprawnień i uczenia się."],
+  :source ["s:" "DevOps, 301"],
+  :tag ["devops-handbook-31-part-v-introduction"],
+  :chunk
+  ["Jakie mechanizmy składają się na \"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\"?\r\n\r\nMechanizmy \"Trzecia droga: Techniczne praktyki ciągłego uczenia się i eksperymentowania\":\r\n- \"kultura uczciwości\": warunki dla bezpiecznej pracy,\r\n- wstrzykiwanie awarii produkcyjnych: odporność,\r\n- konwersja lokalnych odkryć na globalne usprawnienia,\r\n- rezerwacja czasu na stworzenie organizacyjnych mechanizmów usprawnień i uczenia się.\r\n\r\ns:\r\nDevOps, 301"]}
+ {:question ["Co to jest \"elastyczna organizacja\"?"],
+  :answer
+  ["\"Elastyczna organizacja\" to organizacja, która:"
+   "- wykrywa problemy,"
+   "- rozwiązuje problemy,"
+   "- udostępnia rozwiązania w całej organizacji."],
+  :source ["s:" "DevOps, 303"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Co to jest \"elastyczna organizacja\"?\r\n\r\n\"Elastyczna organizacja\" to organizacja, która:\r\n- wykrywa problemy,\r\n- rozwiązuje problemy,\r\n- udostępnia rozwiązania w całej organizacji.\r\n\r\ns:\r\nDevOps, 303"]}
+ {:question ["Jak zbudować \"elastyczną organizację\"?"],
+  :answer ["Zbuduj dynamiczny system uczenia się."],
+  :source ["s:" "DevOps, 303"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Jak zbudować \"elastyczną organizację\"?\r\n\r\nZbuduj dynamiczny system uczenia się.\r\n\r\ns:\r\nDevOps, 303"]}
+ {:question ["Co to jest \"dynamiczny system uczenia się\"?"],
+  :answer
+  ["\"Dynamiczny system uczenia się\" to system, który:"
+   "- pozwala zrozumieć popełniane błędy,"
+   "- przekształca zrozumienie na działania, które zapobiegają powtórzeniu podobnych błędów w przyszłości."],
+  :source ["s:" "DevOps, 303"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Co to jest \"dynamiczny system uczenia się\"?\r\n\r\n\"Dynamiczny system uczenia się\" to system, który:\r\n- pozwala zrozumieć popełniane błędy,\r\n- przekształca zrozumienie na działania, które zapobiegają powtórzeniu podobnych błędów w przyszłości.\r\n\r\ns:\r\nDevOps, 303"]}
+ {:question ["Co to jest \"Chaos Monkey\"?"],
+  :answer
+  ["\"Chaos Monkey\" to:"
+   "- narzędzie zbudowane przez Netflix,"
+   "- wstrzykuje błędy do infrastruktury,"
+   "- doprowadziło do stworzenia usługi odpornej na rzeczywistą awarię Amazona,"
+   "- przykład ciągłego uczenia się i eksperymentowania."],
+  :source ["s:" "DevOps, 304"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Co to jest \"Chaos Monkey\"?\r\n\r\n\"Chaos Monkey\" to:\r\n- narzędzie zbudowane przez Netflix,\r\n- wstrzykuje błędy do infrastruktury,\r\n- doprowadziło do stworzenia usługi odpornej na rzeczywistą awarię Amazona,\r\n- przykład ciągłego uczenia się i eksperymentowania.\r\n\r\ns:\r\nDevOps, 304"]}
+ {:question ["Co to jest \"kultura sprawiedliwości\"?"],
+  :answer
+  ["\"Kultura sprawiedliwości\" (just culture) to kultura, która:"
+   "- traktuje błąd jako okazję do nauki,"
+   "- nie karze za błędy,"
+   "- uznaje, że błąd człowieka jest konsekwencją narzędzi."],
+  :source ["s:" "DevOps, 306"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Co to jest \"kultura sprawiedliwości\"?\r\n\r\n\"Kultura sprawiedliwości\" (just culture) to kultura, która:\r\n- traktuje błąd jako okazję do nauki,\r\n- nie karze za błędy,\r\n- uznaje, że błąd człowieka jest konsekwencją narzędzi.\r\n\r\ns:\r\nDevOps, 306"]}
+ {:question
+  ["Co pomaga tworzyć kulturę sprawiedliwości i uczenia się?"],
+  :answer
+  ["Kulturę sprawiedliwości pomagają tworzyć praktyki:"
+   "- \"analiza post-mortem bez poszukiwania winnych\": analiza wydarzeń i decyzji w czasie bliskim awarii,"
+   "- kontrolowane wprowadzanie awarii do produkcji: stworzenie możliwości do ćwiczenia zachowań w sytuacjach awaryjnych."],
+  :source ["s:" "DevOps, 306"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Co pomaga tworzyć kulturę sprawiedliwości i uczenia się?\r\n\r\nKulturę sprawiedliwości pomagają tworzyć praktyki:\r\n- \"analiza post-mortem bez poszukiwania winnych\": analiza wydarzeń i decyzji w czasie bliskim awarii,\r\n- kontrolowane wprowadzanie awarii do produkcji: stworzenie możliwości do ćwiczenia zachowań w sytuacjach awaryjnych.\r\n\r\ns:\r\nDevOps, 306"]}
+ {:question ["Jaki są warunki skutecznej \"analizy post-mortem\"?"],
+  :answer
+  ["Warunki skutecznej \"analizy post-mortem\":"
+   "- natychmiast po wystąpieniu awarii,"
+   "- opracowanie chronologii istotnych wydarzeń,"
+   "- zebranie interesariuszy,"
+   "- współdzielenie informacji bez obaw o karę lub odwet,"
+   "- burza mózgów,"
+   "- zaprojektowanie środków zaradczych,"
+   "- opracowanie planu wdrożenia środków zaradczych,"
+   "- opublikowanie wniosków dla jak najszerszego grona odbiorców."],
+  :source ["s:" "DevOps, 308"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Jaki są warunki skutecznej \"analizy post-mortem\"?\r\n\r\nWarunki skutecznej \"analizy post-mortem\":\r\n- natychmiast po wystąpieniu awarii,\r\n- opracowanie chronologii istotnych wydarzeń,\r\n- zebranie interesariuszy,\r\n- współdzielenie informacji bez obaw o karę lub odwet,\r\n- burza mózgów,\r\n- zaprojektowanie środków zaradczych,\r\n- opracowanie planu wdrożenia środków zaradczych,\r\n- opublikowanie wniosków dla jak najszerszego grona odbiorców.\r\n\r\ns:\r\nDevOps, 308"]}
+ {:question ["Czym powinien się charakteryzować \"środek zaradczy\"?"],
+  :answer
+  ["\"Środek zaradczy\" powinien:"
+   "- uniemożliwić popełnienie podobnego błędu w przyszłości,"
+   "- bez założenia, że pracownicy będą \"lepsi\" (np. bardziej uważni)."],
+  :source ["s:" "DevOps, 308"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Czym powinien się charakteryzować \"środek zaradczy\"?\r\n\r\n\"Środek zaradczy\" powinien:\r\n- uniemożliwić popełnienie podobnego błędu w przyszłości,\r\n- bez założenia, że pracownicy będą \"lepsi\" (np. bardziej uważni).\r\n\r\ns:\r\nDevOps, 308"]}
+ {:question
+  ["Podaj przykład środka zaradczego \"analizy post-mortem\"."],
+  :answer
+  ["Przykład środka zaradczego \"analizy post-mortem\":"
+   "- nowe automatyczne testy podczas wdrożenia."],
+  :source ["s:" "DevOps, 308"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Podaj przykład środka zaradczego \"analizy post-mortem\".\r\n\r\nPrzykład środka zaradczego \"analizy post-mortem\":\r\n- nowe automatyczne testy podczas wdrożenia.\r\n\r\ns:\r\nDevOps, 308"]}
+ {:question
+  ["Jak poprawiać zarządzanie i rozumienie systemu w którym działamy (w kontekście awarii)?"],
+  :answer
+  ["W celu poprawy zarządzania i rozumienia systemu w którym działamy:"
+   "- wyszukuj coraz słabsze sygnały awarii (zmniejszaj próg tolerancji awarii),"
+   "- analizuj sytuacje, w których o mało nie doszło do awarii,"
+   "- wszelkie prace w strumieniu wartości technologii traktować jako eksperymentalne."],
+  :source ["s:" "DevOps, 310"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Jak poprawiać zarządzanie i rozumienie systemu w którym działamy (w kontekście awarii)?\r\n\r\nW celu poprawy zarządzania i rozumienia systemu w którym działamy:\r\n- wyszukuj coraz słabsze sygnały awarii (zmniejszaj próg tolerancji awarii),\r\n- analizuj sytuacje, w których o mało nie doszło do awarii,\r\n- wszelkie prace w strumieniu wartości technologii traktować jako eksperymentalne.\r\n\r\ns:\r\nDevOps, 310"]}
+ {:question
+  ["Dlaczego organizacje stosujące praktyki DevOps częściej mają awarię?"],
+  :answer
+  ["Organizacje stosujące praktyki DevOps częściej mają awarię, bo:"
+   "- wysokowydajne organizacje publikują kilkadziesiąt razy częściej,"
+   "- są bardziej otwarte na eksperymenty."
+   "Uwagi:"
+   "- na podstawie raportu \"Raport 2014 State of DevOps Report\","
+   "- dużo więcej wdrożeń nawet przy niższym współczynniku, to większa liczba awarii."],
+  :source ["s:" "DevOps, 312"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Dlaczego organizacje stosujące praktyki DevOps częściej mają awarię?\r\n\r\nOrganizacje stosujące praktyki DevOps częściej mają awarię, bo:\r\n- wysokowydajne organizacje publikują kilkadziesiąt razy częściej,\r\n- są bardziej otwarte na eksperymenty.\r\nUwagi:\r\n- na podstawie raportu \"Raport 2014 State of DevOps Report\",\r\n- dużo więcej wdrożeń nawet przy niższym współczynniku, to większa liczba awarii.\r\n\r\ns:\r\nDevOps, 312"]}
+ {:question ["Czym są \"dni gier\" (w kontekście awarii)?"],
+  :answer
+  ["\"Dni gier\" (game days) to zaplanowane symulacje awarii:"
+   "- określenie awarii,"
+   "- przygotowanie środków zaradczych,"
+   "- przeprowadzenie awarii."],
+  :source ["s:" "DevOps, 314"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Czym są \"dni gier\" (w kontekście awarii)?\r\n\r\n\"Dni gier\" (game days) to zaplanowane symulacje awarii:\r\n- określenie awarii,\r\n- przygotowanie środków zaradczych,\r\n- przeprowadzenie awarii.\r\n\r\ns:\r\nDevOps, 314"]}
+ {:question ["Co to jest \"inżynieria odporności\"?"],
+  :answer
+  ["\"Inżynieria odporności\" (resilience engineering) to:"
+   "- ćwiczenia mające na celu zwiększenie odporności poprzez iniekcję awarii na dużą skalę w kluczowych systemach."],
+  :source ["s:" "DevOps, 314"],
+  :tag
+  ["devops-handbook-32-19-enable-and-inject-learning-into-daily-work"],
+  :chunk
+  ["Co to jest \"inżynieria odporności\"?\r\n\r\n\"Inżynieria odporności\" (resilience engineering) to:\r\n- ćwiczenia mające na celu zwiększenie odporności poprzez iniekcję awarii na dużą skalę w kluczowych systemach.\r\n\r\ns:\r\nDevOps, 314"]}
+ {:question ["Jak poprawić odporność systemu pracy?"],
+  :answer
+  ["Odporność systemu pracy poprawiają:"
+   "- proaktywne planowanie,"
+   "- testowanie scenariuszy awarii."],
+  :source ["s:" "DevOps, 317"],
+  :tag
+  ["devops-handbook-33-20-convert-local-discoveries-into-global-improvements"],
+  :chunk
+  ["Jak poprawić odporność systemu pracy?\r\n\r\nOdporność systemu pracy poprawiają:\r\n- proaktywne planowanie,\r\n- testowanie scenariuszy awarii.\r\n\r\ns:\r\nDevOps, 317"]}
+ {:question ["Jak usprawnić komunikację między zespołami?"],
+  :answer
+  ["Sposoby usprawnienia komunikacji między zespołami:"
+   "- wykonywanie prac za pomocą poleceń w chat roomie,"
+   "- emitowanie komunikatów w chat roomie podczas prac,"
+   "- rejestrowanie i upublicznianie całej komunikacji,"
+   "- komunikacja jako dokumentacja prac i praktyk."],
+  :source ["s:" "DevOps, 318"],
+  :tag
+  ["devops-handbook-33-20-convert-local-discoveries-into-global-improvements"],
+  :chunk
+  ["Jak usprawnić komunikację między zespołami?\r\n\r\nSposoby usprawnienia komunikacji między zespołami:\r\n- wykonywanie prac za pomocą poleceń w chat roomie,\r\n- emitowanie komunikatów w chat roomie podczas prac,\r\n- rejestrowanie i upublicznianie całej komunikacji,\r\n- komunikacja jako dokumentacja prac i praktyk.\r\n\r\ns:\r\nDevOps, 318"]}
+ {:question ["Jak zwiększyć zgodność organizacji z przepisami?"],
+  :answer
+  ["Zgodność organizacji z przepisami jest proporcjonalna do stopnia, w jakim przepisy są wyrażone w kodzie."
+   "Czyli automatyzacja."],
+  :source ["s:" "DevOps, 319"],
+  :tag
+  ["devops-handbook-33-20-convert-local-discoveries-into-global-improvements"],
+  :chunk
+  ["Jak zwiększyć zgodność organizacji z przepisami?\r\n\r\nZgodność organizacji z przepisami jest proporcjonalna do stopnia, w jakim przepisy są wyrażone w kodzie.\r\nCzyli automatyzacja.\r\n\r\ns:\r\nDevOps, 319"]}
+ {:question ["Ile repozytoriów kodu powinna posiadać organizacja?"],
+  :answer
+  ["Organizacja powinna posiadać jedno repozytorium kodu:"
+   "- możliwość wykorzystywania doświadczeń wszystkich osób w organizacji,"
+   "- kodowanie i współdzielenie wiedzy."],
+  :source ["s:" "DevOps, 320, 321"],
+  :tag
+  ["devops-handbook-33-20-convert-local-discoveries-into-global-improvements"],
+  :chunk
+  ["Ile repozytoriów kodu powinna posiadać organizacja?\r\n\r\nOrganizacja powinna posiadać jedno repozytorium kodu:\r\n- możliwość wykorzystywania doświadczeń wszystkich osób w organizacji,\r\n- kodowanie i współdzielenie wiedzy.\r\n\r\ns:\r\nDevOps, 320, 321"]}
+ {:question ["Co powinno być umieszczane w repozytorium kodu?"],
+  :answer
+  ["W repozytorium kodu powinny być umieszczane:"
+   "- kod źródłowy,"
+   "- architektura jako kod,"
+   "- standardy konfiguracji,"
+   "- narzędzia do instalacji,"
+   "- standardy i narzędzia testowania, w tym zabezpieczenia,"
+   "- narzędzia obsługi potoku wdrożeń,"
+   "- narzędzia monitorowania i analizy,"
+   "- samouczki i standardy."],
+  :source ["s:" "DevOps, 321, 327"],
+  :tag
+  ["devops-handbook-33-20-convert-local-discoveries-into-global-improvements"],
+  :chunk
+  ["Co powinno być umieszczane w repozytorium kodu?\r\n\r\nW repozytorium kodu powinny być umieszczane:\r\n- kod źródłowy,\r\n- architektura jako kod,\r\n- standardy konfiguracji,\r\n- narzędzia do instalacji,\r\n- standardy i narzędzia testowania, w tym zabezpieczenia,\r\n- narzędzia obsługi potoku wdrożeń,\r\n- narzędzia monitorowania i analizy,\r\n- samouczki i standardy.\r\n\r\ns:\r\nDevOps, 321, 327"]}
+ {:question
+  ["Jaką rolę pełnią testy automatyczne w rozpowszechnianiu wiedzy?"],
+  :answer
+  ["Testy automatyczne, szczególnie TDD:"
+   "- stanowią specyfikację systemu,"
+   "- pokazują dobre praktyki użycia."],
+  :source ["s:" "DevOps, 322"],
+  :tag
+  ["devops-handbook-33-20-convert-local-discoveries-into-global-improvements"],
+  :chunk
+  ["Jaką rolę pełnią testy automatyczne w rozpowszechnianiu wiedzy?\r\n\r\nTesty automatyczne, szczególnie TDD:\r\n- stanowią specyfikację systemu,\r\n- pokazują dobre praktyki użycia.\r\n\r\ns:\r\nDevOps, 322"]}
+ {:question
+  ["Podaj przykłady wymagań niefunkcjonalnych ułatwiających wdrożenia."],
+  :answer
+  ["Przykłady wymagań niefunkcjonalnych ułatwiających wdrożenia:"
+   "- odpowiednia liczba wskaźników telemetrycznych w aplikacji i środowiskach,"
+   "- możliwość dokładnego śledzenia zależności,"
+   "- odpowiednia elastyczność usług oraz degradacji,"
+   "- zgodność pomiędzy wersjami,"
+   "- możliwość archiwizacji danych,"
+   "- możliwość łatwej analizy logów,"
+   "- możliwość śledzenia żądań od użytkowników,"
+   "- proste, scentralizowane środowisko działania z wykorzystaniem flag funkcji i podobnych mechanizmów."],
+  :source ["s:" "DevOps, 322"],
+  :tag
+  ["devops-handbook-33-20-convert-local-discoveries-into-global-improvements"],
+  :chunk
+  ["Podaj przykłady wymagań niefunkcjonalnych ułatwiających wdrożenia.\r\n\r\nPrzykłady wymagań niefunkcjonalnych ułatwiających wdrożenia:\r\n- odpowiednia liczba wskaźników telemetrycznych w aplikacji i środowiskach,\r\n- możliwość dokładnego śledzenia zależności,\r\n- odpowiednia elastyczność usług oraz degradacji,\r\n- zgodność pomiędzy wersjami,\r\n- możliwość archiwizacji danych,\r\n- możliwość łatwej analizy logów,\r\n- możliwość śledzenia żądań od użytkowników,\r\n- proste, scentralizowane środowisko działania z wykorzystaniem flag funkcji i podobnych mechanizmów.\r\n\r\ns:\r\nDevOps, 322"]}
+ {:question ["Jak zapewnić powtarzalność zadań operacyjnych?"],
+  :answer
+  ["W celu zapewnienia powtarzalności zadań operacyjnych:"
+   "- automatyzuj całość lub część,"
+   "- standaryzuj i dokumentuj,"
+   "- twórz historyjki użytkownika Ops."],
+  :source ["s:" "DevOps, 324"],
+  :tag
+  ["devops-handbook-33-20-convert-local-discoveries-into-global-improvements"],
+  :chunk
+  ["Jak zapewnić powtarzalność zadań operacyjnych?\r\n\r\nW celu zapewnienia powtarzalności zadań operacyjnych:\r\n- automatyzuj całość lub część,\r\n- standaryzuj i dokumentuj,\r\n- twórz historyjki użytkownika Ops.\r\n\r\ns:\r\nDevOps, 324"]}
+ {:question ["Na czym polega standaryzacja stosu technologii?"],
+  :answer
+  ["Standaryzacja stosu technologii polega na:"
+   "- wybraniu technologii pomagających osiągnąć cele organizacji,"
+   "- maksymalizacja wydajności zespołu vs. cele całej organizacji,"
+   "- wspólne uzgodnienie Dev i Ops."
+   "Zwykle miękkie granice obejmujące niewielką liczbę technologii."],
+  :source ["s:" "DevOps, 325"],
+  :tag
+  ["devops-handbook-33-20-convert-local-discoveries-into-global-improvements"],
+  :chunk
+  ["Na czym polega standaryzacja stosu technologii?\r\n\r\nStandaryzacja stosu technologii polega na:\r\n- wybraniu technologii pomagających osiągnąć cele organizacji,\r\n- maksymalizacja wydajności zespołu vs. cele całej organizacji,\r\n- wspólne uzgodnienie Dev i Ops.\r\nZwykle miękkie granice obejmujące niewielką liczbę technologii.\r\n\r\ns:\r\nDevOps, 325"]}
+ {:question ["Co to jest \"improvement blitz\"?"],
+  :answer
+  ["\"Improvement blitz\" (czasami \"kaizen blitz\") to:"
+   "- jedna z praktyk Toyota Production System,"
+   "- dedykowany i skoncentrowany okres do rozwiązania określonego problemu,"
+   "- zwykle kilka dni."],
+  :source ["s:" "DevOps, 329"],
+  :tag
+  ["devops-handbook-34-21-reserve-time-to-create-organizational-learning-and-improvement"],
+  :chunk
+  ["Co to jest \"improvement blitz\"?\r\n\r\n\"Improvement blitz\" (czasami \"kaizen blitz\") to:\r\n- jedna z praktyk Toyota Production System,\r\n- dedykowany i skoncentrowany okres do rozwiązania określonego problemu,\r\n- zwykle kilka dni.\r\n\r\ns:\r\nDevOps, 329"]}
+ {:question
+  ["Jak wyegzekwować praktyki rezerwowania czasu na prace związane z usprawnieniami?"],
+  :answer
+  ["W celu znalezienia czasu na usprawnienia przeprowadzaj:"
+   "- najlepiej \"improvement blitz\","
+   "- również \"spring\", \"fall cleanings\", \"ticket queue inversion weeks\", \"hack days\", \"hackathon\", \"20% innovation time\"."],
+  :source ["s:" "DevOps, 331"],
+  :tag
+  ["devops-handbook-34-21-reserve-time-to-create-organizational-learning-and-improvement"],
+  :chunk
+  ["Jak wyegzekwować praktyki rezerwowania czasu na prace związane z usprawnieniami?\r\n\r\nW celu znalezienia czasu na usprawnienia przeprowadzaj:\r\n- najlepiej \"improvement blitz\",\r\n- również \"spring\", \"fall cleanings\", \"ticket queue inversion weeks\", \"hack days\", \"hackathon\", \"20% innovation time\".\r\n\r\ns:\r\nDevOps, 331"]}
+ {:question
+  ["Czym są \"spring/fall cleanings\", \"ticket queue inversion weeks\", \"hack days\", \"hackathon\", \"20% innovation time\"?"],
+  :answer
+  ["- \"spring/fall cleanings\" (\"wiosenne lub jesienne sprzątanie\"),"
+   "- \"ticket queue inversion weeks\" (\"tygodnie odwróconej kolejki zleceń\"),"
+   "- \"hack days\","
+   "- \"hackathon\","
+   "- \"20% innovation time\""
+   "to wydarzenia wprowadzające innowacje, rzadziej usprawnienia."],
+  :source ["s:" "DevOps, 331"],
+  :tag
+  ["devops-handbook-34-21-reserve-time-to-create-organizational-learning-and-improvement"],
+  :chunk
+  ["Czym są \"spring/fall cleanings\", \"ticket queue inversion weeks\", \"hack days\", \"hackathon\", \"20% innovation time\"?\r\n\r\n- \"spring/fall cleanings\" (\"wiosenne lub jesienne sprzątanie\"),\r\n- \"ticket queue inversion weeks\" (\"tygodnie odwróconej kolejki zleceń\"),\r\n- \"hack days\",\r\n- \"hackathon\",\r\n- \"20% innovation time\"\r\nto wydarzenia wprowadzające innowacje, rzadziej usprawnienia.\r\n\r\ns:\r\nDevOps, 331"]}
+ {:question ["Jak organizacja może wspierać uczenie się?"],
+  :answer
+  ["Organizacja może wspierać nauczanie i uczenie się dzięki:"
+   "- poświęcaniu na to czasu organizacji,"
+   "- zachęcaniu do udziału w konferencjach, wygłaszania na nich wykładów,"
+   "- zachęcaniu do tworzenia i organizowania wewnętrznych lub zewnętrznych konferencji,"
+   "- tworzeniu wewnętrznego systemu szkoleń."],
+  :source ["s:" "DevOps, 333"],
+  :tag
+  ["devops-handbook-34-21-reserve-time-to-create-organizational-learning-and-improvement"],
+  :chunk
+  ["Jak organizacja może wspierać uczenie się?\r\n\r\nOrganizacja może wspierać nauczanie i uczenie się dzięki:\r\n- poświęcaniu na to czasu organizacji,\r\n- zachęcaniu do udziału w konferencjach, wygłaszania na nich wykładów,\r\n- zachęcaniu do tworzenia i organizowania wewnętrznych lub zewnętrznych konferencji,\r\n- tworzeniu wewnętrznego systemu szkoleń.\r\n\r\ns:\r\nDevOps, 333"]}
+ {:question
+  ["Jaką korzyść dla audytorów przynosi automatyzacja akceptacji i zatwierdzania?"],
+  :answer
+  ["Dzięki automatyzacji akceptacji i zatwierdzania audytor może:"
+   "- otrzymywać dowody wygenerowane na żądanie."],
+  :source ["s:" "DevOps, 341"],
+  :tag ["devops-handbook-36-part-vi-introduction"],
+  :chunk
+  ["Jaką korzyść dla audytorów przynosi automatyzacja akceptacji i zatwierdzania?\r\n\r\nDzięki automatyzacji akceptacji i zatwierdzania audytor może:\r\n- otrzymywać dowody wygenerowane na żądanie.\r\n\r\ns:\r\nDevOps, 341"]}
+ {:question ["Jak poprawić bezpieczeństwo?"],
+  :answer
+  ["Bezpieczeństwo można poprawić poprzez:"
+   "- bezpieczeństwo obowiązkiem wszystkich,"
+   "- integracja mechanizmów prewencyjnych ze wspólnym repozytorium kodu,"
+   "- integracja zabezpieczeń z potokiem wdrożeń,"
+   "- integracja zabezpieczeń z mechanizmami telemetrycznymi (wykrywanie luk),"
+   "- ochrona potoku wdrożeń,"
+   "- integracja wdrażania z zatwierdzaniem,"
+   "- zmniejszenie wagi podziału obowiązków."],
+  :source ["s:" "DevOps, 341"],
+  :tag ["devops-handbook-36-part-vi-introduction"],
+  :chunk
+  ["Jak poprawić bezpieczeństwo?\r\n\r\nBezpieczeństwo można poprawić poprzez:\r\n- bezpieczeństwo obowiązkiem wszystkich,\r\n- integracja mechanizmów prewencyjnych ze wspólnym repozytorium kodu,\r\n- integracja zabezpieczeń z potokiem wdrożeń,\r\n- integracja zabezpieczeń z mechanizmami telemetrycznymi (wykrywanie luk),\r\n- ochrona potoku wdrożeń,\r\n- integracja wdrażania z zatwierdzaniem,\r\n- zmniejszenie wagi podziału obowiązków.\r\n\r\ns:\r\nDevOps, 341"]}
+ {:question ["Co to jest \"InfoSec\"?"],
+  :answer
+  ["\"InfoSec\" (Information security) to:"
+   "- zagadnienia, praktyki, procesy, narzędzia, działy"
+   "- dotyczące lub zajmujące się ochroną informacji."],
+  :source
+  ["s:"
+   "https://en.wikipedia.org/wiki/Information_security"
+   "https://www.cisco.com/c/en/us/products/security/what-is-information-security-infosec.html"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Co to jest \"InfoSec\"?\r\n\r\n\"InfoSec\" (Information security) to:\r\n- zagadnienia, praktyki, procesy, narzędzia, działy\r\n- dotyczące lub zajmujące się ochroną informacji.\r\n\r\ns:\r\nhttps://en.wikipedia.org/wiki/Information_security\r\nhttps://www.cisco.com/c/en/us/products/security/what-is-information-security-infosec.html"]}
+ {:question ["Kiedy realizować zadania InfoSec?"],
+  :answer
+  ["Zadania InfoSec najlepiej realizować:"
+   "- jak najwcześniej,"
+   "- na koniec iteracji (nie na koniec projektu)."],
+  :source ["s:" "DevOps, 344"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Kiedy realizować zadania InfoSec?\r\n\r\nZadania InfoSec najlepiej realizować:\r\n- jak najwcześniej,\r\n- na koniec iteracji (nie na koniec projektu).\r\n\r\ns:\r\nDevOps, 344"]}
+ {:question ["Wymień kluczowe miary biznesowe."],
+  :answer
+  ["Kluczowe miary biznesowe:"
+   "- szybkość tworzenia oprogramowania (szybkość dostarczania funkcjonalności na rynek),"
+   "- niepowodzenia interakcji z klientami (awarie i błędy),"
+   "- czas reakcji na zgodność z przepisami (czas od żądania audytu do dostarczenia żądanych informacji)."],
+  :source ["s:" "DevOps, 345"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Wymień kluczowe miary biznesowe.\r\n\r\nKluczowe miary biznesowe:\r\n- szybkość tworzenia oprogramowania (szybkość dostarczania funkcjonalności na rynek),\r\n- niepowodzenia interakcji z klientami (awarie i błędy),\r\n- czas reakcji na zgodność z przepisami (czas od żądania audytu do dostarczenia żądanych informacji).\r\n\r\ns:\r\nDevOps, 345"]}
+ {:question ["Co to jest \"GRC\"?"],
+  :answer
+  ["\"GRC\" (governance, risk, and compliance - \"nadzór, ryzyko i zgodność\") to:"
+   "- tradycyjnego sposobu działania InfoSec,"
+   "- system do rejestrowania luk,"
+   "- dostępny tylko dla InfoSec."],
+  :source ["s:" "DevOps, 345"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Co to jest \"GRC\"?\r\n\r\n\"GRC\" (governance, risk, and compliance - \"nadzór, ryzyko i zgodność\") to:\r\n- tradycyjnego sposobu działania InfoSec,\r\n- system do rejestrowania luk,\r\n- dostępny tylko dla InfoSec.\r\n\r\ns:\r\nDevOps, 345"]}
+ {:question ["Jak DevOps adresuje kwestie InfoSec?"],
+  :answer
+  ["DevOps wprowadza:"
+   "- bezpieczeństwo informacji jako codzienne zadanie każdego DevOps,"
+   "- integracja InfoSec w całym technologicznym strumieniu wartości, włączenie w prace DevOps (również jako część zespołu DevOps),"
+   "- użycie tych samych systemów (zamiast \"GRC\" dla InfoSec),"
+   "- uwzględnianie InfoSec w śledzeniu defektów,"
+   "- udział InfoSec w analizie post-mortem,"
+   "- wzajemna nauka."],
+  :source ["s:" "DevOps, 343 - 347"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Jak DevOps adresuje kwestie InfoSec?\r\n\r\nDevOps wprowadza:\r\n- bezpieczeństwo informacji jako codzienne zadanie każdego DevOps,\r\n- integracja InfoSec w całym technologicznym strumieniu wartości, włączenie w prace DevOps (również jako część zespołu DevOps),\r\n- użycie tych samych systemów (zamiast \"GRC\" dla InfoSec),\r\n- uwzględnianie InfoSec w śledzeniu defektów,\r\n- udział InfoSec w analizie post-mortem,\r\n- wzajemna nauka.\r\n\r\ns:\r\nDevOps, 343 - 347"]}
+ {:question ["Jak zintegrować zabezpieczenia z potokiem wdrożeń?"],
+  :answer
+  ["W celu integracji zabezpieczeń z potokiem wdrożeń:"
+   "- wdróż automatyczne testy bezpieczeństwa,"
+   "- uruchamianych razem z innymi testami potoku wdrożeń,"
+   "- najlepiej przy wprowadzaniu zmian do repozytorium kodu,"
+   "- w kontraście do tradycyjnego raportu na koniec prac rozwojowych."],
+  :source ["s:" "DevOps, 347"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Jak zintegrować zabezpieczenia z potokiem wdrożeń?\r\n\r\nW celu integracji zabezpieczeń z potokiem wdrożeń:\r\n- wdróż automatyczne testy bezpieczeństwa,\r\n- uruchamianych razem z innymi testami potoku wdrożeń,\r\n- najlepiej przy wprowadzaniu zmian do repozytorium kodu,\r\n- w kontraście do tradycyjnego raportu na koniec prac rozwojowych.\r\n\r\ns:\r\nDevOps, 347"]}
+ {:question ["Co to jest \"ścieżka szczęśliwa\"?"],
+  :answer
+  ["\"Ścieżka szczęśliwa\" to:"
+   "- typ testowania, gdy wszystko idzie zgodnie z oczekiwaniami, bez błędów,"
+   "- typowy dla Dev."],
+  :source ["s:" "DevOps, 349"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Co to jest \"ścieżka szczęśliwa\"?\r\n\r\n\"Ścieżka szczęśliwa\" to:\r\n- typ testowania, gdy wszystko idzie zgodnie z oczekiwaniami, bez błędów,\r\n- typowy dla Dev.\r\n\r\ns:\r\nDevOps, 349"]}
+ {:question ["Co to jest \"ścieżka smutna\"?"],
+  :answer
+  ["\"Ścieżka smutna\" to:"
+   "- typ testowania, gdy coś idzie nie tak,"
+   "- typowe dla QA, InfoSec i Fraud."],
+  :source ["s:" "DevOps, 349"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Co to jest \"ścieżka smutna\"?\r\n\r\n\"Ścieżka smutna\" to:\r\n- typ testowania, gdy coś idzie nie tak,\r\n- typowe dla QA, InfoSec i Fraud.\r\n\r\ns:\r\nDevOps, 349"]}
+ {:question ["Czym zastąpić testy ręcznie?"],
+  :answer
+  ["Testy ręczne zastąp:"
+   "- automatycznymi testami jednostkowymi,"
+   "- automatycznymi testami funkcjonalnymi,"
+   "aby mogły być stale uruchamiane w potoku wdrożeń."],
+  :source ["s:" "DevOps, 349"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Czym zastąpić testy ręcznie?\r\n\r\nTesty ręczne zastąp:\r\n- automatycznymi testami jednostkowymi,\r\n- automatycznymi testami funkcjonalnymi,\r\naby mogły być stale uruchamiane w potoku wdrożeń.\r\n\r\ns:\r\nDevOps, 349"]}
+ {:question ["Jakie przedsięwzięcia uwzględnić w ramach testowania?"],
+  :answer
+  ["W ramach testowania uwzględnij:"
+   "- analizę statyczną: sprawdza kod programu,"
+   "- analizę dynamiczną: w czasie pracy programu, testowanie z zewnątrz do wewnątrz,"
+   "- skanowanie zależności: inny typ testów statycznych,"
+   "- integralność kodu źródłowego i podpisywanie kodu: własny kod PGP dla użytkowników repozytorium, podpisywanie operacji."],
+  :source ["s:" "DevOps, 349"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Jakie przedsięwzięcia uwzględnić w ramach testowania?\r\n\r\nW ramach testowania uwzględnij:\r\n- analizę statyczną: sprawdza kod programu,\r\n- analizę dynamiczną: w czasie pracy programu, testowanie z zewnątrz do wewnątrz,\r\n- skanowanie zależności: inny typ testów statycznych,\r\n- integralność kodu źródłowego i podpisywanie kodu: własny kod PGP dla użytkowników repozytorium, podpisywanie operacji.\r\n\r\ns:\r\nDevOps, 349"]}
+ {:question ["Co to jest \"PGP\"?"],
+  :answer
+  ["\"PGP\" (Pretty Good Privacy) to:"
+   "- narzędzie do szyfrowania, odszyfrowywania i uwierzytelniania m.in. poczty elektronicznej, plików, katalogów oraz partycji dyskowych."],
+  :source ["s:" "https://pl.wikipedia.org/wiki/Pretty_Good_Privacy"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Co to jest \"PGP\"?\r\n\r\n\"PGP\" (Pretty Good Privacy) to:\r\n- narzędzie do szyfrowania, odszyfrowywania i uwierzytelniania m.in. poczty elektronicznej, plików, katalogów oraz partycji dyskowych.\r\n\r\ns:\r\nhttps://pl.wikipedia.org/wiki/Pretty_Good_Privacy"]}
+ {:question ["Jak pomóc pisać kod, który przeciwdziała nadużyciom?"],
+  :answer
+  ["W celu przeciwdziałaniu nadużyciom zdefiniuj wzorce projektowe, m.in.:"
+   "- jak przechowywać hasła,"
+   "- jak postępować w przypadku zapomnianych haseł,"
+   "- jak obsługiwać logowanie,"
+   "- jak zapobiec wrażliwości na ataki za pomocą skryptów krzyżowych (XSS)."],
+  :source ["s:" "DevOps, 350"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Jak pomóc pisać kod, który przeciwdziała nadużyciom?\r\n\r\nW celu przeciwdziałaniu nadużyciom zdefiniuj wzorce projektowe, m.in.:\r\n- jak przechowywać hasła,\r\n- jak postępować w przypadku zapomnianych haseł,\r\n- jak obsługiwać logowanie,\r\n- jak zapobiec wrażliwości na ataki za pomocą skryptów krzyżowych (XSS).\r\n\r\ns:\r\nDevOps, 350"]}
+ {:question
+  ["Jak zapewnić bezpieczeństwo łańcuchowi dostaw oprogramowania?"],
+  :answer
+  ["Ponieważ tworzenie oprogramowania w dużej mierze polega na używaniu zewnętrznych komponentów,"
+   "to konieczne jest uwzględnienie luk w tych komponentach."],
+  :source ["s:" "DevOps, 353"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Jak zapewnić bezpieczeństwo łańcuchowi dostaw oprogramowania?\r\n\r\nPonieważ tworzenie oprogramowania w dużej mierze polega na używaniu zewnętrznych komponentów,\r\nto konieczne jest uwzględnienie luk w tych komponentach.\r\n\r\ns:\r\nDevOps, 353"]}
+ {:question ["Jak zapewnić bezpieczeństwo środowiska?"],
+  :answer
+  ["W celu zapewnienia bezpieczeństwa środowiska:"
+   "- wdróż testy automatyczne: poprawność ustawień, długość kluczy,"
+   "- wdróż testy do skanowania: luki w zabezpieczeniach,"
+   "- sprawdzaj, czy otwarte są tylko wymagane porty,"
+   "- sprawdzaj pod kątem znanych zagrożeń: np. SQL injection,"
+   "- parametry testów pobieraj z repozytorium,"
+   "- umieszczaj w repozytorium wyniki testów."],
+  :source ["s:" "DevOps, 355"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Jak zapewnić bezpieczeństwo środowiska?\r\n\r\nW celu zapewnienia bezpieczeństwa środowiska:\r\n- wdróż testy automatyczne: poprawność ustawień, długość kluczy,\r\n- wdróż testy do skanowania: luki w zabezpieczeniach,\r\n- sprawdzaj, czy otwarte są tylko wymagane porty,\r\n- sprawdzaj pod kątem znanych zagrożeń: np. SQL injection,\r\n- parametry testów pobieraj z repozytorium,\r\n- umieszczaj w repozytorium wyniki testów.\r\n\r\ns:\r\nDevOps, 355\r\n\r\nJak przyspieszyć wykrywanie naruszeń?\r\n\r\nW celu przyspieszenia wykrywania naruszeń:\r\n- zintegruj bezpieczeństwo informacji z telemetrią produkcji,\r\n- zastosuj w aplikacji i środowiskach mechanizmy monitorowania, rejestrowania i alarmowania,\r\n- stwórz odpowiednie mechanizmy telemetryczne w aplikacji,\r\n- stwórz odpowiednie mechanizmy telemetryczne w środowisku.\r\n\r\ns:\r\nDevOps, 357"]}
+ {:question
+  ["Podaj przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji."],
+  :answer
+  ["Przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji:"
+   "- udane i nieudane logowania,"
+   "- resetowanie hasła,"
+   "- resetowanie adresu e-mail,"
+   "- zmiany danych karty kredytowej."],
+  :source ["s:" "DevOps, 358"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Podaj przykłady sytuacji dla telemetrii zabezpieczeń w aplikacji.\r\n\r\nPrzykłady sytuacji dla telemetrii zabezpieczeń w aplikacji:\r\n- udane i nieudane logowania,\r\n- resetowanie hasła,\r\n- resetowanie adresu e-mail,\r\n- zmiany danych karty kredytowej.\r\n\r\ns:\r\nDevOps, 358"]}
+ {:question
+  ["Podaj przykłady sytuacji dla telemetrii zabezpieczeń w środowisku."],
+  :answer
+  ["Przykłady sytuacji dla telemetrii zabezpieczeń w środowisku:"
+   "- zmiany w systemie operacyjnym (np. produkcja, środowisko kompilacji),"
+   "- zmiany w grupach zabezpieczeń,"
+   "- modyfikacje konfiguracji,"
+   "- zmiany w infrastrukturze chmury,"
+   "- próby ataków (XSS, SQL injection),"
+   "- błędy serwera WWW (np. 4XX, 5XX)."],
+  :source ["s:" "DevOps, 358"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Podaj przykłady sytuacji dla telemetrii zabezpieczeń w środowisku.\r\n\r\nPrzykłady sytuacji dla telemetrii zabezpieczeń w środowisku:\r\n- zmiany w systemie operacyjnym (np. produkcja, środowisko kompilacji),\r\n- zmiany w grupach zabezpieczeń,\r\n- modyfikacje konfiguracji,\r\n- zmiany w infrastrukturze chmury,\r\n- próby ataków (XSS, SQL injection),\r\n- błędy serwera WWW (np. 4XX, 5XX).\r\n\r\ns:\r\nDevOps, 358"]}
+ {:question ["Jak chronić potok wdrożeń?"],
+  :answer
+  ["W celu ochrony potoku wdrożeń, czyli:"
+   "- kompilacji,"
+   "- integracji,"
+   "- wdrożeń"
+   "należy:"
+   "- hartować serwery CI/CD (podobnie jak produkcja, automatyzacja odtworzenia),"
+   "- ewidencjonować zmiany przy użyciu systemu kontroli wersji,"
+   "- wykrywać sytuacje podejrzane,"
+   "- uniezależnić procesy CI,"
+   "- system kontroli wersji tylko do odczytu dla CI/CD."],
+  :source ["s:" "DevOps, 360"],
+  :tag
+  ["devops-handbook-37-22-information-security-as-everyone-s-job-every-day"],
+  :chunk
+  ["Jak chronić potok wdrożeń?\r\n\r\nW celu ochrony potoku wdrożeń, czyli:\r\n- kompilacji,\r\n- integracji,\r\n- wdrożeń\r\nnależy:\r\n- hartować serwery CI/CD (podobnie jak produkcja, automatyzacja odtworzenia),\r\n- ewidencjonować zmiany przy użyciu systemu kontroli wersji,\r\n- wykrywać sytuacje podejrzane,\r\n- uniezależnić procesy CI,\r\n- system kontroli wersji tylko do odczytu dla CI/CD.\r\n\r\ns:\r\nDevOps, 360"]}
+ {:question ["Co jest podstawowym mechanizmem ograniczania zagrożeń?"],
+  :answer
+  ["Podstawowym mechanizmem ograniczania zagrożeń dla:"
+   "- operacji,"
+   "- bezpieczeństwa"
+   "są:"
+   "- procesy zarządzania zmianami."],
+  :source ["s:" "DevOps, 363"],
+  :tag
+  ["devops-handbook-38-23-protecting-the-deployment-pipeline-and-integrating-into-change-management-and-other-security-and-compliance-controls"],
+  :chunk
+  ["Co jest podstawowym mechanizmem ograniczania zagrożeń?\r\n\r\nPodstawowym mechanizmem ograniczania zagrożeń dla:\r\n- operacji,\r\n- bezpieczeństwa\r\nsą:\r\n- procesy zarządzania zmianami.\r\n\r\ns:\r\nDevOps, 363"]}
+ {:question
+  ["Jak obniżyć ryzyko wdrożeń (w kontekście procesów zarządzania zmianami)?"],
+  :answer
+  ["W celu obniżenia ryzyka wdrożeń (w kontekście procesów zarządzania zmianami):"
+   "- minimalizuj udział ręczny w procesie zatwierdzania zmian (testy automatyczne, proaktywne monitorowanie produkcji),"
+   "- zintegruj mechanizmy bezpieczeństwa i zgodności z przepisami z istniejącym procesem zarządzania zmianami."],
+  :source ["s:" "DevOps, 363"],
+  :tag
+  ["devops-handbook-38-23-protecting-the-deployment-pipeline-and-integrating-into-change-management-and-other-security-and-compliance-controls"],
+  :chunk
+  ["Jak obniżyć ryzyko wdrożeń (w kontekście procesów zarządzania zmianami)?\r\n\r\nW celu obniżenia ryzyka wdrożeń (w kontekście procesów zarządzania zmianami):\r\n- minimalizuj udział ręczny w procesie zatwierdzania zmian (testy automatyczne, proaktywne monitorowanie produkcji),\r\n- zintegruj mechanizmy bezpieczeństwa i zgodności z przepisami z istniejącym procesem zarządzania zmianami.\r\n\r\ns:\r\nDevOps, 363"]}
+ {:question ["Wymień kategorie zmian."],
+  :answer
+  ["Kategorie zmian:"
+   "- zmiany standardowe: niskie ryzyko, zgodne z ustalonym i zatwierdzonym procesem, uproszczone zatwierdzanie,"
+   "- zmiany normalne: wyższe ryzyko, wymagany przegląd lub zatwierdzenie,"
+   "- zmiany pilne: wysokie ryzyko, awarie."],
+  :source ["s:" "DevOps, 364"],
+  :tag
+  ["devops-handbook-38-23-protecting-the-deployment-pipeline-and-integrating-into-change-management-and-other-security-and-compliance-controls"],
+  :chunk
+  ["Wymień kategorie zmian.\r\n\r\nKategorie zmian:\r\n- zmiany standardowe: niskie ryzyko, zgodne z ustalonym i zatwierdzonym procesem, uproszczone zatwierdzanie,\r\n- zmiany normalne: wyższe ryzyko, wymagany przegląd lub zatwierdzenie,\r\n- zmiany pilne: wysokie ryzyko, awarie.\r\n\r\ns:\r\nDevOps, 364"]}
+ {:question ["Co to jest \"badanie niszczące\"?"],
+  :answer
+  ["\"Badanie niszczące\" to:"
+   "- długotrwałe badanie wytrzymałościowe na produkcji, aż do zniszczenia komponentu,"
+   "- pozwala zrozumieć awarię,"
+   "- pozwala wprowadzić korekty."],
+  :source ["s:" "DevOps, 368"],
+  :tag
+  ["devops-handbook-38-23-protecting-the-deployment-pipeline-and-integrating-into-change-management-and-other-security-and-compliance-controls"],
+  :chunk
+  ["Co to jest \"badanie niszczące\"?\r\n\r\n\"Badanie niszczące\" to:\r\n- długotrwałe badanie wytrzymałościowe na produkcji, aż do zniszczenia komponentu,\r\n- pozwala zrozumieć awarię,\r\n- pozwala wprowadzić korekty.\r\n\r\ns:\r\nDevOps, 368"]}
+ {:question ["Kim jest \"bibliotekarz kodu\"?"],
+  :answer
+  ["\"Bibliotekarz kodu\" to:"
+   "- osoba która przegląda i zatwierdza zmianę przed wypromowaniem jej do produkcji."],
+  :source ["s:" "DevOps, 369"],
+  :tag
+  ["devops-handbook-38-23-protecting-the-deployment-pipeline-and-integrating-into-change-management-and-other-security-and-compliance-controls"],
+  :chunk
+  ["Kim jest \"bibliotekarz kodu\"?\r\n\r\n\"Bibliotekarz kodu\" to:\r\n- osoba która przegląda i zatwierdza zmianę przed wypromowaniem jej do produkcji.\r\n\r\ns:\r\nDevOps, 369"]}
+ {:question
+  ["Jak zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania?"],
+  :answer
+  ["Żeby zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania:"
+   "- zmniejsz rolę podziału obowiązków,"
+   "- zrezygnuj z \"bibliotekarza kodu\","
+   "- wprowadź programowanie w parach, ciągłą kontrolę operacji ewidencjonowania kodu, przeglądy kodu."],
+  :source ["s:" "DevOps, 369"],
+  :tag
+  ["devops-handbook-38-23-protecting-the-deployment-pipeline-and-integrating-into-change-management-and-other-security-and-compliance-controls"],
+  :chunk
+  ["Jak zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania?\r\n\r\nŻeby zmniejszyć ryzyko oszustw lub błędów w procesie rozwoju oprogramowania:\r\n- zmniejsz rolę podziału obowiązków,\r\n- zrezygnuj z \"bibliotekarza kodu\",\r\n- wprowadź programowanie w parach, ciągłą kontrolę operacji ewidencjonowania kodu, przeglądy kodu.\r\n\r\ns:\r\nDevOps, 369"]}
+ {:question
+  ["Na czym polegają trudności we współpracy DevOps i InfoSec?"],
+  :answer
+  ["Trudności we współpracy DevOps i InfoSec:"
+   "- audytor nie potrafi czytać kodu,"
+   "- programista nie zna przepisów, norm, ustaw związanych z bezpieczeństwem."],
+  :source ["s:" "DevOps, 371"],
+  :tag
+  ["devops-handbook-38-23-protecting-the-deployment-pipeline-and-integrating-into-change-management-and-other-security-and-compliance-controls"],
+  :chunk
+  ["Na czym polegają trudności we współpracy DevOps i InfoSec?\r\n\r\nTrudności we współpracy DevOps i InfoSec:\r\n- audytor nie potrafi czytać kodu,\r\n- programista nie zna przepisów, norm, ustaw związanych z bezpieczeństwem.\r\n\r\ns:\r\nDevOps, 371"]}
+ {:question
+  ["Jakie jest prawdopodobieństwo porażki transformacji DevOps?"],
+  :answer
+  ["Prawdopodobieństwo porażki transformacji DevOps jest:"
+   "- duże,"
+   "- zmiany organizacyjne mogą zostać cofnięte."],
+  :source ["s:" "DevOps, 378"],
+  :tag ["devops-handbook-40-a-call-to-action"],
+  :chunk
+  ["Jakie jest prawdopodobieństwo porażki transformacji DevOps?\r\n\r\nPrawdopodobieństwo porażki transformacji DevOps jest:\r\n- duże,\r\n- zmiany organizacyjne mogą zostać cofnięte.\r\n\r\ns:\r\nDevOps, 378"]}
+ {:question ["Komu przynosi korzyści DevOps?"],
+  :answer
+  ["DevOps przynosi korzyści:"
+   "- Dev,"
+   "- Ops,"
+   "- QA,"
+   "- InfoSec,"
+   "- właścicielom produktu,"
+   "- klientom."],
+  :source ["s:" "DevOps, 379"],
+  :tag ["devops-handbook-40-a-call-to-action"],
+  :chunk
+  ["Komu przynosi korzyści DevOps?\r\n\r\nDevOps przynosi korzyści:\r\n- Dev,\r\n- Ops,\r\n- QA,\r\n- InfoSec,\r\n- właścicielom produktu,\r\n- klientom.\r\n\r\ns:\r\nDevOps, 379"]}
+ {:question ["Co to jest \"konwergencja DevOps\"?"],
+  :answer
+  ["\"Konwergencja DevOps\" to:"
+   "- zbieżność z innymi ruchami w zarządzaniu,"
+   "- wzajemne uzupełnianie i współdziałanie."],
+  :source ["s:" "DevOps, 383"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Co to jest \"konwergencja DevOps\"?\r\n\r\n\"Konwergencja DevOps\" to:\r\n- zbieżność z innymi ruchami w zarządzaniu,\r\n- wzajemne uzupełnianie i współdziałanie.\r\n\r\ns:\r\nDevOps, 383"]}
+ {:question ["Z jakimi ruchami zachodzi \"konwergencja DevOps\"?"],
+  :answer
+  ["\"Konwergencja DevOps\" zachodzi z:"
+   "- Lean (szczupłe zarządzanie, unikanie marnotrawstwa),"
+   "- Agile (model przyrostowy),"
+   "- Toyota Kata (stałe doskonalenie)."],
+  :source ["s:" "DevOps, 383"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Z jakimi ruchami zachodzi \"konwergencja DevOps\"?\r\n\r\n\"Konwergencja DevOps\" zachodzi z:\r\n- Lean (szczupłe zarządzanie, unikanie marnotrawstwa),\r\n- Agile (model przyrostowy),\r\n- Toyota Kata (stałe doskonalenie).\r\n\r\ns:\r\nDevOps, 383"]}
+ {:question ["Co to jest \"chmura konfliktów\"?"],
+  :answer
+  ["\"Chmura konfliktów\" to:"
+   "- konflikt między dwoma potrzebnymi działaniami,"
+   "- np. szybko wprowadzaj zmiany vs. zapewniaj stabilność."],
+  :source ["s:" "DevOps, 386"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Co to jest \"chmura konfliktów\"?\r\n\r\n\"Chmura konfliktów\" to:\r\n- konflikt między dwoma potrzebnymi działaniami,\r\n- np. szybko wprowadzaj zmiany vs. zapewniaj stabilność.\r\n\r\ns:\r\nDevOps, 386"]}
+ {:question ["Jak przełamać \"chmurę konfliktów\" dla IT?"],
+  :answer
+  ["\"Chmurę konfliktów\" dla IT można przełamać dzięki DevOps:"
+   "- integracja Dev i Ops,"
+   "- patrz \"trzy drogi\"."],
+  :source ["s:" "DevOps, 387"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Jak przełamać \"chmurę konfliktów\" dla IT?\r\n\r\n\"Chmurę konfliktów\" dla IT można przełamać dzięki DevOps:\r\n- integracja Dev i Ops,\r\n- patrz \"trzy drogi\".\r\n\r\ns:\r\nDevOps, 387"]}
+ {:question ["Na czym polega \"spirala degradacji\"?"],
+  :answer
+  ["\"Spirala degradacji\":"
+   "- kruche aplikacje, projekty pilne, usprawnienia mało pilne,"
+   "- coraz bardziej kruche aplikacje,"
+   "- coraz więcej czasu na awarie, coraz mniej czasu na projekty,"
+   "- aż do braku możliwości realizacji projektów."],
+  :source ["s:" "DevOps, 387"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Na czym polega \"spirala degradacji\"?\r\n\r\n\"Spirala degradacji\":\r\n- kruche aplikacje, projekty pilne, usprawnienia mało pilne,\r\n- coraz bardziej kruche aplikacje,\r\n- coraz więcej czasu na awarie, coraz mniej czasu na projekty,\r\n- aż do braku możliwości realizacji projektów.\r\n\r\ns:\r\nDevOps, 387"]}
+ {:question
+  ["Jakie są niebezpieczeństwa związane z przełączaniem pracy i kolejkami?"],
+  :answer
+  ["Przykład problemu związanego z przełączaniem pracy i kolejkami:"
+   "- 30-minutowe zadanie,"
+   "- wymaga 7-krotnego przełączania (zespół serwerów, sieci, db...),"
+   "- każdy zajęty w 90%,"
+   "- więc na każdego czekamy 9h,"
+   "- łączny czas oczekiwania 7x9h = 63h"],
+  :source ["s:" "DevOps, 389"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Jakie są niebezpieczeństwa związane z przełączaniem pracy i kolejkami?\r\n\r\nPrzykład problemu związanego z przełączaniem pracy i kolejkami:\r\n- 30-minutowe zadanie,\r\n- wymaga 7-krotnego przełączania (zespół serwerów, sieci, db...),\r\n- każdy zajęty w 90%,\r\n- więc na każdego czekamy 9h,\r\n- łączny czas oczekiwania 7x9h = 63h\r\n\r\ns:\r\nDevOps, 389"]}
+ {:question ["Wymień mity na temat bezpieczeństwa."],
+  :answer
+  ["Mity na temat bezpieczeństwa:"
+   "1. Najważniejszą przyczyną wypadków i incydentów jest błąd ludzki: Nie, to słabość systemowa."
+   "2. Systemy będą bezpieczne, jeśli ludzie będą przestrzegali obowiązujących procedur."
+   "3. Bezpieczeństwo można poprawić przez bariery i zabezpieczenia; im więcej warstw ochrony tym większe bezpieczeństwo."
+   "4. Analiza wypadku pozwala zidentyfikować jego główną przyczynę (prawdę)."
+   "5. Badania wypadków polegają na logicznej i racjonalnej identyfikacji ich przyczyn na podstawie faktów."
+   "6. Bezpieczeństwo zawsze ma najwyższy priorytet. Ta zasada nigdy nie będzie zagrożona."],
+  :source ["s:" "DevOps, 390"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Wymień mity na temat bezpieczeństwa.\r\n\r\nMity na temat bezpieczeństwa:\r\n1. Najważniejszą przyczyną wypadków i incydentów jest błąd ludzki: Nie, to słabość systemowa.\r\n2. Systemy będą bezpieczne, jeśli ludzie będą przestrzegali obowiązujących procedur.\r\n3. Bezpieczeństwo można poprawić przez bariery i zabezpieczenia; im więcej warstw ochrony tym większe bezpieczeństwo.\r\n4. Analiza wypadku pozwala zidentyfikować jego główną przyczynę (prawdę).\r\n5. Badania wypadków polegają na logicznej i racjonalnej identyfikacji ich przyczyn na podstawie faktów.\r\n6. Bezpieczeństwo zawsze ma najwyższy priorytet. Ta zasada nigdy nie będzie zagrożona.\r\n\r\ns:\r\nDevOps, 390"]}
+ {:question
+  ["Dlaczego 5tys. pociągnięć linki Andon nie paraliżuje produkcji Toyoty?"],
+  :answer
+  ["5tys. pociągnięć linki Andon nie paraliżuje produkcji Toyoty, bo:"
+   "- nie każde pociągnięcie powoduje zatrzymanie linii produkcyjnej,"
+   "- lider zespołu ma 50s na rozwiązanie problemu."],
+  :source ["s:" "DevOps, 391"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Dlaczego 5tys. pociągnięć linki Andon nie paraliżuje produkcji Toyoty?\r\n\r\n5tys. pociągnięć linki Andon nie paraliżuje produkcji Toyoty, bo:\r\n- nie każde pociągnięcie powoduje zatrzymanie linii produkcyjnej,\r\n- lider zespołu ma 50s na rozwiązanie problemu.\r\n\r\ns:\r\nDevOps, 391"]}
+ {:question
+  ["Jak zamienić operacje instalacji oprogramowania w operacje kontroli wersji?"],
+  :answer
+  ["Żeby zamienić operacje instalacji oprogramowania w operacje kontroli wersji:"
+   "- wyeliminuj instalatory z GUI,"
+   "- porównaj czysty obraz serwera z obrazem po instalacji,"
+   "- umieść zmiany w repozytorium kodu,"
+   "- przekształć ewentualne konfiguracje w bazie danych na pliki."],
+  :source ["s:" "DevOps, 391"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Jak zamienić operacje instalacji oprogramowania w operacje kontroli wersji?\r\n\r\nŻeby zamienić operacje instalacji oprogramowania w operacje kontroli wersji:\r\n- wyeliminuj instalatory z GUI,\r\n- porównaj czysty obraz serwera z obrazem po instalacji,\r\n- umieść zmiany w repozytorium kodu,\r\n- przekształć ewentualne konfiguracje w bazie danych na pliki.\r\n\r\ns:\r\nDevOps, 391"]}
+ {:question ["Co to jest \"infinite hows\"?"],
+  :answer
+  ["\"Infinite hows\" (\"nieskończone pytania jak\") to:"
+   "- forma dyskusji."],
+  :source ["s:" "DevOps, 393"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Co to jest \"infinite hows\"?\r\n\r\n\"Infinite hows\" (\"nieskończone pytania jak\") to:\r\n- forma dyskusji.\r\n\r\ns:\r\nDevOps, 393"]}
+ {:question ["Co to jest \"Małpia Armia\"?"],
+  :answer
+  ["\"Małpia Armia\" (Simian Army) to:"
+   "- rozwinięcie \"Chaos Monkey\" w rodzinę narzędzi,"
+   "- symulują coraz bardziej katastrofalne błędy."],
+  :source ["s:" "DevOps, 394"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Co to jest \"Małpia Armia\"?\r\n\r\n\"Małpia Armia\" (Simian Army) to:\r\n- rozwinięcie \"Chaos Monkey\" w rodzinę narzędzi,\r\n- symulują coraz bardziej katastrofalne błędy.\r\n\r\ns:\r\nDevOps, 394"]}
+ {:question ["Co to jest \"przezroczysty czas sprawności\"?"],
+  :answer
+  ["\"Przezroczysty czas sprawności\" to podejście charakteryzujące się:"
+   "- możliwością samodzielnej identyfikacji problemu przez użytkowników,"
+   "- komunikacją przez internet (ogólna, zamiast e-mail),"
+   "- jednym miejscem komunikacji,"
+   "- udostępnienie informacji o problemach,"
+   "- panel kondycji usługi."],
+  :source ["s:" "DevOps, 395"],
+  :tag ["devops-handbook-42-appendices"],
+  :chunk
+  ["Co to jest \"przezroczysty czas sprawności\"?\r\n\r\n\"Przezroczysty czas sprawności\" to podejście charakteryzujące się:\r\n- możliwością samodzielnej identyfikacji problemu przez użytkowników,\r\n- komunikacją przez internet (ogólna, zamiast e-mail),\r\n- jednym miejscem komunikacji,\r\n- udostępnienie informacji o problemach,\r\n- panel kondycji usługi.\r\n\r\ns:\r\nDevOps, 395"]}]

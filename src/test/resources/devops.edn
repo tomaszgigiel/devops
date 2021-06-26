@@ -4,4 +4,5 @@
  :faq-chapters-path "src/test/resources/faq-chapters/"
  :faq-chapters-merged-path "src/test/resources/faq-chapters-merged.txt"
  :faq-chapters-merged-asciidoctor-path "src/test/resources/faq-chapters-merged-asciidoctor.html"
+ :faq-chapters-edn-path "src/test/resources/faq-chapters-edn.edn"
 }

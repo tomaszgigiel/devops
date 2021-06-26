@@ -1,4 +1,4 @@
-(defproject devops "1005"
+(defproject devops "1006"
   :description "devops: DevOps Notes"
   :url "http://tomaszgigiel.pl"
   :license {:name "Apache License"
@@ -21,10 +21,12 @@
              :main-core {:main pl.tomaszgigiel.devops.core}
              :main-chapters-create {:main pl.tomaszgigiel.devops.chapters.create}
              :main-chapters-merge {:main pl.tomaszgigiel.devops.chapters.merge}
-             :main-chapters-asciidoctor {:main pl.tomaszgigiel.devops.chapters.asciidoctor}}
+             :main-chapters-asciidoctor {:main pl.tomaszgigiel.devops.chapters.asciidoctor}
+             :main-chapters-create-edn {:main pl.tomaszgigiel.devops.chapters.create-edn}}
   
   :aliases {"run-main-core" ["with-profile" "main-core" "run"]
             "run-main-chapters-create" ["with-profile" "main-chapters-create" "run"]
             "run-main-chapters-merge" ["with-profile" "main-chapters-merge" "run"]
-            "run-main-chapters-asciidoctor" ["with-profile" "main-chapters-asciidoctor" "run"]}
+            "run-main-chapters-asciidoctor" ["with-profile" "main-chapters-asciidoctor" "run"]
+            "run-main-chapters-create-edn" ["with-profile" "main-chapters-create-edn" "run"]}
 )
