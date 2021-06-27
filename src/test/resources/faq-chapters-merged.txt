@@ -1,4 +1,18 @@
 .
+Na czym opierają się niniejsze notatki?
+
+Niniejsze notatki opierają się na:
+"DevOps. Światowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji",
+Gene Kim,
+Patrick Debois,
+John Willis,
+Jez Humble,
+John Allspaw
+
+s:
+DevOps, 7
+
+.
 Co to jest SLA?
 
 SLA (service level agreement) to:
