@@ -18,7 +18,7 @@
         s (str/split-lines (nth grups 2))
         t [(str/replace name #".txt$" "")]
         c [chunk]]
-    {:question q :answer a :source s :tag t :chunk c}))
+    {"question" q "answer" a "source" s "tag" t "chunk" c}))
 
 (defn file-to-chunks [file]
   (let [DO-NOT-USE-THIS-STRING "\r\n DO-NOT-USE-THIS-STRING \r\n"
@@ -42,7 +42,9 @@
         files (sort (filter #(.isFile %) (file-seq dir)))
         items (map file-to-items files)
         items (common/flatten-one-level items)
+        items (map-indexed #(assoc %2 "index" %1) items)
         content (vec items)
+        content {"items" content}
         content  (with-out-str (pp/pprint content))
         out (:faq-chapters-edn-path props)]
     (create-file out content)))

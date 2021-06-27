@@ -13,10 +13,13 @@
   (:import java.io.File)
   (:gen-class))
 
+(defn create-file [path content]
+  (spit path content :append false))
+
 (defn freemarker-cfg [template-directory]
   (doto (Configuration. Configuration/VERSION_2_3_31)
-    ;(.setDirectoryForTemplateLoading (new File template-directory)) ;TGL:
-    (.setClassLoaderForTemplateLoading (.getContextClassLoader (Thread/currentThread)) template-directory)
+    (.setDirectoryForTemplateLoading (new File template-directory))
+    ;(.setClassLoaderForTemplateLoading (.getContextClassLoader (Thread/currentThread)) "/templates")
     (.setDefaultEncoding "UTF-8")
     (.setTemplateExceptionHandler TemplateExceptionHandler/RETHROW_HANDLER)
     (.setLogTemplateExceptions false)
@@ -24,20 +27,12 @@
     (.setFallbackOnNullLoopVariable false)))
 
 (defn create-freemarker [props]
-  (let [template-directory (:faq-chapters-freemarker-template-directory props)
-        template-filename (:faq-chapters-freemarker-template-filename props)
-        in (:faq-chapters-edn-path props)
+  (let [cfg (freemarker-cfg (:faq-chapters-freemarker-template-directory props))
+        template (.getTemplate cfg (:faq-chapters-freemarker-template-filename props))
+        model (edn/read-string (slurp (:faq-chapters-edn-path props)))
         out (:faq-chapters-freemarker-path props)
-        cfg (freemarker-cfg template-directory)
-        template (.getTemplate cfg template-filename)
-
-        ;; TGL:
-        model {"items" [{"question" ["my-question1"], "answer" ["my-answer1:" "- line1" "- line2" "foo:" "- line-foo1"], "source" ["my-source1"], "tag" ["my-tag1"],  "chunk" ["my-chunk1"]}
-                        {"question" ["my-question2"], "answer" ["my-answer2" "my-answer21"], "source" ["my-source2"], "tag" ["my-tag2"],  "chunk" ["my-chunk2"]}]}
-
-        ]
-    (.process template model *out*)
-    (println "ok!")))
+        content (with-out-str (.process template model *out*))]
+    (create-file out content)))
 
 (defn- work [path]
   (let [props (with-open [r (io/reader path)] (edn/read (java.io.PushbackReader. r)))]

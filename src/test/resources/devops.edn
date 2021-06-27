@@ -6,6 +6,6 @@
  :faq-chapters-asciidoctor-path "src/test/resources/faq-chapters-merged-asciidoctor.html"
  :faq-chapters-edn-path "src/test/resources/faq-chapters-edn.edn"
  :faq-chapters-freemarker-path "src/test/resources/faq-chapters-freemarker.html"
- :faq-chapters-freemarker-template-directory "/templates"
+ :faq-chapters-freemarker-template-directory "src/test/resources/templates"
  :faq-chapters-freemarker-template-filename "faq-chapters-wiki-template.ftlh"
 }
