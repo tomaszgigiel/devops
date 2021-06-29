@@ -1,4 +1,4 @@
-(defproject devops "1013"
+(defproject devops "1014"
   :description "devops: DevOps Notes"
   :url "http://tomaszgigiel.pl"
   :license {:name "Apache License"
@@ -24,16 +24,18 @@
              :main-create-faq-chapters-merged {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged}
              :main-create-faq-chapters-asciidoctor {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-asciidoctor}
              :main-create-faq-chapters-edn {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-edn}
-             :main-create-faq-chapters-freemarker {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker}
+             :main-create-faq-chapters-freemarker-wiki {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker-wiki}
+             :main-create-faq-chapters-freemarker-anki {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker-anki}
              :main-create-quotes-edn {:main pl.tomaszgigiel.devops.quotes.create-quotes-edn}
              :main-create-quotes-freemarker {:main pl.tomaszgigiel.devops.quotes.create-quotes-freemarker}}
-  
+
   :aliases {"run-main-core" ["with-profile" "main-core" "run"]
             "run-main-create-faq-chapters" ["with-profile" "main-create-faq-chapters" "run"]
             "run-main-create-faq-chapters-merged" ["with-profile" "main-create-faq-chapters-merged" "run"]
             "run-main-create-faq-chapters-asciidoctor" ["with-profile" "main-create-faq-chapters-asciidoctor" "run"]
             "run-main-create-faq-chapters-edn" ["with-profile" "main-create-faq-chapters-edn" "run"]
-            "run-main-create-faq-chapters-freemarker" ["with-profile" "main-create-faq-chapters-freemarker" "run"]
+            "run-main-create-faq-chapters-freemarker-wiki" ["with-profile" "main-create-faq-chapters-freemarker-wiki" "run"]
+            "run-main-create-faq-chapters-freemarker-anki" ["with-profile" "main-create-faq-chapters-freemarker-anki" "run"]
             "run-main-create-quotes-edn" ["with-profile" "main-create-quotes-edn" "run"]
             "run-main-create-quotes-freemarker" ["with-profile" "main-create-quotes-freemarker" "run"]}
 )

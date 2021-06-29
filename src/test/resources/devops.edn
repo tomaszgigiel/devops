@@ -3,15 +3,18 @@
  :table-of-contents-path "src/test/resources/table-of-contents/table-of-contents.txt"
  :faq-chapters-path "src/test/resources/faq-chapters/"
  :quotes-path "src/test/resources/quotes/quotes.txt"
+
  :freemarker-template-directory "src/test/resources/templates"
+ :freemarker-template-faq-chapters-wiki-filename "template-faq-chapters-wiki.ftlh"
+ :freemarker-template-faq-chapters-anki-filename "template-faq-chapters-anki.ftlh"
+ :freemarker-template-quotes-wiki-filename "template-quotes-wiki.ftlh"
 
  :faq-chapters-merged-path "src/test/resources/output/faq-chapters-merged.txt"
- :faq-chapters-asciidoctor-path "src/test/resources/output/faq-chapters-merged-asciidoctor.html"
+ :faq-chapters-asciidoctor-path "src/test/resources/output/faq-chapters-asciidoctor.html"
  :faq-chapters-edn-path "src/test/resources/output/faq-chapters-edn.edn"
- :faq-chapters-freemarker-template-filename "faq-chapters-wiki-template.ftlh"
- :faq-chapters-freemarker-path "src/test/resources/output/faq-chapters-freemarker.html"
+ :faq-chapters-freemarker-wiki-path "src/test/resources/output/faq-chapters-freemarker-wiki.html"
+ :faq-chapters-freemarker-anki-path "src/test/resources/output/faq-chapters-freemarker-anki.html"
 
  :quotes-edn-path "src/test/resources/output/quotes-edn.edn"
- :quotes-freemarker-template-filename "quotes-wiki-template.ftlh"
  :quotes-freemarker-path "src/test/resources/output/quotes-freemarker.html"
 }
