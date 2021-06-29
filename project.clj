@@ -1,4 +1,4 @@
-(defproject devops "1012"
+(defproject devops "1013"
   :description "devops: DevOps Notes"
   :url "http://tomaszgigiel.pl"
   :license {:name "Apache License"

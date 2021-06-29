@@ -1,4 +1,4 @@
-Script started on 2021-06-29 16:47:50+0200
+Script started on 2021-06-29 17:10:48+0200
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -27,38 +27,38 @@ Ran 0 tests containing 0 assertions.
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 29, 2021 4:48:19 PM clojure.tools.logging$eval155$fn__158 invoke
-INFO: {:quotes-edn-path src/test/resources/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/faq-chapters-merged-asciidoctor.html, :faq-chapters-edn-path src/test/resources/faq-chapters-edn.edn, :freemarker-template-directory src/test/resources/templates, :faq-chapters-freemarker-template-filename faq-chapters-wiki-template.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-freemarker-path src/test/resources/faq-chapters-freemarker.html, :faq-chapters-path src/test/resources/faq-chapters/, :quotes-freemarker-template-filename quotes-wiki-template.ftlh, :info , :faq-chapters-merged-path src/test/resources/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents.txt, :quotes-freemarker-path src/test/resources/quotes-freemarker.html}
-Jun 29, 2021 4:48:19 PM clojure.tools.logging$eval155$fn__158 invoke
+Jun 29, 2021 5:11:13 PM clojure.tools.logging$eval155$fn__158 invoke
+INFO: {:quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-merged-asciidoctor.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-directory src/test/resources/templates, :faq-chapters-freemarker-template-filename faq-chapters-wiki-template.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-freemarker-path src/test/resources/output/faq-chapters-freemarker.html, :faq-chapters-path src/test/resources/faq-chapters/, :quotes-freemarker-template-filename quotes-wiki-template.ftlh, :info , :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html}
+Jun 29, 2021 5:11:13 PM clojure.tools.logging$eval155$fn__158 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 29, 2021 4:48:30 PM clojure.tools.logging$eval161$fn__164 invoke
+Jun 29, 2021 5:11:24 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 29, 2021 4:48:40 PM clojure.tools.logging$eval161$fn__164 invoke
+Jun 29, 2021 5:11:33 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 29, 2021 4:48:59 PM clojure.tools.logging$eval161$fn__164 invoke
+Jun 29, 2021 5:11:51 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-asciidoctor: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 29, 2021 4:49:17 PM clojure.tools.logging$eval161$fn__164 invoke
+Jun 29, 2021 5:12:07 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-edn: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 29, 2021 4:49:27 PM clojure.tools.logging$eval161$fn__164 invoke
+Jun 29, 2021 5:12:17 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 29, 2021 4:49:43 PM clojure.tools.logging$eval161$fn__164 invoke
+Jun 29, 2021 5:12:29 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.quotes.create-quotes-edn: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Jun 29, 2021 4:49:56 PM clojure.tools.logging$eval161$fn__164 invoke
+Jun 29, 2021 5:12:39 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.quotes.create-quotes-freemarker: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -66,9 +66,9 @@ Compiling pl.tomaszgigiel.devops.core
 Compiling pl.tomaszgigiel.devops.core
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-Jun 29, 2021 4:50:25 PM clojure.tools.logging$eval136$fn__139 invoke
-INFO: {:quotes-edn-path src/test/resources/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/faq-chapters-merged-asciidoctor.html, :faq-chapters-edn-path src/test/resources/faq-chapters-edn.edn, :freemarker-template-directory src/test/resources/templates, :faq-chapters-freemarker-template-filename faq-chapters-wiki-template.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-freemarker-path src/test/resources/faq-chapters-freemarker.html, :faq-chapters-path src/test/resources/faq-chapters/, :quotes-freemarker-template-filename quotes-wiki-template.ftlh, :info , :faq-chapters-merged-path src/test/resources/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents.txt, :quotes-freemarker-path src/test/resources/quotes-freemarker.html}
-Jun 29, 2021 4:50:25 PM clojure.tools.logging$eval136$fn__139 invoke
+Jun 29, 2021 5:13:02 PM clojure.tools.logging$eval136$fn__139 invoke
+INFO: {:quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-merged-asciidoctor.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-directory src/test/resources/templates, :faq-chapters-freemarker-template-filename faq-chapters-wiki-template.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-freemarker-path src/test/resources/output/faq-chapters-freemarker.html, :faq-chapters-path src/test/resources/faq-chapters/, :quotes-freemarker-template-filename quotes-wiki-template.ftlh, :info , :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html}
+Jun 29, 2021 5:13:02 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -76,9 +76,9 @@ Compiling pl.tomaszgigiel.devops.core
 Compiling pl.tomaszgigiel.devops.core
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-Jun 29, 2021 4:50:58 PM clojure.tools.logging$eval136$fn__139 invoke
-INFO: {:quotes-edn-path src/test/resources/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/faq-chapters-merged-asciidoctor.html, :faq-chapters-edn-path src/test/resources/faq-chapters-edn.edn, :freemarker-template-directory src/test/resources/templates, :faq-chapters-freemarker-template-filename faq-chapters-wiki-template.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-freemarker-path src/test/resources/faq-chapters-freemarker.html, :faq-chapters-path src/test/resources/faq-chapters/, :quotes-freemarker-template-filename quotes-wiki-template.ftlh, :info , :faq-chapters-merged-path src/test/resources/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents.txt, :quotes-freemarker-path src/test/resources/quotes-freemarker.html}
-Jun 29, 2021 4:50:58 PM clojure.tools.logging$eval136$fn__139 invoke
+Jun 29, 2021 5:13:27 PM clojure.tools.logging$eval136$fn__139 invoke
+INFO: {:quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-merged-asciidoctor.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-directory src/test/resources/templates, :faq-chapters-freemarker-template-filename faq-chapters-wiki-template.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-freemarker-path src/test/resources/output/faq-chapters-freemarker.html, :faq-chapters-path src/test/resources/faq-chapters/, :quotes-freemarker-template-filename quotes-wiki-template.ftlh, :info , :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html}
+Jun 29, 2021 5:13:27 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -89,4 +89,4 @@ Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-ube
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 
-Script done on 2021-06-29 16:51:19+0200
+Script done on 2021-06-29 17:13:54+0200
