@@ -2,10 +2,16 @@
  :info ""
  :table-of-contents-path "src/test/resources/table-of-contents.txt"
  :faq-chapters-path "src/test/resources/faq-chapters/"
+ :quotes-path "src/test/resources/quotes/quotes.txt"
+ :freemarker-template-directory "src/test/resources/templates"
+
  :faq-chapters-merged-path "src/test/resources/faq-chapters-merged.txt"
  :faq-chapters-asciidoctor-path "src/test/resources/faq-chapters-merged-asciidoctor.html"
  :faq-chapters-edn-path "src/test/resources/faq-chapters-edn.edn"
- :faq-chapters-freemarker-path "src/test/resources/faq-chapters-freemarker.html"
- :faq-chapters-freemarker-template-directory "src/test/resources/templates"
  :faq-chapters-freemarker-template-filename "faq-chapters-wiki-template.ftlh"
+ :faq-chapters-freemarker-path "src/test/resources/faq-chapters-freemarker.html"
+
+ :quotes-edn-path "src/test/resources/quotes-edn.edn"
+ :quotes-freemarker-template-filename "quotes-wiki-template.ftlh"
+ :quotes-freemarker-path "src/test/resources/quotes-freemarker.html"
 }

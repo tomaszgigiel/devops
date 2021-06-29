@@ -1,0 +1,49 @@
+{"items"
+ [{"quote"
+   "Bank to po prostu firma IT z licencją bankową. [DevOps, 23]",
+   "tag" ["quotes"],
+   "index" 0}
+  {"quote"
+   "w przypadku braku poprawy procesy nie pozostają takie same - z powodu chaosu i entropii procesy w rzeczywistości z czasem stają się coraz gorsze [DevOps, 71]",
+   "tag" ["quotes"],
+   "index" 1}
+  {"quote"
+   "ważniejsze od codziennej pracy jest usprawnianie codziennej pracy [DevOps, 71]",
+   "tag" ["quotes"],
+   "index" 2}
+  {"quote"
+   "Każda nowa aplikacja jest jak młody szczeniak. Nie ma znaczenia cena, którą za niego zapłacimy. Prawdziwe koszty to codzienna pielęgnacja i opieka. [DevOps, 117]",
+   "tag" ["quotes"],
+   "index" 3}
+  {"quote"
+   "zespoły używające TDD wytwarzały kod o 60-90% lepszy pod względem występowania defektów w porównaniu z zespołami niestosującymi tej techniki, poświęcając na pisanie kodu tylko 15-35% więcej czasu [DevOps, 165]",
+   "tag" ["quotes"],
+   "index" 4}
+  {"quote"
+   "Cały kod planowany do uruchomienia w ciągu kolejnych sześciu miesięcy już został wdrożony na serwerach produkcyjnych. Pozostało jedynie go uaktywnić. [DevOps, 204]",
+   "tag" ["quotes"],
+   "index" 5}
+  {"quote"
+   "Nie istnieje jedna doskonała architektura dla wszystkich produktów i we wszystkich skalach. [DevOps, 212]",
+   "tag" ["quotes"],
+   "index" 6}
+  {"quote"
+   "Monitorowanie jest tak ważne, że systemy monitorowania powinny być bardziej dostępne i skalowalne niż monitorowane systemy. [DevOps, 230]",
+   "tag" ["quotes"],
+   "index" 7}
+  {"quote"
+   "wysłanie wszystkich pracowników firmy na wakacje przyniosłyby firmie i jej klientom więcej korzyści niż budowanie jednej z tych nic niewartych cech funkcjonalnych [DevOps, 278]",
+   "tag" ["quotes"],
+   "index" 8}
+  {"quote"
+   "Poproś programistę, żeby dokonał przeglądu 10 wierszy kodu, to znajdzie w nim 10 problemów. Poproś go, aby zrobił to dla 500 wierszy, to powie, że kod wygląda dobrze. [DevOps, 287]",
+   "tag" ["quotes"],
+   "index" 9}
+  {"quote"
+   "My, programiści, już nie piszemy spersonalizowanego oprogramowania - zamiast tego montujemy to, czego potrzebujemy, z opensource'owych części, które stały się łańcuchem dostaw oprogramowania, na który jesteśmy zdani [DevOps, 353]",
+   "tag" ["quotes"],
+   "index" 10}
+  {"quote"
+   "Jednym z wyników pokazywania tego wykresu było uświadomienie programistom, że byli atakowani przez cały czas! [DevOps, 360]",
+   "tag" ["quotes"],
+   "index" 11}]}

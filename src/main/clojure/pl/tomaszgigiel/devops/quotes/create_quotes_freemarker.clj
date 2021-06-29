@@ -1,4 +1,4 @@
-(ns pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker
+(ns pl.tomaszgigiel.devops.quotes.create-quotes-freemarker
   (:require [clojure.edn :as edn])
   (:require [clojure.java.io :as io])
   (:require [clojure.pprint :as pp])
@@ -28,9 +28,9 @@
 
 (defn create-freemarker [props]
   (let [cfg (freemarker-cfg (:freemarker-template-directory props))
-        template (.getTemplate cfg (:faq-chapters-freemarker-template-filename props))
-        model (edn/read-string (slurp (:faq-chapters-edn-path props)))
-        out (:faq-chapters-freemarker-path props)
+        template (.getTemplate cfg (:quotes-freemarker-template-filename props))
+        model (edn/read-string (slurp (:quotes-edn-path props)))
+        out (:quotes-freemarker-path props)
         content (with-out-str (.process template model *out*))]
     (create-file out content)))
 
@@ -44,5 +44,5 @@
       (if exit-message
         (cmd/exit (if ok? 0 1) exit-message)
         (work (first args)))
-      (log/info "pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker: ok")
+      (log/info "pl.tomaszgigiel.devops.quotes.create-quotes-freemarker: ok")
       (shutdown-agents)))
