@@ -13,7 +13,7 @@
  :faq-chapters-asciidoctor-path "src/test/resources/output/faq-chapters-asciidoctor.html"
  :faq-chapters-edn-path "src/test/resources/output/faq-chapters-edn.edn"
  :faq-chapters-freemarker-wiki-path "src/test/resources/output/faq-chapters-freemarker-wiki.html"
- :faq-chapters-freemarker-anki-path "src/test/resources/output/faq-chapters-freemarker-anki.html"
+ :faq-chapters-freemarker-anki-path "src/test/resources/output/faq-chapters-freemarker-anki.csv"
 
  :quotes-edn-path "src/test/resources/output/quotes-edn.edn"
  :quotes-freemarker-path "src/test/resources/output/quotes-freemarker.html"
