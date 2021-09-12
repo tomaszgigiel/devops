@@ -4,11 +4,8 @@
   (:require [clojure.string :as str])
   (:require [clojure.tools.logging :as log])
   (:require [pl.tomaszgigiel.devops.cmd :as cmd])
-  (:require [pl.tomaszgigiel.devops.common :as common])
+  (:require [pl.tomaszgigiel.utils.misc :as misc])
   (:gen-class))
-
-(defn create-file [path content]
-  (spit path content :append false))
 
 (defn merge-files [props]
   (let [dir (:faq-chapters-path props)
@@ -17,7 +14,7 @@
         content (mapv slurp files)
         content (apply str content)
         out (:faq-chapters-merged-path props)]
-    (create-file out content)))
+    (misc/file-create out content)))
 
 (defn- work [path]
   (let [props (with-open [r (io/reader path)] (edn/read (java.io.PushbackReader. r)))]

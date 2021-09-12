@@ -4,5 +4,3 @@
   (:require [clojure.string :as str])
   (:require [clojure.tools.logging :as log])
   (:gen-class))
-
-(defn flatten-one-level [coll] (apply concat coll))

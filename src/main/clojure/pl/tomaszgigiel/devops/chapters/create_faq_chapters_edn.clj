@@ -5,11 +5,8 @@
   (:require [clojure.string :as str])
   (:require [clojure.tools.logging :as log])
   (:require [pl.tomaszgigiel.devops.cmd :as cmd])
-  (:require [pl.tomaszgigiel.devops.common :as common])
+  (:require [pl.tomaszgigiel.utils.misc :as misc])
   (:gen-class))
-
-(defn create-file [path content]
-  (spit path content :append false))
 
 (defn chunk-to-item [chunk name]
   (let [grups (str/split chunk #"\r\n\r\n")
@@ -41,13 +38,13 @@
         dir (io/file dir)
         files (sort (filter #(.isFile %) (file-seq dir)))
         items (map file-to-items files)
-        items (common/flatten-one-level items)
+        items (misc/flatten-one-level items)
         items (map-indexed #(assoc %2 "index" %1) items)
         content (vec items)
         content {"items" content}
         content  (with-out-str (pp/pprint content))
         out (:faq-chapters-edn-path props)]
-    (create-file out content)))
+    (misc/file-create out content)))
 
 (defn- work [path]
   (let [props (with-open [r (io/reader path)] (edn/read (java.io.PushbackReader. r)))]

@@ -1,10 +1,11 @@
 DIR_PROJECT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"/../.. #
 #
-(cd $DIR_PROJECT; ./batch/linux/001-bash-rm-target.sh; cd -) #
-(cd $DIR_PROJECT; ./batch/linux/002-bash-sed-replace-end-of-line.sh; cd -) #
-(cd $DIR_PROJECT; ./batch/linux/003-bash-grep-todo.sh; cd -) #
-###(cd $DIR_PROJECT; ./batch/linux/004-bash-sed-replace-string.sh; cd -) #
-###(cd $DIR_PROJECT; ./batch/linux/005-sed-smooth-log-after.sh; cd -) #
+(cd $DIR_PROJECT; ./batch/linux/001-bash-info.sh; cd -) #
+(cd $DIR_PROJECT; ./batch/linux/002-bash-rm-target.sh; cd -) #
+(cd $DIR_PROJECT; ./batch/linux/003-bash-sed-replace-end-of-line.sh; cd -) #
+(cd $DIR_PROJECT; ./batch/linux/004-bash-grep-todo.sh; cd -) #
+###(cd $DIR_PROJECT; ./batch/linux/005-bash-sed-replace-string.sh; cd -) #
+###(cd $DIR_PROJECT; ./batch/linux/006-bash-sed-smooth-log-after.sh; cd -) #
 #
 (cd $DIR_PROJECT; ./batch/linux/301-lein-compile.sh; cd -) #
 (cd $DIR_PROJECT; ./batch/linux/302-lein-test-spec.sh; cd -) #

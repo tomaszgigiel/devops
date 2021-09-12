@@ -4,7 +4,7 @@
  :faq-chapters-path "src/test/resources/faq-chapters/"
  :quotes-path "src/test/resources/quotes/quotes.txt"
 
- :freemarker-template-directory "src/test/resources/templates"
+ :freemarker-template-directory "src/test/resources/templates/"
  :freemarker-template-faq-chapters-wiki-filename "template-faq-chapters-wiki.ftlh"
  :freemarker-template-faq-chapters-anki-filename "template-faq-chapters-anki.ftlh"
  :freemarker-template-quotes-wiki-filename "template-quotes-wiki.ftlh"
@@ -17,4 +17,7 @@
 
  :quotes-edn-path "src/test/resources/output/quotes-edn.edn"
  :quotes-freemarker-path "src/test/resources/output/quotes-freemarker.html"
+ 
+ :tiddlywiki-empty-path "src/test/resources/tiddlywiki/empty.html"
+ :tiddlywiki-result-path "src/test/resources/output/devops.html"
 }

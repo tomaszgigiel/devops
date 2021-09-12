@@ -5,34 +5,16 @@
   (:require [clojure.string :as str])
   (:require [clojure.tools.logging :as log])
   (:require [pl.tomaszgigiel.devops.cmd :as cmd])
-  (:require [pl.tomaszgigiel.devops.common :as common])
-  (:import freemarker.template.Configuration)
-  (:import freemarker.template.Template)
-  (:import freemarker.template.TemplateExceptionHandler)
-  (:import freemarker.template.Version)
-  (:import java.io.File)
+  (:require [pl.tomaszgigiel.utils.misc :as misc])
   (:gen-class))
 
-(defn create-file [path content]
-  (spit path content :append false))
-
-(defn freemarker-cfg [template-directory]
-  (doto (Configuration. Configuration/VERSION_2_3_31)
-    (.setDirectoryForTemplateLoading (new File template-directory))
-    ;(.setClassLoaderForTemplateLoading (.getContextClassLoader (Thread/currentThread)) "/templates")
-    (.setDefaultEncoding "UTF-8")
-    (.setTemplateExceptionHandler TemplateExceptionHandler/RETHROW_HANDLER)
-    (.setLogTemplateExceptions false)
-    (.setWrapUncheckedExceptions true)
-    (.setFallbackOnNullLoopVariable false)))
-
 (defn create-freemarker [props]
-  (let [cfg (freemarker-cfg (:freemarker-template-directory props))
+  (let [cfg (misc/freemarker-cfg (:freemarker-template-directory props))
         template (.getTemplate cfg (:freemarker-template-quotes-wiki-filename props))
         model (edn/read-string (slurp (:quotes-edn-path props)))
         out (:quotes-freemarker-path props)
         content (with-out-str (.process template model *out*))]
-    (create-file out content)))
+    (misc/file-create out content)))
 
 (defn- work [path]
   (let [props (with-open [r (io/reader path)] (edn/read (java.io.PushbackReader. r)))]

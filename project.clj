@@ -1,4 +1,4 @@
-(defproject devops "1015"
+(defproject devops "1016"
   :description "devops: DevOps Notes"
   :url "http://tomaszgigiel.pl"
   :license {:name "Apache License"
@@ -27,7 +27,12 @@
              :main-create-faq-chapters-freemarker-wiki {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker-wiki}
              :main-create-faq-chapters-freemarker-anki {:main pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker-anki}
              :main-create-quotes-edn {:main pl.tomaszgigiel.devops.quotes.create-quotes-edn}
-             :main-create-quotes-freemarker {:main pl.tomaszgigiel.devops.quotes.create-quotes-freemarker}}
+             :main-create-quotes-freemarker {:main pl.tomaszgigiel.devops.quotes.create-quotes-freemarker}
+
+             :main-prepare-tiddlywiki {:main pl.tomaszgigiel.devops.tiddlywiki.prepare-tiddlywiki}
+             :main-create-faq-chapters-freemarker-tiddlywiki {:main pl.tomaszgigiel.devops.tiddlywiki.create-faq-chapters-freemarker-tiddlywiki}
+             :main-create-mindmap-freemarker-tiddlywiki {:main pl.tomaszgigiel.devops.tiddlywiki.create-mindmap-freemarker-tiddlywiki}
+             :main-create-quotes-freemarker-tiddlywiki {:main pl.tomaszgigiel.devops.tiddlywiki.create-quotes-freemarker-tiddlywiki}}
 
   :aliases {"run-main-core" ["with-profile" "main-core" "run"]
             "run-main-create-faq-chapters" ["with-profile" "main-create-faq-chapters" "run"]
@@ -37,5 +42,10 @@
             "run-main-create-faq-chapters-freemarker-wiki" ["with-profile" "main-create-faq-chapters-freemarker-wiki" "run"]
             "run-main-create-faq-chapters-freemarker-anki" ["with-profile" "main-create-faq-chapters-freemarker-anki" "run"]
             "run-main-create-quotes-edn" ["with-profile" "main-create-quotes-edn" "run"]
-            "run-main-create-quotes-freemarker" ["with-profile" "main-create-quotes-freemarker" "run"]}
+            "run-main-create-quotes-freemarker" ["with-profile" "main-create-quotes-freemarker" "run"]
+
+            "run-main-prepare-tiddlywiki" ["with-profile" "main-prepare-tiddlywiki" "run"]
+            "run-main-create-faq-chapters-freemarker-tiddlywiki" ["with-profile" "main-create-faq-chapters-freemarker-tiddlywiki" "run"]
+            "run-main-create-mindmap-freemarker-tiddlywiki" ["with-profile" "main-create-mindmap-freemarker-tiddlywiki" "run"]
+            "run-main-create-quotes-freemarker-tiddlywiki" ["with-profile" "main-create-quotes-freemarker-tiddlywiki" "run"]}
 )
