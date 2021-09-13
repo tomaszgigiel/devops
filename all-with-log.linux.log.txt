@@ -1,4 +1,4 @@
-Script started on 2021-09-12 20:15:24+0200
+Script started on 2021-09-13 22:55:52+0200
 openjdk version "1.8.0_292"
 OpenJDK Runtime Environment (build 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10)
 OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode)
@@ -37,58 +37,58 @@ Ran 0 tests containing 0 assertions.
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:15:58 PM clojure.tools.logging$eval155$fn__158 invoke
-INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-result-path src/test/resources/output/devops.html, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :info , :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :faq-chapters-freemarker-anki-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
-Sep 12, 2021 8:15:58 PM clojure.tools.logging$eval155$fn__158 invoke
+Sep 13, 2021 10:56:15 PM clojure.tools.logging$eval155$fn__158 invoke
+INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-result-path src/test/resources/output/devops.html, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :freemarker-template-faq-chapters-tiddlywiki-list template-faq-chapters-tiddlywiki-list.ftlh, :info , :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :faq-chapters-freemarker-anki-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-tiddlywiki-tiddlers template-faq-chapters-tiddlywiki-tiddlers.ftlh, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
+Sep 13, 2021 10:56:15 PM clojure.tools.logging$eval155$fn__158 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:16:08 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:56:24 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:16:18 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:56:32 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:16:37 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:56:46 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-asciidoctor: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:16:53 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:56:59 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-edn: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:17:04 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:57:07 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker-wiki: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:17:15 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:57:16 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker-anki: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:17:27 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:57:25 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.quotes.create-quotes-edn: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:17:37 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:57:34 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.quotes.create-quotes-freemarker: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:17:48 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:57:42 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.tiddlywiki.prepare-tiddlywiki: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:17:59 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:57:51 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.tiddlywiki.create-faq-chapters-freemarker-tiddlywiki: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:18:09 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:57:59 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.tiddlywiki.create-mindmap-freemarker-tiddlywiki: ok
 /home/tomasz/Documents/workspace-devops/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 12, 2021 8:18:20 PM clojure.tools.logging$eval161$fn__164 invoke
+Sep 13, 2021 10:58:07 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.tiddlywiki.create-quotes-freemarker-tiddlywiki: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -96,9 +96,9 @@ Compiling pl.tomaszgigiel.devops.core
 Compiling pl.tomaszgigiel.devops.core
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-Sep 12, 2021 8:18:40 PM clojure.tools.logging$eval136$fn__139 invoke
-INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-result-path src/test/resources/output/devops.html, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :info , :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :faq-chapters-freemarker-anki-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
-Sep 12, 2021 8:18:40 PM clojure.tools.logging$eval136$fn__139 invoke
+Sep 13, 2021 10:58:25 PM clojure.tools.logging$eval136$fn__139 invoke
+INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-result-path src/test/resources/output/devops.html, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :freemarker-template-faq-chapters-tiddlywiki-list template-faq-chapters-tiddlywiki-list.ftlh, :info , :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :faq-chapters-freemarker-anki-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-tiddlywiki-tiddlers template-faq-chapters-tiddlywiki-tiddlers.ftlh, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
+Sep 13, 2021 10:58:25 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -106,9 +106,9 @@ Compiling pl.tomaszgigiel.devops.core
 Compiling pl.tomaszgigiel.devops.core
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
 Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-Sep 12, 2021 8:19:01 PM clojure.tools.logging$eval136$fn__139 invoke
-INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-result-path src/test/resources/output/devops.html, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :info , :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :faq-chapters-freemarker-anki-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
-Sep 12, 2021 8:19:01 PM clojure.tools.logging$eval136$fn__139 invoke
+Sep 13, 2021 10:58:42 PM clojure.tools.logging$eval136$fn__139 invoke
+INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-result-path src/test/resources/output/devops.html, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :freemarker-template-faq-chapters-tiddlywiki-list template-faq-chapters-tiddlywiki-list.ftlh, :info , :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :faq-chapters-freemarker-anki-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-tiddlywiki-tiddlers template-faq-chapters-tiddlywiki-tiddlers.ftlh, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
+Sep 13, 2021 10:58:42 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: ok
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
@@ -119,4 +119,4 @@ Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-ube
 /home/tomasz/Documents/workspace-devops/devops
 /home/tomasz/Documents/workspace-devops/devops
 
-Script done on 2021-09-12 20:19:19+0200
+Script done on 2021-09-13 22:58:58+0200

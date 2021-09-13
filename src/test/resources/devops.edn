@@ -8,6 +8,8 @@
  :freemarker-template-faq-chapters-wiki-filename "template-faq-chapters-wiki.ftlh"
  :freemarker-template-faq-chapters-anki-filename "template-faq-chapters-anki.ftlh"
  :freemarker-template-quotes-wiki-filename "template-quotes-wiki.ftlh"
+ :freemarker-template-faq-chapters-tiddlywiki-list "template-faq-chapters-tiddlywiki-list.ftlh"
+ :freemarker-template-faq-chapters-tiddlywiki-tiddlers "template-faq-chapters-tiddlywiki-tiddlers.ftlh"
 
  :faq-chapters-merged-path "src/test/resources/output/faq-chapters-merged.txt"
  :faq-chapters-asciidoctor-path "src/test/resources/output/faq-chapters-asciidoctor.html"
