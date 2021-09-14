@@ -8,11 +8,27 @@
   (:require [pl.tomaszgigiel.utils.misc :as misc])
   (:gen-class))
 
-(defn create-quotes-freemarker-tiddlywiki [props])
+(defn create-freemarker [props]
+  (let [cfg (misc/freemarker-cfg (:freemarker-template-directory props))
+        title (:tiddlywiki-quotes-title props)
+        content (slurp (:quotes-path props) :encoding  "UTF-8")
+        tags "quotes"
+        model {"items" [{"title" title "content" content "tags" tags}]}
+        out (:tiddlywiki-result-path props)
+        tiddlywiki (slurp out :encoding  "UTF-8")
+
+        template (.getTemplate cfg (:freemarker-template-quotes-tiddlywiki-list props))
+        content (with-out-str (.process template model *out*))
+        tiddlywiki (str/replace-first tiddlywiki "<!-- ARTILLERY-TAG-LIST-OF-TIDDLERS-LI-END -->" (str content "<!-- ARTILLERY-TAG-LIST-OF-TIDDLERS-LI-END -->"))
+
+        template (.getTemplate cfg (:freemarker-template-quotes-tiddlywiki-tiddlers props))
+        content (with-out-str (.process template model *out*))
+        tiddlywiki (str/replace-first tiddlywiki "<!-- ARTILLERY-TAG-STORE-AREA-END -->" (str content "<!-- ARTILLERY-TAG-STORE-AREA-END -->"))]
+    (misc/file-create out tiddlywiki)))
 
 (defn- work [path]
   (let [props (with-open [r (io/reader path)] (edn/read (java.io.PushbackReader. r)))]
-    (create-quotes-freemarker-tiddlywiki props)))
+    (create-freemarker props)))
 
 (defn -main [& args]
   "devops: DevOps Notes"

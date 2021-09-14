@@ -91,10 +91,22 @@
 
     tiddlywiki))
 
+(defn set-title-subtitle [tiddlywiki title subtitle]
+  (let [title-subtitle (re-pattern "<!-- ARTILLERY-TAG-TITLE-SUBTITLE-START -->.*<!-- ARTILLERY-TAG-TITLE-SUBTITLE-END -->")
+        tiddlywiki (str/replace tiddlywiki title-subtitle (str "<!-- ARTILLERY-TAG-TITLE-SUBTITLE-START -->" "<title>" title " — " subtitle "</title>" "<!-- ARTILLERY-TAG-TITLE-SUBTITLE-END -->"))
+
+        title-only (re-pattern "<!-- ARTILLERY-TAG-TITLE-PRE-START -->.*<!-- ARTILLERY-TAG-TITLE-PRE-END -->")
+        tiddlywiki (str/replace tiddlywiki title-only (str "<!-- ARTILLERY-TAG-TITLE-PRE-START -->" "<pre>" title "</pre>" "<!-- ARTILLERY-TAG-TITLE-PRE-END -->"))
+
+        subtitle-only (re-pattern "<!-- ARTILLERY-TAG-SUBTITLE-PRE-START -->.*<!-- ARTILLERY-TAG-SUBTITLE-PRE-END -->")
+        tiddlywiki (str/replace tiddlywiki subtitle-only (str "<!-- ARTILLERY-TAG-SUBTITLE-PRE-START -->" "<pre>" subtitle "</pre>" "<!-- ARTILLERY-TAG-SUBTITLE-PRE-END -->"))]
+    tiddlywiki))
+
 (defn prepare-tiddlywiki [props]
   (let [tiddlywiki (slurp (:tiddlywiki-empty-path props) :encoding  "UTF-8")
         tiddlywiki-result-path (:tiddlywiki-result-path props)
-        tiddlywiki (prepare tiddlywiki)]
+        tiddlywiki (prepare tiddlywiki)
+        tiddlywiki (set-title-subtitle tiddlywiki (:tiddlywiki-title props) (:tiddlywiki-subtitle props))]
     (misc/file-create tiddlywiki-result-path tiddlywiki)))
 
 (defn- work [path]

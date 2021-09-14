@@ -1,4 +1,4 @@
-(ns pl.tomaszgigiel.devops.tiddlywiki.create-faq-chapters-freemarker-tiddlywiki
+(ns pl.tomaszgigiel.devops.tiddlywiki.create-mind-map-freemarker-tiddlywiki
   (:require [clojure.edn :as edn])
   (:require [clojure.java.io :as io])
   (:require [clojure.pprint :as pp])
@@ -10,15 +10,20 @@
 
 (defn create-freemarker [props]
   (let [cfg (misc/freemarker-cfg (:freemarker-template-directory props))
-        model (edn/read-string (slurp (:faq-chapters-edn-path props)))
+        title (:tiddlywiki-mind-map-title props)
+        file (io/file (:mind-map-path props))
+        content (misc/file->base64-string file)
+        tags "image"
+        mimetype (misc/mimetype file)
+        model {"items" [{"title" title "content" content "tags" tags "mimetype" mimetype}]}
         out (:tiddlywiki-result-path props)
         tiddlywiki (slurp out :encoding  "UTF-8")
 
-        template (.getTemplate cfg (:freemarker-template-faq-chapters-tiddlywiki-list props))
+        template (.getTemplate cfg (:freemarker-template-mind-map-tiddlywiki-list props))
         content (with-out-str (.process template model *out*))
         tiddlywiki (str/replace-first tiddlywiki "<!-- ARTILLERY-TAG-LIST-OF-TIDDLERS-LI-END -->" (str content "<!-- ARTILLERY-TAG-LIST-OF-TIDDLERS-LI-END -->"))
 
-        template (.getTemplate cfg (:freemarker-template-faq-chapters-tiddlywiki-tiddlers props))
+        template (.getTemplate cfg (:freemarker-template-mind-map-tiddlywiki-tiddlers props))
         content (with-out-str (.process template model *out*))
         tiddlywiki (str/replace-first tiddlywiki "<!-- ARTILLERY-TAG-STORE-AREA-END -->" (str content "<!-- ARTILLERY-TAG-STORE-AREA-END -->"))]
     (misc/file-create out tiddlywiki)))
@@ -33,5 +38,5 @@
       (if exit-message
         (cmd/exit (if ok? 0 1) exit-message)
         (work (first args)))
-      (log/info "pl.tomaszgigiel.devops.tiddlywiki.create-faq-chapters-freemarker-tiddlywiki: ok")
+      (log/info "pl.tomaszgigiel.devops.tiddlywiki.create-mind-map-freemarker-tiddlywiki: ok")
       (shutdown-agents)))

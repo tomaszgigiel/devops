@@ -8,6 +8,8 @@
   (:import freemarker.template.TemplateExceptionHandler)
   (:import freemarker.template.Version)
   (:import java.io.File)
+  (:import java.nio.file.Files)
+  (:import java.util.Base64)
   (:gen-class))
 
 (defn long-str [& strings] (str/join "\n" strings))
@@ -29,3 +31,14 @@
     (.setLogTemplateExceptions false)
     (.setWrapUncheckedExceptions true)
     (.setFallbackOnNullLoopVariable false)))
+
+; https://clojuredocs.org/clojure.java.io/input-stream
+(defn file->bytes [x]
+  (with-open [in (io/input-stream x)
+              out (java.io.ByteArrayOutputStream.)]
+    (io/copy in out)
+    (.toByteArray out)))
+
+(defn file->base64-string [x] (.encodeToString (Base64/getEncoder) (file->bytes x)))
+
+(defn mimetype [file] (Files/probeContentType (.toPath file)))

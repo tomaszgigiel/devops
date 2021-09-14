@@ -3,6 +3,8 @@
  :table-of-contents-path "src/test/resources/table-of-contents/table-of-contents.txt"
  :faq-chapters-path "src/test/resources/faq-chapters/"
  :quotes-path "src/test/resources/quotes/quotes.txt"
+ :mind-map-path "src/test/resources/mind-map/DevOps.png"
+ :attachment-path "src/test/resources/output/faq-chapters-freemarker-anki.csv"
 
  :freemarker-template-directory "src/test/resources/templates/"
  :freemarker-template-faq-chapters-wiki-filename "template-faq-chapters-wiki.ftlh"
@@ -10,6 +12,12 @@
  :freemarker-template-quotes-wiki-filename "template-quotes-wiki.ftlh"
  :freemarker-template-faq-chapters-tiddlywiki-list "template-faq-chapters-tiddlywiki-list.ftlh"
  :freemarker-template-faq-chapters-tiddlywiki-tiddlers "template-faq-chapters-tiddlywiki-tiddlers.ftlh"
+ :freemarker-template-mind-map-tiddlywiki-list "template-mind-map-tiddlywiki-list.ftlh"
+ :freemarker-template-mind-map-tiddlywiki-tiddlers "template-mind-map-tiddlywiki-tiddlers.ftlh"
+ :freemarker-template-quotes-tiddlywiki-list "template-quotes-tiddlywiki-list.ftlh"
+ :freemarker-template-quotes-tiddlywiki-tiddlers "template-quotes-tiddlywiki-tiddlers.ftlh"
+ :freemarker-template-attachment-tiddlywiki-list "template-attachment-tiddlywiki-list.ftlh"
+ :freemarker-template-attachment-tiddlywiki-tiddlers "template-attachment-tiddlywiki-tiddlers.ftlh"
 
  :faq-chapters-merged-path "src/test/resources/output/faq-chapters-merged.txt"
  :faq-chapters-asciidoctor-path "src/test/resources/output/faq-chapters-asciidoctor.html"
@@ -19,7 +27,12 @@
 
  :quotes-edn-path "src/test/resources/output/quotes-edn.edn"
  :quotes-freemarker-path "src/test/resources/output/quotes-freemarker.html"
- 
+
+ :tiddlywiki-title "DevOps. Światowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji"
+ :tiddlywiki-subtitle "Notatki z lektury"
+ :tiddlywiki-mind-map-title "DevOps - Mapa Myśli"
+ :tiddlywiki-quotes-title "DevOps - Cytaty"
+ :tiddlywiki-attachment-title "DevOps - csv (anki)"
  :tiddlywiki-empty-path "src/test/resources/tiddlywiki/empty.html"
  :tiddlywiki-result-path "src/test/resources/output/devops.html"
 }
