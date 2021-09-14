@@ -1,6 +1,0 @@
-Przygotuj https://tiddlywiki.com/
-Przygotuj cloudbite.
-
-Użyj diagramu:
-https://zh.wikipedia.org/wiki/DevOps
-na przykład jako startowa strona wiki.
