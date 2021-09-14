@@ -16,3 +16,5 @@ DIR_PROJECT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"/../.. #
 (cd $DIR_PROJECT; ./batch/linux/307-lein-java-jar.sh; cd -) #
 (cd $DIR_PROJECT; ./batch/linux/308-lein-uberjar.sh; cd -) #
 ###(cd $DIR_PROJECT; ./batch/linux/309-lein-repl.sh; cd -) #
+#
+(cd $DIR_PROJECT; ./batch/linux/007-bash-copy-to-index.sh; cd -) #
