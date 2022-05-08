@@ -1,128 +1,131 @@
-Script started on 2021-09-14 19:05:58+0200
-openjdk version "1.8.0_292"
-OpenJDK Runtime Environment (build 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10)
-OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode)
-/home/tomasz/Documents/workspace-devops/devops
-Leiningen 2.9.1 on Java 1.8.0_292 OpenJDK 64-Bit Server VM
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+Script started on 2022-05-08 17:40:17+0200
+java version "17.0.2" 2022-01-18 LTS
+Java(TM) SE Runtime Environment (build 17.0.2+8-LTS-86)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.2+8-LTS-86, mixed mode, sharing)
+/home/tomasz/Documents/workspace/devops
+Leiningen 2.9.7 on Java 17.0.2 Java HotSpot(TM) 64-Bit Server VM
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 rm: refusing to remove '.' or '..' directory: skipping 'src/test/resources/output/.'
 rm: refusing to remove '.' or '..' directory: skipping 'src/test/resources/output/..'
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 ./batch/linux/004-bash-grep-todo.sh:(cd $DIR_PROJECT; grep -r "TODO" . --exclude={all-with-log.linux.log.txt,all-with-log.msdos.log.txt,empty.html,devops.html,index.html}; cd -) #
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 ./batch/linux/004-bash-grep-todo.sh:(cd $DIR_PROJECT; grep -r "TGL" . --exclude={all-with-log.linux.log.txt,all-with-log.msdos.log.txt,empty.html,devops.html,index.html}; cd -) #
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
 
 lein test user
 
 Ran 0 tests containing 0 assertions.
 0 failures, 0 errors.
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 
-lein test pl.tomaszgigiel.devops.test-config
+lein test user
 
 Ran 0 tests containing 0 assertions.
 0 failures, 0 errors.
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:06:25 PM clojure.tools.logging$eval155$fn__158 invoke
-INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-attachment-tiddlywiki-tiddlers template-attachment-tiddlywiki-tiddlers.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-quotes-title DevOps - Cytaty, :freemarker-template-quotes-tiddlywiki-list template-quotes-tiddlywiki-list.ftlh, :tiddlywiki-result-path src/test/resources/output/devops.html, :freemarker-template-quotes-tiddlywiki-tiddlers template-quotes-tiddlywiki-tiddlers.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :mind-map-path src/test/resources/mind-map/DevOps.png, :tiddlywiki-subtitle Notatki z lektury, :freemarker-template-faq-chapters-tiddlywiki-list template-faq-chapters-tiddlywiki-list.ftlh, :attachment-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :tiddlywiki-attachment-title DevOps - csv (anki), :info , :freemarker-template-mind-map-tiddlywiki-list template-mind-map-tiddlywiki-list.ftlh, :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :tiddlywiki-mind-map-title DevOps - Mapa Myśli, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :freemarker-template-mind-map-tiddlywiki-tiddlers template-mind-map-tiddlywiki-tiddlers.ftlh, :tiddlywiki-title DevOps. Światowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji, :freemarker-template-attachment-tiddlywiki-list template-attachment-tiddlywiki-list.ftlh, :faq-chapters-freemarker-anki-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-tiddlywiki-tiddlers template-faq-chapters-tiddlywiki-tiddlers.ftlh, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
-Sep 14, 2021 7:06:25 PM clojure.tools.logging$eval155$fn__158 invoke
+May 08, 2022 5:40:46 PM clojure.tools.logging$eval155$fn__158 invoke
+INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-attachment-tiddlywiki-tiddlers template-attachment-tiddlywiki-tiddlers.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-quotes-title DevOps - Cytaty, :freemarker-template-quotes-tiddlywiki-list template-quotes-tiddlywiki-list.ftlh, :tiddlywiki-result-path src/test/resources/output/devops.html, :freemarker-template-quotes-tiddlywiki-tiddlers template-quotes-tiddlywiki-tiddlers.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :mind-map-path src/test/resources/mind-map/DevOps.png, :tiddlywiki-subtitle Notatki z lektury (v002), :ankiweb-shared-deck-url https://ankiweb.net/shared/decks/devops-w-twojej-organizacji-pl, :freemarker-template-faq-chapters-tiddlywiki-list template-faq-chapters-tiddlywiki-list.ftlh, :attachment-path src/test/resources/output/devops-w-twojej-organizacji-pl-v002.csv, :freemarker-template-anki-shared-deck-tiddlywiki-list template-anki-shared-deck-tiddlywiki-list.ftlh, :tiddlywiki-attachment-title DevOps - csv (anki), :info , :freemarker-template-mind-map-tiddlywiki-list template-mind-map-tiddlywiki-list.ftlh, :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :freemarker-template-anki-shared-deck-tiddlywiki-tiddlers template-anki-shared-deck-tiddlywiki-tiddlers.ftlh, :tiddlywiki-mind-map-title DevOps - Mapa Myśli, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :ankiweb-shared-deck-title DevOps - AnkiWeb - Shared Deck, :freemarker-template-mind-map-tiddlywiki-tiddlers template-mind-map-tiddlywiki-tiddlers.ftlh, :tiddlywiki-title DevOps. Światowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji, :freemarker-template-attachment-tiddlywiki-list template-attachment-tiddlywiki-list.ftlh, :faq-chapters-freemarker-anki-path src/test/resources/output/devops-w-twojej-organizacji-pl-v002.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-tiddlywiki-tiddlers template-faq-chapters-tiddlywiki-tiddlers.ftlh, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
+May 08, 2022 5:40:47 PM clojure.tools.logging$eval155$fn__158 invoke
 INFO: ok
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:06:34 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:40:57 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:06:45 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:41:08 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-merged: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:07:02 PM clojure.tools.logging$eval161$fn__164 invoke
+2022-05-08T17:41:21.076+02:00 [main] WARN FilenoUtil : Native subprocess control requires open access to the JDK IO subsystem
+Pass '--add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED' to enable.
+May 08, 2022 5:41:26 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-asciidoctor: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:07:18 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:41:43 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-edn: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:07:29 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:41:54 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker-wiki: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:07:39 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:42:06 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.chapters.create-faq-chapters-freemarker-anki: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:07:50 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:42:15 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.quotes.create-quotes-edn: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:08:00 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:42:24 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.quotes.create-quotes-freemarker: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:08:11 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:42:33 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.tiddlywiki.prepare-tiddlywiki: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:08:22 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:42:41 PM clojure.tools.logging$eval161$fn__164 invoke
+INFO: pl.tomaszgigiel.devops.tiddlywiki.create-anki-shared-deck-freemarker-tiddlywiki: ok
+/home/tomasz/Documents/workspace/devops
+Compiling pl.tomaszgigiel.devops.core
+May 08, 2022 5:42:50 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.tiddlywiki.create-mind-map-freemarker-tiddlywiki: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:08:33 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:42:59 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.tiddlywiki.create-quotes-freemarker-tiddlywiki: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:08:45 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:43:08 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.tiddlywiki.create-attachment-freemarker-tiddlywiki: ok
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Sep 14, 2021 7:08:59 PM clojure.tools.logging$eval161$fn__164 invoke
+May 08, 2022 5:43:17 PM clojure.tools.logging$eval161$fn__164 invoke
 INFO: pl.tomaszgigiel.devops.tiddlywiki.create-faq-chapters-freemarker-tiddlywiki: ok
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Compiling pl.tomaszgigiel.devops.core
-Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
-Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-Sep 14, 2021 7:09:25 PM clojure.tools.logging$eval136$fn__139 invoke
-INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-attachment-tiddlywiki-tiddlers template-attachment-tiddlywiki-tiddlers.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-quotes-title DevOps - Cytaty, :freemarker-template-quotes-tiddlywiki-list template-quotes-tiddlywiki-list.ftlh, :tiddlywiki-result-path src/test/resources/output/devops.html, :freemarker-template-quotes-tiddlywiki-tiddlers template-quotes-tiddlywiki-tiddlers.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :mind-map-path src/test/resources/mind-map/DevOps.png, :tiddlywiki-subtitle Notatki z lektury, :freemarker-template-faq-chapters-tiddlywiki-list template-faq-chapters-tiddlywiki-list.ftlh, :attachment-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :tiddlywiki-attachment-title DevOps - csv (anki), :info , :freemarker-template-mind-map-tiddlywiki-list template-mind-map-tiddlywiki-list.ftlh, :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :tiddlywiki-mind-map-title DevOps - Mapa Myśli, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :freemarker-template-mind-map-tiddlywiki-tiddlers template-mind-map-tiddlywiki-tiddlers.ftlh, :tiddlywiki-title DevOps. Światowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji, :freemarker-template-attachment-tiddlywiki-list template-attachment-tiddlywiki-list.ftlh, :faq-chapters-freemarker-anki-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-tiddlywiki-tiddlers template-faq-chapters-tiddlywiki-tiddlers.ftlh, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
-Sep 14, 2021 7:09:25 PM clojure.tools.logging$eval136$fn__139 invoke
+Created /home/tomasz/Documents/workspace/devops/target/uberjar/devops.jar
+Created /home/tomasz/Documents/workspace/devops/target/uberjar/devops-uberjar.jar
+May 08, 2022 5:43:36 PM clojure.tools.logging$eval136$fn__139 invoke
+INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-attachment-tiddlywiki-tiddlers template-attachment-tiddlywiki-tiddlers.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-quotes-title DevOps - Cytaty, :freemarker-template-quotes-tiddlywiki-list template-quotes-tiddlywiki-list.ftlh, :tiddlywiki-result-path src/test/resources/output/devops.html, :freemarker-template-quotes-tiddlywiki-tiddlers template-quotes-tiddlywiki-tiddlers.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :mind-map-path src/test/resources/mind-map/DevOps.png, :tiddlywiki-subtitle Notatki z lektury (v002), :ankiweb-shared-deck-url https://ankiweb.net/shared/decks/devops-w-twojej-organizacji-pl, :freemarker-template-faq-chapters-tiddlywiki-list template-faq-chapters-tiddlywiki-list.ftlh, :attachment-path src/test/resources/output/devops-w-twojej-organizacji-pl-v002.csv, :freemarker-template-anki-shared-deck-tiddlywiki-list template-anki-shared-deck-tiddlywiki-list.ftlh, :tiddlywiki-attachment-title DevOps - csv (anki), :info , :freemarker-template-mind-map-tiddlywiki-list template-mind-map-tiddlywiki-list.ftlh, :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :freemarker-template-anki-shared-deck-tiddlywiki-tiddlers template-anki-shared-deck-tiddlywiki-tiddlers.ftlh, :tiddlywiki-mind-map-title DevOps - Mapa Myśli, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :ankiweb-shared-deck-title DevOps - AnkiWeb - Shared Deck, :freemarker-template-mind-map-tiddlywiki-tiddlers template-mind-map-tiddlywiki-tiddlers.ftlh, :tiddlywiki-title DevOps. Światowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji, :freemarker-template-attachment-tiddlywiki-list template-attachment-tiddlywiki-list.ftlh, :faq-chapters-freemarker-anki-path src/test/resources/output/devops-w-twojej-organizacji-pl-v002.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-tiddlywiki-tiddlers template-faq-chapters-tiddlywiki-tiddlers.ftlh, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
+May 08, 2022 5:43:36 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: ok
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Compiling pl.tomaszgigiel.devops.core
-Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
-Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-Sep 14, 2021 7:09:49 PM clojure.tools.logging$eval136$fn__139 invoke
-INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-attachment-tiddlywiki-tiddlers template-attachment-tiddlywiki-tiddlers.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-quotes-title DevOps - Cytaty, :freemarker-template-quotes-tiddlywiki-list template-quotes-tiddlywiki-list.ftlh, :tiddlywiki-result-path src/test/resources/output/devops.html, :freemarker-template-quotes-tiddlywiki-tiddlers template-quotes-tiddlywiki-tiddlers.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :mind-map-path src/test/resources/mind-map/DevOps.png, :tiddlywiki-subtitle Notatki z lektury, :freemarker-template-faq-chapters-tiddlywiki-list template-faq-chapters-tiddlywiki-list.ftlh, :attachment-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :tiddlywiki-attachment-title DevOps - csv (anki), :info , :freemarker-template-mind-map-tiddlywiki-list template-mind-map-tiddlywiki-list.ftlh, :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :tiddlywiki-mind-map-title DevOps - Mapa Myśli, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :freemarker-template-mind-map-tiddlywiki-tiddlers template-mind-map-tiddlywiki-tiddlers.ftlh, :tiddlywiki-title DevOps. Światowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji, :freemarker-template-attachment-tiddlywiki-list template-attachment-tiddlywiki-list.ftlh, :faq-chapters-freemarker-anki-path src/test/resources/output/faq-chapters-freemarker-anki.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-tiddlywiki-tiddlers template-faq-chapters-tiddlywiki-tiddlers.ftlh, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
-Sep 14, 2021 7:09:49 PM clojure.tools.logging$eval136$fn__139 invoke
+Created /home/tomasz/Documents/workspace/devops/target/uberjar/devops.jar
+Created /home/tomasz/Documents/workspace/devops/target/uberjar/devops-uberjar.jar
+May 08, 2022 5:43:56 PM clojure.tools.logging$eval136$fn__139 invoke
+INFO: {:freemarker-template-faq-chapters-wiki-filename template-faq-chapters-wiki.ftlh, :quotes-edn-path src/test/resources/output/quotes-edn.edn, :faq-chapters-asciidoctor-path src/test/resources/output/faq-chapters-asciidoctor.html, :tiddlywiki-empty-path src/test/resources/tiddlywiki/empty.html, :faq-chapters-freemarker-wiki-path src/test/resources/output/faq-chapters-freemarker-wiki.html, :faq-chapters-edn-path src/test/resources/output/faq-chapters-edn.edn, :freemarker-template-quotes-wiki-filename template-quotes-wiki.ftlh, :freemarker-template-attachment-tiddlywiki-tiddlers template-attachment-tiddlywiki-tiddlers.ftlh, :freemarker-template-directory src/test/resources/templates/, :tiddlywiki-quotes-title DevOps - Cytaty, :freemarker-template-quotes-tiddlywiki-list template-quotes-tiddlywiki-list.ftlh, :tiddlywiki-result-path src/test/resources/output/devops.html, :freemarker-template-quotes-tiddlywiki-tiddlers template-quotes-tiddlywiki-tiddlers.ftlh, :quotes-path src/test/resources/quotes/quotes.txt, :faq-chapters-path src/test/resources/faq-chapters/, :mind-map-path src/test/resources/mind-map/DevOps.png, :tiddlywiki-subtitle Notatki z lektury (v002), :ankiweb-shared-deck-url https://ankiweb.net/shared/decks/devops-w-twojej-organizacji-pl, :freemarker-template-faq-chapters-tiddlywiki-list template-faq-chapters-tiddlywiki-list.ftlh, :attachment-path src/test/resources/output/devops-w-twojej-organizacji-pl-v002.csv, :freemarker-template-anki-shared-deck-tiddlywiki-list template-anki-shared-deck-tiddlywiki-list.ftlh, :tiddlywiki-attachment-title DevOps - csv (anki), :info , :freemarker-template-mind-map-tiddlywiki-list template-mind-map-tiddlywiki-list.ftlh, :faq-chapters-merged-path src/test/resources/output/faq-chapters-merged.txt, :freemarker-template-anki-shared-deck-tiddlywiki-tiddlers template-anki-shared-deck-tiddlywiki-tiddlers.ftlh, :tiddlywiki-mind-map-title DevOps - Mapa Myśli, :table-of-contents-path src/test/resources/table-of-contents/table-of-contents.txt, :ankiweb-shared-deck-title DevOps - AnkiWeb - Shared Deck, :freemarker-template-mind-map-tiddlywiki-tiddlers template-mind-map-tiddlywiki-tiddlers.ftlh, :tiddlywiki-title DevOps. Światowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji, :freemarker-template-attachment-tiddlywiki-list template-attachment-tiddlywiki-list.ftlh, :faq-chapters-freemarker-anki-path src/test/resources/output/devops-w-twojej-organizacji-pl-v002.csv, :quotes-freemarker-path src/test/resources/output/quotes-freemarker.html, :freemarker-template-faq-chapters-tiddlywiki-tiddlers template-faq-chapters-tiddlywiki-tiddlers.ftlh, :freemarker-template-faq-chapters-anki-filename template-faq-chapters-anki.ftlh}
+May 08, 2022 5:43:56 PM clojure.tools.logging$eval136$fn__139 invoke
 INFO: ok
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 Compiling pl.tomaszgigiel.devops.core
-Compiling pl.tomaszgigiel.devops.core
-Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops.jar
-Created /home/tomasz/Documents/workspace-devops/devops/target/uberjar/devops-uberjar.jar
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
-/home/tomasz/Documents/workspace-devops/devops
+Created /home/tomasz/Documents/workspace/devops/target/uberjar/devops.jar
+Created /home/tomasz/Documents/workspace/devops/target/uberjar/devops-uberjar.jar
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
+/home/tomasz/Documents/workspace/devops
 
-Script done on 2021-09-14 19:10:08+0200
+Script done on 2022-05-08 17:44:13+0200

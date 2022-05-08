@@ -48,7 +48,7 @@
                                                                            ;
                                                                            "<!-- ARTILLERY-TAG-TABLE-OF-CONTENTS-TITLE-START -->"
                                                                            (str "<div created=\"20210101000000001\" modified=\"20210101000000001\" tags=\"$:/tags/SideBar\" title=\"Table of Contents\" type=\"text/vnd.tiddlywiki\">")
-                                                                           "<pre>&lt;$list filter=&quot;[tag[toc]] +[nsort[page]]&quot; template=&quot;$:/core/ui/ListItemTemplate&quot;/&gt;</pre>"
+                                                                           "<pre>&lt;$list filter=&quot;[tag[toc]] +[nsort[order]]&quot; template=&quot;$:/core/ui/ListItemTemplate&quot;/&gt;</pre>"
                                                                            "</div>"
                                                                            "<!-- ARTILLERY-TAG-TABLE-OF-CONTENTS-TITLE-END -->"
                                                                            ;

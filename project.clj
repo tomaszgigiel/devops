@@ -1,12 +1,12 @@
-(defproject devops "1019"
+(defproject devops "1020"
   :description "devops: DevOps Notes"
   :url "http://tomaszgigiel.pl"
   :license {:name "Apache License"
             :url "http://www.apache.org/licenses/LICENSE-2.0"}
-  :dependencies [[org.clojure/clojure "1.10.1"]
+  :dependencies [[org.clojure/clojure "1.11.1"]
                  [org.clojure/tools.cli "1.0.206"]
-                 [org.clojure/tools.logging "1.1.0"]
-                 [org.asciidoctor/asciidoctorj "2.5.1"]
+                 [org.clojure/tools.logging "1.2.4"]
+                 [org.asciidoctor/asciidoctorj "2.5.3"]
                  [org.freemarker/freemarker "2.3.31"]]
 
   :source-paths ["src/main/clojure"]
@@ -30,6 +30,7 @@
              :main-create-quotes-freemarker {:main pl.tomaszgigiel.devops.quotes.create-quotes-freemarker}
 
              :main-prepare-tiddlywiki {:main pl.tomaszgigiel.devops.tiddlywiki.prepare-tiddlywiki}
+             :main-create-anki-shared-deck-freemarker-tiddlywiki {:main pl.tomaszgigiel.devops.tiddlywiki.create-anki-shared-deck-freemarker-tiddlywiki}
              :main-create-mind-map-freemarker-tiddlywiki {:main pl.tomaszgigiel.devops.tiddlywiki.create-mind-map-freemarker-tiddlywiki}
              :main-create-quotes-freemarker-tiddlywiki {:main pl.tomaszgigiel.devops.tiddlywiki.create-quotes-freemarker-tiddlywiki}
              :main-create-attachment-freemarker-tiddlywiki {:main pl.tomaszgigiel.devops.tiddlywiki.create-attachment-freemarker-tiddlywiki}
@@ -46,6 +47,7 @@
             "run-main-create-quotes-freemarker" ["with-profile" "main-create-quotes-freemarker" "run"]
 
             "run-main-prepare-tiddlywiki" ["with-profile" "main-prepare-tiddlywiki" "run"]
+            "run-main-create-anki-shared-deck-freemarker-tiddlywiki" ["with-profile" "main-create-anki-shared-deck-freemarker-tiddlywiki" "run"]
             "run-main-create-mind-map-freemarker-tiddlywiki" ["with-profile" "main-create-mind-map-freemarker-tiddlywiki" "run"]
             "run-main-create-quotes-freemarker-tiddlywiki" ["with-profile" "main-create-quotes-freemarker-tiddlywiki" "run"]
             "run-main-create-attachment-freemarker-tiddlywiki" ["with-profile" "main-create-attachment-freemarker-tiddlywiki" "run"]
